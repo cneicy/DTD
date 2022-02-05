@@ -1,0 +1,10 @@
+//换深园催化石配方，需要阿图姆材料
+craftingTable.addShaped("totheundergarden",<item:undergarden:catalyst>,[
+  [<item:minecraft:air>,<item:good_nights_sleep:positite_gem>,<item:minecraft:air>],
+  [<item:iceandfire:silver_nugget>,<item:minecraft:diamond>,<item:iceandfire:silver_nugget>],
+  [<item:iceandfire:silver_nugget>,<item:minecraft:air>,<item:iceandfire:silver_nugget>]]);
+//换圣金甲虫配方，需要梦境材料
+craftingTable.addShaped("totheatum",<item:atum:scarab>,[
+  [<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>],
+  [<item:good_nights_sleep:rainbow_ingot>,<item:good_nights_sleep:negatite_gem>,<item:good_nights_sleep:rainbow_ingot>],
+  [<item:minecraft:air>,<item:good_nights_sleep:rainbow_ingot>,<item:minecraft:air>]]);
