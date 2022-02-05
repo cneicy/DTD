@@ -1,0 +1,772 @@
+{
+  "name": "身体孱弱，手无寸铁",
+  "quests": [
+    {
+      "uuid": "ec6e2aff-cb6d-47f9-a46d-19e1dc8b9960",
+      "name": "空间袋子",
+      "description": "快速搬家",
+      "x": 229,
+      "y": 170,
+      "icon": {
+        "id": "bagofyurting:bag_of_yurting",
+        "Count": 1,
+        "tag": {
+          "radius": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "New",
+              "icon": {
+                "id": "minecraft:zombie_head",
+                "Count": 1
+              },
+              "mob": "minecraft:zombie",
+              "kills": 20
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "bagofyurting:bag_of_yurting",
+          "Count": 1,
+          "tag": {
+            "radius": 0
+          }
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "modifiers:modifier_book",
+          "Count": 1,
+          "tag": {
+            "bookModifier": "modifiers:legendary"
+          }
+        },
+        {
+          "id": "modifiers:modifier_book",
+          "Count": 1,
+          "tag": {
+            "bookModifier": "modifiers:menacing"
+          }
+        },
+        {
+          "id": "modifiers:modifier_book",
+          "Count": 1,
+          "tag": {
+            "bookModifier": "modifiers:armored"
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9957595d-926e-4b41-954e-cb59d2830c15",
+      "name": "以备不时之需",
+      "description": "把经验存起来，然后再获取，这样就不会出现经验亏损了。",
+      "x": 277,
+      "y": 36,
+      "icon": {
+        "id": "globalxp:xp_block",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "制作一个经验方块",
+          "longDescription": "因为rereskillable模组的机制问题，会导致玩家大量的经验亏损，于是添加了这个方块供玩家使用。也方便玩家之间共享经验。",
+          "items": [
+            {
+              "item": {
+                "id": "globalxp:xp_block",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7c544bc9-b9cf-45c8-8e06-79a374c12094",
+      "name": "人生的第一堆沙砾",
+      "description": "沙砾常分布在河边，洞口。",
+      "x": 34,
+      "y": 96,
+      "bigicon": true,
+      "icon": {
+        "id": "minecraft:gravel",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "获得三块沙砾。",
+          "longDescription": "我刚刚来到这里的时候，它还没有这么残酷，至少人们不需要抱团取暖，不需要在营火旁边瑟瑟发抖。我那时候常在河边行走，时常能从砾石堆里发现这些极具光泽的石头，也许是收藏癖的驱使，我在河岸边刨沙砾刨了一个下午，但是我再也没见到一块那样的石头。因为这件事，我被村民们取笑，说我是一个中了诅咒的人。当然，不是那些严重的诅咒，而是精准采集诅咒。精准采集之手，这是我得到的第一个称号。",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:gravel",
+                "Count": 1
+              },
+              "required": 3,
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:gravel",
+          "Count": 12
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9eb42fec-32c9-4e2b-8918-40c2d4c83b44",
+      "name": "传奇 燧石刀",
+      "description": "把燧石碎片插在木棍上就能合成燧石小刀了！",
+      "x": 92,
+      "y": 124,
+      "icon": {
+        "id": "notreepunching:flint_knife",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "制作一把燧石小刀",
+          "longDescription": "所有的传奇都因此而诞生！我的仓库破碎的时候，从中滑落了一把泛着金光的小刀，我正在好奇我祖上什么时候给我留下了这样的宝贝。然后它以一把燧石刀的模样出现。不管它之后会经历什么，我只知道，“传奇”免不了要去割草。",
+          "items": [
+            {
+              "item": {
+                "id": "notreepunching:flint_knife",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "notreepunching:plant_fiber",
+          "Count": 6
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "82f4fb0e-d10b-4663-9ed3-c77358a96ab6",
+      "name": "植物绑定物",
+      "description": "通过用燧石小刀割草以获得植物纤维。",
+      "x": 72,
+      "y": 101,
+      "icon": {
+        "id": "notreepunching:plant_string",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "制作植物线",
+          "longDescription": "这是植物的神奇之处，为我们提供绳子的来源，这样，我们就有了制作更加高级工具的材料。",
+          "items": [
+            {
+              "item": {
+                "id": "notreepunching:plant_string",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "notreepunching:plant_string",
+          "Count": 5
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "29ee6178-bec6-4ba4-926a-da16c5918616",
+      "name": "从树枝到木棍",
+      "description": "树枝散落于地面上。",
+      "x": 57,
+      "y": 130,
+      "icon": {
+        "id": "projectvibrantjourneys:twigs",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "获得十根树枝",
+          "longDescription": "谁知道呢，一根树枝在孩童时代可以是一柄惩奸除恶的利剑。即使到了现在，我还是喜欢捡树枝，尽管它很难对怪物造成伤害，但是面对形状各异而且奇特的树枝，我很难移开目光。于是我的小仓库里面树枝越来越多，就好像要筑巢一样。",
+          "items": [
+            {
+              "item": {
+                "id": "projectvibrantjourneys:twigs",
+                "Count": 1
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "projectvibrantjourneys:twigs",
+          "Count": 10
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "28c96053-84ba-4883-8596-c9064932f8b1",
+      "name": "冒险的开始",
+      "description": "想去哪就去哪！",
+      "x": 228,
+      "y": 35,
+      "icon": {
+        "id": "naturescompass:naturescompass",
+        "Count": 1,
+        "tag": {}
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "制作一个自然罗盘",
+          "longDescription": "我是个方向感很差的人，旅行过程中我把指南针强行塞进了原木，很好，它现在是一个连接自然的指南针了。然后我的方向感依旧很差。\n     ——于前往库洛洛斯的船上。",
+          "items": [
+            {
+              "item": {
+                "id": "naturescompass:naturescompass",
+                "Count": 1,
+                "tag": {}
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b487cef4-1bd6-4f20-8d2f-45d1878629af",
+      "name": "建设你的厨房！",
+      "description": "食物会给你增益，不同的食物的营养价值也有很大不同。",
+      "x": 183,
+      "y": 35,
+      "icon": {
+        "id": "farmersdelight:stove",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "制作以下物品",
+          "longDescription": "这些是一个冒险家的厨房所需要的东西。",
+          "items": [
+            {
+              "item": {
+                "id": "drinkbeer:beer_barrel",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "farmersdelight:stove",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "farmersdelight:cooking_pot",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "farmersdelight:skillet",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "farmersdelight:cutting_board",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "farmersdelight:iron_knife",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "91bb2931-a6c3-469a-bf9c-29f7a130f7fb",
+      "name": "新手护甲",
+      "description": "来吧，这是你应得的。",
+      "x": 215,
+      "y": 97,
+      "bigicon": true,
+      "icon": {
+        "id": "environmental:thief_hood",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "制作自己的第一套护甲。",
+          "longDescription": "无额外的要求，你只需要在工作台上把他们做出来就好。它们是你的第一套盔甲。相信我，盗贼兜帽是万能的。",
+          "items": [
+            {
+              "item": {
+                "id": "environmental:thief_hood",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "environmental:healer_pouch",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "environmental:architect_belt",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "environmental:wanderer_boots",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "reputationrewards": [
+        {
+          "reputation": "f869df84-e7b2-42d4-8b82-724a673d0eef",
+          "value": 10
+        }
+      ],
+      "prerequisites": [
+        "16e64901-acd5-4189-982a-451a7d44ee72",
+        "ae1b5f2d-25ae-4255-b023-b4a090ca92b9",
+        "9eb42fec-32c9-4e2b-8918-40c2d4c83b44",
+        "f8f0dc01-ce6d-4055-8ac3-96b20fd25abf",
+        "9f58de77-502b-4b1d-96e9-1b573d341b05",
+        "82f4fb0e-d10b-4663-9ed3-c77358a96ab6",
+        "7c544bc9-b9cf-45c8-8e06-79a374c12094",
+        "29ee6178-bec6-4ba4-926a-da16c5918616"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "survivaloverhaul:thermometer",
+          "Count": 1
+        },
+        {
+          "id": "survive:purified_water_canteen",
+          "Count": 1,
+          "tag": {}
+        },
+        {
+          "id": "farmersdelight:mutton_wrap",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ars_nouveau:novice_spell_book",
+          "Count": 1,
+          "tag": {
+            "mode": 0,
+            "spells": ",touch,harm,break,self,projectile"
+          }
+        },
+        {
+          "id": "backstab:iron_dagger",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "atum:iron_greatsword",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f8f0dc01-ce6d-4055-8ac3-96b20fd25abf",
+      "name": "燧石五件套",
+      "description": "人生的第一套工具",
+      "x": 93,
+      "y": 80,
+      "icon": {
+        "id": "notreepunching:flint_axe",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "制作完整的一套燧石工具",
+          "longDescription": "在冒险的开始，它们一定是不可或缺的。",
+          "items": [
+            {
+              "item": {
+                "id": "notreepunching:flint_pickaxe",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0,
+                  "itemModifier": "modifiers:swift"
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "notreepunching:macuahuitl",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "notreepunching:flint_axe",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "notreepunching:flint_hoe",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "notreepunching:flint_shovel",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:iron_ingot",
+          "Count": 6
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9f58de77-502b-4b1d-96e9-1b573d341b05",
+      "name": "锋利的小碎片",
+      "description": "在石头上敲击燧石。",
+      "x": 59,
+      "y": 70,
+      "icon": {
+        "id": "notreepunching:flint_shard",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "获得四块燧石碎片",
+          "longDescription": "在一次偶然的仓库整理中，我发现了我珍贵的藏品——燧石变成了碎片，而且是它让我注意到它的。我的手被割破了。这样锋利的石头就该被拿去做成斧子和镐子，一辈子在硬物上磕碰，而不是在这里祸害我的手指。",
+          "items": [
+            {
+              "item": {
+                "id": "notreepunching:flint_shard",
+                "Count": 1
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "notreepunching:flint_shard",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "19dc7e44-8075-4f11-b874-3ebfc95a3ada",
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 229,
+      "y": 170,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ae1b5f2d-25ae-4255-b023-b4a090ca92b9",
+      "name": "分解木板",
+      "description": "把斧子或者锯子放在原木的上方（工作台内）从而获得木板。",
+      "x": 112,
+      "y": 101,
+      "icon": {
+        "id": "notreepunching:iron_saw",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "制作一把锯子",
+          "longDescription": "做一把锯子吧。没有别的原因，因为你需要一个更高效收集木头的方法，而且还能把原木分解成木板。",
+          "items": [
+            {
+              "item": {
+                "id": "notreepunching:iron_saw",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "16e64901-acd5-4189-982a-451a7d44ee72",
+      "name": "锯木机",
+      "description": "如果你身处家中，那么你很需要锯木机。",
+      "x": 145,
+      "y": 101,
+      "icon": {
+        "id": "charm:woodcutter",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "制作一台锯木机",
+          "longDescription": "锯木机不会让你在分解木板的时候亏损木头。就这样，使你更加高效的获取木板。",
+          "items": [
+            {
+              "item": {
+                "id": "charm:woodcutter",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e6185c6b-ce88-4620-b55b-bf8d437e9c0e",
+      "name": "roll!给我roll。",
+      "description": "锻造台可以roll装备词条。用对应装备的修补物，不支持匠魂，不支持无修补物品的装备。",
+      "x": 278,
+      "y": 171,
+      "icon": {
+        "id": "minecraft:smithing_table",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:smithing_table",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "bagofyurting:bag_of_yurting",
+          "Count": 1,
+          "tag": {
+            "radius": 0
+          }
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "modifiers:modifier_book",
+          "Count": 1,
+          "tag": {
+            "bookModifier": "modifiers:menacing"
+          }
+        },
+        {
+          "id": "modifiers:modifier_book",
+          "Count": 1,
+          "tag": {
+            "bookModifier": "modifiers:legendary"
+          }
+        },
+        {
+          "id": "modifiers:modifier_book",
+          "Count": 1,
+          "tag": {
+            "bookModifier": "modifiers:armored"
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ee343b2e-dc24-47f0-a094-0bf197168e02",
+      "name": "砂轮是锻造装备的好伙伴。",
+      "description": "砂轮可以褪魔，具体用法为上方放书，下方放附魔装备。（此过程不可逆，装备会消失。）",
+      "x": 185,
+      "y": 171,
+      "icon": {
+        "id": "minecraft:grindstone",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "获取一个砂轮",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:grindstone",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "bagofyurting:bag_of_yurting",
+          "Count": 1,
+          "tag": {
+            "radius": 0
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [
+    {
+      "reputationId": "3c921a20-d7b9-425a-9654-13f2912e550b",
+      "x": 27,
+      "y": 21
+    }
+  ],
+  "description": "这个世界很美，但是对于你们这些初来乍到的冒险家，野心家，殖民者，魔法师们，会不遗余力地展现他自己狰狞地一面，现在，想办法来获取自己的第一把工具吧。对于饥饿，你们现在只能忍受。"
+}
