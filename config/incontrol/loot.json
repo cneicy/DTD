@@ -1,0 +1,100 @@
+[
+    {
+    "mob": "dungeonsmod:haunter",
+    "player": true,
+    "dimension":"minecraft:overworld",
+    "random": 0.45,
+    "item": "good_nights_sleep:hope_mushroom"    
+    },
+    {
+    "mob":"minecraft:villager",
+    "player": true,
+    "dimension":"minecraft:overworld",
+    "random": 0.00328978,
+    "item":"minecraft:emerald",
+    "itemcount":"2/2-4/4-6"
+    },
+    {
+    "mob": "iceandfire:ghost",
+    "player": true,
+    "dimension":"minecraft:overworld",
+    "random": 0.64,
+    "item":"dungeonsmod:soul_bottle",
+    "itemcount":"1/1-2/2-2"
+    },
+    {
+    "mob":"minecraft:sheep",
+    "player":true,
+    "dimension":"minecraft:overworld",
+    "random": 1.0,
+    "item":"minecraft:white_wool",
+    "itemcount":"1/1-2/2-3"
+    },
+    {
+    "mob": "dungeonsmod:haunter",
+    "player": true,
+    "dimension":"minecraft:overworld",
+    "random": 0.4,
+    "item": "good_nights_sleep:despair_mushroom"    
+    },
+    {
+    "mob":[
+        "dungeonsmod:sun",
+        "pandoras_creatures:end_troll",
+        "whisperwoods:hirschgeist",
+        "atum:pharaoh",
+        "atum:bandit_warlord",
+        "dungeonsmod:winterhunter",
+        "dungeonsmod:lordskeleton",
+        "dungeonsmod:crawler",
+        "dungeonsmod:deserted",
+        "dungeonsmod:ironslime",
+        "dungeonsmod:king",
+        "dungeonsmod:kraken",
+        "mca:grim_reaper",
+        "undergarden:forgotten_guardian",
+        "dungeonsmod:voidmaster",
+        "mowziesmobs:wroughtnaut",
+        "mowziesmobs:barako",
+        "mowziesmobs:frostmaw",
+        "blueskies:arachnarch",
+        "blueskies:starlit_crusher",
+        "blueskies:alchemist",
+        "blueskies:summoner",
+        "gaiadimension:malachite_guard",
+        "twilightforest:lich",
+        "twilightforest:hydra",
+        "twilightforest:minoshroom",
+        "twilightforest:knight_phantom",
+        "twilightforest:ur_ghast",
+        "twilightforest:yeti_alpha",
+        "twilightforest:naga",
+        "twilightforest:snow_queen"
+    ],
+    "player": true,
+    "random": 0.38,
+    "item":"enigmaticlegacy:mending_mixture",
+    "itemcount":"1/1-2/2-2"
+    },
+    {
+    "mob":[
+        "atum:sergeant",
+        "atum:bandit_warlord"
+    ],
+    "dimension":"atum:atum",
+    "random": 0.6,
+    "item":"atum:nebu_drop",
+    "itemcount":"5/5-6/6-7"
+    },
+    {
+    "mob":[
+            "atum:nomad",
+            "atum:brigand",
+            "atum:barbarian"
+    ],
+    "dimension":"atum:atum",
+    "item":"atum:nebu_drop",
+    "random": 0.4,
+    "itemcount":"3/3-4/4-5"
+    }
+]
