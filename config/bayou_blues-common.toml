@@ -10,6 +10,6 @@
 
 	#Values for biome frequencies; lower = more rare. (Requires restart)
 	[common.biome_weights]
-		"Bayou weight" = 8
-		"Bayou Hills weight" = 4
+		"Bayou weight" = 10
+		"Bayou Hills weight" = 6
 

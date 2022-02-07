@@ -1,11 +1,11 @@
 
 [Miscellaneous]
 	#Should the Welcome message come up?
-	showWelcome = true
+	showWelcome = false
 	#Should your personal Donator Welcome message come up?
-	showPatreonWelcome = true
+	showPatreonWelcome = false
 	#Should a warning come up if your Project MMO is outdated?
-	warnOutdatedVersion = true
+	warnOutdatedVersion = false
 	#Should Xp Boosts be scaled by the item Durability? (Max boost at Max durability, 50% at half Durability)
 	scaleXpBoostByDurability = true
 	#Should Xp gains be logged in debug.log?

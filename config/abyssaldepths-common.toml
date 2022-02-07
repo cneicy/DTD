@@ -6,7 +6,7 @@
 	clownfishWeight = 7
 	#Mobs will only spawn in the biomes from the given mod IDs
 	#You can see a mod's ID by clicking the 'Mods' button on the main screen and clicking on the mod's name on the left
-	biomeWhitelist = ["minecraft", "biomesoplenty", "byg", "omni"]
+	biomeWhitelist = ["minecraft", "environmental", "atmospheric", "autumnity"]
 	#Range: 0 ~ 25
 	maskedButterflyfishWeight = 7
 	#Range: 0 ~ 25
