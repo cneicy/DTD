@@ -1,0 +1,31 @@
+{
+    "item.tconmaterial.ingotfusionite": "聚变锭",
+    "item.tconmaterial.nuggetfusionite": "聚变粒",
+    "block.tconmaterial.blockfusionite": "聚变块",
+    "block.tconmaterial.orefusionite": "聚变矿石",
+    "fluid.tconmaterial.liquidfusionitestill": "熔融聚变",
+    "item.tconmaterial.bucketfusionite": "熔融聚变桶",
+    "material.tconmaterial.materialfusionite": "聚变",
+    "effect.tconmaterial.coldfire": "寒焰",
+    "modifier.tconmaterial.coldfire": "寒焰",
+    "modifier.tconmaterial.coldfire.flavor": "薄荷辣椒？！？！？！",
+    "modifier.tconmaterial.coldfire.description": "燃烧你的目标，并将它们冻结在原地。",
+    
+    "item.tconmaterial.ingotradium": "镭锭",
+    "item.tconmaterial.nuggetradium": "镭粒",
+    "block.tconmaterial.blockradium": "镭块",
+    "block.tconmaterial.oreradium": "镭矿石",
+    "fluid.tconmaterial.liquidradiumstill": "熔融镭",
+    "item.tconmaterial.bucketradium": "熔融镭桶",
+    "material.tconmaterial.materialradium": "镭",
+    "modifier.tconmaterial.radioactive": "放射性",
+    "modifier.tconmaterial.radioactive.flavor": "第三方获得了胜利！",
+    "modifier.tconmaterial.radioactive.description": "让你变强，让你的对手变弱。",
+    
+    "block.tconmaterial.igniglomerateclump": "集火块",
+    "item.tconmaterial.igniglomeratecrystal": "晶化集火碎片",
+    "modifier.tconmaterial.incinerating.flavor": "按 F 与雪人交流",
+    "modifier.tconmaterial.incinerating.description": "用炽热的火焰点燃你的对手。",
+    "modifier.tconmaterial.incinerating": "焚化"
+    
+}
