@@ -59,7 +59,7 @@
   "waila": {
     "show_registry": false,
     "show_states": false,
-    "show_entity_hp": falsefalse,
+    "show_entity_hp": false,
     "show_entities": false
   }
 }
