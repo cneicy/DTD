@@ -2,6 +2,7 @@ import mods.armoreablemods.ArmorGroup;
 import crafttweaker.api.item.ItemStack;
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.entity.MCEntityType;
+//crafttweaker.log这一个zs占了747598行（
 //怪物装备自定义。
 var helmet as IItemStack[] = [
 <item:aquaculture:neptunium_helmet>,
