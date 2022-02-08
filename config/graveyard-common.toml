@@ -3,15 +3,15 @@
 
 	["World Generation".haunted_lakes]
 		#Weight of the biome. Set to 0 to disable generation.
-		weight = 3.0
+		weight = 0.0
 
 	["World Generation".haunted_forest]
 		#Weight of the biome. Set to 0 to disable generation.
-		weight = 3.0
+		weight = 0.0
 
 	["World Generation".eroded_haunted_forest]
 		#Weight of the biome. Set to 0 to disable generation.
-		weight = 2.0
+		weight = 0.0
 
 ["Fog Generation in Biomes"]
 	eroded_haunted_forest_fogMaxY = 256
