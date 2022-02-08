@@ -27,7 +27,7 @@
 	#Controls size of caves. Smaller values = larger caves. 
 	#Default: -0.18
 	#Range: -1.0 ~ 1.0
-	noiseCutoffValue = -0.32
+	noiseCutoffValue = -0.36
 	#
 	#Controls size of caves at the surface. Smaller values = more caves break through the surface. 
 	#Default: -0.081 (45% of noiseCutoffValue)
