@@ -29,7 +29,7 @@
   "jade": {
     "horse_inventory": true,
     "total_ench_power": true,
-    "show_entity_armor": true,
+    "show_entity_armor": false,
     "chicken_egg": true,
     "horse_stat": true,
     "brewing_stand": true,
