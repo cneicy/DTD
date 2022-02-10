@@ -966,60 +966,60 @@ for k in 0 .. 205 {
 //单件装备
 new ArmorGroup("one")
 .inSlot(<equipmentslottype:head>, helmet[i])
-.addStages("four")
-.setWeight(40.0)
+.addStages("three")
+.setWeight(36.0)
 .register(entities[k]);
 new ArmorGroup("two")
 .inSlot(<equipmentslottype:chest>, chestplate[i])
-.addStages("four")
-.setWeight(40.0)
+.addStages("three")
+.setWeight(36.0)
 .register(entities[k]);
 new ArmorGroup("three")
 .inSlot(<equipmentslottype:legs>, leggings[i])
-.addStages("four")
-.setWeight(40.0)
+.addStages("three")
+.setWeight(36.0)
 .register(entities[k]);
 new ArmorGroup("four")
 .inSlot(<equipmentslottype:feet>, boots[i])
-.addStages("four")
-.setWeight(40.0)
+.addStages("three")
+.setWeight(36.0)
 .register(entities[k]);
 
 //两件装备
 new ArmorGroup("five")
 .inSlot(<equipmentslottype:head>, helmet[i])
 .inSlot(<equipmentslottype:chest>, chestplate[i])
-.addStages("five")
+.addStages("four")
 .setWeight(30.0)
 .register(entities[k]);
 new ArmorGroup("six")
 .inSlot(<equipmentslottype:head>, helmet[i])
 .inSlot(<equipmentslottype:legs>, leggings[i])
-.addStages("five")
+.addStages("four")
 .setWeight(30.0)
 .register(entities[k]);
 new ArmorGroup("seven")
 .inSlot(<equipmentslottype:head>, helmet[i])
 .inSlot(<equipmentslottype:feet>, boots[i])
-.addStages("five")
+.addStages("four")
 .setWeight(30.0)
 .register(entities[k]);
 new ArmorGroup("eight")
 .inSlot(<equipmentslottype:chest>, chestplate[i])
 .inSlot(<equipmentslottype:legs>, leggings[i])
-.addStages("five")
+.addStages("four")
 .setWeight(30.0)
 .register(entities[k]);
 new ArmorGroup("nine")
 .inSlot(<equipmentslottype:chest>, chestplate[i])
 .inSlot(<equipmentslottype:feet>, boots[i])
-.addStages("five")
+.addStages("four")
 .setWeight(30.0)
 .register(entities[k]);
 new ArmorGroup("ten")
 .inSlot(<equipmentslottype:legs>, leggings[i])
 .inSlot(<equipmentslottype:feet>, boots[i])
-.addStages("five")
+.addStages("four")
 .setWeight(30.0)
 .register(entities[k]);
 
@@ -1030,7 +1030,7 @@ new ArmorGroup("eleven")
 .inSlot(<equipmentslottype:legs>, leggings[i])
 .inSlot(<equipmentslottype:mainhand>, weapons[k])
 .addStages("five")
-.setWeight(20.0)
+.setWeight(18.0)
 .register(entities[k]);
 new ArmorGroup("twelve")
 .inSlot(<equipmentslottype:head>, helmet[i])
@@ -1038,7 +1038,7 @@ new ArmorGroup("twelve")
 .inSlot(<equipmentslottype:feet>, boots[i])
 .inSlot(<equipmentslottype:mainhand>, weapons[k])
 .addStages("five")
-.setWeight(20.0)
+.setWeight(18.0)
 .register(entities[k]);
 new ArmorGroup("thirteen")
 .inSlot(<equipmentslottype:head>, helmet[i])
@@ -1046,7 +1046,7 @@ new ArmorGroup("thirteen")
 .inSlot(<equipmentslottype:feet>, boots[i])
 .inSlot(<equipmentslottype:mainhand>, weapons[k])
 .addStages("five")
-.setWeight(20.0)
+.setWeight(18.0)
 .register(entities[k]);
 new ArmorGroup("fourteen")
 .inSlot(<equipmentslottype:chest>, chestplate[i])
@@ -1054,7 +1054,7 @@ new ArmorGroup("fourteen")
 .inSlot(<equipmentslottype:feet>, boots[i])
 .inSlot(<equipmentslottype:mainhand>, weapons[k])
 .addStages("five")
-.setWeight(20.0)
+.setWeight(18.0)
 .register(entities[k]);
 
 //全套
@@ -1066,7 +1066,7 @@ new ArmorGroup("fifteen")
 .inSlot(<equipmentslottype:mainhand>, weapons[k])
 .inSlot(<equipmentslottype:offhand>, shield[k])
 .addStages("five")
-.setWeight(10.0)
+.setWeight(12.0)
 .register(entities[k]);
     }
 }
