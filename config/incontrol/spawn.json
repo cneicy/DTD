@@ -9,12 +9,6 @@
     "speedmultiply": 0.8
   },
   {
-    "mob": "eyesinthedarkness:eyes",
-    "onjoin": true,
-    "result": "deny",
-    "maxtime": 12500
-  },
-  {
     "mob":"ars_nouveau:wilden_boss",
     "onjoin": true,
     "result":"default",
