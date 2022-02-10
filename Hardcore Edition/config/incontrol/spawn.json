@@ -511,7 +511,7 @@
     ],
     "onjoin": true,
     "result":"default",
-    "healthmultiply": 3.0,
+    "healthmultiply": 4.0,
     "gamestage":"enterthenether"
     }
 ]
