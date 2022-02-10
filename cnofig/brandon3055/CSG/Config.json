@@ -1,0 +1,8 @@
+{
+  "inventory": {
+    "0:0": "{id:\"hardcorequesting:quest_book\",Count:1b}",
+    "0:1": "{id:\"survive:purified_water_canteen\",Count:1b,tag:{}}",
+    "0:2": "{id:\"improvedbackpacks:white_backpack\",Count:1b,tag:{backpack_data:{metadata:{used_capacity:0,used_slots:0,capacity:1152},inventory:{Size:18,Items:[]},uuid:[I;1649824897,1378045749,-2094582404,-129303581],upgrades:{tiny_pockets:0,large_pockets:0,medium_pockets:0}},itemModifier:\"modifiers:violent\"}}"
+  },
+  "wipeBlacklist": []
+}

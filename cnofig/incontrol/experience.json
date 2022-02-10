@@ -1,0 +1,16 @@
+[
+    {
+        "hostile": true,
+        "onjoin": true,
+        "result": "allow",
+        "multxp": 0.7,
+        "gamestage": "four"
+    },
+    {
+        "passive": true,
+        "onjoin": true,
+        "result":"allow",
+        "multxp": 0.5,
+        "gamestage": "four"
+    }
+]

@@ -1,0 +1,62 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = false
+  backgroundimage = fancymenu_setups/Loading Screen One.jpg
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  visible = false
+  action = editlogo
+}
+
+customization {
+  orientation = mid-centered
+  x = 0
+  action = editprogressbar
+  y = 68
+  barcolor = #ffffff
+}
+
+customization {
+  x = 102
+  textcolor = ffffff
+  action = editforgestatustext
+  y = 0
+}
+
+customization {
+  x = 4
+  textcolor = ffffff
+  action = editforgememoryinfo
+  y = 5
+}
+
+customization {
+  orientation = mid-centered
+  shadow = true
+  x = 0
+  textcolor = Fae000
+  action = addtext
+  actionid = 98bda8ab-a2cf-4444-9fc0-37e9ea44eb681643797463994
+  y = 0
+  scale = 4.0
+  alignment = left
+  value = Deep To Destiny
+}
+
+customization {
+  path = fancymenu_setups/tankofpacer.gif
+  orientation = top-left
+  x = 1
+  width = 100
+  action = addtexture
+  actionid = 0da0489f-1de6-48ff-a3e7-9dbbef9b7d231643799948596
+  y = 257
+  height = 100
+}
+
