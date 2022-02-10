@@ -25,7 +25,7 @@
 	[hunger.no_appetite]
 		#The duration that the player will have the 'No Appetite' effect after respawning (seconds)
 		#Range: > 0
-		effectDuration = 120
+		effectDuration = 360
 
 [health]
 	#The amount of health to respawn with. Value is disabled if set to 0.
