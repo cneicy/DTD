@@ -1,0 +1,94 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = false
+  backgroundimage = fancymenu_setups/Loading Screen Three.jpg
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  visible = false
+  x = 5
+  action = editlogo
+  y = -1
+}
+
+customization {
+  x = 1
+  textcolor = FFFFFF
+  action = editforgememoryinfo
+  y = 5
+}
+
+customization {
+  x = 2
+  textcolor = FFFFFF
+  action = editforgestatustext
+  y = 0
+}
+
+customization {
+  orientation = mid-centered
+  x = 0
+  action = editprogressbar
+  y = 68
+  barcolor = 1080FF
+}
+
+customization {
+  orientation = mid-centered
+  shadow = true
+  x = 0
+  textcolor = FFFFFF
+  action = addtext
+  actionid = c366b015-a41a-465d-827f-493e7e8a2a811641102508213
+  y = 0
+  scale = 4.0
+  alignment = left
+  value = Deep To Destiny
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 0
+  textcolor = #ffffff
+  action = addtext
+  actionid = 6b24205d-16a0-4780-aa4a-013f2ee61bc21641367171181
+  y = 10
+  scale = 1.0
+  alignment = left
+  value = 命定之旅
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 0
+  textcolor = #ffffff
+  action = addtext
+  actionid = f6d581ca-1409-4c58-9871-cc1bfd0389d61641367187262
+  y = 10
+  scale = 1.0
+  alignment = left
+  value = 命定之旅
+}
+
+customization {
+  orientation = top-left
+  basecolor = #ffff00
+  shadow = true
+  rotation = 20.0
+  x = 0
+  actionid = 6890674d-5663-45f3-9e9a-f7e44849689f1641367225444
+  action = addsplash
+  y = 10
+  scale = 1.0
+  refresh = false
+  text = 命定之旅
+  bouncing = true
+}
+
