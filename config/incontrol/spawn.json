@@ -73,12 +73,6 @@
     "damagemultiply": 1.8
   },
   {
-    "mob": "dungeonsmod:haunter",
-    "dimension":"minecraft:overworld",
-    "result":"deny",
-    "onjoin": true
-  },
-  {
     "mob":"minecraft:illusioner",
     "onjoin": true,
     "result":"deny",
