@@ -1,0 +1,11 @@
+{
+    "name": "其它",
+    "icon": "storagedrawers:shroud_key",
+    "category": "knowledge_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "         一.在你获得锯木机之前，模组的木板（非原版）都是不可获得的。$(br2)         二.怪物会逐渐装备盔甲，难度会越来越大。$(br2)         三.龙钢的相关配方已经大幅改动，请多看看 JEI。"
+        }
+    ]
+}
