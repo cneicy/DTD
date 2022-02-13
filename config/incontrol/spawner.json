@@ -1,0 +1,40 @@
+[
+  {
+    "mob":"cnb:lizard",
+    "persecond": 0.12,
+    "attempts": 40,
+    "amount": {
+      "minimum": 2,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension":[
+        "minecraft:overworld",
+        "twilightforest:twilightforest",
+        "gaiadimension:gaia_dimension",
+        "atum:atum",
+        "good_nights_sleep:good_dream"
+      ],
+      "mindist": 28,
+      "maxdist": 40,
+      "minheight": 1,
+      "maxheight": 256,
+      "maxthis": 3
+    }
+  },
+  {
+    "mob":"minecraft:husk",
+    "persecond": 0.5,
+    "attempts": 20,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions":{
+      "dimension":"atum:atum",
+      "mindist": 12,
+      "maxdist": 32,
+      "maxthis": 4
+    }
+  }
+]
