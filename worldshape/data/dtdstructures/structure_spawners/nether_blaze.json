@@ -1,0 +1,43 @@
+{
+    "template": {
+        "type": "single", 
+        "id": "dtdstructures:nether_blaze", 
+        "maxDepth": 10, 
+        
+                               
+        "followTerrain": false 
+    },
+
+    "placement": {
+        "type": "underground",           
+        "minY": 20,
+        "maxY": 65,
+        "offset": 0,
+        "fluidSurface": false,
+
+        "terraform": -1
+    },
+   
+    "averageSpacing": 40,  
+    "minimumSpacing": 35,          
+    "seed": 1145141919,
+    "avoidOthers": true,       
+    
+    "biomes": [
+        "#taiga",
+        "#extreme_hills",
+        "#jungle",
+        "#mesa",
+        "#plains",
+        "#savanna",
+        "#icy",
+        "#forest",
+        "#desert",
+        "#river",
+        "#swamp",
+        "#mushroom"
+    ],
+    "dimensions": [
+        "minecraft:overworld"
+    ]
+}
