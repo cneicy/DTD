@@ -1,0 +1,12 @@
+{
+    "name": "森林类群系",
+    "icon": "minecraft:oak_sapling",
+    "category": "biomes_category",
+    "advancement": "minecraft:story/smelt_iron",
+    "pages":[
+        {
+            "type":"text",
+            "text":"        至高木森林其实也是森林群系的一种。在森林群系中会生成一种祭坛，祭坛中间有一只命运之手，四周是鬼光。$(br2)        你可以收集鬼光，使用它右键命运之手，丢入一根骨头、一颗钻石和一块灵魂沙可以召唤鹿之精魂——低语之森的 BOSS，或者丢入一撮烈焰粉、一堆荧石粉和一块灵魂沙，就可以召唤鬼火—— 一个无害的小生物。"
+        }
+    ]
+}

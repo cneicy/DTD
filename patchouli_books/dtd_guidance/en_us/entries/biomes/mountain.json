@@ -1,0 +1,16 @@
+{
+    "name": "山地类群系",
+    "icon": "minecraft:stone",
+    "category": "biomes_category",
+    "advancement": "minecraft:story/smelt_iron",
+    "pages":[
+        {
+            "type":"text",
+            "text":"        Dungeons Mod 会在山地生成城堡，城堡内有着忠诚的守卫、强大的国王和多到夸张的宝藏。$(br2)        国王是有亡语的，那场可能降临的爆炸会毁灭一切！"
+        },
+        {
+            "type":"text",
+            "text":"        mowzie 的生物模组会在山地生成飞蛇娜迦，每组大约有三只，因其飞行能力和攻击方式而相当强大。$(br2)        它喷射的毒液会使你中毒（II级）。它的掉落物——娜迦毒牙，可以用来制作抗毒药水，这也许是你击败冰火传说的九头蛇的一大助力。"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "至高木森林",
+    "icon": "ars_nouveau:red_archwood_log",
+    "category": "biomes_category",
+    "advancement": "minecraft:story/smelt_iron",
+    "pages":[
+        {
+            "type":"text",
+            "text":"        至高木？那是一种优秀的材料。新生魔艺的附魔装置中，很多配方都要用到它们。你可以在这个群系里多收集一些树苗，回到你的基地把它们种上。"
+        }
+    ]
+}
