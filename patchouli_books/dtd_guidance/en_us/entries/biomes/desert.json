@@ -1,0 +1,16 @@
+{
+    "name": "沙漠类群系",
+    "icon": "atmospheric:arid_sandstone_wall",
+    "category": "biomes_category",
+    "advancement": "minecraft:story/smelt_iron",
+    "pages":[
+        {
+            "type":"text",
+            "text":"        Dungeons Mod 会在沙漠生成遗忘者。没有谁（包括盾牌）能稳定挡住它疯狂的火球攻击——除了修脚师。"
+        },
+        {
+            "type":"text",
+            "text":"        冰火传说会在沙漠生成死亡蠕虫。这种可怕的生物并没有受到控制，它们无差别地对其它生物进行攻击，毫无理智可言。$(br2)        如果你在发育前中期有幸见到沙漠中的巨型死亡蠕虫，不要犹豫，在它发动攻击前启动你的传送石。"
+        }
+    ]
+}

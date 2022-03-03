@@ -1,0 +1,11 @@
+{
+    "name": "第一次死亡",
+    "icon": "enigmaticlegacy:enigmatic_amulet",
+    "category": "start_category",
+    "pages":[
+        {
+            "type":"text",
+            "text":"        死亡是冒险中不可避免的，一旦你佩戴你出生所获得的护符，它将在你死亡之后暂时保管你的物品，如果你未能装备这个护符，也不需要担心，你将会获得一个死亡背包，会在你的实体上方漂浮，直到你左键点击，拿出所有装备。死亡不掉落？/gamerule keepInventory true。注意，k 是小写，I 是大写，输指令的时候按按键盘上的 tab 能帮你更好的判断。"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "平原类群系",
+    "icon": "minecraft:grass_block",
+    "category": "biomes_category",
+    "advancement": "whisperwoods:kill_boss",
+    "pages":[
+        {
+            "type":"text",
+            "text":"        Dungeons Mod 会在平原生成钢铁史莱姆矿洞。你需要一把优秀的镐才能击败它。不能是铁镐，如果你不想浪费时间的话。下界合金镐？那最好不过了。"
+        }
+    ]
+}
