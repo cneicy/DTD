@@ -1,7 +1,0 @@
-{
-  "inventory": {
-    "0:1": "{id:\"survive:water_canteen\",Count:1b,tag:{DrinksLeft:10}}",
-    "0:0": "{id:\"akashictome:tome\",Count:1b,tag:{\"akashictome:data\":{storagenetwork:{id:\"patchouli:guide_book\",Count:1b,tag:{\"patchouli:book\":\"storagenetwork:network_book\"}},patchouli:{id:\"patchouli:guide_book\",Count:1b,tag:{\"patchouli:book\":\"patchouli:dtd_guidance\"}}}}}"
-  },
-  "wipeBlacklist": []
-}
