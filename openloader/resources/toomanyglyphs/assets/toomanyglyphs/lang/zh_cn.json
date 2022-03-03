@@ -1,0 +1,49 @@
+{
+"ars_nouveau.glyph_name.filter_block": "过滤方块",
+"ars_nouveau.glyph_desc.filter_block": "阻止法术施展，除非是排除在外的方块为目标。",
+"item.ars_nouveau.glyph_filter_block": "魔符：过滤方块",
+
+"ars_nouveau.glyph_name.filter_entity": "过滤实体",
+"ars_nouveau.glyph_desc.filter_entity": "阻止法术施展，除非是排除在外的实体为目标。",
+"item.ars_nouveau.glyph_filter_entity": "魔符：过滤实体",
+
+"ars_nouveau.glyph_name.filter_living": "过滤生物",
+"ars_nouveau.glyph_desc.filter_living": "阻止法术施展，除非是排除在外的生物为目标。",
+"item.ars_nouveau.glyph_filter_living": "魔符：过滤生物",
+
+"ars_nouveau.glyph_name.filter_living_not_player": "过滤玩家",
+"ars_nouveau.glyph_desc.filter_living_not_player": "阻止法术施展，除非它以玩家之外的生物为目标。",
+"item.ars_nouveau.glyph_filter_living_not_player": "魔符：过滤玩家",
+
+"ars_nouveau.glyph_name.filter_living_not_monster": "过滤敌对生物",
+"ars_nouveau.glyph_desc.filter_living_not_monster": "阻止法术施展，除非它以敌对生物以外的生物为目标。",
+"item.ars_nouveau.glyph_filter_living_not_monster": "魔符：过滤敌对生物",
+
+"ars_nouveau.glyph_name.filter_player": "过滤法术",
+"ars_nouveau.glyph_desc.filter_player": "阻止法术施展，除非它以活着的玩家为目标。",
+"item.ars_nouveau.glyph_filter_player": "魔符：过滤法术",
+
+"ars_nouveau.glyph_name.filter_monster": "过滤生物",
+"ars_nouveau.glyph_desc.filter_monster": "阻止法术施展，除非它以生物之外的生物为目标。",
+"item.ars_nouveau.glyph_filter_monster": "魔符：过滤生物",
+
+"ars_nouveau.glyph_name.lay_on_hands": "贤者之手",
+"ars_nouveau.glyph_desc.lay_on_hands": "拥抱你内心的圣骑士！触摸与自己的敏感结合。如果接触的不是敌对生物，则以自身为目标，如果目标失效，则不消耗法力。如果紧随其后的是一个过滤魔符，则适用于过滤魔符，对敌对生物无效。",
+"item.ars_nouveau.glyph_lay_on_hands": "魔符：贤者之手",
+
+"ars_nouveau.glyph_name.reverse_direction": "反转",
+"ars_nouveau.glyph_desc.reverse_direction": "反转一个以格挡为目标的法术穿过被击面的方向。",
+"item.ars_nouveau.glyph_reverse_direction": "魔符：翻转",
+
+"ars_nouveau.glyph_name.chaining": "链接",
+"ars_nouveau.glyph_desc.chaining": "使魔符链接多个分组目标，无论是相同的方块还是施法者以外的生物。范围魔符增加目标数量。穿刺魔符增加目标之间的最大跳动距离。",
+"item.ars_nouveau.glyph_chaining": "魔符：连接",
+
+"ars_nouveau.glyph_name.ray": "触及",
+"ars_nouveau.glyph_desc.ray": "瞬间接触指向的目标，范围有限但比接触更大。无论射线是否击中任何东西都会消耗法力。范围魔符增加范围。敏感魔符能够触及无碰撞体积的物体，例如植物或漂浮的法师之光球体。敏感II魔符允许触及流体。",
+"item.ars_nouveau.glyph_ray": "魔符：触及",
+
+"ars_nouveau.glyph_name.filter_item": "过滤物品",
+"ars_nouveau.glyph_desc.filter_item": "除非它以外界的掉落物品为目标，否则停止法术结算。可能对无法瞄准非生物实体的射弹和射线无用。",
+"item.ars_nouveau.glyph_filter_item": "魔符：过滤物品"
+}

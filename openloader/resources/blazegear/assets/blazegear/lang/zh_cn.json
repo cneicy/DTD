@@ -1,0 +1,19 @@
+{	
+	"block.blazegear.brimsteel_block": "§6沿钢块",
+	"item.blazegear.brimsteel_sword": "§6沿钢剑",
+	"item.blazegear.brimsteel_axe": "§6沿钢斧",
+	"item.blazegear.brimsteel_shovel": "§6沿钢锹",
+	"item.blazegear.brimsteel_pickaxe": "§6沿钢镐",
+	"item.blazegear.brimsteel_hoe": "§6沿钢锄",
+	"item.blazegear.brimsteel_helmet": "§6沿钢头盔",
+	"item.blazegear.brimsteel_chestplate": "§6沿钢胸甲",
+	"item.blazegear.brimsteel_leggings": "§6沿钢护腿",
+	"item.blazegear.brimsteel_boots": "§6沿钢靴子",
+	"item.blazegear.brimsteel_ingot": "§6沿钢锭",
+	"item.blazegear.flint_and_brimsteel": "§6沿钢打火石",
+	"item.blazegear.brimsteel_horse_armour": "§6沿钢马铠",
+	
+	"item.blazegear.brimsteel_horse_armour.tooltip": "让马免疫方块灼烧和火焰伤害",
+	"item.blazegear.brimsteel_tool.tooltip": "引燃目标，以两倍的速度破坏可燃方块，并掉落冶炼后的物品",
+	"item.blazegear.brimsteel_armour.tooltip": "穿上全套沿钢装备可以免疫方块灼烧和火焰伤害"
+}

@@ -1,0 +1,42 @@
+{
+	"death.attack.kingRuleBreak": "统治规则打破了%d的头",
+	"death.attack.sunPlanet": "%d已被行星压扁",
+	"death.attack.blueDamage": "%d被冰爆炸死",	
+	"item.dungeonsmod.haunter_egg": "鬼魂刷怪蛋",
+	"entity.dungeonsmod.itemthrowed": "被丢出的物品",
+	"entity.dungeonsmod.sandcloud": "沙云",
+	"entity.dungeonsmod.chargedfireball": "充能火球",
+	"entity.dungeonsmod.sunplanet": "太阳行星",
+	"entity.dungeonsmod.haunter": "鬼魂",	
+	"entity.dungeonsmod.traveler.dungeonsmod.traveler": "旅行者",
+	"block.dungeonsmod.haycoal_block": "干草煤炭",
+	"block.dungeonsmod.suncore_block": "太阳核心",
+	"block.dungeonsmod.wardshiper_block": "萨满守护者",
+	
+	"item.dungeonsmod.sand_bucket": "沙桶",
+	"item.dungeonsmod.ore_detector": "矿石勘探器",
+	"item.dungeonsmod.ore_detector.tooltip_1": "搜索%d",
+	"item.dungeonsmod.kraken_tentacle": "克拉肯触手",
+	"item.dungeonsmod.cooked_kraken": "熟克拉肯触手",
+	"item.dungeonsmod.king_crown": "王冠",
+	"item.dungeonsmod.crawler_helmet": "生化头盔",
+	"item.dungeonsmod.crawler_chestplate": "生化胸甲",
+	"item.dungeonsmod.crawler_leggins": "生化护腿",
+	"item.dungeonsmod.crawler_boots": "生化靴子",
+	"item.dungeonsmod.charge_launcher": "充能发射器",
+	"item.dungeonsmod.void_tome": "虚空宝典",
+	"item.dungeonsmod.potion_straw": "药水稻草",
+	
+	"item.dungeonsmod.writtenbook1.page1": "尽管我们就在沙漠旁边，但他总是因为感到潮湿而大呼小叫。然后，有一天，他就走了 没有人知道他去了哪里。有人说他死了，也有人说他去了沙漠，独自生活，那里又好又干，没人能惹他生气。",
+	"item.dungeonsmod.writtenbook1.page2": "如果他真的还在那里并且没有屈服于沙漠，不要试图用火与他战斗。这只会让他更强大。",
+	
+
+	"item.dungeonsmod.writtenbook2.page1": "起初我不相信，但在看到男人融化和腐蚀的镐后，我知道有些不对劲。 我们试图阻止它，但我们所有的铁工具都被它的皮肤吸收了。 最后，高层决定我们必须关闭矿井，但我不知道现在是否为时已晚。",
+	"item.dungeonsmod.writtenbook2.page2": "如果我死了，我写这本书是对所有可能再次发现这个矿洞并面对它的人的警告和建议。",
+
+	
+	"item.dungeonsmod.writtenbook3.page0": "这是我船沉没之前的最后一个入口。我试图逃跑，但可惜，这只野兽太狡猾了。我要把它塞进瓶子里扔到海里，运气好的话总有一天会有人找到它的。我发现了它的弱点，但为时已晚，我忘记重新装填左舷大炮了。",
+	"item.dungeonsmod.writtenbook3.page1": "颤抖吧，我只需要射击触手关节……"
+
+
+}
