@@ -1,0 +1,35 @@
+[
+  {
+    "mob":"minecraft:husk",
+    "persecond": 0.5,
+    "attempts": 20,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions":{
+      "dimension":"atum:atum",
+      "mindist": 12,
+      "maxdist": 32,
+      "maxthis": 4
+    }
+  },
+  {
+    "mob":"minecraft:piglin_brute",
+    "persecond": 1,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:the_nether",
+      "maxthis": 40,
+      "mindist": 5,
+      "maxdist": 10,
+      "minheight": 128,
+      "maxheight": 140,
+      "norestrictions": true
+    }
+  }
+]

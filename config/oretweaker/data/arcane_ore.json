@@ -1,0 +1,374 @@
+{
+    "oreConfig": [
+      {
+        "ore": "ars_nouveau:arcane_ore",
+        "filler": "minecraft:stone",
+        "minY": 1,
+        "maxY": 60,
+        "maxVeinSize": 9,
+        "spawnRate": 5.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      },
+      {
+        "ore": "ars_nouveau:arcane_ore",
+        "filler": "minecraft:basalt",
+        "minY": 1,
+        "maxY": 60,
+        "maxVeinSize": 9,
+        "spawnRate": 5.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      },
+      {
+        "ore": "ars_nouveau:arcane_ore",
+        "filler": "minecraft:basalt",
+        "minY": 1,
+        "maxY": 60,
+        "maxVeinSize": 9,
+        "spawnRate": 5.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      },
+      {
+        "ore": "ars_nouveau:arcane_ore",
+        "filler": "minecraft:granite",
+        "minY": 1,
+        "maxY": 60,
+        "maxVeinSize": 9,
+        "spawnRate": 5.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      },
+      {
+        "ore": "ars_nouveau:arcane_ore",
+        "filler": "subwild:molten_smooth_sandstone",
+        "minY": 1,
+        "maxY": 60,
+        "maxVeinSize": 9,
+        "spawnRate": 5.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      },
+      {
+        "ore": "ars_nouveau:arcane_ore",
+        "filler": "minecraft:clay",
+        "minY": 1,
+        "maxY": 60,
+        "maxVeinSize": 9,
+        "spawnRate": 5.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      },
+      {
+        "ore": "ars_nouveau:arcane_ore",
+        "filler": "minecraft:prismarine",
+        "minY": 1,
+        "maxY": 60,
+        "maxVeinSize": 9,
+        "spawnRate": 5.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      },
+      {
+        "ore": "ars_nouveau:arcane_ore",
+        "filler": "minecraft:blackstone",
+        "minY": 1,
+        "maxY": 60,
+        "maxVeinSize": 9,
+        "spawnRate": 5.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      },
+      {
+        "ore": "ars_nouveau:arcane_ore",
+        "filler": "minecraft:dirt",
+        "minY": 1,
+        "maxY": 60,
+        "maxVeinSize": 9,
+        "spawnRate": 5.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      },
+      {
+        "ore": "ars_nouveau:arcane_ore",
+        "filler": "minecraft:magma_block",
+        "minY": 1,
+        "maxY": 60,
+        "maxVeinSize": 9,
+        "spawnRate": 5.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      },
+      {
+        "ore": "ars_nouveau:arcane_ore",
+        "filler": "subwild:mossy_andesite",
+        "minY": 1,
+        "maxY": 60,
+        "maxVeinSize": 9,
+        "spawnRate": 5.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      },
+      {
+        "ore": "ars_nouveau:arcane_ore",
+        "filler": "minecraft:coarse_dirt",
+        "minY": 1,
+        "maxY": 60,
+        "maxVeinSize": 9,
+        "spawnRate": 5.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      },
+      {
+        "ore": "ars_nouveau:arcane_ore",
+        "filler": "minecraft:mossy_cobblestone",
+        "minY": 1,
+        "maxY": 60,
+        "maxVeinSize": 9,
+        "spawnRate": 5.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      },
+      {
+        "ore": "ars_nouveau:arcane_ore",
+        "filler": "subwild:molten_stone",
+        "minY": 1,
+        "maxY": 60,
+        "maxVeinSize": 9,
+        "spawnRate": 5.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      },
+      {
+        "ore": "ars_nouveau:arcane_ore",
+        "filler": "quark:deepslate",
+        "minY": 1,
+        "maxY": 60,
+        "maxVeinSize": 9,
+        "spawnRate": 5.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      },
+      {
+        "ore": "ars_nouveau:arcane_ore",
+        "filler": "subwild:mossy_stone",
+        "minY": 1,
+        "maxY": 60,
+        "maxVeinSize": 9,
+        "spawnRate": 5.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      },
+      {
+        "ore": "ars_nouveau:arcane_ore",
+        "filler": "minecraft:cobblestone",
+        "minY": 1,
+        "maxY": 60,
+        "maxVeinSize": 9,
+        "spawnRate": 5.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      },
+      {
+        "ore": "ars_nouveau:arcane_ore",
+        "filler": "minecraft:andesite",
+        "minY": 1,
+        "maxY": 60,
+        "maxVeinSize": 9,
+        "spawnRate": 5.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      },
+      {
+        "ore": "ars_nouveau:arcane_ore",
+        "filler": "subwild:mossy_diorite",
+        "minY": 1,
+        "maxY": 60,
+        "maxVeinSize": 9,
+        "spawnRate": 5.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      },
+      {
+        "ore": "ars_nouveau:arcane_ore",
+        "filler": "minecraft:diorite",
+        "minY": 1,
+        "maxY": 60,
+        "maxVeinSize": 9,
+        "spawnRate": 5.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      },
+      {
+        "ore": "ars_nouveau:arcane_ore",
+        "filler": "subwild:molten_diorite",
+        "minY": 1,
+        "maxY": 60,
+        "maxVeinSize": 9,
+        "spawnRate": 5.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      },
+      {
+        "ore": "ars_nouveau:arcane_ore",
+        "filler": "minecraft:smooth_sandstone",
+        "minY": 1,
+        "maxY": 60,
+        "maxVeinSize": 9,
+        "spawnRate": 5.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      },
+      {
+        "ore": "ars_nouveau:arcane_ore",
+        "filler": "minecraft:gravel",
+        "minY": 1,
+        "maxY": 60,
+        "maxVeinSize": 9,
+        "spawnRate": 5.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      },
+      {
+        "ore": "ars_nouveau:arcane_ore",
+        "filler": "minecraft:sand",
+        "minY": 1,
+        "maxY": 60,
+        "maxVeinSize": 9,
+        "spawnRate": 5.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      },
+      {
+        "ore": "ars_nouveau:arcane_ore",
+        "filler": "minecraft:terracotta",
+        "minY": 1,
+        "maxY": 60,
+        "maxVeinSize": 9,
+        "spawnRate": 5.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      },
+      {
+        "ore": "ars_nouveau:arcane_ore",
+        "filler": "minecraft:red_sand",
+        "minY": 1,
+        "maxY": 60,
+        "maxVeinSize": 9,
+        "spawnRate": 5.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      },
+      {
+        "ore": "ars_nouveau:arcane_ore",
+        "filler": "minecraft:red_terracotta",
+        "minY": 1,
+        "maxY": 60,
+        "maxVeinSize": 9,
+        "spawnRate": 5.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      },
+      {
+        "ore": "ars_nouveau:arcane_ore",
+        "filler": "minecraft:light_gray_terracotta",
+        "minY": 1,
+        "maxY": 60,
+        "maxVeinSize": 9,
+        "spawnRate": 5.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      },
+      {
+        "ore": "ars_nouveau:arcane_ore",
+        "filler": "minecraft:white_terracotta",
+        "minY": 1,
+        "maxY": 60,
+        "maxVeinSize": 9,
+        "spawnRate": 5.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      },
+      {
+        "ore": "ars_nouveau:arcane_ore",
+        "filler": "minecraft:orange_terracotta",
+        "minY": 1,
+        "maxY": 60,
+        "maxVeinSize": 9,
+        "spawnRate": 5.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      },
+      {
+        "ore": "ars_nouveau:arcane_ore",
+        "filler": "minecraft:yellow_terracotta",
+        "minY": 1,
+        "maxY": 60,
+        "maxVeinSize": 9,
+        "spawnRate": 5.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      },
+      {
+        "ore": "ars_nouveau:arcane_ore",
+        "filler": "minecraft:red_sandstone",
+        "minY": 1,
+        "maxY": 60,
+        "maxVeinSize": 9,
+        "spawnRate": 5.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      },
+      {
+        "ore": "ars_nouveau:arcane_ore",
+        "filler": "minecraft:smooth_red_sandstone",
+        "minY": 1,
+        "maxY": 60,
+        "maxVeinSize": 9,
+        "spawnRate": 5.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      },
+      {
+        "ore": "ars_nouveau:arcane_ore",
+        "filler": "minecraft:ice",
+        "minY": 1,
+        "maxY": 60,
+        "maxVeinSize": 9,
+        "spawnRate": 5.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      },
+      {
+        "ore": "ars_nouveau:arcane_ore",
+        "filler": "minecraft:snow_block",
+        "minY": 1,
+        "maxY": 60,
+        "maxVeinSize": 9,
+        "spawnRate": 5.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      },
+      {
+        "ore": "ars_nouveau:arcane_ore",
+        "filler": "minecraft:packed_ice",
+        "minY": 1,
+        "maxY": 60,
+        "maxVeinSize": 9,
+        "spawnRate": 5.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      },
+      {
+        "ore": "ars_nouveau:arcane_ore",
+        "filler": "minecraft:blue_ice",
+        "minY": 1,
+        "maxY": 60,
+        "maxVeinSize": 9,
+        "spawnRate": 5.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      }
+    ]
+  }
