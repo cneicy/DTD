@@ -1,6 +1,0 @@
-{
-  "inventory": {
-    "0:4": "{id:\"akashictome:tome\",Count:1b,tag:{\"akashictome:data\":{patchouli:{id:\"patchouli:guide_book\",Count:1b,tag:{\"patchouli:book\":\"patchouli:dtd_story\"}}}}}"
-  },
-  "wipeBlacklist": []
-}
