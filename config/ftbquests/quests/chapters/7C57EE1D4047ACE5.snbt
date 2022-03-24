@@ -1,0 +1,551 @@
+{
+	id: "7C57EE1D4047ACE5"
+	group: ""
+	order_index: 6
+	filename: "7C57EE1D4047ACE5"
+	title: "冰火传说"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -4.5d
+			y: -2.0d
+			id: "193CA2135DD59852"
+			tasks: [{
+				id: "74311A3EA58570B4"
+				type: "item"
+				item: "iceandfire:manuscript"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "33BE78BD09604C75"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			dependencies: ["193CA2135DD59852"]
+			id: "41667189FC7AFEDB"
+			tasks: [{
+				id: "30B085E825927376"
+				type: "item"
+				item: "iceandfire:bestiary"
+			}]
+			rewards: [{
+				id: "19C1B22173A23891"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.5d
+			description: ["它！没！有！tag！"]
+			dependencies: ["41667189FC7AFEDB"]
+			id: "0CBF213E5DC31E82"
+			tasks: [{
+				id: "6C5F4D5C6557DE3F"
+				type: "item"
+				item: "iceandfire:podium_oak"
+			}]
+			rewards: [{
+				id: "41224A2DA72ADD6A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.0d
+			subtitle: "我们需要更多的手稿"
+			dependencies: ["41667189FC7AFEDB"]
+			id: "20FD371AC8D636A2"
+			tasks: [{
+				id: "49CD942A3384B65A"
+				type: "item"
+				item: "iceandfire:lectern"
+			}]
+			rewards: [{
+				id: "16C1895694F2D972"
+				type: "item"
+				item: "iceandfire:manuscript"
+				count: 16
+			}]
+		}
+		{
+			title: "[ATM]All The Mobs"
+			x: 0.5d
+			y: 0.5d
+			dependencies: ["20FD371AC8D636A2"]
+			id: "31FD3116CBDD250F"
+			tasks: [{
+				id: "4AEAD0F4B08B0972"
+				type: "checkmark"
+				title: "All The Structures"
+			}]
+			rewards: [{
+				id: "7C766907AA49FF28"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			subtitle: "Gorgon？已经被ban了"
+			hide_dependency_lines: true
+			dependencies: ["31FD3116CBDD250F"]
+			hide: true
+			id: "11252A16093961B1"
+			tasks: [{
+				id: "321FDCDDC2D16134"
+				type: "checkmark"
+				title: "蛇发女妖"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			hide_dependency_lines: true
+			dependencies: ["31FD3116CBDD250F"]
+			hide: true
+			id: "175196B522734280"
+			tasks: [{
+				id: "2071E2417F554776"
+				type: "kill"
+				entity: "iceandfire:hydra"
+				value: 1L
+			}]
+			rewards: [{
+				id: "77D843D5288B53B6"
+				type: "item"
+				item: "iceandfire:hydra_heart"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["31FD3116CBDD250F"]
+			hide: true
+			id: "5B65C0AB9581C794"
+			tasks: [{
+				id: "0477AA2E8A8E9A9D"
+				type: "kill"
+				entity: "iceandfire:fire_dragon"
+				value: 1L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 2.5d
+			hide_dependency_lines: true
+			dependencies: ["31FD3116CBDD250F"]
+			hide: true
+			id: "05161630FBB58629"
+			tasks: [{
+				id: "16DAB260C5F8D08B"
+				type: "kill"
+				entity: "iceandfire:ice_dragon"
+				value: 1L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: ["31FD3116CBDD250F"]
+			hide: true
+			id: "20E875F32BE8CC63"
+			tasks: [{
+				id: "092A07B19232454F"
+				type: "kill"
+				entity: "iceandfire:lightning_dragon"
+				value: 1L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: ["31FD3116CBDD250F"]
+			hide: true
+			id: "62C52A5D3234C84B"
+			tasks: [{
+				id: "5CAD29274C10BB73"
+				type: "kill"
+				entity: "iceandfire:deathworm"
+				value: 1L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["31FD3116CBDD250F"]
+			hide: true
+			id: "5030840EA79E97EC"
+			tasks: [{
+				id: "7B0714110C69B25D"
+				type: "kill"
+				entity: "iceandfire:cyclops"
+				value: 1L
+			}]
+			rewards: [{
+				id: "56963A07BD99289A"
+				type: "item"
+				item: {
+					id: "iceandfire:cyclops_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.5d
+			hide_dependency_lines: true
+			dependencies: ["31FD3116CBDD250F"]
+			hide: true
+			id: "2F6AE250C3CC6419"
+			tasks: [{
+				id: "3FE2A7354161E195"
+				type: "kill"
+				entity: "iceandfire:myrmex_queen"
+				value: 1L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: ["31FD3116CBDD250F"]
+			hide: true
+			id: "6E170058A364BECD"
+			tasks: [{
+				id: "162F427445DDB88C"
+				type: "kill"
+				entity: "iceandfire:sea_serpent"
+				value: 1L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: ["31FD3116CBDD250F"]
+			hide: true
+			id: "6BB2A9759F3689B5"
+			tasks: [{
+				id: "3BF3AC2CC4A884B8"
+				type: "kill"
+				entity: "iceandfire:siren"
+				value: 1L
+			}]
+			rewards: [{
+				id: "1A936F34C0187509"
+				type: "item"
+				item: "iceandfire:siren_tear"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: ["31FD3116CBDD250F"]
+			hide: true
+			id: "6AD7A7BCA2B552C3"
+			tasks: [{
+				id: "0B330367C748DDCD"
+				type: "kill"
+				entity: "iceandfire:cockatrice"
+				value: 1L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 6.5d
+			subtitle: "biubiubiu~"
+			hide_dependency_lines: true
+			dependencies: ["31FD3116CBDD250F"]
+			hide: true
+			id: "152280220FCD412D"
+			tasks: [{
+				id: "565F8542D8068CB8"
+				type: "kill"
+				entity: "iceandfire:stymphalian_bird"
+				value: 1L
+			}]
+			rewards: [{
+				id: "485DA3AF0F819FD3"
+				type: "item"
+				item: "iceandfire:stymphalian_arrow"
+				count: 8
+			}]
+		}
+		{
+			title: "悚陵之谜~"
+			x: -2.0d
+			y: -4.5d
+			dependencies: ["41667189FC7AFEDB"]
+			id: "49530627F81A3256"
+			tasks: [{
+				id: "72B8C4DD69722D66"
+				type: "structure"
+				structure: "iceandfire:mausoleum"
+			}]
+			rewards: [{
+				id: "779EF6EF241B04E7"
+				type: "item"
+				item: "iceandfire:dread_key"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -7.0d
+			dependencies: ["49530627F81A3256"]
+			id: "5A93C6E653A817B5"
+			tasks: [
+				{
+					id: "604105221B03A474"
+					type: "item"
+					item: "iceandfire:dragonforge_ice_brick"
+				}
+				{
+					id: "41B081DCD2242523"
+					type: "item"
+					item: "iceandfire:dragonforge_ice_input"
+				}
+			]
+			rewards: [{
+				id: "10BCE63A36167178"
+				type: "item"
+				item: "iceandfire:dragonforge_ice_brick"
+				count: 3
+			}]
+		}
+		{
+			x: 0.5d
+			y: -4.5d
+			dependencies: ["49530627F81A3256"]
+			id: "3DA66C2F6A4EA789"
+			tasks: [
+				{
+					id: "6613824CEC6C3D73"
+					type: "kill"
+					entity: "iceandfire:dread_beast"
+					value: 1L
+				}
+				{
+					id: "17669FDA37299C1B"
+					type: "kill"
+					entity: "iceandfire:dread_ghoul"
+					value: 1L
+				}
+				{
+					id: "275B2187326D752D"
+					type: "kill"
+					entity: "iceandfire:dread_knight"
+					value: 1L
+				}
+				{
+					id: "1FD83CF5D4441DCF"
+					type: "kill"
+					entity: "iceandfire:dread_scuttler"
+					value: 1L
+				}
+				{
+					id: "2BF0D5915D00C0BB"
+					type: "kill"
+					entity: "iceandfire:dread_thrall"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "3459895C3D21C6F0"
+					type: "item"
+					item: {
+						id: "iceandfire:dread_knight_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "46C2CBD9419F0D7F"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: -4.5d
+			description: ["寻龙杖是用来寻找*你拥有的*龙的"]
+			id: "485BD426AB5D14B0"
+			tasks: [{
+				id: "57556E527F5CD64C"
+				type: "item"
+				title: "Any #iceandfire:dragon_skulls"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "iceandfire:dragon_skulls"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: -2.0d
+			dependencies: ["485BD426AB5D14B0"]
+			id: "276DBC7FC169D2F0"
+			tasks: [{
+				id: "4434D6E8BB2895DD"
+				type: "item"
+				item: {
+					id: "dragonseeker:dragonseeker"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 0.5d
+			dependencies: ["276DBC7FC169D2F0"]
+			id: "6D0923EA9D4C8B15"
+			tasks: [{
+				id: "11C8237FAB4D67A4"
+				type: "item"
+				item: {
+					id: "dragonseeker:epic_dragonseeker"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 3.0d
+			dependencies: ["6D0923EA9D4C8B15"]
+			id: "699665D4E745B78C"
+			tasks: [{
+				id: "31D605834C4143C1"
+				type: "item"
+				item: {
+					id: "dragonseeker:legendary_dragonseeker"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 5.5d
+			dependencies: [
+				"699665D4E745B78C"
+				"5B65C0AB9581C794"
+				"05161630FBB58629"
+				"20E875F32BE8CC63"
+			]
+			hide: true
+			id: "43419F185B796ABB"
+			tasks: [{
+				id: "5013E307D25E1B35"
+				type: "checkmark"
+				title: "真正的寻龙杖"
+			}]
+			rewards: [{
+				id: "513ACF27F1E0E6FD"
+				type: "item"
+				item: "dragonseeker:godly_dragonseeker"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -2.0d
+			dependencies: ["5B65C0AB9581C794"]
+			hide: true
+			id: "56503ABDEEF2770E"
+			tasks: [
+				{
+					id: "24E6628278B18349"
+					type: "item"
+					item: "iceandfire:dragon_bone_block"
+					count: 8L
+				}
+				{
+					id: "0910CF8BE2BE91CA"
+					type: "item"
+					item: "iceandfire:dragonforge_fire_brick"
+					count: 17L
+				}
+				{
+					id: "5102589AE4B8FA0B"
+					type: "item"
+					item: "iceandfire:dragonforge_fire_input"
+				}
+				{
+					id: "2CAD7F671E991D2A"
+					type: "item"
+					item: "iceandfire:dragonforge_fire_core_disabled"
+				}
+			]
+			rewards: [{
+				id: "6E7401C66D8770C7"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			title: "龙炎钢锻炉"
+			x: 6.5d
+			y: -4.5d
+			description: ["由于龙钢砖块在结构搭建时材质改变的特性，第二层的四块砖会报错，搭完之后就没了，小问题啦~"]
+			dependencies: ["56503ABDEEF2770E"]
+			hide: true
+			id: "7A5D90C7D236D7E4"
+			tasks: [{
+				id: "068AD5CFF6F0234E"
+				type: "questsadditions:structure"
+				title: "龙钢锻炉"
+				name: "dragon"
+				hasCustomPicture: false
+			}]
+		}
+		{
+			x: 6.5d
+			y: -7.0d
+			dependencies: ["7A5D90C7D236D7E4"]
+			hide: true
+			id: "1A2E298DA7DAAE74"
+			tasks: [{
+				id: "072C03AAC17ECD69"
+				type: "item"
+				title: "Any #forge:ingots/dragonsteel_fire"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/dragonsteel_fire"
+					}
+				}
+			}]
+		}
+	]
+}

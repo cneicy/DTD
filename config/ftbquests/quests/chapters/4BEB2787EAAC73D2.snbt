@@ -1,0 +1,364 @@
+{
+	id: "4BEB2787EAAC73D2"
+	group: ""
+	order_index: 1
+	filename: "4BEB2787EAAC73D2"
+	title: "掌控群系"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "找到召唤鹿之精魂的结构"
+			x: -1.5d
+			y: -4.5d
+			subtitle: "常在森林类群系生成~"
+			id: "3EB96C60F2F7464A"
+			tasks: [{
+				id: "217E3E644C0BE0B2"
+				type: "structure"
+				structure: "worldshape:tdjstructures/whisperwood"
+			}]
+			rewards: [{
+				id: "0A03669CAC002DDA"
+				type: "item"
+				item: "whisperwoods:ghost_light_magic_purple"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.0d
+			dependencies: ["3EB96C60F2F7464A"]
+			hide: true
+			id: "24AAB85D77E4CAA1"
+			tasks: [{
+				id: "4C657D14B29DAC37"
+				type: "kill"
+				entity: "whisperwoods:hirschgeist"
+				value: 1L
+			}]
+			rewards: [{
+				id: "388CEEADBEC568A6"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			title: "找到遗忘者小屋"
+			x: 1.0d
+			y: -4.5d
+			subtitle: "常在沙漠类群系生成~"
+			hide_dependency_lines: true
+			dependencies: ["24AAB85D77E4CAA1"]
+			hide: true
+			id: "7534BA6999A4884C"
+			tasks: [{
+				id: "3C45801EFFA2AD4F"
+				type: "structure"
+				structure: "dungeonsmod:the_house"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			dependencies: ["7534BA6999A4884C"]
+			hide: true
+			id: "060E52F5303867FF"
+			tasks: [{
+				id: "6B7A10F145E61B11"
+				type: "kill"
+				entity: "dungeonsmod:deserted"
+				value: 1L
+			}]
+			rewards: [{
+				id: "0B1966D650711875"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+		}
+		{
+			title: "找到骷髅领主的礼拜堂"
+			x: 3.5d
+			y: -4.5d
+			subtitle: "常在沼泽类群系生成~"
+			hide_dependency_lines: true
+			dependencies: ["060E52F5303867FF"]
+			hide: true
+			id: "4A631C8E83A6CF3C"
+			tasks: [{
+				id: "78195D738D7F29A7"
+				type: "structure"
+				structure: "dungeonsmod:the_chapel"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -3.0d
+			dependencies: ["4A631C8E83A6CF3C"]
+			hide: true
+			id: "2C0D5650DF970650"
+			tasks: [{
+				id: "3CB8B5AB718A411E"
+				type: "kill"
+				entity: "dungeonsmod:lordskeleton"
+				value: 1L
+			}]
+			rewards: [{
+				id: "74DA4D80E228B1D7"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+		}
+		{
+			title: "找到钢铁史莱姆矿洞"
+			x: 6.0d
+			y: -4.5d
+			subtitle: "常在平原类群系生成~"
+			hide_dependency_lines: true
+			dependencies: ["2C0D5650DF970650"]
+			hide: true
+			id: "0C01090219210EB6"
+			tasks: [{
+				id: "173953CF17651704"
+				type: "structure"
+				structure: "dungeonsmod:the_mines"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -3.0d
+			dependencies: ["0C01090219210EB6"]
+			hide: true
+			id: "3FFDCAECE60AF7C8"
+			tasks: [{
+				id: "72DEE7F437A0208C"
+				type: "kill"
+				entity: "dungeonsmod:ironslime"
+				value: 1L
+			}]
+			rewards: [{
+				id: "08806E8994C291B1"
+				type: "xp_levels"
+				xp_levels: 18
+			}]
+		}
+		{
+			title: "找到太阳酋长的部落"
+			x: 8.5d
+			y: -4.5d
+			subtitle: "常在稀树草原类群系生成~"
+			hide_dependency_lines: true
+			dependencies: ["3FFDCAECE60AF7C8"]
+			hide: true
+			id: "318AAF54634FA42F"
+			tasks: [{
+				id: "4EAFA567540AF954"
+				type: "structure"
+				structure: "mowziesmobs:barakoa_village"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -3.0d
+			dependencies: ["318AAF54634FA42F"]
+			hide: true
+			id: "122F9C2CB6E3281B"
+			tasks: [{
+				id: "0FF28C3848BEDD8B"
+				type: "kill"
+				entity: "mowziesmobs:barako"
+				value: 1L
+			}]
+			rewards: [{
+				id: "597D55835E519851"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+		}
+		{
+			title: "发现召唤凛冬猎人的结构"
+			x: 11.0d
+			y: -4.5d
+			subtitle: "常在针叶林群系生成~"
+			hide_dependency_lines: true
+			dependencies: ["122F9C2CB6E3281B"]
+			hide: true
+			id: "0902C4576B98ADEB"
+			tasks: [{
+				id: "482682B7F43EBF80"
+				type: "structure"
+				structure: "dungeonsmod:the_pitcher"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -3.0d
+			dependencies: ["0902C4576B98ADEB"]
+			hide: true
+			id: "548E3E47D1012AFA"
+			tasks: [{
+				id: "4E94B0A812AC4707"
+				type: "kill"
+				entity: "dungeonsmod:winterhunter"
+				value: 1L
+			}]
+			rewards: [{
+				id: "517AF1EDFF1104DE"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+		}
+		{
+			title: "找到克拉肯沉船"
+			x: 13.5d
+			y: -4.5d
+			subtitle: "这无尽的海洋啊……"
+			hide_dependency_lines: true
+			dependencies: ["548E3E47D1012AFA"]
+			hide: true
+			id: "1E549D2D6FB7F46C"
+			tasks: [{
+				id: "6CFA870B19E99769"
+				type: "structure"
+				structure: "dungeonsmod:the_ship"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -3.0d
+			dependencies: ["1E549D2D6FB7F46C"]
+			hide: true
+			id: "303DEC25FEC4FB33"
+			tasks: [{
+				id: "3E022E8334C62821"
+				type: "kill"
+				entity: "dungeonsmod:kraken"
+				value: 1L
+			}]
+		}
+		{
+			title: "找到国王的城堡"
+			x: 16.0d
+			y: -4.5d
+			subtitle: "常在山地类群系生成~"
+			hide_dependency_lines: true
+			dependencies: ["303DEC25FEC4FB33"]
+			hide: true
+			id: "25D1743314826B21"
+			tasks: [{
+				id: "6DC2F6A48779737B"
+				type: "structure"
+				structure: "dungeonsmod:the_castle"
+			}]
+			rewards: [{
+				id: "72AD5B9AAA2788EF"
+				type: "xp_levels"
+				xp_levels: 21
+			}]
+		}
+		{
+			x: 16.0d
+			y: -3.0d
+			dependencies: ["25D1743314826B21"]
+			hide: true
+			id: "142F749B1A50F374"
+			tasks: [{
+				id: "248C61614B090E14"
+				type: "kill"
+				entity: "dungeonsmod:king"
+				value: 1L
+			}]
+		}
+		{
+			x: 18.5d
+			y: -4.5d
+			subtitle: "常在雪原类群系生成~"
+			hide_dependency_lines: true
+			dependencies: ["142F749B1A50F374"]
+			hide: true
+			id: "61981D8AAF791EB8"
+			tasks: [{
+				id: "0CDBABE804900794"
+				type: "kill"
+				entity: "mowziesmobs:frostmaw"
+				value: 1L
+			}]
+		}
+		{
+			title: "找到悚陵"
+			x: 21.0d
+			y: -4.5d
+			subtitle: "常在冰雪类群系生成~"
+			hide_dependency_lines: true
+			dependencies: ["61981D8AAF791EB8"]
+			hide: true
+			id: "453C030855B30BFF"
+			tasks: [{
+				id: "7860A27578085B48"
+				type: "structure"
+				structure: "iceandfire:mausoleum"
+			}]
+		}
+		{
+			x: 21.0d
+			y: -3.0d
+			dependencies: ["453C030855B30BFF"]
+			hide: true
+			id: "49C62F55C098E444"
+			tasks: [{
+				id: "63332D01A74F57D8"
+				type: "kill"
+				entity: "iceandfire:dread_lich"
+				value: 1L
+			}]
+			rewards: [{
+				id: "6D1F790252346C0F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 21.0d
+			y: -1.5d
+			dependencies: ["49C62F55C098E444"]
+			hide: true
+			id: "77040EB2F6D29FA7"
+			tasks: [
+				{
+					id: "0BD1330E6EACC3F4"
+					type: "kill"
+					entity: "iceandfire:dread_thrall"
+					value: 1L
+				}
+				{
+					id: "7DD1FC3F2DF6432B"
+					type: "kill"
+					entity: "iceandfire:dread_ghoul"
+					value: 1L
+				}
+				{
+					id: "7E344F2F3B687E4B"
+					type: "kill"
+					entity: "iceandfire:dread_beast"
+					value: 1L
+				}
+				{
+					id: "6EC1AB7A4F8345F7"
+					type: "kill"
+					entity: "iceandfire:dread_scuttler"
+					value: 1L
+				}
+				{
+					id: "5EED3D1D89F308F1"
+					type: "kill"
+					entity: "iceandfire:dread_knight"
+					value: 1L
+				}
+			]
+			rewards: [{
+				id: "3F62A4C1462F983D"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+		}
+	]
+}
