@@ -1,0 +1,316 @@
+{
+	id: "3B481E746C9CAD11"
+	group: ""
+	order_index: 0
+	filename: "3B481E746C9CAD11"
+	title: "开局不先整套铁"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -5.0d
+			y: 1.5d
+			description: ["使用树枝合成木棍"]
+			id: "01DFC26B14224DF2"
+			tasks: [{
+				id: "044BD196F78E092D"
+				type: "item"
+				item: "projectvibrantjourneys:twigs"
+			}]
+			rewards: [{
+				id: "7030F7FF685E4701"
+				type: "item"
+				item: "projectvibrantjourneys:twigs"
+				count: 5
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.0d
+			description: [
+				"对准石头敲击，获得燧石碎片"
+				"温馨提示：三个沙砾可以合成两个燧石。"
+			]
+			id: "3047FA6817B148E0"
+			tasks: [{
+				id: "4B234F214858A623"
+				type: "item"
+				item: "minecraft:flint"
+			}]
+			rewards: [{
+				id: "5FD54CAA66774617"
+				type: "item"
+				item: "notreepunching:flint_shard"
+				count: 3
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			dependencies: [
+				"01DFC26B14224DF2"
+				"3047FA6817B148E0"
+			]
+			id: "13B74A3116C85C37"
+			tasks: [{
+				id: "68DB45607D743309"
+				type: "item"
+				item: {
+					id: "notreepunching:flint_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1EA21C8A4E7A1FC7"
+				type: "item"
+				item: "notreepunching:plant_fiber"
+				count: 5
+			}]
+		}
+		{
+			x: -3.5d
+			y: -0.5d
+			dependencies: ["13B74A3116C85C37"]
+			id: "6426ADABB96A0DFD"
+			tasks: [{
+				id: "40B3ABE702C1D5B7"
+				type: "item"
+				item: {
+					id: "notreepunching:flint_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0B2E71FE084A6F18"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -2.0d
+			y: -0.5d
+			dependencies: ["6426ADABB96A0DFD"]
+			id: "3AD9E3FB6D27E1C2"
+			tasks: [{
+				id: "763DEE2C8E6CDD0C"
+				type: "item"
+				title: "Any #minecraft:logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+			}]
+			rewards: [{
+				id: "22785DCBA9CB0751"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			dependencies: ["3AD9E3FB6D27E1C2"]
+			id: "3D9D606714AD7CFE"
+			tasks: [{
+				id: "5EE7C1CEC4BAB0A5"
+				type: "item"
+				item: {
+					id: "notreepunching:flint_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1986705D31D1E463"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			dependencies: ["3D9D606714AD7CFE"]
+			id: "3CAAD9E3BC949A6B"
+			tasks: [{
+				id: "3771945A61A87DCA"
+				type: "item"
+				item: "minecraft:iron_ore"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			dependencies: ["3CAAD9E3BC949A6B"]
+			id: "2E97DDB71CCAD29E"
+			tasks: [
+				{
+					id: "2544F1DE8EFEDBAE"
+					type: "item"
+					item: {
+						id: "minecraft:iron_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3AA90C6BABEA666C"
+					type: "item"
+					item: {
+						id: "minecraft:iron_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5E1290FB6C83FF0E"
+					type: "item"
+					item: {
+						id: "minecraft:iron_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1B391970F783D27C"
+					type: "item"
+					item: {
+						id: "minecraft:iron_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "593B570333C71637"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			subtitle: "铁镐在手，天下我有"
+			dependencies: ["3CAAD9E3BC949A6B"]
+			id: "285E637B26CFAAA9"
+			tasks: [{
+				id: "0373FDC636F0A284"
+				type: "item"
+				item: {
+					id: "minecraft:iron_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5BDBDB059806D648"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.5d
+			subtitle: "事关重大"
+			dependencies: ["285E637B26CFAAA9"]
+			id: "7D75468E270C2D58"
+			tasks: [{
+				id: "3BD29AAE09E1DC8E"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+			rewards: [{
+				id: "00931AB5BE53A13E"
+				type: "item"
+				item: "minecraft:soul_sand"
+				count: 6
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			subtitle: "别再亏木头了！"
+			description: [
+				"由于无树可撸的特性，部分模组树木没有被其兼容"
+				"所以你必须合成出锯木机才能解锁那些非原版树木"
+			]
+			dependencies: [
+				"3AD9E3FB6D27E1C2"
+				"267E84B1E34D2B24"
+			]
+			id: "45517B55D5398189"
+			tasks: [{
+				id: "7BBB4634D5761730"
+				type: "item"
+				item: "charm:woodcutter"
+			}]
+			rewards: [
+				{
+					id: "2D5561AA0EDA6C02"
+					type: "item"
+					item: "atmospheric:aspen_log"
+					count: 32
+				}
+				{
+					id: "30C03E4F13EFD705"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "tree"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 2.5d
+			dependencies: ["3CAAD9E3BC949A6B"]
+			id: "267E84B1E34D2B24"
+			tasks: [{
+				id: "20AF2FCF3ACF8E3D"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			dependencies: ["3D9D606714AD7CFE"]
+			id: "39E6FFCB018C2E36"
+			tasks: [{
+				id: "25D0D74B919E799E"
+				type: "item"
+				item: "minecraft:cobblestone"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			dependencies: ["39E6FFCB018C2E36"]
+			id: "4FDBDC90DA348E3C"
+			tasks: [{
+				id: "1D3ECC59F3ED4537"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+		}
+	]
+}
