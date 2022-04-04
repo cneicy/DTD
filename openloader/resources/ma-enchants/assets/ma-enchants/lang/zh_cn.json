@@ -1,0 +1,34 @@
+{
+  "death.attack.death": "%s无法掌控这件物品的力量",
+  "enchantment.ma-enchants.curse_death": "死亡诅咒",
+  "enchantment.ma-enchants.lifesteal": "生命窃取",
+  "enchantment.ma-enchants.soft_fall": "轻柔降落",
+  "enchantment.ma-enchants.timeless": "永恒",
+  "enchantment.ma-enchants.curse_death.desc": "装备或手持时造成大量伤害。",
+
+
+  "enchantment.ma-enchants.reinforced_tip.desc": "增加挖掘黑曜石的速度。",
+  "enchantment.ma-enchants.stone_mending.desc": "挖掘石头时有几率恢复耐久。",
+  "enchantment.ma-enchants.lumberjack.desc": "一次就能砍倒整棵树。",
+  "enchantment.ma-enchants.momentum.desc": "连续挖掘同样方块的时候增加挖掘速度。",
+  "enchantment.ma-enchants.butchering.desc": "对动物造成额外伤害。",
+
+  "enchantment.ma-enchants.true_shot.desc": "射出的箭不受重力影响。",
+  "enchantment.ma-enchants.quick_draw.desc": "拉弓更快。",
+  "enchantment.ma-enchants.floating.desc": "攻击时造成漂浮效果。",
+  "enchantment.ma-enchants.paralysis.desc": "攻击时造成麻痹效果,限制移动,跳跃和攻击。",
+
+  "enchantment.ma-enchants.combo.desc": "连续攻击时提高伤害,攻击到空气或者方块时重置效果。",
+  "enchantment.ma-enchants.faster_attack.desc": "增加攻击速度。",
+  "enchantment.ma-enchants.lifesteal.desc": "根据造成的伤害回复生命值。",
+  "enchantment.ma-enchants.ice_aspect.desc": "减缓敌人的速度。",
+  "enchantment.ma-enchants.wisdom.desc": "杀死生物时获得更多经验值。",
+
+  "enchantment.ma-enchants.blazing_walker.desc": "行走时暂时将岩浆变为圆石。",
+  "enchantment.ma-enchants.step_assist.desc": "可以行走上1格高的方块而无需跳跃。",
+  "enchantment.ma-enchants.night_vision.desc": "穿戴时提供夜视效果。",
+  "enchantment.ma-enchants.multi_jump.desc": "可以在空气中连续跳跃。",
+  "enchantment.ma-enchants.soft_fall.desc": "消除坠落伤害，缺点是它会让人筋疲力尽。",
+
+  "enchantment.ma-enchants.timeless.desc": "带有此附魔的物品在掉落到地面后不会消失。"
+}
