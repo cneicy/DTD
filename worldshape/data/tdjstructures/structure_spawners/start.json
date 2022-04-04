@@ -1,0 +1,45 @@
+{
+    "template": {
+        "type": "single", 
+        "id": "tdjstructures:start", 
+        "maxDepth": 10, 
+        
+                               
+        "followTerrain": false 
+    },
+
+    "placement": {
+        "type": "surface",           
+        "minY": 0,
+        "maxY": 256,
+        "offset": 0,
+        "fluidSurface": false,
+
+        "terraform": -1
+    },
+   
+    "averageSpacing": 2,  
+    "minimumSpacing": 1,          
+    "seed": 1145141919810,
+    "avoidOthers": false,       
+    
+    "biomes": [
+        "#taiga",
+        "#extreme_hills",
+        "#jungle",
+        "#mesa",
+        "#plains",
+        "#savanna",
+        "#icy",
+        "#beach",
+        "#forest",
+        "#ocean",
+        "#desert",
+        "#river",
+        "#swamp",
+        "#mushroom"
+    ],
+    "dimensions": [
+        "minecraft:overworld"
+    ]
+}
