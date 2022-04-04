@@ -1,9 +1,0 @@
-{
-  "block.enchantinginfuser.enchanting_infuser": "附魔灌注台",
-  "block.enchantinginfuser.advanced_enchanting_infuser": "高级附魔灌注台",
-  "gui.enchantinginfuser.tooltip.enchanting_power": "%s附魔能量",
-  "gui.enchantinginfuser.tooltip.required_enchanting_power": "当前附魔能量：%s / %s",
-  "gui.enchantinginfuser.tooltip.unknown_enchantment": "这个魔咒对一个附魔能量如此低下的灌注台来说太强大了。",
-  "gui.enchantinginfuser.tooltip.low_power": "进一步提高这个魔咒的等级需要一个具有更多附魔能量的灌注台。",
-  "gui.enchantinginfuser.tooltip.incompatible": "此附魔与%s无法兼容。"
-}
