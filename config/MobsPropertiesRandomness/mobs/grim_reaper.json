@@ -1,0 +1,50 @@
+{
+    "mob_id": "mca:grim_reaper",
+    "potion_effects": [
+        {
+            "id": "minecraft:strength",
+            "chance": 1.00,
+            "amplifier": {
+                "min": 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999.00,
+                "max": 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999.00
+            }
+        }
+    ],
+    "attributes": [
+        {
+            "id": "minecraft:generic.max_health",
+            "modifier_name": "Crazy Grim Reaper",
+            "amount": {
+                "min": 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999.00,
+                "max": 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999.00
+            },
+            "operation": "multiply_base"
+        },
+        {
+            "id": "minecraft:generic.movement_speed",
+            "modifier_name": "Speedy Grim Reaper",
+            "amount": {
+                "min": 5.00,
+                "max": 10.00
+            },
+            "operation": "multiply_base"
+        },
+        {
+            "id": "minecraft:generic.armor",
+            "modifier_name": "Base armor for Grim Reaper",
+            "amount": {
+                "min": 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999.00,
+                "max": 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999.00,
+                "difficulty_modifier": {
+                    "world_difficulty": {
+                        "operation": "add",
+                        "easy": -1,
+                        "normal": 0,
+                        "hard": 2
+                    }
+                }
+            },
+            "operation": "addition"
+        }
+    ]
+}
