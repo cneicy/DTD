@@ -1,0 +1,85 @@
+
+["YUNG's Better Strongholds"]
+	# List of dimensions that will have Better Strongholds.
+	# List must be comma-separated values enclosed in square brackets.
+	# Entries must have the mod namespace included.
+	# For example: "[minecraft:overworld, minecraft:the_nether, undergarden:undergarden]"
+	# Default: "[minecraft:overworld]"
+	"Whitelisted Dimensions" = "[minecraft:overworld]"
+	# List of biomes that will NOT have Better Strongholds.
+	# List must be comma-separated values enclosed in square brackets.
+	# Entries must have the mod namespace included.
+	# For example: "[minecraft:plains, byg:alps]"
+	# Default: "[minecraft:ocean, minecraft:frozen_ocean, minecraft:deep_ocean, minecraft:warm_ocean, minecraft:lukewarm_ocean, minecraft:cold_ocean, minecraft:deep_lukewarm_ocean, minecraft:deep_cold_ocean, minecraft:deep_frozen_ocean, minecraft:beach, minecraft:snowy_beach, minecraft:river, minecraft:frozen_river]"
+	"Blacklisted Biomes" = "[abundance:lavender_fields, abundance:lavender_forest, abundance:nemophila_fields, atmospheric:dunes, atmospheric:dunes_hills, atmospheric:flourishing_dunes, atmospheric:hot_springs, atmospheric:petrified_dunes, atmospheric:rainforest, atmospheric:rainforest_basin, atmospheric:rainforest_mountains, atmospheric:rainforest_plateau, atmospheric:rocky_dunes, atmospheric:rocky_dunes_hills, atmospheric:sparse_rainforest_basin, atmospheric:sparse_rainforest_plateau, atum:dead_oasis, atum:dense_woods, atum:dried_river, atum:limestone_crags, atum:limestone_mountains, atum:oasis, atum:sand_dunes, atum:sand_hills, atum:sand_plains, atum:sparse_woods, autumnity:maple_forest, autumnity:maple_forest_hills, autumnity:orange_spotted_dark_forest, autumnity:pumpkin_fields, autumnity:red_spotted_taiga, autumnity:yellow_spotted_forest, bayou_blues:bayou, bayou_blues:bayou_hills, betterendforge:amber_land, betterendforge:blossoming_spires, betterendforge:chorus_forest, betterendforge:crystal_mountains, betterendforge:dragon_graveyards, betterendforge:dry_shrubland, betterendforge:dust_wastelands, betterendforge:empty_aurora_cave, betterendforge:empty_end_cave, betterendforge:empty_smaragdant_cave, betterendforge:end_cave, betterendforge:foggy_mushroomland, betterendforge:glowing_grasslands, betterendforge:ice_starfield, betterendforge:jade_cave, betterendforge:lantern_woods, betterendforge:lush_aurora_cave, betterendforge:lush_smaragdant_cave, betterendforge:megalake, betterendforge:megalake_grove, betterendforge:neon_oasis, betterendforge:painted_mountains, betterendforge:shadow_forest, betterendforge:sulphur_springs, betterendforge:umbra_valley, betterendforge:umbrella_jungle, blue_skies:brightlands, blue_skies:brisk_meadow, blue_skies:brumble_forest, blue_skies:calming_skies, blue_skies:crescent_orchard, blue_skies:crescent_orchard_lake, blue_skies:crystal_dunes, blue_skies:crystal_dunes_spikes, blue_skies:crystal_roughs, blue_skies:deep_peeking_ocean, blue_skies:frostbitten_forest, blue_skies:frostbitten_forest_clearing, blue_skies:midday_shore, blue_skies:moonlit_reservoir, blue_skies:peeking_ocean, blue_skies:polar_highland, blue_skies:rising_creek, blue_skies:searing_grassland, blue_skies:shaded_woodlands, blue_skies:slushlands, blue_skies:snow_covered_pines, blue_skies:sunset_maple_forest, blue_skies:unorthodox_valley, desolation:charred_forest, endergetic:poise_forest, environmental:blossom_highlands, environmental:blossom_hills, environmental:blossom_valleys, environmental:blossom_woods, environmental:marsh, environmental:mushroom_marsh, good_nights_sleep:dreamy_forest, good_nights_sleep:good_dream_plains, good_nights_sleep:hopeful_fields, good_nights_sleep:lollipop_lands, good_nights_sleep:nightmare_hills, good_nights_sleep:shameful_plains, good_nights_sleep:sleepy_hills, good_nights_sleep:wasted_forest, graveyard:eroded_haunted_forest, graveyard:haunted_forest, graveyard:haunted_lakes, minecraft:badlands, minecraft:badlands_plateau, minecraft:bamboo_jungle, minecraft:bamboo_jungle_hills, minecraft:basalt_deltas, minecraft:beach, minecraft:birch_forest, minecraft:birch_forest_hills, minecraft:cold_ocean, minecraft:crimson_forest, minecraft:dark_forest, minecraft:dark_forest_hills, minecraft:deep_cold_ocean, minecraft:deep_frozen_ocean, minecraft:deep_lukewarm_ocean, minecraft:deep_ocean, minecraft:deep_warm_ocean, minecraft:desert, minecraft:desert_hills, minecraft:desert_lakes, minecraft:end_barrens, minecraft:end_highlands, minecraft:end_midlands, minecraft:eroded_badlands, minecraft:flower_forest, minecraft:forest, minecraft:frozen_ocean, minecraft:frozen_river, minecraft:giant_spruce_taiga, minecraft:giant_spruce_taiga_hills, minecraft:giant_tree_taiga, minecraft:giant_tree_taiga_hills, minecraft:gravelly_mountains, minecraft:ice_spikes, minecraft:jungle, minecraft:jungle_edge, minecraft:jungle_hills, minecraft:lukewarm_ocean, minecraft:modified_badlands_plateau, minecraft:modified_gravelly_mountains, minecraft:modified_jungle, minecraft:modified_jungle_edge, minecraft:modified_wooded_badlands_plateau, minecraft:mountain_edge, minecraft:mountains, minecraft:mushroom_field_shore, minecraft:mushroom_fields, minecraft:nether_wastes, minecraft:ocean, minecraft:plains, minecraft:river, minecraft:savanna, minecraft:savanna_plateau, minecraft:shattered_savanna, minecraft:shattered_savanna_plateau, minecraft:small_end_islands, minecraft:snowy_beach, minecraft:snowy_mountains, minecraft:snowy_taiga, minecraft:snowy_taiga_hills, minecraft:snowy_taiga_mountains, minecraft:snowy_tundra, minecraft:soul_sand_valley, minecraft:stone_shore, minecraft:sunflower_plains, minecraft:swamp, minecraft:swamp_hills, minecraft:taiga, minecraft:taiga_hills, minecraft:taiga_mountains, minecraft:tall_birch_forest, minecraft:tall_birch_hills, minecraft:the_end, minecraft:the_void, minecraft:warm_ocean, minecraft:warped_forest, minecraft:wooded_badlands_plateau, minecraft:wooded_hills, minecraft:wooded_mountains, projectvibrantjourneys:alpine_heights, projectvibrantjourneys:aspen_grove, projectvibrantjourneys:aspen_grove_hills, projectvibrantjourneys:autumnal_coniferous_forest, projectvibrantjourneys:baobab_fields, projectvibrantjourneys:blossoming_fields, projectvibrantjourneys:boreal_forest, projectvibrantjourneys:boreal_plateau, projectvibrantjourneys:crimson_thicket, projectvibrantjourneys:crystal_lakes, projectvibrantjourneys:desert_shrubland, projectvibrantjourneys:flooded_woodlands, projectvibrantjourneys:gravel_shore, projectvibrantjourneys:mangrove_marsh, projectvibrantjourneys:meadows, projectvibrantjourneys:overgrown_spires, projectvibrantjourneys:pine_meadows, projectvibrantjourneys:prairie, projectvibrantjourneys:red_rock_valley, projectvibrantjourneys:redwood_peaks, projectvibrantjourneys:redwoods, projectvibrantjourneys:snowy_boreal_forest, projectvibrantjourneys:snowy_redwoods, projectvibrantjourneys:stony_fields, projectvibrantjourneys:tropical_beach, projectvibrantjourneys:verdant_sands, projectvibrantjourneys:willow_wetlands, projectvibrantjourneys:windswept_cliffs, projectvibrantjourneys:windswept_shore, twilightforest:clearing, twilightforest:dark_forest, twilightforest:dark_forest_center, twilightforest:dense_forest, twilightforest:dense_mushroom_forest, twilightforest:enchanted_forest, twilightforest:final_plateau, twilightforest:fire_swamp, twilightforest:firefly_forest, twilightforest:forest, twilightforest:glacier, twilightforest:highlands, twilightforest:lake, twilightforest:mushroom_forest, twilightforest:oak_savannah, twilightforest:snowy_forest, twilightforest:spooky_forest, twilightforest:stream, twilightforest:swamp, twilightforest:thornlands, undergarden:barren_abyss, undergarden:dense_forest, undergarden:forgotten_field, undergarden:frostfields, undergarden:gronglegrowth, undergarden:mushroom_bog, undergarden:smog_spires, undergarden:smogstem_forest, undergarden:wigglewood_forest]"
+
+	###########################################################################################################
+	## General settings.
+	###########################################################################################################
+	["YUNG's Better Strongholds".General]
+		# The minimum y-value at which the STARTING ROOM of the stronghold can spawn.
+		# Note that the various pieces of the stronghold can extend above or below this value.
+		# Default: 30
+		"Min Start Y" = 30
+		# The maximum y-value at which the STARTING ROOM of the stronghold can spawn.
+		# Note that the various pieces of the stronghold can extend above or below this value.
+		# Default: 31
+		"Max Start Y" = 31
+		# The maximum y-value at which ANY piece of the stronghold can spawn.
+		# If any piece attempts to spawn such that any part of it is above this y-value,
+		# it will not spawn.
+		# In other words, this is a hard cap above which no part of the stronghold can generate.
+		# Default: 60
+		"Max Y" = 60
+		# The max number of "pieces" the stronghold will generate from the center.
+		# This number controls the general size of strongholds. Bigger number = bigger strongholds.
+		# It is HIGHLY recommended to keep this an even number!
+		# Default: 16
+		"Stronghold Size" = 1
+		# The rate at which cobwebs will spawn in various parts of the stronghold.
+		# Default: 0.1
+		"Cobweb Spawn Rate (NORMAL)" = 0.1
+		# The rate at which cobwebs will spawn around spider spawners in libraries.
+		# Default: 0.3
+		"Cobweb Spawn Rate (SPAWNER)" = 0.3
+		# The rate at which torches spawn throughout the stronghold.
+		# Default: 0.1
+		"Torch Spawn Rate" = 0.1
+		# The rate at which lanterns spawn throughout the stronghold.
+		# Default: 0.2
+		"Lantern Spawn Rate" = 0.2
+
+	###########################################################################################################
+	## Options for controlling individual pieces/rooms in the stronghold.
+	###########################################################################################################
+	["YUNG's Better Strongholds"."Piece Settings"]
+		# The max number of Grand Libraries that can spawn in a single stronghold.
+		# Default: 1
+		"Grand Library Max Count" = 0
+		# The max number of small libraries that can spawn in a single stronghold.
+		# Note that these are distinct rooms from the Grand Library, being smaller
+		# and more common (by default).
+		# Default: 2
+		"Small Library Max Count" = 0
+		# The max number of prisons that can spawn in a single stronghold.
+		# Default: 2
+		"Prison Max Count" = 0
+		# The max number of Commander (Acarii) rooms that can spawn in a single stronghold.
+		# Default: 1
+		"Commander Room (Acarii) Max Count" = 0
+		# The max number of Commander (YUNG) rooms that can spawn in a single stronghold.
+		# Default: 1
+		"Commander Room (YUNG) Max Count" = 0
+		# The max number of treasure rooms that can spawn in a single stronghold.
+		# Default: 2
+		"Treasure Room Max Count" = 0
+		# The max number of large armoury rooms that can spawn in a single stronghold.
+		# Default: 2
+		"Armoury Room (Large) Max Count" = 0
+		# The max number of small armoury rooms that can spawn in a single stronghold.
+		# Default: 2
+		"Armoury Room (Small) Max Count" = 0
+		# The max number of portal rooms that can spawn in a single stronghold.
+		# Default: 1
+		"Portal Room Max Count" = 0
+
