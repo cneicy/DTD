@@ -1,0 +1,17 @@
+{
+  "block.zensummoning.altar": "召唤祭坛",
+  "itemGroup.zensummoning": "Zen Summoning",
+  "chat.zensummoning.success": "祭坛发出愉快的嗡嗡声。",
+  "chat.zensummoning.busy": "祭坛正在运行中。",
+  "chat.zensummoning.no_match": "祭坛不知道你想要什么。",
+  "chat.zensummoning.unsatisfied": "祭坛并没有满足。",
+  "chat.zensummoning.invalid_ingredient": "成分无效。",
+  "chat.zensummoning.full": "祭坛已满",
+  "chat.zensummoning.unsatisfied_hand": "祭坛并不满足于你所持有的东西。",
+  "chat.zensummoning.unknown_error": "发生了一个未知的错误，无法再进行预期的召唤。",
+  "jei.zensummoning.recipe.altar": "召唤祭坛",
+  "jei.zensummoning.catalyst.lore": "{\"text\":\"当所有需要的物品都在祭坛中时，用触媒Shift+右键即可开始。\", \"color\":\"dark_aqua\"}",
+  "jei.zensummoning.recipe.altar.isCatalystConsumed": "消耗触媒：%1$s",
+  "jei.zensummoning.recipe.altar.weight": "Weight: %f",
+  "jei.zensummoning.recipe.altar.entity": "%1$dx%2$s"
+}
