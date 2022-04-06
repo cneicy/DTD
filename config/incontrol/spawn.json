@@ -9,6 +9,12 @@
     "speedmultiply": 0.8
   },
   {
+    "mob":"prehistoricfauna:henos",
+    "onjoin":true,
+    "dimension":"minecraft:overworld",
+    "result":"deny"
+  },
+  {
     "mob":"cataclysm:ender_golem",
     "onjoin":true,
     "result":"default",
