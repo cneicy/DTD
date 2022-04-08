@@ -1,0 +1,43 @@
+{
+    "template": {
+        "type": "single", 
+        "id": "tdjstructures:obelisk", 
+        "maxDepth": 10, 
+        
+                               
+        "followTerrain": false 
+    },
+
+    "placement": {
+        "type": "surface",           
+        "minY": 0,
+        "maxY": 256,
+        "offset": 0,
+        "fluidSurface": false,
+
+        "terraform": -1
+    },
+   
+    "averageSpacing": 150,  
+    "minimumSpacing": 100,  
+    "seed": 231206548,            
+    "avoidOthers": true,       
+    
+    "biomes": [
+        "#taiga",
+        "#extreme_hills",
+        "#jungle",
+        "#mesa",
+        "#plains",
+        "#savanna",
+        "#icy",
+        "#beach",
+        "#forest",
+        "#desert",
+        "#swamp",
+        "#mushroom"
+    ],
+    "dimensions": [
+        "minecraft:overworld"
+    ]
+}
