@@ -1,0 +1,19 @@
+{
+	id: "754C6D291CCD0688"
+	group: ""
+	order_index: 8
+	filename: "qvq"
+	title: "任务还没做完呢，不要催QvQ"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: -5.5d
+		y: -2.0d
+		id: "13CB0CE5383141BB"
+		tasks: [{
+			id: "70619A957E34250F"
+			type: "checkmark"
+			title: "不要催，在做了！"
+		}]
+	}]
+}
