@@ -1,6 +1,0 @@
-
-[ElytraNoFall]
-	#Level of Feather Falling required?  Default: 0
-	#Range: 0 ~ 4
-	requiresFeatherFalling = 1
-
