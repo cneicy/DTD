@@ -1,0 +1,501 @@
+{
+	id: "186D4ADC3A5A562B"
+	group: ""
+	order_index: 4
+	filename: "186D4ADC3A5A562B"
+	title: "暮色苍茫"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "送你小花花"
+			x: -5.5d
+			y: -2.0d
+			description: [
+				"杀死Herobrine获取进入暮色森林的资格。"
+				"召唤HIM简述："
+				"1.将召唤祭坛摆放在噩梦世界"
+				"2.将4个熔岩桶和4个堆叠在一起的金块近距离右键祭坛放入"
+				"3.使用下界岩shift+右键祭坛"
+				"注意：不是把金块和熔岩放入在世界中"
+				""
+				"HIM会瞬移，如果你运气不好，有一定概率召唤出来就瞬移走了（"
+			]
+			id: "5FB1B19A63ABCB45"
+			tasks: [
+				{
+					id: "4ABA2959E1784A5B"
+					type: "checkmark"
+				}
+				{
+					id: "029019E6152BE044"
+					type: "gamestage"
+					title: "你需要杀死Herobrine才能获得这个阶段"
+					stage: "twotwiliforest"
+				}
+			]
+			rewards: [{
+				id: "49C7DD5105050A8E"
+				type: "item"
+				item: "minecraft:azure_bluet"
+				count: 12
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			subtitle: "娜迦鳞片？你会需要它的。"
+			dependencies: ["668D1D7B5EE5DE64"]
+			id: "38D685FC1443F4FE"
+			tasks: [{
+				id: "39ABD4C41E55A025"
+				type: "item"
+				item: "twilightforest:naga_trophy"
+			}]
+			rewards: [
+				{
+					id: "48ED4815D97F7D44"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					id: "29A0369BB93FA784"
+					type: "item"
+					item: "twilightforest:maze_map_empty"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			subtitle: "带上瞬间治疗，上啊！"
+			dependencies: ["38D685FC1443F4FE"]
+			id: "06ACDE73B2EF7E2C"
+			tasks: [{
+				id: "0A9D9878F5F0D815"
+				type: "item"
+				item: "twilightforest:lich_trophy"
+			}]
+			rewards: [{
+				id: "0628E78CC3B862DB"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			dependencies: ["5B56B5069CE814C3"]
+			id: "079A87EC390049C0"
+			tasks: [{
+				id: "1DD251909E7416FE"
+				type: "item"
+				item: "twilightforest:hydra_trophy"
+			}]
+			rewards: [{
+				id: "416786745D3B2C29"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			dependencies: ["38D685FC1443F4FE"]
+			id: "5B56B5069CE814C3"
+			tasks: [{
+				id: "1CB12740EEE3A057"
+				type: "item"
+				item: "twilightforest:minoshroom_trophy"
+			}]
+			rewards: [{
+				id: "12BC731BE713ED8E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			dependencies: ["38D685FC1443F4FE"]
+			id: "4D247E7FC7613DAE"
+			tasks: [{
+				id: "290C378BFB10E9FA"
+				type: "item"
+				item: "twilightforest:knight_phantom_trophy"
+			}]
+			rewards: [{
+				id: "7FB128F54BAB58BB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.0d
+			dependencies: ["4D247E7FC7613DAE"]
+			id: "5E4466FABED5EDBA"
+			tasks: [{
+				id: "3F1EED00331ACD1D"
+				type: "item"
+				item: "twilightforest:ur_ghast_trophy"
+			}]
+			rewards: [{
+				id: "54431BFBE71D0BA7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 0.5d
+			y: 6.0d
+			dependencies: ["5FE21D9F7DC10C6B"]
+			dependency_requirement: "one_completed"
+			id: "63373191DFA8742B"
+			tasks: [{
+				id: "49AF4B29C1A28551"
+				type: "item"
+				item: "twilightforest:fiery_ingot"
+			}]
+			rewards: [{
+				id: "58199B5C3277A2F6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.0d
+			dependencies: ["38D685FC1443F4FE"]
+			id: "241DF601A436A6FF"
+			tasks: [{
+				id: "52D14FEE714B299A"
+				type: "item"
+				item: "twilightforest:yeti_trophy"
+			}]
+			rewards: [{
+				id: "0615CF45CC87D42D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.0d
+			dependencies: ["241DF601A436A6FF"]
+			id: "376BA037308E7100"
+			tasks: [{
+				id: "7040FE1C1B529331"
+				type: "item"
+				item: "twilightforest:snow_queen_trophy"
+			}]
+			rewards: [{
+				id: "68CAC799B3143F5D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -1.5d
+			y: 6.0d
+			subtitle: "超帅的！"
+			dependencies: ["63373191DFA8742B"]
+			id: "32B63F61D7B4694D"
+			tasks: [
+				{
+					id: "778B1A8D270BD34E"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6B7739E463545944"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "41D5942CA97787E4"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1245F97F63570697"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0EA290B25134F69D"
+					type: "item"
+					item: "twilightforest:fiery_ingot"
+					count: 2
+				}
+				{
+					id: "3BDE12D86FFF40B4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			subtitle: "yysy不好看"
+			dependencies: ["4D247E7FC7613DAE"]
+			id: "38BB6D601DEBDBED"
+			tasks: [
+				{
+					id: "37E9051563AD6C11"
+					type: "item"
+					item: {
+						id: "twilightforest:phantom_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "67495D2B97BCCB45"
+					type: "item"
+					item: {
+						id: "twilightforest:phantom_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0EBFCD2B2AC4D325"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.0d
+			dependencies: ["38D685FC1443F4FE"]
+			id: "54E9D8C7F7ADCD1F"
+			tasks: [{
+				id: "08D3D199D0E51042"
+				type: "item"
+				item: "twilightforest:knightmetal_ingot"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -4.0d
+			dependencies: ["241DF601A436A6FF"]
+			id: "536BB8C50ADB0F35"
+			tasks: [{
+				id: "2B5DD53675395D53"
+				type: "item"
+				item: "twilightforest:alpha_fur"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.0d
+			dependencies: ["38D685FC1443F4FE"]
+			id: "2923AE848B326AD4"
+			tasks: [{
+				id: "5CA76B39957EAAF9"
+				type: "item"
+				item: "twilightforest:steeleaf_ingot"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.0d
+			dependencies: [
+				"079A87EC390049C0"
+				"5E4466FABED5EDBA"
+			]
+			dependency_requirement: "one_completed"
+			id: "5FE21D9F7DC10C6B"
+			tasks: [{
+				id: "17BB458A68729EB3"
+				type: "item"
+				title: "Any #twilightforest:fiery_vial"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "twilightforest:fiery_vial"
+					}
+				}
+			}]
+			rewards: [{
+				id: "36DAC2FD58716E91"
+				type: "item"
+				item: "twilightforest:fiery_ingot"
+				count: 3
+			}]
+		}
+		{
+			x: -3.5d
+			y: -6.0d
+			dependencies: ["376BA037308E7100"]
+			id: "7DAE64E4914530AC"
+			tasks: [{
+				id: "551520639EA5691D"
+				type: "item"
+				item: {
+					id: "twilightforest:triple_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -4.0d
+			dependencies: ["241DF601A436A6FF"]
+			id: "12C8FF28E78BA12C"
+			tasks: [{
+				id: "3D73F6323A4BF7EB"
+				type: "item"
+				item: {
+					id: "twilightforest:ender_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -6.0d
+			dependencies: ["376BA037308E7100"]
+			id: "32B43855E1AED9E7"
+			tasks: [{
+				id: "0E200FA8BD4A26B7"
+				type: "item"
+				item: {
+					id: "twilightforest:seeker_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -6.0d
+			subtitle: "好看！"
+			dependencies: ["376BA037308E7100"]
+			id: "73ECEC4C2859FF80"
+			tasks: [{
+				id: "4132C753F1FED2FA"
+				type: "item"
+				item: "twilightforest:aurora_block"
+			}]
+			rewards: [{
+				id: "4B820C011ED8CBF0"
+				type: "item"
+				item: "twilightforest:aurora_block"
+				count: 63
+			}]
+		}
+		{
+			x: -3.5d
+			y: 4.0d
+			dependencies: ["4D247E7FC7613DAE"]
+			id: "6A39C7524A0F290E"
+			tasks: [{
+				id: "42D053BEC34C9F66"
+				type: "item"
+				item: "twilightforest:carminite"
+			}]
+		}
+		{
+			title: "世界羊毛计划"
+			x: 5.0d
+			y: -2.0d
+			subtitle: "非酋快乐奖励"
+			id: "333C2870F31894C3"
+			tasks: [{
+				id: "4855CD5C84171034"
+				type: "checkmark"
+				title: "我的战利品墙！"
+			}]
+			rewards: [{
+				id: "0422AAD584446C4A"
+				type: "item"
+				item: "minecraft:pink_wool"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["333C2870F31894C3"]
+			hide: true
+			id: "01BA2EBB1355E6A1"
+			tasks: [{
+				id: "37539782806AE91C"
+				type: "item"
+				item: "twilightforest:quest_ram_trophy"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.0d
+			subtitle: "现在，它会在终焉城堡生成。"
+			hide_dependency_lines: true
+			dependencies: [
+				"079A87EC390049C0"
+				"5E4466FABED5EDBA"
+				"376BA037308E7100"
+			]
+			id: "6EB1B0314955F5D9"
+			tasks: [{
+				id: "3E15618986C222F1"
+				type: "gamestage"
+				title: "击杀埃诺斯获得此阶段"
+				stage: "pre"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.0d
+			dependencies: ["5FB1B19A63ABCB45"]
+			id: "668D1D7B5EE5DE64"
+			tasks: [{
+				id: "48251C0B21C3D03C"
+				type: "dimension"
+				dimension: "twilightforest:twilightforest"
+			}]
+		}
+	]
+}

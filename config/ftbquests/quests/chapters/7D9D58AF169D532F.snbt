@@ -1,0 +1,804 @@
+{
+	id: "7D9D58AF169D532F"
+	group: ""
+	order_index: 7
+	filename: "7D9D58AF169D532F"
+	title: "维度地牢"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "进入维度地牢"
+			x: -7.5d
+			y: 2.5d
+			subtitle: "传送门响应有少量延时，请耐心等待~"
+			dependencies: ["1793C545000876F2"]
+			id: "1F9AF092D818E4E0"
+			tasks: [{
+				id: "0867790327425A5C"
+				type: "dimension"
+				dimension: "dimdungeons:dungeon_dimension"
+			}]
+		}
+		{
+			title: "找到主世界的烈焰人结构~"
+			x: -16.0d
+			y: 2.5d
+			id: "6CF2A8C62FA2554C"
+			tasks: [{
+				id: "138A40650CD7173F"
+				type: "checkmark"
+				title: "worldshape/nether_blaze"
+			}]
+		}
+		{
+			x: -14.0d
+			y: 2.5d
+			dependencies: ["6CF2A8C62FA2554C"]
+			id: "2B80351E832B57E9"
+			tasks: [{
+				id: "165D582AF26B3689"
+				type: "item"
+				item: "minecraft:blaze_rod"
+			}]
+		}
+		{
+			x: -12.0d
+			y: 2.5d
+			subtitle: "使用钥匙右击末地传送门框架获得激活的钥匙~"
+			dependencies: ["2B80351E832B57E9"]
+			id: "7811D411FE63B445"
+			tasks: [{
+				id: "12445A0343BEED41"
+				type: "item"
+				item: "dimdungeons:item_portal_key"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["1F9AF092D818E4E0"]
+			hide: true
+			id: "2833994204309328"
+			tasks: [{
+				id: "29C4DF1EDC0D935C"
+				type: "item"
+				item: {
+					id: "relics:spatial_sign"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["1F9AF092D818E4E0"]
+			hide: true
+			id: "21B0FE87ACE8DCA1"
+			tasks: [{
+				id: "233A8331996C4653"
+				type: "item"
+				item: {
+					id: "relics:reflection_necklace"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["1F9AF092D818E4E0"]
+			hide: true
+			id: "5143E695E1F478CC"
+			tasks: [{
+				id: "454E4AA20AFE579D"
+				type: "item"
+				item: {
+					id: "relics:magma_walker"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["1F9AF092D818E4E0"]
+			hide: true
+			id: "351A4C071BA8A3FD"
+			tasks: [{
+				id: "3DBB89A239D0710F"
+				type: "item"
+				item: {
+					id: "relics:midnight_robe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.5d
+			hide_dependency_lines: true
+			dependencies: ["1F9AF092D818E4E0"]
+			hide: true
+			id: "64EB4561AB8AD39E"
+			tasks: [{
+				id: "17E9E318331EF916"
+				type: "item"
+				item: {
+					id: "relics:scarab_talisman"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: ["1F9AF092D818E4E0"]
+			hide: true
+			id: "5F7AB925A2FE2CBD"
+			tasks: [{
+				id: "2B5EE54D7916AF3A"
+				type: "item"
+				item: {
+					id: "relics:stellar_catalyst"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: ["1F9AF092D818E4E0"]
+			hide: true
+			id: "3809C8950809EE0D"
+			tasks: [{
+				id: "63B13BF91FA2ED27"
+				type: "item"
+				item: {
+					id: "relics:drowned_belt"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 8.5d
+			hide_dependency_lines: true
+			dependencies: ["1F9AF092D818E4E0"]
+			hide: true
+			id: "0AA7F00A841038BA"
+			tasks: [{
+				id: "771104BC7A75DD8A"
+				type: "item"
+				item: {
+					id: "relics:jellyfish_necklace"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 10.5d
+			hide_dependency_lines: true
+			dependencies: ["1F9AF092D818E4E0"]
+			hide: true
+			id: "38BF0412DB32C83F"
+			tasks: [{
+				id: "551D02BEF26798C3"
+				type: "item"
+				item: {
+					id: "relics:hunter_belt"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["1F9AF092D818E4E0"]
+			hide: true
+			id: "3356169DD7F4480E"
+			tasks: [{
+				id: "677F535A8FB55DC9"
+				type: "item"
+				item: {
+					id: "relics:camouflage_ring"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["1F9AF092D818E4E0"]
+			hide: true
+			id: "003196D23D1FB4C8"
+			tasks: [{
+				id: "1DCFCCB7E742257E"
+				type: "item"
+				item: {
+					id: "relics:rage_glove"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["1F9AF092D818E4E0"]
+			hide: true
+			id: "090A80205F5965E9"
+			tasks: [{
+				id: "7D3D71FA75C92554"
+				type: "item"
+				item: {
+					id: "relics:ice_skates"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 2.5d
+			hide_dependency_lines: true
+			dependencies: ["1F9AF092D818E4E0"]
+			hide: true
+			id: "42857D588E3FE685"
+			tasks: [{
+				id: "200B3747385E3BFB"
+				type: "item"
+				item: {
+					id: "relics:bastion_ring"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: ["1F9AF092D818E4E0"]
+			hide: true
+			id: "0FEE9B0B397318D4"
+			tasks: [{
+				id: "7E28FF4BAA711B9C"
+				type: "item"
+				item: {
+					id: "relics:chorus_inhibitor"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: ["1F9AF092D818E4E0"]
+			hide: true
+			id: "04F69E4A00D20800"
+			tasks: [{
+				id: "2DE00F6EA52E39E6"
+				type: "item"
+				item: {
+					id: "relics:arrow_quiver"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 8.5d
+			hide_dependency_lines: true
+			dependencies: ["1F9AF092D818E4E0"]
+			hide: true
+			id: "59956631EAC3A127"
+			tasks: [{
+				id: "614DF06A99F5C8A8"
+				type: "item"
+				item: {
+					id: "relics:lucky_horseshoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 10.5d
+			hide_dependency_lines: true
+			dependencies: ["1F9AF092D818E4E0"]
+			hide: true
+			id: "2B9F7194B4A97DC7"
+			tasks: [{
+				id: "78CCE65E8644E860"
+				type: "item"
+				item: {
+					id: "relics:space_dissector"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["1F9AF092D818E4E0"]
+			hide: true
+			id: "21D0DD5549253415"
+			tasks: [{
+				id: "2B3286AD92A3AC6E"
+				type: "item"
+				item: {
+					id: "relics:soul_devourer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["1F9AF092D818E4E0"]
+			hide: true
+			id: "4B3D2F1E27798EF0"
+			tasks: [{
+				id: "5C06C9EA46443462"
+				type: "item"
+				item: {
+					id: "relics:holy_locket"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["1F9AF092D818E4E0"]
+			hide: true
+			id: "7D4A066D18140795"
+			tasks: [{
+				id: "0589856232ABD106"
+				type: "item"
+				item: {
+					id: "relics:enders_hand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: 2.5d
+			hide_dependency_lines: true
+			dependencies: ["1F9AF092D818E4E0"]
+			hide: true
+			id: "76068F8070E9619E"
+			tasks: [{
+				id: "7D31132FCD302FFE"
+				type: "item"
+				item: {
+					id: "relics:elytra_booster"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: ["1F9AF092D818E4E0"]
+			hide: true
+			id: "0B434FB7ABC5D919"
+			tasks: [{
+				id: "396940220DE21E3A"
+				type: "item"
+				item: {
+					id: "relics:fragrant_flower"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: ["1F9AF092D818E4E0"]
+			hide: true
+			id: "290C6840CB538613"
+			tasks: [{
+				id: "3D5DD856253B4BFA"
+				type: "item"
+				item: {
+					id: "relics:magic_mirror"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: 8.5d
+			hide_dependency_lines: true
+			dependencies: ["1F9AF092D818E4E0"]
+			hide: true
+			id: "58646CED6447A316"
+			tasks: [{
+				id: "34B72C6E0454A128"
+				type: "item"
+				item: {
+					id: "relics:ice_breaker"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: 10.5d
+			hide_dependency_lines: true
+			dependencies: ["1F9AF092D818E4E0"]
+			hide: true
+			id: "6348591096ED663C"
+			tasks: [{
+				id: "0B7D586DD322C95D"
+				type: "item"
+				item: {
+					id: "relics:blazing_flask"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["1F9AF092D818E4E0"]
+			hide: true
+			id: "40968AE89E607E9F"
+			tasks: [{
+				id: "785F4F9FA6EFE396"
+				type: "item"
+				item: {
+					id: "relics:spider_necklace"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["1F9AF092D818E4E0"]
+			hide: true
+			id: "7B08AA3008A2661C"
+			tasks: [{
+				id: "257E31ED38F242A5"
+				type: "item"
+				item: {
+					id: "relics:spore_sack"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["1F9AF092D818E4E0"]
+			hide: true
+			id: "300B809825F62461"
+			tasks: [{
+				id: "5707E7625E1BC50D"
+				type: "item"
+				item: {
+					id: "relics:out_runner"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["1F9AF092D818E4E0"]
+			hide: true
+			id: "7D2FCDD845200726"
+			tasks: [{
+				id: "2531CC75D50D7861"
+				type: "item"
+				item: {
+					id: "relics:amphibian_boot"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["1F9AF092D818E4E0"]
+			hide: true
+			id: "00CD4D4C084093E2"
+			tasks: [{
+				id: "5BF8404E1F9E7B2E"
+				type: "item"
+				item: {
+					id: "relics:old_boot"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["1F9AF092D818E4E0"]
+			hide: true
+			id: "2643F391EC529C47"
+			tasks: [{
+				id: "75A4CE4DFFCBC1F1"
+				type: "item"
+				item: {
+					id: "relics:slime_heart"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: 2.5d
+			hide_dependency_lines: true
+			dependencies: ["1F9AF092D818E4E0"]
+			hide: true
+			id: "516E88CF000ACD70"
+			tasks: [{
+				id: "0242929876391734"
+				type: "item"
+				item: {
+					id: "relics:leather_belt"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: ["1F9AF092D818E4E0"]
+			hide: true
+			id: "19F30760F53BDC2E"
+			tasks: [{
+				id: "5468EB33DB2D2243"
+				type: "item"
+				item: {
+					id: "relics:horse_flute"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: ["1F9AF092D818E4E0"]
+			hide: true
+			id: "21EDD02AAA0126E3"
+			tasks: [{
+				id: "1E1B65B911B569E0"
+				type: "item"
+				item: {
+					id: "relics:wool_mitten"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: 8.5d
+			hide_dependency_lines: true
+			dependencies: ["1F9AF092D818E4E0"]
+			hide: true
+			id: "0D2D6458EA1B2BA5"
+			tasks: [{
+				id: "7DE11F84707EE651"
+				type: "item"
+				item: {
+					id: "relics:ghost_skin_talisman"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: 10.5d
+			hide_dependency_lines: true
+			dependencies: ["1F9AF092D818E4E0"]
+			hide: true
+			id: "6C8DCED28AFBB4AE"
+			tasks: [{
+				id: "7E26FC42265BF985"
+				type: "item"
+				item: {
+					id: "relics:squire_bag"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 17.0d
+			y: 3.0d
+			description: [
+				"试炼通过证可以用来修复 relics 的饰品~"
+				"1 2 3"
+				"4 5 6"
+				"7 8 9"
+				"上9个数字为工作台的九格"
+				"将要修的饰品放入5号位"
+				"再将试炼通过证放入2、4、6、8号位"
+				"即可修复饰品（会洗掉词条）"
+				""
+				"9个试炼通过证也可以合成问题中心"
+				"将问题中心放置在世界中，右键激活"
+				"它会向下偏移两格，产生一个游戏激活装置"
+				"游戏可能是扫雷，也可能是灯光游戏"
+				"你需要自己清理出一片平台来进行游戏"
+				"右键激活失败的游戏装置会提醒你需要的平台大小的~"
+			]
+			id: "351A80FB424448C9"
+			tasks: [{
+				id: "7921B527AF3A58F1"
+				type: "item"
+				item: "paraglider:spirit_orb"
+			}]
+			rewards: [{
+				id: "6CE385DA020D89FA"
+				type: "item"
+				item: "lootgames:puzzle_master"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 2.5d
+			description: [
+				"搭建方法见帕秋莉手册The Basci Portal Frame章节（就一个图片，还可以可视化，很好懂的）"
+				"去MC百科搜索Dimensional Dungeons，模组页面也有搭建方式。"
+				"（手册后面会汉化哒，不要催~）"
+			]
+			dependencies: ["7811D411FE63B445"]
+			id: "1793C545000876F2"
+			tasks: [
+				{
+					id: "2B85E8379C76DA05"
+					type: "item"
+					item: "dimdungeons:block_portal_keyhole"
+				}
+				{
+					id: "1A53644BB3D430B2"
+					type: "item"
+					item: "dimdungeons:block_gilded_portal"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "6A11926A27E7A624"
+				type: "item"
+				item: "minecraft:stone_bricks"
+				count: 9
+			}]
+		}
+	]
+}

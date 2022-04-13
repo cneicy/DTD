@@ -1,0 +1,32 @@
+{
+    "mob_id": "prehistoricfauna:henos",
+    "potion_effects": [
+        {
+            "id": "minecraft:regeneration",
+            "chance": 1.0,
+            "amplifier": {
+                "min": 1,
+                "max": 2
+            },
+            "ambient": true
+        }
+    ],
+    "attributes": [
+        {
+            "id": "minecraft:generic.max_health",
+            "modifier_name": "Powerful henos",
+            "amount": 1000,
+            "chance": 1.0,
+            "operation": "addition"
+        },
+        {
+            "id": "minecraft:generic.movement_speed",
+            "modifier_name": "speedy henos",
+            "amount": {
+                "min": 0.40,
+                "max": 0.60
+            },
+            "operation": "multiply_base"
+        }
+    ]
+}
