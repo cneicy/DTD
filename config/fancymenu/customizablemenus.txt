@@ -1,0 +1,50 @@
+type = customizablemenus
+
+net.minecraft.client.gui.screen.WorldLoadProgressScreen {
+}
+
+net.minecraft.client.gui.screen.DirtMessageScreen {
+}
+
+net.minecraft.client.gui.screen.WorldSelectionScreen {
+}
+
+net.minecraft.client.gui.screen.OptionsScreen {
+}
+
+net.minecraft.client.gui.screen.IngameMenuScreen {
+}
+
+com.blamejared.controlling.client.gui.GuiNewControls {
+}
+
+me.jellysquid.mods.sodium.client.gui.SodiumOptionsGUI {
+}
+
+net.minecraft.client.gui.screen.PackScreen {
+}
+
+net.minecraft.client.gui.screen.MultiplayerScreen {
+}
+
+dev.ftb.mods.ftblibrary.ui.ScreenWrapper {
+}
+
+net.minecraft.client.gui.screen.MainMenuScreen {
+}
+
+mezz.jei.gui.recipes.RecipesGui {
+}
+
+net.minecraft.client.gui.screen.EditGamerulesScreen {
+}
+
+net.minecraft.client.gui.screen.ShareToLanScreen {
+}
+
+net.spellcraftgaming.rpghud.gui.GuiSettingsMod {
+}
+
+net.minecraft.client.gui.screen.CreateWorldScreen {
+}
+

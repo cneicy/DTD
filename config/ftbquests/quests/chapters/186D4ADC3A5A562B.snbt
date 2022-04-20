@@ -1,0 +1,226 @@
+{
+	id: "186D4ADC3A5A562B"
+	group: "57B469943938490D"
+	order_index: 1
+	filename: "186D4ADC3A5A562B"
+	title: "暮色苍茫"
+	icon: "twilightforest:firefly_jar"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "送你小花花"
+			x: -5.5d
+			y: -2.0d
+			subtitle: "暮色，没啥好说的，淦就完了"
+			id: "5FB1B19A63ABCB45"
+			tasks: [
+				{
+					id: "029019E6152BE044"
+					type: "gamestage"
+					title: "你需要杀死Herobrine才能进入暮色"
+					stage: "twotwiliforest"
+				}
+				{
+					id: "28F30EAC5951A25A"
+					type: "item"
+					title: "老好挖了"
+					item: "minecraft:diamond"
+				}
+			]
+			rewards: [{
+				id: "49C7DD5105050A8E"
+				type: "item"
+				item: "minecraft:azure_bluet"
+				count: 12
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.0d
+			subtitle: "娜迦鳞片？你会需要它的。"
+			dependencies: ["668D1D7B5EE5DE64"]
+			hide: true
+			id: "38D685FC1443F4FE"
+			tasks: [{
+				id: "39ABD4C41E55A025"
+				type: "item"
+				item: "twilightforest:naga_trophy"
+			}]
+			rewards: [{
+				id: "29A0369BB93FA784"
+				type: "item"
+				item: "twilightforest:maze_map_empty"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.0d
+			subtitle: "带上瞬间治疗，上啊！"
+			dependencies: ["38D685FC1443F4FE"]
+			hide: true
+			id: "06ACDE73B2EF7E2C"
+			tasks: [{
+				id: "0A9D9878F5F0D815"
+				type: "item"
+				item: "twilightforest:lich_trophy"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			dependencies: ["5B56B5069CE814C3"]
+			hide: true
+			id: "079A87EC390049C0"
+			tasks: [{
+				id: "1DD251909E7416FE"
+				type: "item"
+				item: "twilightforest:hydra_trophy"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			dependencies: ["38D685FC1443F4FE"]
+			hide: true
+			id: "5B56B5069CE814C3"
+			tasks: [{
+				id: "1CB12740EEE3A057"
+				type: "item"
+				item: "twilightforest:minoshroom_trophy"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			dependencies: ["38D685FC1443F4FE"]
+			hide: true
+			id: "4D247E7FC7613DAE"
+			tasks: [{
+				id: "290C378BFB10E9FA"
+				type: "item"
+				item: "twilightforest:knight_phantom_trophy"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			dependencies: ["4D247E7FC7613DAE"]
+			hide: true
+			id: "5E4466FABED5EDBA"
+			tasks: [{
+				id: "3F1EED00331ACD1D"
+				type: "item"
+				item: "twilightforest:ur_ghast_trophy"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.0d
+			dependencies: ["38D685FC1443F4FE"]
+			hide: true
+			id: "241DF601A436A6FF"
+			tasks: [{
+				id: "52D14FEE714B299A"
+				type: "item"
+				item: "twilightforest:yeti_trophy"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			dependencies: ["241DF601A436A6FF"]
+			hide: true
+			id: "376BA037308E7100"
+			tasks: [{
+				id: "7040FE1C1B529331"
+				type: "item"
+				item: "twilightforest:snow_queen_trophy"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			subtitle: "好看！"
+			dependencies: ["376BA037308E7100"]
+			hide: true
+			id: "73ECEC4C2859FF80"
+			tasks: [{
+				id: "4132C753F1FED2FA"
+				type: "item"
+				item: "twilightforest:aurora_block"
+			}]
+			rewards: [{
+				id: "4B820C011ED8CBF0"
+				type: "item"
+				item: "twilightforest:aurora_block"
+				count: 63
+			}]
+		}
+		{
+			title: "世界羊毛计划"
+			x: -5.5d
+			y: 0.0d
+			subtitle: "非酋快乐奖励"
+			id: "333C2870F31894C3"
+			tasks: [{
+				id: "4855CD5C84171034"
+				type: "checkmark"
+				title: "我的战利品墙！"
+				icon: {
+					id: "relics:wool_mitten"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0422AAD584446C4A"
+				type: "item"
+				item: "minecraft:pink_wool"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			dependencies: ["333C2870F31894C3"]
+			hide: true
+			id: "01BA2EBB1355E6A1"
+			tasks: [{
+				id: "37539782806AE91C"
+				type: "item"
+				item: "twilightforest:quest_ram_trophy"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.0d
+			dependencies: ["5FB1B19A63ABCB45"]
+			hide: true
+			id: "668D1D7B5EE5DE64"
+			tasks: [{
+				id: "48251C0B21C3D03C"
+				type: "dimension"
+				dimension: "twilightforest:twilightforest"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			subtitle: "炽铁套，超帅的！"
+			hide_dependency_lines: true
+			dependencies: [
+				"5E4466FABED5EDBA"
+				"079A87EC390049C0"
+			]
+			hide: true
+			id: "1A969FE403562ECC"
+			tasks: [{
+				id: "11D8A6FF2C91A970"
+				type: "item"
+				item: "twilightforest:fiery_ingot"
+			}]
+		}
+	]
+}

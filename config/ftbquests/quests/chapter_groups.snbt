@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "4CAE9E17079D3151", title: "故事的开始" }
+		{ id: "6908D8BEB3380ACE", title: "自然风光 尽在脚下" }
+		{ id: "57B469943938490D", title: "次元之间 风雨呼啸" }
+		{ id: "6D12972E781D27EF", title: "闲来饮茶见友邻" }
+	]
+}

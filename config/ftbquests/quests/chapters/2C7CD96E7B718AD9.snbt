@@ -1,0 +1,10 @@
+{
+	id: "2C7CD96E7B718AD9"
+	group: "57B469943938490D"
+	order_index: 2
+	filename: "2C7CD96E7B718AD9"
+	title: "金沙之旅"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

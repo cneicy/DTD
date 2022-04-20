@@ -1,0 +1,138 @@
+{
+	id: "5E83C8D534A727B8"
+	group: ""
+	order_index: 0
+	filename: "5E83C8D534A727B8"
+	title: "开始之前"
+	icon: "minecraft:coal_ore"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "游玩须知"
+			x: -5.5d
+			y: -2.5d
+			description: [
+				"整合包q群：624977793~"
+				""
+				"聊天栏弹出的进度是可以点击的，没事可以多看看进度树~"
+				""
+				"阿卡什宝典里的书不是没名字，你需要把它选中拿出来才会出名字。"
+				"另外，如果你选中了阿卡什宝典中的一本书，请手持它对着空气左键来退回到阿卡什宝典状态。"
+			]
+			size: 1.5d
+			id: "0E89B92BBD3A6A27"
+			tasks: [{
+				id: "0BF0DD2F72FF30E7"
+				type: "checkmark"
+				title: "小朋友你点一下我好不好？"
+				icon: {
+					id: "relics:infinity_ham"
+					Count: 1b
+					tag: {
+						pieces: 3
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "115DA2C5BEF093E9"
+				type: "item"
+				title: "你以为DTD是Deep To Destiny吗？不，是Date♂To♂Date"
+				item: "atum:date"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.5d
+			description: [
+				"打开背包，右上角有个书页状按钮。"
+				"那是PlayerEx模组的GUI按钮。"
+				"点开后有可加点的属性。"
+				"每次你获得经验，50%会提供给这里的点数。"
+				"另外50%则进入你的经验条，助你附魔。"
+				""
+				"吸血已被ban，点智力将无法提升吸血。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["0E89B92BBD3A6A27"]
+			size: 1.5d
+			id: "47F7D81AE6EF4A4E"
+			tasks: [{
+				id: "6D93C2085AD04005"
+				type: "checkmark"
+				title: "游玩须知plus"
+				icon: "subwild:light_gray_terracotta_gold_ore"
+			}]
+			rewards: [{
+				id: "2E0FE04090D40D7E"
+				type: "item"
+				title: "全球椰枣计划！"
+				item: "atum:date"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			description: [
+				"按R（按键可配置）可以进行武器投掷（支持tetra的武器）~"
+				""
+				"合成冲突？多态合成时可以选择合成结果的，注意一下。"
+				""
+				"死亡不掉落已经被禁止，死亡时请善用/back指令。"
+				""
+				"需要回档？                   .minecraft/versions/DTD/backups里有存档备份。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["47F7D81AE6EF4A4E"]
+			size: 1.5d
+			id: "2668D046918FD7D8"
+			tasks: [{
+				id: "3B594062E46F0B49"
+				type: "checkmark"
+				title: "游玩须知plus^2"
+				icon: "minecraft:quartz_slab"
+			}]
+			rewards: [{
+				id: "3AC4BE5E64FEC361"
+				type: "item"
+				title: "全球椰枣计划！"
+				item: "atum:date"
+			}]
+		}
+		{
+			icon: {
+				id: "spartanweaponry:battleaxe_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.5d
+			y: -2.5d
+			description: [
+				"七咒让你死亡后会掉落灵魂水晶，那是你的生命值，拿回它才能拿回你的生命值。"
+				""
+				"死亡会导致你获得“没有食欲”的debuff，"
+				"所以，记得苟住！"
+				""
+				"你可以使用/sethome设置你的家，并使用/home回到家，或者使用/spawn回到出生点，也可以用/back回到上一次死亡的地点，这些指令均有延时。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2668D046918FD7D8"]
+			size: 1.5d
+			id: "5C3ADF70AB6168E6"
+			tasks: [{
+				id: "680CC5BDC23CDB56"
+				type: "checkmark"
+				title: "游玩须知^3"
+			}]
+			rewards: [{
+				id: "4E55102A801ADC37"
+				type: "item"
+				title: "全球椰枣计划！"
+				item: "atum:date"
+			}]
+		}
+	]
+}
