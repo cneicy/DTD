@@ -1,0 +1,14 @@
+{
+    "mob_id": "mca:female_villager",
+    "potion_effects": [
+        {
+            "id": "minecraft:regeneration",
+            "chance": 1.0,
+            "amplifier": {
+                "min": 1,
+                "max": 2
+            },
+            "ambient": true
+        }
+    ]
+}
