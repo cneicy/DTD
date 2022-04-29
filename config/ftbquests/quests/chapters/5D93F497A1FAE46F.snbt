@@ -1,0 +1,197 @@
+{
+	id: "5D93F497A1FAE46F"
+	group: "6D12972E781D27EF"
+	order_index: 3
+	filename: "5D93F497A1FAE46F"
+	title: "各类存储"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -6.0d
+			y: -2.0d
+			subtitle: "草"
+			description: ["泥土箱子 yyds"]
+			dependencies: ["00AB935FBCBE5D7C"]
+			hide: true
+			id: "6737352B9266C556"
+			tasks: [{
+				id: "70C1960C82160C28"
+				type: "item"
+				item: "ironchest:obsidian_chest"
+			}]
+			rewards: [
+				{
+					id: "610953BE5482B05F"
+					type: "item"
+					item: "ironchest:dirt_chest"
+				}
+				{
+					id: "7974C0517C8C075D"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			subtitle: "按住Shift查看使用方法~"
+			description: ["将终端放在此整合器旁边~"]
+			dependencies: ["00AB935FBCBE5D7C"]
+			hide: true
+			id: "44F488884B0F8518"
+			tasks: [{
+				id: "614EB5C62947E41E"
+				type: "item"
+				item: "toms_storage:ts.inventory_connector"
+			}]
+			rewards: [{
+				id: "5E48387E50B4CAB6"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			description: ["相邻的容器也可以是存储整合器~"]
+			dependencies: ["00AB935FBCBE5D7C"]
+			hide: true
+			id: "17973EFFE8F3F908"
+			tasks: [{
+				id: "2AA36118A03A8F9D"
+				type: "item"
+				item: "toms_storage:ts.storage_terminal"
+			}]
+			rewards: [{
+				id: "0F554EF2E59513A5"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.5d
+			dependencies: [
+				"6737352B9266C556"
+				"44F488884B0F8518"
+				"17973EFFE8F3F908"
+			]
+			hide: true
+			id: "0492B8D38AC5F65B"
+			tasks: [{
+				id: "1F623D26CBF0B2F7"
+				type: "item"
+				item: "toms_storage:ts.wireless_terminal"
+			}]
+			rewards: [{
+				id: "0551DB0AAE43E8A1"
+				type: "item"
+				item: "ironchest:iron_chest"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.5d
+			subtitle: "不能跨维度  :("
+			dependencies: ["0492B8D38AC5F65B"]
+			hide: true
+			id: "3E4EE3FCD01126DB"
+			tasks: [{
+				id: "7C88ABEC873271CF"
+				type: "item"
+				item: "toms_storage:ts.adv_wireless_terminal"
+			}]
+			rewards: [{
+				id: "001FC65AF4AC0696"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.5d
+			id: "00AB935FBCBE5D7C"
+			tasks: [{
+				id: "74E36F5512E14BC3"
+				type: "checkmark"
+				title: "别再为找东西烦恼了！"
+			}]
+			rewards: [{
+				id: "7F53BF2EB8A58684"
+				type: "item"
+				item: "ironchest:diamond_to_obsidian_chest_upgrade"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -7.0d
+			dependencies: ["00AB935FBCBE5D7C"]
+			hide: true
+			id: "7966977A416F57F3"
+			tasks: [{
+				id: "7198940A7C57ED64"
+				type: "item"
+				item: "storagedrawers:controller"
+			}]
+		}
+		{
+			title: "获得任意抽屉"
+			x: -6.0d
+			y: -7.0d
+			dependencies: ["7966977A416F57F3"]
+			hide: true
+			id: "1F544F92541EBF73"
+			tasks: [{
+				id: "7CB949591F202AB7"
+				type: "item"
+				title: "Any #storagedrawers:drawers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: -9.0d
+			dependencies: ["1F544F92541EBF73"]
+			hide: true
+			id: "05FD291527C4FF9E"
+			tasks: [{
+				id: "293591835DB418B8"
+				type: "item"
+				item: "storagedrawers:compacting_drawers_3"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -9.0d
+			dependencies: ["7966977A416F57F3"]
+			hide: true
+			id: "2CC545EE0268F2C9"
+			tasks: [{
+				id: "593848261E2EE71B"
+				type: "item"
+				item: "storagedrawers:controller_slave"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -7.0d
+			subtitle: "远着呢…"
+			dependencies: ["00AB935FBCBE5D7C"]
+			hide: true
+			id: "69C8EB9524DE8FB4"
+			tasks: [{
+				id: "3D940638BD216439"
+				type: "item"
+				item: "ender_bags:white_bag"
+			}]
+		}
+	]
+}

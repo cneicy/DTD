@@ -1,0 +1,163 @@
+{
+	id: "625016585FDBBEDD"
+	group: "57B469943938490D"
+	order_index: 7
+	filename: "625016585FDBBEDD"
+	title: "终末之地"
+	icon: "outer_end:rose_crystal_lamp"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "进入末地"
+			x: 0.0d
+			y: 0.5d
+			id: "22A29006DA7BE185"
+			tasks: [{
+				id: "0E48F50D0BC5A331"
+				type: "advancement"
+				advancement: "minecraft:story/enter_the_end"
+				criterion: ""
+			}]
+		}
+		{
+			title: "解放末地"
+			x: 3.0d
+			y: 0.5d
+			subtitle: "Tankofpacer，我的超人"
+			description: [
+				"已知bug："
+				"从末地传送门出来之后，玩家将进入完全无法与世界交互的状态。"
+				"解决方法："
+				"重进存档或重启游戏即可。"
+			]
+			dependencies: ["22A29006DA7BE185"]
+			hide: true
+			id: "328322CB483C1D64"
+			tasks: [{
+				id: "6CAEF772AC32E42A"
+				type: "kill"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+			rewards: [{
+				id: "0F6A55A281808F82"
+				type: "item"
+				item: {
+					id: "minecraft:elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "回到DungeonsMod任务章节"
+			x: 6.0d
+			y: 0.5d
+			subtitle: "最后的Boss"
+			description: ["虚空领主——终极Boss"]
+			dependencies: ["328322CB483C1D64"]
+			hide: true
+			id: "20EA24EE802FE78C"
+			tasks: [{
+				id: "12849FE8BFE9A6F6"
+				type: "checkmark"
+				title: "回到DungeonsMod任务章节"
+			}]
+			rewards: [{
+				id: "3A7EEE52BBEC8EB4"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["22A29006DA7BE185"]
+			hide: true
+			id: "5049090D8224DE35"
+			tasks: [{
+				id: "211E14E4337BFEED"
+				type: "item"
+				item: "betterendforge:thallasium_ingot"
+			}]
+			rewards: [{
+				id: "3BA88A454738B2E6"
+				type: "item"
+				item: "betterendforge:guidebook"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			dependencies: ["5049090D8224DE35"]
+			hide: true
+			id: "79D249E89D763DF9"
+			tasks: [{
+				id: "4BDB7F6B55480DB3"
+				type: "item"
+				item: "betterendforge:end_stone_smelter"
+			}]
+			rewards: [{
+				id: "644EB3803F97CE0C"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			dependencies: ["79D249E89D763DF9"]
+			hide: true
+			id: "2A44FF0C7455FE4E"
+			tasks: [{
+				id: "5CBE156DE397AF79"
+				type: "item"
+				item: "betterendforge:terminite_ingot"
+			}]
+			rewards: [
+				{
+					id: "2971614E55677C61"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4F29E803B39C23CF"
+					type: "item"
+					item: "betterendforge:terminite_ingot"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 0.5d
+			dependencies: ["22A29006DA7BE185"]
+			hide: true
+			id: "07A5C4459B529713"
+			tasks: [{
+				id: "06C649EFD3A7F84E"
+				type: "item"
+				item: "majruszs_difficulty:end_shard_ore"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			dependencies: ["07A5C4459B529713"]
+			hide: true
+			id: "24A8AD2A3EC8A0AE"
+			tasks: [{
+				id: "663D9436C9AA0CE6"
+				type: "item"
+				item: "majruszs_difficulty:end_ingot"
+			}]
+			rewards: [{
+				id: "526B7EED3149218C"
+				type: "item"
+				item: "majruszs_difficulty:end_ingot"
+			}]
+		}
+	]
+}

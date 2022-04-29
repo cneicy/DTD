@@ -1,0 +1,12 @@
+{
+    "group": "entities",
+    "attributes": [
+        {
+            "id": "minecraft:generic.max_health",
+            "modifier_name": "more health for entities",
+            "amount": 60,
+            "chance": 0.1,
+            "operation": "addition"
+        }
+    ]
+}

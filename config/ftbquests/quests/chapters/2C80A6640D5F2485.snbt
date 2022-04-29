@@ -1,0 +1,253 @@
+{
+	id: "2C80A6640D5F2485"
+	group: "57B469943938490D"
+	order_index: 6
+	filename: "2C80A6640D5F2485"
+	title: "史前旅记"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "三叠纪"
+			x: -1.5d
+			y: -6.0d
+			dependencies: ["5ADDB25E1A576FAC"]
+			hide: true
+			id: "3F5114A895048A6E"
+			tasks: [{
+				id: "4A1B69F5D61B972A"
+				type: "dimension"
+				dimension: "prehistoricfauna:triassic_dimension"
+			}]
+			rewards: [{
+				id: "53829DAB86895C3F"
+				type: "item"
+				item: "prehistoricfauna:ancient_journal_page"
+				count: 4
+			}]
+		}
+		{
+			title: "白垩纪"
+			x: -1.5d
+			y: -3.5d
+			dependencies: ["5967FD336467400D"]
+			hide: true
+			id: "723F9623B083F7A7"
+			tasks: [{
+				id: "53608D12929B5552"
+				type: "dimension"
+				dimension: "prehistoricfauna:cretaceous_dimension"
+			}]
+			rewards: [{
+				id: "38E874CFCC68CE4A"
+				type: "item"
+				item: "prehistoricfauna:ancient_journal_page"
+				count: 4
+			}]
+		}
+		{
+			title: "侏罗纪"
+			x: -1.5d
+			y: -8.5d
+			dependencies: ["1BFB14B873D82F56"]
+			hide: true
+			id: "32BEFBA05E758E2A"
+			tasks: [{
+				id: "05342829A78A2EAB"
+				type: "dimension"
+				dimension: "prehistoricfauna:jurassic_dimension"
+			}]
+			rewards: [{
+				id: "2625AEE4D7EFDD9C"
+				type: "item"
+				item: "prehistoricfauna:ancient_journal_page"
+				count: 4
+			}]
+		}
+		{
+			x: -5.0d
+			y: -6.0d
+			dependencies: ["0D61B372FF72A3D4"]
+			hide: true
+			id: "5ADDB25E1A576FAC"
+			tasks: [{
+				id: "5E82C896DB9E1B24"
+				type: "item"
+				item: {
+					id: "prehistoricfauna:triassic_time_totem"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -8.5d
+			dependencies: ["0D61B372FF72A3D4"]
+			hide: true
+			id: "1BFB14B873D82F56"
+			tasks: [{
+				id: "0F0C322833D100A1"
+				type: "item"
+				item: {
+					id: "prehistoricfauna:jurassic_time_totem"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.5d
+			dependencies: ["0D61B372FF72A3D4"]
+			hide: true
+			id: "5967FD336467400D"
+			tasks: [{
+				id: "071FC53E6D55DF9C"
+				type: "item"
+				item: {
+					id: "prehistoricfauna:cretaceous_time_totem"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: -6.0d
+			id: "0D61B372FF72A3D4"
+			tasks: [{
+				id: "59C2288FBC399C00"
+				type: "checkmark"
+				title: "史前生物！"
+				icon: "prehistoricfauna:tyrannosaur_tooth"
+			}]
+			rewards: [{
+				id: "1C6669DB2210A887"
+				type: "item"
+				item: "prehistoricfauna:ancient_journal"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -3.5d
+			dependencies: ["0D61B372FF72A3D4"]
+			hide: true
+			id: "28269110D9FCD79E"
+			tasks: [{
+				id: "00DF6ADB440DBD56"
+				type: "item"
+				item: "prehistoricfauna:ancient_journal_page"
+			}]
+			rewards: [{
+				id: "4B17E403BD3C34F4"
+				type: "item"
+				item: "prehistoricfauna:ancient_journal_page"
+				count: 4
+			}]
+		}
+		{
+			title: "化石收藏者"
+			x: -13.0d
+			y: -6.0d
+			subtitle: "收藏家"
+			dependencies: ["0D61B372FF72A3D4"]
+			id: "476FFCF8F20EA8C1"
+			tasks: [
+				{
+					id: "4E041FEBF810A159"
+					type: "item"
+					item: "prehistoricfauna:tyrannosaurus_fossil"
+				}
+				{
+					id: "443AD2E03E2F16CF"
+					type: "item"
+					item: "prehistoricfauna:triceratops_fossil"
+				}
+				{
+					id: "79F903B96D7FC581"
+					type: "item"
+					item: "prehistoricfauna:ankylosaurus_fossil"
+				}
+				{
+					id: "15DE519D448EB866"
+					type: "item"
+					item: "prehistoricfauna:allosaurus_fossil"
+				}
+				{
+					id: "3CD48293BA2C404C"
+					type: "item"
+					item: "prehistoricfauna:stegosaurus_fossil"
+				}
+				{
+					id: "2DCCA1D4500E1F88"
+					type: "item"
+					item: "prehistoricfauna:ceratosaurus_fossil"
+				}
+				{
+					id: "640CA36EA3435C51"
+					type: "item"
+					item: "prehistoricfauna:herrerasaurus_fossil"
+				}
+				{
+					id: "506A003B4EFDEBCF"
+					type: "item"
+					item: "prehistoricfauna:saurosuchus_fossil"
+				}
+				{
+					id: "5EF654D266F9121F"
+					type: "item"
+					item: "prehistoricfauna:ischigualastia_fossil"
+				}
+			]
+			rewards: [{
+				id: "2177D489A33E4FE0"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -8.5d
+			y: -1.0d
+			subtitle: "类似冰火传说的啦~"
+			description: [
+				"这本日志里包含了史前生物的大部分知识"
+				"借助它，不如养头恐龙吧~"
+			]
+			dependencies: ["28269110D9FCD79E"]
+			id: "5196FCA2F3536377"
+			tasks: [{
+				id: "4D926E39E411263C"
+				type: "item"
+				item: "prehistoricfauna:paleoscribe"
+			}]
+			rewards: [{
+				id: "662812A3FEDEC929"
+				type: "item"
+				item: "prehistoricfauna:ancient_journal"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -6.0d
+			dependencies: [
+				"32BEFBA05E758E2A"
+				"3F5114A895048A6E"
+				"723F9623B083F7A7"
+			]
+			id: "55787F5B8D6D9E9C"
+			tasks: [{
+				id: "3EBEB3735ED6D703"
+				type: "kill"
+				entity: "prehistoricfauna:stegosaurus"
+				value: 1L
+			}]
+		}
+	]
+}

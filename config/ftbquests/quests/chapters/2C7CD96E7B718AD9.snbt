@@ -1,0 +1,426 @@
+{
+	id: "2C7CD96E7B718AD9"
+	group: "57B469943938490D"
+	order_index: 2
+	filename: "2C7CD96E7B718AD9"
+	title: "金沙之旅"
+	icon: "minecraft:smooth_sandstone_stairs"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "进入阿图姆"
+			x: -6.0d
+			y: -0.5d
+			subtitle: "永远不会把你沙漠"
+			description: [
+				"阿图姆传送门建造："
+				"（需要49个砂岩）"
+				"1.摆一个5*5的底"
+				"2.第二层外围一圈5*5，内部空3*3"
+				"3.第三层四个脚各向上放2块砂岩"
+				"4.空出来的3*3区域倒满水"
+				"5.向水中丢入圣金甲虫"
+				"须知：阿图姆村民已被禁止生成，你无法与它们交易。"
+			]
+			dependencies: ["2439902F2D6F6BB2"]
+			hide: true
+			id: "1394E8B5F06BD3BC"
+			tasks: [{
+				id: "055914CAB8E1456E"
+				type: "dimension"
+				dimension: "atum:atum"
+			}]
+			rewards: [{
+				id: "3DE4C2C73D2A00B3"
+				type: "item"
+				title: "欢迎来到 椰枣国度"
+				item: "atum:golden_date"
+			}]
+		}
+		{
+			x: -13.5d
+			y: -0.5d
+			description: [
+				"彩虹锭可通过美梦的彩虹矿石烧炼获得"
+				"暗晶石可通过杀死Herobrine（掉落物）获得"
+			]
+			id: "2439902F2D6F6BB2"
+			tasks: [{
+				id: "6F2E7066D53AE398"
+				type: "item"
+				item: "atum:scarab"
+			}]
+			rewards: [
+				{
+					id: "56B48315272EE581"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:sandstone"
+					count: 49
+				}
+				{
+					id: "527D2EB1E2BFADF7"
+					type: "gamestage"
+					auto: "no_toast"
+					stage: "two"
+				}
+			]
+		}
+		{
+			title: "找到法老的陵墓"
+			icon: "atum:limestone_door"
+			x: -3.5d
+			y: -0.5d
+			subtitle: "Pyramid - Atum"
+			description: ["它很可能是半截入土的，所以你需要清理一下（火把是清理沙子的好帮手）"]
+			dependencies: ["1394E8B5F06BD3BC"]
+			hide: true
+			id: "38627C6F9EE5E7CE"
+			tasks: [{
+				id: "158C4CCBCB1E643A"
+				type: "structure"
+				structure: "atum:pyramid"
+			}]
+			rewards: [{
+				id: "1E29E715643E3674"
+				type: "item"
+				item: "minecraft:torch"
+				count: 8
+			}]
+		}
+		{
+			x: -6.0d
+			y: 4.5d
+			subtitle: "你可以通过杀死阿图姆的怪物获取奈布粒"
+			description: ["奈布矿石？难挖的很。"]
+			dependencies: [
+				"60112267E2AB456C"
+				"65637C900061C5AE"
+				"1394E8B5F06BD3BC"
+			]
+			hide: true
+			dependency_requirement: "one_completed"
+			id: "1BA9A54852C59A1C"
+			tasks: [
+				{
+					id: "192242DA04853688"
+					type: "kill"
+					entity: "atum:brigand"
+					value: 5L
+				}
+				{
+					id: "1E057B1E9C55CAB9"
+					type: "kill"
+					entity: "atum:nomad"
+					value: 5L
+				}
+				{
+					id: "6E3BEEAB63FB1097"
+					type: "kill"
+					entity: "atum:barbarian"
+					value: 3L
+				}
+				{
+					id: "1A44D5192A49B54F"
+					type: "kill"
+					entity: "atum:sergeant"
+					value: 1L
+				}
+			]
+			rewards: [{
+				id: "6CF0729E5739B3F3"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -8.5d
+			y: 7.0d
+			subtitle: "烧法老装备……"
+			dependencies: ["1BA9A54852C59A1C"]
+			hide: true
+			id: "12324718DAC8D60E"
+			tasks: [{
+				id: "3F6C7031BD70CFA4"
+				type: "item"
+				item: "atum:godforge"
+			}]
+			rewards: [{
+				id: "344A0CD28F8F2F70"
+				type: "item"
+				item: "atum:nebu_lantern"
+				count: 5
+			}]
+		}
+		{
+			title: "强盗大本营"
+			x: -8.5d
+			y: 2.0d
+			subtitle: "Gatehouse"
+			dependencies: ["1394E8B5F06BD3BC"]
+			hide: true
+			id: "60112267E2AB456C"
+			tasks: [{
+				id: "3FB2DB2F2869AA5F"
+				type: "structure"
+				icon: "atum:nebu_chain"
+				structure: "atum:gatehouse"
+			}]
+			rewards: [{
+				id: "1AAEBB5233B29BC6"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "发现陵墓大门边的结界方块"
+			x: -1.0d
+			y: -0.5d
+			subtitle: "将奈布火把插到结界方块上，开启陵墓大门~"
+			dependencies: ["38627C6F9EE5E7CE"]
+			hide: true
+			id: "3B78D94F8D2F3B31"
+			tasks: [{
+				id: "64DB438336474807"
+				type: "observation"
+				icon: "atum:quandary_block"
+				timer: 0L
+				observe_type: 0
+				to_observe: "atum:quandary_block"
+			}]
+			rewards: [{
+				id: "53141AEE4053AE71"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "观察陵墓中的所有陷阱方块"
+			x: -1.0d
+			y: -3.0d
+			subtitle: "使用镐子右击陷阱可以关闭它们~"
+			dependencies: ["3B78D94F8D2F3B31"]
+			id: "2EA516D3529887CC"
+			tasks: [
+				{
+					id: "4419E201F4913CB4"
+					type: "observation"
+					title: "燃烧陷阱"
+					icon: "atum:burning_trap"
+					timer: 0L
+					observe_type: 0
+					to_observe: "atum:burning_trap"
+				}
+				{
+					id: "0FC349A69868C748"
+					type: "observation"
+					title: "剧毒陷阱"
+					icon: "atum:poison_trap"
+					timer: 0L
+					observe_type: 0
+					to_observe: "atum:poison_trap"
+				}
+				{
+					id: "1B3DACF77BA93247"
+					type: "observation"
+					title: "焦油陷阱"
+					icon: "atum:tar_trap"
+					timer: 0L
+					observe_type: 0
+					to_observe: "atum:tar_trap"
+				}
+				{
+					id: "6D6FA3CAF4A7D6C3"
+					type: "observation"
+					title: "烟雾陷阱"
+					icon: "atum:smoke_trap"
+					timer: 0L
+					observe_type: 0
+					to_observe: "atum:smoke_trap"
+				}
+				{
+					id: "57C9A8792711575D"
+					type: "observation"
+					title: "箭矢陷阱"
+					icon: "atum:arrow_trap"
+					timer: 0L
+					observe_type: 0
+					to_observe: "atum:arrow_trap"
+				}
+			]
+			rewards: [{
+				id: "53E5E110009AE925"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "陵墓守护者"
+			x: 1.5d
+			y: -0.5d
+			subtitle: "The forgetten Forgetten"
+			dependencies: ["3B78D94F8D2F3B31"]
+			id: "26934471A6092B79"
+			tasks: [
+				{
+					id: "3903C8883C9F70F2"
+					type: "kill"
+					entity: "atum:forsaken"
+					value: 4L
+				}
+				{
+					id: "13564632A8F1678A"
+					type: "kill"
+					entity: "atum:mummy"
+					value: 4L
+				}
+				{
+					id: "25F262631E1BFD86"
+					type: "kill"
+					entity: "atum:wraith"
+					value: 4L
+				}
+			]
+			rewards: [{
+				id: "1CE919EAA3334DED"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			title: "提交椰枣"
+			x: -6.0d
+			y: -5.5d
+			subtitle: "Date♂To♂Date"
+			hide_dependency_lines: true
+			dependencies: ["1394E8B5F06BD3BC"]
+			hide: true
+			id: "60463927EADC0F6F"
+			tasks: [{
+				id: "588D4499AE343648"
+				type: "item"
+				item: "atum:date"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "50512A886E4C4C7F"
+				type: "item"
+				item: "atum:golden_date_enchanted"
+				count: 8
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			subtitle: "弑君"
+			description: [
+				"你可以在石棺周围发现四个结界方块"
+				"在结界方块上插上奈布火把，再右击石棺，即可召唤法老"
+				"杀死法老后，回到石棺再次右击，即可收获战利品"
+			]
+			dependencies: ["3B78D94F8D2F3B31"]
+			id: "61B078A76B3E67F5"
+			tasks: [{
+				id: "5E45BFD4DAE76425"
+				type: "kill"
+				entity: "atum:pharaoh"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "77320BF9A34CDDC8"
+					type: "item"
+					item: "paraglider:spirit_orb"
+				}
+				{
+					id: "77BD62E22DF01851"
+					type: "gamestage"
+					team_reward: true
+					auto: "invisible"
+					stage: "three"
+				}
+			]
+		}
+		{
+			title: "整点彩蛋"
+			x: -1.0d
+			y: 4.5d
+			subtitle: "Girafi Tomb"
+			hide_dependency_lines: true
+			dependencies: ["61B078A76B3E67F5"]
+			hide: true
+			id: "60FE20AF37F2D26D"
+			tasks: [{
+				id: "6C345485C549F6F0"
+				type: "structure"
+				icon: "atum:idol_of_labor"
+				structure: "atum:girafi_tomb"
+			}]
+			rewards: [{
+				id: "2FFC06DB7A11FF09"
+				type: "item"
+				item: "minecraft:gold_block"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.0d
+			subtitle: "它是滑盖的！"
+			dependencies: ["61B078A76B3E67F5"]
+			hide: true
+			id: "4C2313F4ABEE4BD2"
+			tasks: [{
+				id: "4F46CE04E071B660"
+				type: "item"
+				item: "atum:sarcophagus"
+			}]
+			rewards: [{
+				id: "2D6D8D8EBAA733F5"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "找到游牧人遗迹"
+			x: -3.5d
+			y: 2.0d
+			subtitle: "Ruin"
+			dependencies: ["1394E8B5F06BD3BC"]
+			hide: true
+			id: "65637C900061C5AE"
+			tasks: [{
+				id: "29E3D0EC90CFD318"
+				type: "structure"
+				icon: "atum:nomad_spawn_egg"
+				structure: "atum:ruin"
+			}]
+			rewards: [{
+				id: "31E07E45DB05C7E3"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			icon: "minecraft:orange_carpet"
+			x: -6.0d
+			y: -3.0d
+			subtitle: "其实是结构变体生成的"
+			description: ["与原版林地府邸相似，内有卫道士和唤魔者。（还有阿图姆的其它怪物）"]
+			dependencies: ["1394E8B5F06BD3BC"]
+			id: "13E508F2447070A2"
+			tasks: [{
+				id: "1751C45D17FF6935"
+				type: "structure"
+				title: "沙漠府邸"
+				structure: "repurposed_structures:mansion_desert"
+			}]
+			rewards: [{
+				id: "0958837A497CA10D"
+				type: "xp"
+				xp: 10
+			}]
+		}
+	]
+}

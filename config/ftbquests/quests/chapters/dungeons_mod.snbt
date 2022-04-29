@@ -1,0 +1,487 @@
+{
+	id: "3CDC9CDC88C7751B"
+	group: "6908D8BEB3380ACE"
+	order_index: 1
+	filename: "dungeons_mod"
+	title: "Dungeons Mod"
+	icon: "dungeonsmod:home_gem"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "寻找一个小帐篷"
+			x: 0.5d
+			y: 0.5d
+			subtitle: "The Camp"
+			description: [
+				"熔炉里有一本书。"
+				"书里是冰山的一角。"
+				"DungeonsMod的每一个生物都有特殊机制，每一个Boss都很强大，不推荐前期挑战。"
+			]
+			size: 1.5d
+			id: "46BFA7FAFCF29A9C"
+			tasks: [{
+				id: "7FB85980BABA175E"
+				type: "structure"
+				icon: "minecraft:white_wool"
+				structure: "dungeonsmod:the_camp"
+			}]
+			rewards: [{
+				id: "589C63B6F9618169"
+				type: "item"
+				item: "dungeonsmod:home_gem"
+			}]
+		}
+		{
+			title: "找到国王的城堡"
+			x: 3.0d
+			y: 0.5d
+			subtitle: "The Castle"
+			description: [
+				"如果不小心行事，他可能会将你的盔甲收走，也可能将你的护甲变为黄金。"
+				"国王造成的伤害非常可观，并且拥有亡语，可能会造成超大范围爆炸！"
+				"同时，城堡内也包含巨量宝藏。"
+				"这将是一场恶战。"
+			]
+			dependencies: ["46BFA7FAFCF29A9C"]
+			hide: true
+			id: "0D2F3F98C8B472D3"
+			tasks: [{
+				id: "2C293FE37525217C"
+				type: "structure"
+				icon: "minecraft:gold_block"
+				structure: "dungeonsmod:the_castle"
+			}]
+		}
+		{
+			title: "杀死国王"
+			x: 5.5d
+			y: 0.5d
+			subtitle: "弑君"
+			dependencies: ["0D2F3F98C8B472D3"]
+			hide: true
+			id: "46D9410154A78536"
+			tasks: [{
+				id: "0E3E658EE9A13A77"
+				type: "kill"
+				entity: "dungeonsmod:king"
+				value: 1L
+			}]
+		}
+		{
+			title: "找到骷髅领主的礼拜堂"
+			x: 0.5d
+			y: -2.0d
+			subtitle: "The Chapel"
+			description: ["骷髅领主每 15 秒会召唤一只鬼魂，每 20 秒会在玩家附近生成一只死亡猎犬。"]
+			dependencies: ["46BFA7FAFCF29A9C"]
+			hide: true
+			id: "00A92CB65AA603B5"
+			tasks: [{
+				id: "4D3964552FD53891"
+				type: "structure"
+				icon: "minecraft:bone_block"
+				structure: "dungeonsmod:the_chapel"
+			}]
+			rewards: [{
+				id: "2820821066F5BDBC"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "杀死骷髅领主"
+			x: 0.5d
+			y: -4.5d
+			subtitle: "咕钴骷酷"
+			dependencies: ["00A92CB65AA603B5"]
+			hide: true
+			id: "623D3F21371061AB"
+			tasks: [{
+				id: "608DD59DDF263126"
+				type: "kill"
+				entity: "dungeonsmod:lordskeleton"
+				value: 1L
+			}]
+			rewards: [{
+				id: "1ECF0B277EE2ED48"
+				type: "item"
+				item: "paraglider:spirit_orb"
+			}]
+		}
+		{
+			title: "找到遗忘者的小屋"
+			icon: "minecraft:smooth_sandstone"
+			x: -2.0d
+			y: 0.5d
+			subtitle: "The House"
+			description: [
+				"遗忘者会不断地向你发射火球，火球造成的伤害会帮助它恢复生命值。"
+				"如果周围没有玩家，它会缓慢地恢复生命值。"
+				"如果遇到火焰伤害，遗忘者会摧毁周围附近的方块，并对所有伤害来源获得 75% 的伤害抗性，持续 5 秒。"
+				""
+				"它还有一个特性：遇水变为封印状态，并且护甲值降低至 0 点，持续 12 秒。"
+				""
+				"打法：建议修脚。"
+			]
+			dependencies: ["46BFA7FAFCF29A9C"]
+			hide: true
+			id: "5D4E6408A91FE22F"
+			tasks: [{
+				id: "7BB159D09ED4A62C"
+				type: "structure"
+				structure: "dungeonsmod:the_house"
+			}]
+			rewards: [{
+				id: "5EF140A0148521DA"
+				type: "item"
+				item: {
+					id: "minecraft:shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "杀死遗忘者"
+			x: -4.5d
+			y: 0.5d
+			subtitle: "闪电五连鞭"
+			dependencies: ["5D4E6408A91FE22F"]
+			hide: true
+			id: "1384CED3979AD555"
+			tasks: [{
+				id: "373A3EC4E1DE9B02"
+				type: "kill"
+				entity: "dungeonsmod:deserted"
+				value: 1L
+			}]
+			rewards: [{
+				id: "1905B0D8A6FE3104"
+				type: "item"
+				item: "minecraft:sandstone"
+				count: 49
+			}]
+		}
+		{
+			title: "找到克拉肯沉船"
+			x: 0.5d
+			y: 3.0d
+			subtitle: "The Ship"
+			description: [
+				"你需要先破坏它的触手再攻击它。"
+				"克拉肯也会缓慢恢复生命值。请记住，不要死亡，否则它会瞬间回满血到血量上限！"
+				"血量上限取决于触手数量。"
+			]
+			dependencies: ["46BFA7FAFCF29A9C"]
+			hide: true
+			id: "4E3690D45F83F07E"
+			tasks: [{
+				id: "56D961A38EA2C3A2"
+				type: "structure"
+				icon: "minecraft:prismarine_brick_slab"
+				structure: "dungeonsmod:the_ship"
+			}]
+			rewards: [{
+				id: "067AF6D8A150F05E"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "杀死克拉肯"
+			x: 0.5d
+			y: 5.5d
+			subtitle: "海中巨怪"
+			dependencies: ["4E3690D45F83F07E"]
+			hide: true
+			id: "2EF57CF56BB12EB2"
+			tasks: [{
+				id: "1F66E3197625CBA1"
+				type: "kill"
+				entity: "dungeonsmod:kraken"
+				value: 1L
+			}]
+			rewards: [{
+				id: "0171C0E99E2DE460"
+				type: "item"
+				item: "paraglider:spirit_orb"
+			}]
+		}
+		{
+			title: "找到生化实验室"
+			x: 3.0d
+			y: 3.0d
+			subtitle: "The Lab"
+			description: [
+				"你需要破坏实验室周围所有的红石块才能击败它，因为那些红石块会加强它的生命恢复能力。"
+				""
+				"不要携带大量物品，生化大蛇有一个技能是根据你的物品栏物品数量来造成魔法伤害。另外请注意，它有时会蜷缩起来，对周围25格半径的生物造成85%的百分比伤害。"
+				""
+				"即使周围没有红石块，生化大蛇依然会回血，所以请速战速决。"
+			]
+			dependencies: ["46BFA7FAFCF29A9C"]
+			hide: true
+			id: "40B69425DC141F18"
+			tasks: [{
+				id: "020CDB2E635DA452"
+				type: "structure"
+				icon: "charm:redstone_lantern"
+				structure: "dungeonsmod:the_lab"
+			}]
+			rewards: [{
+				id: "0B15F72C3E1DA81E"
+				type: "item"
+				item: "minecraft:redstone"
+				count: 63
+			}]
+		}
+		{
+			title: "杀死生化大蛇"
+			x: 5.5d
+			y: 3.0d
+			subtitle: "真·红石巨兽"
+			dependencies: ["40B69425DC141F18"]
+			hide: true
+			id: "0A0AB35917ECFF17"
+			tasks: [{
+				id: "3928FC476F5971E9"
+				type: "kill"
+				entity: "dungeonsmod:crawler"
+				value: 1L
+			}]
+			rewards: [{
+				id: "243C02FFC4D43F22"
+				type: "item"
+				item: "paraglider:spirit_orb"
+			}]
+		}
+		{
+			title: "找到钢铁史莱姆矿洞"
+			x: -2.0d
+			y: 3.0d
+			subtitle: "The Mines"
+			dependencies: ["46BFA7FAFCF29A9C"]
+			hide: true
+			id: "5842CFD68CE4A5DB"
+			tasks: [{
+				id: "72F1C3F2A58A404B"
+				type: "structure"
+				icon: "minecraft:iron_door"
+				structure: "dungeonsmod:the_mines"
+			}]
+			rewards: [{
+				id: "500F8330248F9890"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "杀死钢铁史莱姆"
+			x: -4.5d
+			y: 3.0d
+			subtitle: "钢铁是怎样炼成的？"
+			dependencies: ["5842CFD68CE4A5DB"]
+			id: "23F7F8AFC3E41C9B"
+			tasks: [{
+				id: "50DB420578315878"
+				type: "kill"
+				entity: "dungeonsmod:ironslime"
+				value: 1L
+			}]
+			rewards: [{
+				id: "72E9634155055718"
+				type: "item"
+				item: "paraglider:spirit_orb"
+			}]
+		}
+		{
+			title: "找到水蛭老巢"
+			x: 3.0d
+			y: -2.0d
+			subtitle: "The Nest"
+			description: ["箱子里只是一个故事。"]
+			dependencies: ["46BFA7FAFCF29A9C"]
+			hide: true
+			id: "53274F9B56ED7809"
+			tasks: [{
+				id: "342270024E525F09"
+				type: "structure"
+				title: "它在地下~"
+				icon: "minecraft:blue_ice"
+				structure: "dungeonsmod:the_nest"
+			}]
+			rewards: [{
+				id: "48592E7C30732B0D"
+				type: "item"
+				item: "minecraft:blue_ice"
+				count: 8
+			}]
+		}
+		{
+			title: "找到陶罐陷阱"
+			x: 5.5d
+			y: -2.0d
+			subtitle: "The Pitcher"
+			description: [
+				"召唤凛冬猎人的方式："
+				"1.提供一个生物作为祭品，祭品每受到一次伤害就有机会召唤它。"
+				"2.不穿戴护甲掉进陶罐陷阱。这将立即召唤它。"
+				""
+				"凛冬猎人的伤害非常高，射击精度也很高，建议带上盾牌。"
+				"它还会每 15 秒生成一个陶罐怪，同时每 20 秒为每个靠近的玩家生成一只愤怒的狼。"
+			]
+			dependencies: ["53274F9B56ED7809"]
+			hide: true
+			id: "62136C50C781869D"
+			tasks: [{
+				id: "328CD92F4E1E5F53"
+				type: "structure"
+				icon: "minecraft:snow_block"
+				structure: "dungeonsmod:the_pitcher"
+			}]
+		}
+		{
+			title: "杀死凛冬猎人"
+			x: 5.5d
+			y: -4.5d
+			subtitle: "Winter vibe~"
+			dependencies: ["62136C50C781869D"]
+			hide: true
+			id: "438A45B62C4BB184"
+			tasks: [{
+				id: "54CB54839CCF6196"
+				type: "kill"
+				entity: "dungeonsmod:winterhunter"
+				value: 1L
+			}]
+			rewards: [{
+				id: "3127A128CAB96EFD"
+				type: "item"
+				item: "iceandfire:summoning_crystal_ice"
+			}]
+		}
+		{
+			title: "找到下界的日之子寝陵"
+			x: -2.0d
+			y: -2.0d
+			subtitle: "The Catacombs"
+			description: [
+				"日之子召唤方式："
+				"在下界穿戴拥有六点护甲值的任意护甲，拥有六点生命值，并在主手上拿着六块铁块。通过让自己着火来召唤它。"
+				"推荐打法："
+				"制作一个内部有TNT的3*3*3蓝冰多方块结构。点燃一个TNT会产生伴随10%冰块的爆炸，并延伸10个方块的距离。如果爆炸冲击波碰到日之子，它将受到其最大生命值六分之一的伤害。先点燃TNT，再在爆炸之前完成这个结构也是可以的。"
+			]
+			dependencies: ["46BFA7FAFCF29A9C"]
+			hide: true
+			id: "1ABC9922D7398943"
+			tasks: [{
+				id: "5853B88DC7E09569"
+				type: "structure"
+				icon: "minecraft:red_nether_bricks"
+				structure: "dungeonsmod:the_catacombs"
+			}]
+			rewards: [{
+				id: "73423EB53F405B98"
+				type: "item"
+				item: "minecraft:tnt"
+				count: 10
+			}]
+		}
+		{
+			title: "杀死日之子"
+			x: -2.0d
+			y: -4.5d
+			subtitle: "666"
+			dependencies: ["1ABC9922D7398943"]
+			hide: true
+			id: "0DCBADA526C5B84E"
+			tasks: [{
+				id: "35B78B917FED117D"
+				type: "kill"
+				entity: "dungeonsmod:sun"
+				value: 1L
+			}]
+			rewards: [{
+				id: "61843D01915CC328"
+				type: "item"
+				item: "paraglider:spirit_orb"
+			}]
+		}
+		{
+			title: "找到末地的起源之地"
+			x: -4.5d
+			y: -4.5d
+			subtitle: "结束了？"
+			description: ["你可以使用不稳定的地图*而不是探险家指南针*找到它。"]
+			dependencies: ["646C9CB28A823AB7"]
+			hide: true
+			id: "732172EC4C96FB62"
+			tasks: [{
+				id: "6CDF26A85FBFE05C"
+				type: "structure"
+				icon: "minecraft:end_portal_frame"
+				structure: "dungeonsmod:the_origin"
+			}]
+			rewards: [{
+				id: "6336C02E8BD965A6"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "杀死虚空领主"
+			x: -4.5d
+			y: -7.5d
+			subtitle: "voidmaster"
+			description: [
+				"Dungeons Mod模组的最强BOSS"
+				"推荐带上有生命汲取的武器去打它"
+			]
+			dependencies: ["732172EC4C96FB62"]
+			hide: true
+			id: "46ABFB4FE2B1FE53"
+			tasks: [{
+				id: "089BBB7D751C6264"
+				type: "kill"
+				entity: "dungeonsmod:voidmaster"
+				value: 1L
+			}]
+			rewards: [{
+				id: "75284A8FA889D5C1"
+				type: "item"
+				item: {
+					id: "dungeonsmod:void_tome"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "找到下水道"
+			x: -4.5d
+			y: -2.0d
+			subtitle: "不稳定的地图位于此处"
+			description: [
+				"The Sewers 下水道"
+				"这里有很多蝙蝠刷怪笼，十字通道错综复杂"
+				"在某个地方，蝙蝠刷怪笼消失不见，取而代之的是一个黑色的潜影盒"
+				"里面装着不稳定的地图与无所撰写的《空》"
+				""
+			]
+			dependencies: ["46BFA7FAFCF29A9C"]
+			hide: true
+			id: "646C9CB28A823AB7"
+			tasks: [{
+				id: "0CF4F96F66AA4D07"
+				type: "structure"
+				icon: "minecraft:bedrock"
+				structure: "dungeonsmod:the_sewers"
+			}]
+		}
+	]
+}

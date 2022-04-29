@@ -1,0 +1,82 @@
+{
+	id: "15A2DD7C628D4E1B"
+	group: "6D12972E781D27EF"
+	order_index: 1
+	filename: "15A2DD7C628D4E1B"
+	title: "战利品游戏"
+	icon: "paraglider:spirit_orb"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "9个试炼通过证可用于合成游戏中心~"
+			description: [
+				"别在家里玩游戏！"
+				"去野外找个空旷的地，把这个方块放下来"
+				"放下之后，右击它，位移向下两格的地方（对，没错，不是消失，它会往下跑两格）会产生一个游戏方块（随机，扫雷或者灯光记忆游戏）。"
+				"既然有这个位移，你不妨在空中放置游戏中心。"
+				""
+				"游戏奖励可是很丰富的！"
+			]
+			id: "380A26C6B9C1D9D4"
+			tasks: [{
+				id: "7031337438BB33BD"
+				type: "item"
+				item: "lootgames:puzzle_master"
+			}]
+			rewards: [{
+				id: "373144B374730577"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			subtitle: "老游戏了"
+			description: ["扫雷游戏开始后，你可以左击智能面板激活它，或右击插旗标记雷区。"]
+			dependencies: ["380A26C6B9C1D9D4"]
+			hide: true
+			id: "453DC7626A9D2F95"
+			tasks: [{
+				id: "45CFB8BF3F5F2412"
+				type: "observation"
+				title: "触发并观察扫雷方块"
+				icon: "lootgames:ms_activator"
+				timer: 0L
+				observe_type: 0
+				to_observe: "lootgames:ms_activator"
+			}]
+			rewards: [{
+				id: "3AE8C5DB1B461537"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			subtitle: "考验记忆力"
+			description: ["灯光游戏开始后，游戏区域内方块会闪出灯光，待其闪烁完成后，你只需要再按它闪动的顺序依次点击对应方块。"]
+			dependencies: ["380A26C6B9C1D9D4"]
+			hide: true
+			id: "05FF719245B0AAE4"
+			tasks: [{
+				id: "1ACECB80A7CD90C7"
+				type: "observation"
+				title: "触发并观察灯光游戏方块"
+				icon: "lootgames:gol_activator"
+				timer: 0L
+				observe_type: 0
+				to_observe: "lootgames:gol_activator"
+			}]
+			rewards: [{
+				id: "6413640D08137DEC"
+				type: "xp"
+				xp: 10
+			}]
+		}
+	]
+}

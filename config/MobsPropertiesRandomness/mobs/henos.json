@@ -1,0 +1,41 @@
+{
+    "mob_id":"prehistoricfauna:henos",
+    "attributes": [
+        {
+            "id": "minecraft:generic.max_health",
+            "modifier_name": "more health for henos",
+            "amount": 700,
+            "chance": 1.0,
+            "operation": "addition"
+        }
+    ],
+    "potion_effects": [
+        {
+            "id": "minecraft:strength",
+            "chance": 1.0,
+            "amplifier": {
+                "min": 0,
+                "max": 2
+            },
+            "ambient": true
+        },
+        {
+            "id": "minecraft:regeneration",
+            "chance": 1.0,
+            "amplifier": {
+                "min": 0,
+                "max": 2
+            },
+            "ambient": true
+        },
+        {
+            "id": "minecraft:speed",
+            "chance": 1.0,
+            "amplifier": {
+                "min": 0,
+                "max": 2
+            },
+            "ambient": true
+        }
+    ]
+}

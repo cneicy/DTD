@@ -1,0 +1,14 @@
+{
+    "group": "entities",
+    "potion_effects": [
+        {
+            "id": "minecraft:regeneration",
+            "chance": 0.133333,
+            "amplifier": {
+                "min": 0,
+                "max": 7
+            },
+            "ambient": true
+        }
+    ]
+}

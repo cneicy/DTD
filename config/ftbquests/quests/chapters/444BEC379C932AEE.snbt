@@ -1,0 +1,160 @@
+{
+	id: "444BEC379C932AEE"
+	group: "6D12972E781D27EF"
+	order_index: 2
+	filename: "444BEC379C932AEE"
+	title: "附魔灌注"
+	icon: {
+		id: "minecraft:enchanted_book"
+		Count: 1b
+		tag: {
+			StoredEnchantments: [{
+				lvl: 1s
+				id: "minecraft:protection"
+			}]
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "附魔台的时代已经结束了"
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:protection"
+					}]
+				}
+			}
+			x: -6.5d
+			y: -2.5d
+			subtitle: "扬了吧"
+			id: "06ED2B5D8FEE6637"
+			tasks: [{
+				id: "23DD2E041CF99421"
+				type: "checkmark"
+				title: "附魔台？小孩子才选附魔台"
+			}]
+			rewards: [{
+				id: "46E91DE292BD132A"
+				type: "item"
+				item: "minecraft:enchanting_table"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			subtitle: "整点洋葱？"
+			description: [
+				"附魔灌注台具有的魔咒与原版附魔台相同，没有宝藏附魔（如 经验修补）。"
+				"GUI友好，只需将武器/盔甲放入左侧的格子中即可开始选择魔咒，选择完成后再点击左侧经验球按钮即可完成附魔。"
+			]
+			dependencies: ["2F981A672722D5DC"]
+			id: "1D4EC4D2073CA68E"
+			tasks: [{
+				id: "5CEA0770268376F0"
+				type: "item"
+				item: "enchantinginfuser:enchanting_infuser"
+			}]
+			rewards: [{
+				id: "2D3DE58E9742EC71"
+				type: "item"
+				item: "minecraft:bookshelf"
+				count: 6
+			}]
+		}
+		{
+			title: "找到一座地下村庄"
+			x: -2.5d
+			y: -4.5d
+			subtitle: "这里的奖励箱会刷哭泣的黑曜石~"
+			dependencies: ["06ED2B5D8FEE6637"]
+			hide: true
+			id: "64831153DBA406D5"
+			tasks: [{
+				id: "328E2A2005590353"
+				type: "structure"
+				icon: "minecraft:hay_block"
+				structure: "stoneholm:underground_village"
+			}]
+			rewards: [{
+				id: "3C07AE396E1CA2DD"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			subtitle: "在到达下界前，别想了。"
+			description: ["如果你有幸运石，那么挖掘下界岩就有概率直接掉落下界合金锭哦~"]
+			dependencies: ["1D4EC4D2073CA68E"]
+			hide: true
+			id: "7BC0F3C851F07690"
+			tasks: [{
+				id: "7AA9A37E3CFCB9BA"
+				type: "item"
+				item: "enchantinginfuser:advanced_enchanting_infuser"
+			}]
+			rewards: [{
+				id: "0E1430EB3CF4954F"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.5d
+			subtitle: "这黑曜石好生温柔，我哭力"
+			dependencies: [
+				"378F5259A2D3B455"
+				"64831153DBA406D5"
+				"06ED2B5D8FEE6637"
+			]
+			hide: true
+			dependency_requirement: "one_completed"
+			id: "2F981A672722D5DC"
+			tasks: [{
+				id: "5FB9621C65923A55"
+				type: "item"
+				item: "minecraft:crying_obsidian"
+			}]
+			rewards: [
+				{
+					id: "5BDE950A3370C713"
+					type: "item"
+					item: "minecraft:book"
+				}
+				{
+					id: "052F3CE557F502BE"
+					type: "item"
+					item: "minecraft:crying_obsidian"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "找到下界废弃传送门"
+			x: -2.5d
+			y: -0.5d
+			subtitle: "Ruined Portal"
+			dependencies: ["06ED2B5D8FEE6637"]
+			hide: true
+			id: "378F5259A2D3B455"
+			tasks: [{
+				id: "0609649E2130E6B0"
+				type: "structure"
+				icon: "infernalexp:crimson_fungus_cap"
+				structure: "minecraft:ruined_portal"
+			}]
+			rewards: [{
+				id: "5227CAEB30519433"
+				type: "xp"
+				xp: 10
+			}]
+		}
+	]
+}

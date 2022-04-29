@@ -1,0 +1,486 @@
+{
+	id: "186D4ADC3A5A562B"
+	group: "57B469943938490D"
+	order_index: 4
+	filename: "186D4ADC3A5A562B"
+	title: "暮色苍茫"
+	icon: "twilightforest:arctic_fur"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "送你小花花"
+			x: -5.5d
+			y: -2.0d
+			subtitle: "杀凋才能进暮色哦~"
+			description: ["顺便一说，拆解台已经ban了，因为它能刷物品~"]
+			id: "5FB1B19A63ABCB45"
+			tasks: [{
+				id: "69E5EEDE45E9A27E"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "49C7DD5105050A8E"
+				type: "item"
+				item: "minecraft:azure_bluet"
+				count: 12
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			subtitle: "娜迦鳞片？你会需要它的。"
+			dependencies: ["668D1D7B5EE5DE64"]
+			id: "38D685FC1443F4FE"
+			tasks: [{
+				id: "39ABD4C41E55A025"
+				type: "item"
+				item: "twilightforest:naga_trophy"
+			}]
+			rewards: [
+				{
+					id: "48ED4815D97F7D44"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					id: "29A0369BB93FA784"
+					type: "item"
+					item: "twilightforest:maze_map_empty"
+				}
+				{
+					id: "2F86CFD43152B986"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:healing"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			subtitle: "带上瞬间治疗，上啊！"
+			dependencies: ["38D685FC1443F4FE"]
+			id: "06ACDE73B2EF7E2C"
+			tasks: [{
+				id: "0A9D9878F5F0D815"
+				type: "item"
+				item: "twilightforest:lich_trophy"
+			}]
+			rewards: [{
+				id: "0628E78CC3B862DB"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.0d
+			dependencies: ["5B56B5069CE814C3"]
+			id: "079A87EC390049C0"
+			tasks: [{
+				id: "1DD251909E7416FE"
+				type: "item"
+				item: "twilightforest:hydra_trophy"
+			}]
+			rewards: [{
+				id: "416786745D3B2C29"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			dependencies: ["21D814E8102194D7"]
+			id: "5B56B5069CE814C3"
+			tasks: [{
+				id: "1CB12740EEE3A057"
+				type: "item"
+				item: "twilightforest:minoshroom_trophy"
+			}]
+			rewards: [{
+				id: "12BC731BE713ED8E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			dependencies: ["38D685FC1443F4FE"]
+			id: "4D247E7FC7613DAE"
+			tasks: [{
+				id: "290C378BFB10E9FA"
+				type: "item"
+				item: "twilightforest:knight_phantom_trophy"
+			}]
+			rewards: [{
+				id: "7FB128F54BAB58BB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.0d
+			dependencies: ["4D247E7FC7613DAE"]
+			id: "5E4466FABED5EDBA"
+			tasks: [{
+				id: "3F1EED00331ACD1D"
+				type: "item"
+				item: "twilightforest:ur_ghast_trophy"
+			}]
+			rewards: [{
+				id: "54431BFBE71D0BA7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 2.5d
+			y: 7.5d
+			dependencies: ["5FE21D9F7DC10C6B"]
+			dependency_requirement: "one_completed"
+			id: "63373191DFA8742B"
+			tasks: [{
+				id: "49AF4B29C1A28551"
+				type: "item"
+				item: "twilightforest:fiery_ingot"
+			}]
+			rewards: [{
+				id: "58199B5C3277A2F6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.0d
+			dependencies: ["38D685FC1443F4FE"]
+			id: "241DF601A436A6FF"
+			tasks: [{
+				id: "52D14FEE714B299A"
+				type: "item"
+				item: "twilightforest:yeti_trophy"
+			}]
+			rewards: [{
+				id: "0615CF45CC87D42D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.0d
+			dependencies: ["241DF601A436A6FF"]
+			id: "376BA037308E7100"
+			tasks: [{
+				id: "7040FE1C1B529331"
+				type: "item"
+				item: "twilightforest:snow_queen_trophy"
+			}]
+			rewards: [
+				{
+					id: "09C99B4939107051"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "02E3146A9FD6E737"
+					type: "item"
+					item: {
+						id: "twilightforest:triple_bow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 7.5d
+			subtitle: "超帅的！"
+			dependencies: ["63373191DFA8742B"]
+			id: "32B63F61D7B4694D"
+			tasks: [
+				{
+					id: "778B1A8D270BD34E"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6B7739E463545944"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "41D5942CA97787E4"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1245F97F63570697"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0EA290B25134F69D"
+					type: "item"
+					item: "twilightforest:fiery_ingot"
+					count: 2
+				}
+				{
+					id: "3BDE12D86FFF40B4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 4.0d
+			dependencies: [
+				"079A87EC390049C0"
+				"5E4466FABED5EDBA"
+			]
+			dependency_requirement: "one_completed"
+			id: "5FE21D9F7DC10C6B"
+			tasks: [{
+				id: "17BB458A68729EB3"
+				type: "item"
+				title: "Any #twilightforest:fiery_vial"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "twilightforest:fiery_vial"
+					}
+				}
+			}]
+			rewards: [{
+				id: "36DAC2FD58716E91"
+				type: "item"
+				item: "twilightforest:fiery_ingot"
+				count: 3
+			}]
+		}
+		{
+			x: -1.5d
+			y: -6.0d
+			subtitle: "好看！"
+			dependencies: ["376BA037308E7100"]
+			id: "73ECEC4C2859FF80"
+			tasks: [{
+				id: "4132C753F1FED2FA"
+				type: "item"
+				item: "twilightforest:aurora_block"
+			}]
+			rewards: [{
+				id: "4B820C011ED8CBF0"
+				type: "item"
+				item: "twilightforest:aurora_block"
+				count: 63
+			}]
+		}
+		{
+			title: "世界羊毛计划"
+			x: -5.5d
+			y: 0.0d
+			subtitle: "非酋快乐奖励"
+			dependencies: ["5FB1B19A63ABCB45"]
+			hide: true
+			id: "333C2870F31894C3"
+			tasks: [{
+				id: "4855CD5C84171034"
+				type: "checkmark"
+				title: "我的战利品墙！"
+			}]
+			rewards: [{
+				id: "0422AAD584446C4A"
+				type: "item"
+				item: "minecraft:pink_wool"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["333C2870F31894C3"]
+			hide: true
+			id: "01BA2EBB1355E6A1"
+			tasks: [{
+				id: "37539782806AE91C"
+				type: "item"
+				item: "twilightforest:quest_ram_trophy"
+			}]
+		}
+		{
+			title: "进入暮色"
+			x: -3.5d
+			y: -2.0d
+			dependencies: ["5FB1B19A63ABCB45"]
+			id: "668D1D7B5EE5DE64"
+			tasks: [{
+				id: "48251C0B21C3D03C"
+				type: "dimension"
+				dimension: "twilightforest:twilightforest"
+			}]
+			rewards: [{
+				id: "2570616FFABCAFA8"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 6.5d
+			y: -6.0d
+			subtitle: "时间开始倒转"
+			description: [
+				"杀死埃诺斯，获取进入三叠纪、侏罗纪、白垩纪的物品——时间宝石。"
+				"埃诺斯不只会在终焉城堡顶生成，你也可以在暮色寻找时间神庙，里面也会刷埃诺斯。"
+				"当然，别的维度（比如阿图姆）的时间神庙是没有埃诺斯的（"
+			]
+			dependencies: ["111D35A31CECABD2"]
+			hide: true
+			id: "282DD0D5721DE79B"
+			tasks: [{
+				id: "3BE7439C34FFBEFA"
+				type: "kill"
+				entity: "prehistoricfauna:henos"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "2CF62C8D4C3A48C0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4D9BDF9511E9490C"
+					type: "item"
+					item: "prehistoricfauna:jurassic_fossil"
+				}
+				{
+					id: "5744DFD65DDCAC63"
+					type: "item"
+					item: "prehistoricfauna:triassic_fossil"
+				}
+				{
+					id: "027A81D5DBCBF75B"
+					type: "item"
+					item: "prehistoricfauna:cretaceous_fossil"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -2.0d
+			dependencies: ["127BE66D2C95D647"]
+			hide: true
+			id: "111D35A31CECABD2"
+			tasks: [{
+				id: "5F6DDABA2099886F"
+				type: "item"
+				item: {
+					id: "twilightforest:lamp_of_cinders"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			dependencies: ["38D685FC1443F4FE"]
+			id: "21D814E8102194D7"
+			tasks: [{
+				id: "526827F4E635F670"
+				type: "item"
+				item: "twilightforest:maze_map_focus"
+			}]
+			rewards: [{
+				id: "0FD3B69FE34FC7F1"
+				type: "item"
+				item: "twilightforest:maze_map_empty"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 2.0d
+			subtitle: "杀死巨人"
+			description: ["魔豆？当然可以。又或者你可以用简单飞机。"]
+			hide_dependency_lines: true
+			dependencies: [
+				"376BA037308E7100"
+				"5E4466FABED5EDBA"
+				"079A87EC390049C0"
+			]
+			hide: true
+			id: "127BE66D2C95D647"
+			tasks: [{
+				id: "3B88E1C1902E4573"
+				type: "item"
+				item: {
+					id: "twilightforest:giant_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "48D15921AC664A4A"
+					type: "item"
+					auto: "enabled"
+					item: "twilightforest:magic_beans"
+				}
+				{
+					id: "23886A272A11A9B3"
+					type: "advancement"
+					team_reward: true
+					auto: "enabled"
+					advancement: "twilightforest:troll"
+					criterion: ""
+				}
+			]
+		}
+	]
+}
