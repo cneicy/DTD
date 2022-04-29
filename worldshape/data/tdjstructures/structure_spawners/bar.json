@@ -1,0 +1,35 @@
+{
+    "template": {
+        "type": "single", 
+        "id": "tdjstructures:bar", 
+        "maxDepth": 10, 
+        
+                               
+        "followTerrain": false 
+    },
+
+    "placement": {
+        "type": "surface",           
+        "minY": 0,
+        "maxY": 256,
+        "offset": 0,
+        "fluidSurface": false,
+
+        "terraform": -1
+    },
+   
+    "averageSpacing": 70,  
+    "minimumSpacing": 40,          
+    "seed": 8646464861,
+    "avoidOthers": true,       
+    
+    "biomes": [
+        "#taiga",
+        "#extreme_hills",
+        "#plains",
+        "#forest"
+    ],
+    "dimensions": [
+        "minecraft:overworld"
+    ]
+}
