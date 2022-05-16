@@ -1,6 +1,0 @@
-{
-  "__comment": "Crafting table blocks to enable Visual Workbench support for.",
-  "values": [
-    "minecraft:crafting_table"
-  ]
-}

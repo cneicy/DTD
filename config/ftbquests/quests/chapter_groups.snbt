@@ -1,8 +1,0 @@
-{
-	chapter_groups: [
-		{ id: "4CAE9E17079D3151", title: "故事的开始" }
-		{ id: "6908D8BEB3380ACE", title: "第一章-主世界" }
-		{ id: "57B469943938490D", title: "第二章-维度之间" }
-		{ id: "6D12972E781D27EF", title: "第三章-杂项" }
-	]
-}
