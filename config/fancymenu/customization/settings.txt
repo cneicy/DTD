@@ -1,0 +1,30 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.OptionsScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = fancymenu_setups/exported_setups/2021-07-30_22.44.03.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=505154%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=635154%
+  action = hidebutton
+}
+

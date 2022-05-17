@@ -1,0 +1,42 @@
+{
+	id: "3890D7C39BBC2EDF"
+	order_index: 2
+	title: "生命饰品（不同稀有度）"
+	icon: {
+		id: "blue_skies:life_arc"
+		Count: 1b
+		tag: {
+			ArcLevel: 0
+		}
+	}
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "blue_skies:life_arc"
+				Count: 1b
+				tag: {
+					ArcLevel: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "blue_skies:life_arc"
+				Count: 1b
+				tag: {
+					ArcLevel: 1
+				}
+			}
+		}
+		{
+			item: {
+				id: "blue_skies:life_arc"
+				Count: 1b
+				tag: {
+					ArcLevel: 2
+				}
+			}
+		}
+	]
+}
