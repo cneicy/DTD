@@ -1,0 +1,14 @@
+
+#Features related to log filtering.
+[Filtering]
+	#Default: true
+	Enabled = true
+	#Any lines containing the following text will be removed from the logs.
+	"Strings To Remove" = ["[net.minecraft.util.Util]: No data fixer registered for", "[net.minecraft.command.Commands]: Ambiguity between arguments", "com.github.alexthe666.citadel.web.WebHelper:getURLContents:", "java.net.UnknownHostException: raw.githubusercontent.com", "Unknown recipe category", "java.lang.IllegalArgumentException: Can't find block", "Registering gui handlers", "Registering advanced plugins", "Found a broken recipe", " Can't keep up!", "is not correct. Correcting", "[Render thread/INFO]: Loading Data Pack", "[Render thread/INFO]: Found new data pack", "Error adding element: Unknown registry element", "[Render thread/WARN]: Missing sound for event", "Reloading biome config for", " to structure_gel:[]", "com.integral.enigmaticlegacy.handlers.EnigmaticUpdateHandler", "Exception loading blockstate definition", "Unable to load model", "Unable to resolve texture reference", "com.Fishmod.mod_LavaCow.client.renderer.entity", "shadows.placebo.patreon.TrailsManager", "shadows.placebo.patreon.WingsManager", "customskinloader.Logger", "Loading Resource Pack", "Called deprecated GlobalEntityTypeAttributes#put", "does not specify"]
+	#Any lines matching the following regular expressions will be removed from the logs.
+	#Default: [\[net\.minecraftforge\.common\.ForgeConfigSpec\/CORE\]: Configuration file .* is not correct. Correcting, \[net\.minecraftforge\.common\.ForgeConfigSpec\/CORE\]: Incorrect key .* was corrected from .* to .*]
+	"Patterns To Remove" = ["\\[net\\.minecraftforge\\.common\\.ForgeConfigSpec\\/CORE\\]: Configuration file .* is not correct. Correcting", "\\[net\\.minecraftforge\\.common\\.ForgeConfigSpec\\/CORE\\]: Incorrect key .* was corrected from .* to .*"]
+	#Stack traces from the following exceptions will be truncated, leaving only the message.
+	#Default: [com.google.gson.JsonSyntaxException]
+	"Exceptions To Truncate" = ["com.google.gson.JsonSyntaxException"]
+
