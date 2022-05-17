@@ -1,0 +1,29 @@
+{
+    "mob_id": "blue_skies:arachnarch",
+    "potion_effects": [
+        {
+            "id": "minecraft:strength",
+            "chance": 1.0,
+            "amplifier": 2,
+            "ambient": true
+        },
+        {
+            "id": "minecraft:regeneration",
+            "chance": 1.0,
+            "amplifier": {
+                "min": 0,
+                "max": 1
+            },
+            "ambient": true
+        }
+    ],
+    "attributes": [
+        {
+            "id": "minecraft:generic.max_health",
+            "modifier_name": "tsatwo",
+            "amount": 524,
+            "chance": 1.0,
+            "operation": "addition"
+        }
+    ]
+}

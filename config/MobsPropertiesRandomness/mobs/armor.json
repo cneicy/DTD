@@ -1,0 +1,26 @@
+{
+    "group": "entities",
+    "potion_effects": [
+        {
+            "id": "minecraft:strength",
+            "chance": 0.04,
+            "amplifier": {
+                "min": 2,
+                "max": 3
+            },
+            "ambient": true
+        }
+    ],
+    "attributes": [
+        {
+            "id": "minecraft:generic.armor",
+            "modifier_name": "onadwqe",
+            "amount": {
+                "min": 15,
+                "max": 30
+            },
+            "chance": 0.04,
+            "operation": "addition"
+        }
+    ]
+}

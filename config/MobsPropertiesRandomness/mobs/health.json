@@ -1,0 +1,12 @@
+{
+    "group": "entities",
+    "attributes": [
+        {
+            "id": "minecraft:generic.max_health",
+            "modifier_name": "fidawd",
+            "amount": 100,
+            "chance": 0.01,
+            "operation": "addition"
+        }
+    ]
+}
