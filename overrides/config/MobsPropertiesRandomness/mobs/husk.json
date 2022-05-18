@@ -1,0 +1,11 @@
+{
+    "mob_id": "minecraft:husk",
+    "potion_effects": [
+        {
+            "id": "minecraft:slowness",
+            "chance": 1.0,
+            "amplifier": 2,
+            "ambient": true
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "mob_id": "dungeonsmod:voidmaster",
+    "potion_effects": [
+        {
+            "id": "minecraft:levitation",
+            "chance": 0.01,
+            "amplifier": 1,
+            "ambient": true
+        },
+        {
+            "id": "minecraft:strength",
+            "chance": 1.0,
+            "amplifier": 5,
+            "ambient": true
+        }
+    ],
+    "attributes": [
+        {
+            "id": "minecraft:generic.max_health",
+            "modifier_name": "ngyine",
+            "amount": 450,
+            "chance": 1.0,
+            "operation": "addition"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+
+#Get experience for everything mod configuration
+[getexpforeverything]
+	#How many blocks you have to destroy to get experience (default: 100)
+	#Range: > 1
+	blocks_need_to_destroy = 100
+	#How many blocks you have to place to get experience (default: 100)
+	#Range: > 1
+	blocks_need_to_place = 100
+	#How much experience you will get (default: 1)
+	#Range: 1 ~ 1000
+	base_experience = 1
+	#Multiplier for level step.
+	#For example:
+	#0-4 lvl you will gain 1 exp every 100 destroyed blocks
+	#5-9 lvl you will gain 2 exp every 100 destroyed blocks
+	#10-14 lvl you will gain 4 exp every 100 destroyed blocks
+	#etc.
+	#(default: 2)
+	#Range: 1 ~ 1000
+	multiplier_for_level_step = 2
+	#How many levels needs to reach after multiply base exp (default: 5)
+	#Range: 1 ~ 1000
+	level_step = 5
+	#How much items you have to craft to get experience (default: 100)
+	#Range: > 1
+	items_to_craft = 100
+	#Blacklisted blocks, that won't give you experience
+	#(default: [minecraft:grass, minecraft:vine, minecraft:tall_grass, minecraft:large_fern, minecraft:fern])
+	black_list_blocks = ["minecraft:grass", "minecraft:vine", "minecraft:tall_grass", "minecraft:large_fern", "minecraft:fern"]
+	#Blacklisted items, that won't give you experience
+	#(default: [minecraft:stick])
+	black_list_items = ["minecraft:stick"]
+	#Blacklisted block tags, that won't give you experience
+	#(default: [minecraft:flowers])
+	black_list_item_tags = ["minecraft:flowers"]
+	#Blacklisted item tags, that won't give you experience
+	#(default: [minecraft:planks])
+	black_list_block_tags = ["minecraft:planks"]
+	#Blacklisted blocks, that won't give you experience when placed
+	#(default: [minecraft:dirt])
+	black_list_blocks_place = ["minecraft:dirt"]
+	#Blacklisted block tags, that won't give you experience when placed
+	#(default: [minecraft:dirt])
+	black_list_block_tags_place = ["minecraft:dirt"]
+	#This trigger converts your block blacklist to whitelist if true (default: false)
+	is_block_whitelist_mode = false
+	#This trigger converts your item blacklist to whitelist if true (default: false)
+	is_item_whitelist_mode = false
+	#This trigger enables getting experience for placing blocks if true (default: false)
+	is_placing_enabled = false
+	#This trigger converts your block placing blacklist to whitelist if true (default: false)
+	is_placing_whitelist_mode = false
+
