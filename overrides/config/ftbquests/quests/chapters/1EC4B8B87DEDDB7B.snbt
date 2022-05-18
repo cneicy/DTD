@@ -1,0 +1,87 @@
+{
+	id: "1EC4B8B87DEDDB7B"
+	group: "4CAE9E17079D3151"
+	order_index: 2
+	filename: "1EC4B8B87DEDDB7B"
+	title: "实用知识"
+	icon: "minecraft:nether_gold_ore"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "minecraft:coal_ore"
+			x: -2.5d
+			y: -0.5d
+			subtitle: "由于FTB Teams GUI暂不可用，特写此章"
+			description: [
+				"使用/ftbteams party create指令创建团队"
+				"create后面要加上一个空格，空格后面再输入队伍名字（名字随意，不报错就行）"
+			]
+			dependencies: ["2447827164B8B62D"]
+			id: "53215649212848EC"
+			tasks: [{
+				id: "2DBB35F9DCB3309C"
+				type: "checkmark"
+				title: "创建团队"
+			}]
+		}
+		{
+			icon: "minecraft:stone"
+			x: -0.5d
+			y: -0.5d
+			description: [
+				"使用/ftbteams party invite邀人进队伍"
+				"invite后面要加一个空格，空格后面再输入你想邀请的人的名字，或者直接输入@a让所有玩家加入你的队伍"
+				"要踢人，只需要将invite换成kick即可"
+			]
+			dependencies: ["2447827164B8B62D"]
+			id: "488435B0667C6BAA"
+			tasks: [{
+				id: "483E5E1FE69A9344"
+				type: "checkmark"
+				title: "邀请他人进入队伍"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -0.5d
+			description: [
+				"血月刷怪量很猛，如果你担心配置不够，经历血月时卡顿难受或者甚至因为怪物实在太多游戏崩溃，可以执行此指令跳过血月。"
+				"此指令也会使本章节“实用知识”重置。"
+			]
+			id: "3A3D58717C582F98"
+			tasks: [{
+				id: "077A8E8A66780D71"
+				type: "checkmark"
+				title: "血月"
+			}]
+			rewards: [
+				{
+					id: "3BA01962AF1188AD"
+					type: "command"
+					auto: "enabled"
+					command: "/time add 13000"
+					player_command: false
+				}
+				{
+					id: "445984D21DA8B5EB"
+					type: "command"
+					auto: "enabled"
+					command: "/ftbquests change_progress @a reset 1EC4B8B87DEDDB7B"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: "minecraft:stripped_birch_log"
+			x: -1.5d
+			y: -3.0d
+			id: "2447827164B8B62D"
+			tasks: [{
+				id: "1A5E79383F2987AD"
+				type: "checkmark"
+				title: "多人游玩"
+			}]
+		}
+	]
+}

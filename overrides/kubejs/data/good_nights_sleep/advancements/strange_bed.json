@@ -1,0 +1,29 @@
+{
+    "display":
+    {
+        "icon":
+        {
+            "item":"good_nights_sleep:strange_bed"
+        },
+        "title": "一个不确定的傍晚",
+            "description": "是美梦？抑或噩梦？管它呢，睡了再说。",
+                "background":
+                "good_nights_sleep:textures/item/misc/dream_door.png",
+                "show_toast":true,
+                "announce_to_chat":true
+            },
+                "criteria":{
+                    "scarab":{
+                        "trigger":"minecraft:inventory_changed",
+                        "conditions":
+                        {
+                            "items":
+                            [
+                                {
+                                    "item":"good_nights_sleep:strange_bed"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }

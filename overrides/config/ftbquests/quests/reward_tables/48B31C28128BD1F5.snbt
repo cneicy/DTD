@@ -1,0 +1,11 @@
+{
+	id: "48B31C28128BD1F5"
+	order_index: 1
+	title: "龙钢"
+	loot_size: 1
+	rewards: [
+		{ item: "iceandfire:dragonforge_fire_brick", count: 7 }
+		{ item: "iceandfire:dragonforge_ice_brick", count: 7 }
+		{ item: "iceandfire:dragonforge_lightning_brick", count: 7 }
+	]
+}

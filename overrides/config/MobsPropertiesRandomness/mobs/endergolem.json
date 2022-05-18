@@ -1,0 +1,20 @@
+{
+    "mob_id": "cataclysm:ender_golem",
+    "potion_effects": [
+        {
+            "id": "minecraft:strength",
+            "chance": 1.0,
+            "amplifier": 2,
+            "ambient": true
+        }
+    ],
+    "attributes": [
+        {
+            "id": "minecraft:generic.max_health",
+            "modifier_name": "four",
+            "amount": 690,
+            "chance": 1.0,
+            "operation": "addition"
+        }
+    ]
+}

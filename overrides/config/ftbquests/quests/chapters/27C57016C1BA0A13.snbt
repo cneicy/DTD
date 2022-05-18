@@ -1,0 +1,319 @@
+{
+	id: "27C57016C1BA0A13"
+	group: "4CAE9E17079D3151"
+	order_index: 0
+	filename: "27C57016C1BA0A13"
+	title: "这个世界怎么了？"
+	icon: "minecraft:lava_bucket"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "感谢游玩DTD"
+			icon: "iceandfire:sapphire_gem"
+			x: -1.0d
+			y: -0.5d
+			subtitle: "这里是一堆注意事项"
+			id: "5DA60203F1A47B25"
+			tasks: [{
+				id: "3CAEDA135515BA14"
+				type: "checkmark"
+				title: "点我获取最佳游戏体验"
+			}]
+			rewards: [{
+				id: "398FB87BD6B3A401"
+				type: "item"
+				title: "Date♂To♂Date"
+				item: "atum:golden_date_enchanted"
+			}]
+		}
+		{
+			title: "阿卡什宝典"
+			icon: "akashictome:tome"
+			x: -2.5d
+			y: -0.5d
+			subtitle: "认真读书了吗"
+			description: [
+				"阿卡什宝典里的书不是没名字，你需要把它选中拿出来才会出名字。"
+				"另外，如果你选中了阿卡什宝典中的一本书，请手持它对着空气左键来退回到阿卡什宝典状态。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5DA60203F1A47B25"]
+			hide: true
+			id: "595A7C9110141C07"
+			tasks: [{
+				id: "57F081FF9C5EDCDF"
+				type: "checkmark"
+				title: "小朋友你点一点我啊"
+			}]
+			rewards: [{
+				id: "56969CDDD30E901A"
+				type: "item"
+				item: "atum:date"
+			}]
+		}
+		{
+			icon: "minecraft:stripped_jungle_log"
+			x: -1.0d
+			y: 2.5d
+			subtitle: "胡萝卜版~"
+			description: ["好好吃饭，增加生命值！"]
+			hide_dependency_lines: true
+			dependencies: ["5DA60203F1A47B25"]
+			hide: true
+			id: "5F2FC6C7792586EC"
+			tasks: [{
+				id: "373A0B8445018F59"
+				type: "checkmark"
+				title: "生活调味料"
+			}]
+			rewards: [{
+				id: "54207324E9210522"
+				type: "item"
+				item: "atum:date"
+			}]
+		}
+		{
+			title: "增强装备"
+			icon: "minecraft:dropper"
+			x: -1.0d
+			y: 1.0d
+			subtitle: "演变 我的超人"
+			description: [
+				"手持或在背包内对准武器按下K，可进行装备增强"
+				""
+				"装备的品质也是增强装备重制版的效果，这些品质增加的不是你的武器伤害，而是按K页面内主动技能的伤害。"
+				"基础：1倍"
+				"罕见：1.155倍"
+				"稀有：1.305倍"
+				"超稀有：1.38倍"
+				"传说：1.57倍"
+				"上古：1.81倍"
+				"主动技能会在你攻击时概率触发，概率也有写明。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5DA60203F1A47B25"]
+			hide: true
+			id: "77D762E50C1442CF"
+			tasks: [{
+				id: "2CCF0636D3744CC7"
+				type: "checkmark"
+				title: "丢出我的武器！"
+			}]
+			rewards: [{
+				id: "1FAD8F30BA7796FB"
+				type: "item"
+				item: "atum:date"
+			}]
+		}
+		{
+			icon: "twilightforest:transformation_powder"
+			x: 0.5d
+			y: 1.0d
+			subtitle: "我的超人"
+			description: ["合成冲突？多态合成时可以点击上方按钮选择合成结果的，注意一下。"]
+			hide_dependency_lines: true
+			dependencies: ["5DA60203F1A47B25"]
+			hide: true
+			id: "65985CDCBC83469D"
+			tasks: [{
+				id: "3A6BE102CA3D15F6"
+				type: "checkmark"
+				title: "多态合成"
+			}]
+			rewards: [{
+				id: "5D99B3E8065E8D36"
+				type: "item"
+				item: "atum:date"
+			}]
+		}
+		{
+			icon: "enigmaticlegacy:soul_crystal"
+			x: 0.5d
+			y: -2.0d
+			subtitle: "我血量上限减少了！"
+			description: ["死亡掉落默认开启（当然，你可以用指令关掉），记得回到死亡地点，拾起灵魂水晶，恢复损失的生命值。"]
+			hide_dependency_lines: true
+			dependencies: ["5DA60203F1A47B25"]
+			hide: true
+			id: "055D1A9BD2501583"
+			tasks: [{
+				id: "721F948CD3060732"
+				type: "checkmark"
+				title: "死亡掉落"
+			}]
+			rewards: [{
+				id: "0E651066F02F7D55"
+				type: "item"
+				item: "atum:date"
+			}]
+		}
+		{
+			icon: "vanillacookbook:creepe"
+			x: -2.5d
+			y: -2.0d
+			subtitle: "/ftbbackups start开启手动备份~"
+			description: [".minecraft/versions/DTD/backups 文件夹里有存档备份。"]
+			hide_dependency_lines: true
+			dependencies: ["5DA60203F1A47B25"]
+			hide: true
+			id: "529A70917C58DBF2"
+			tasks: [{
+				id: "07920DEC81B46F50"
+				type: "checkmark"
+				title: "需要回档？"
+			}]
+			rewards: [{
+				id: "0A57B3D2BB4894C9"
+				type: "item"
+				item: "atum:date"
+			}]
+		}
+		{
+			icon: "enigmaticlegacy:cursed_ring"
+			x: -1.0d
+			y: -2.0d
+			subtitle: "To be or not to be?"
+			description: [
+				"按alt+c选择职业。"
+				"alt+数字释放技能。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5DA60203F1A47B25"]
+			hide: true
+			id: "7C4772D20BF18CB4"
+			tasks: [{
+				id: "67DCEA918BB77650"
+				type: "checkmark"
+				title: "选择职业"
+			}]
+			rewards: [{
+				id: "729F9D5AF9559AF0"
+				type: "item"
+				item: "enigmaticlegacy:unholy_grail"
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:leather_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.5d
+			y: -0.5d
+			subtitle: "你确定这不是头发？"
+			description: [
+				"有时，生物的头顶会佩戴帽子"
+				"击杀它们会解锁帽子"
+				"按H激活帽子GUI，佩戴属于自己的帽子！"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5DA60203F1A47B25"]
+			hide: true
+			id: "4CF2F4B58F0B8739"
+			tasks: [{
+				id: "624AEDA3E8754B42"
+				type: "checkmark"
+				title: "帽子！"
+			}]
+			rewards: [{
+				id: "21743EDB04BA5DF0"
+				type: "item"
+				item: "atum:date"
+			}]
+		}
+		{
+			title: "该眠了"
+			icon: "minecraft:clock"
+			x: -1.0d
+			y: -3.5d
+			subtitle: "晚安 米娜桑"
+			description: ["你入睡会加速时间流逝，以更平滑更自然的方式迎来白天。"]
+			hide_dependency_lines: true
+			dependencies: ["5DA60203F1A47B25"]
+			hide: true
+			id: "732E2F9815F46812"
+			tasks: [{
+				id: "7B2DE2DD8DA35BBB"
+				type: "checkmark"
+				title: "睡眠"
+			}]
+			rewards: [{
+				id: "601908CE73BF4632"
+				type: "item"
+				item: "atum:date"
+			}]
+		}
+		{
+			icon: "infernalexp:infernal_painting"
+			x: -2.5d
+			y: 1.0d
+			subtitle: "MC百科"
+			description: [
+				"在游戏内将鼠标移动到物品（可以在JEI里）上按下\"I\"键（键位可调整），模组会打开系统默认浏览器跳转到物品页面。"
+				"百科资料具有时效性，不一定准确，请谨慎参考。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5DA60203F1A47B25"]
+			hide: true
+			id: "3874D8351F7EB03C"
+			tasks: [{
+				id: "6C1DC27163A0E8F2"
+				type: "checkmark"
+				title: "资料搜索"
+			}]
+			rewards: [{
+				id: "74CF727E4FA3AD99"
+				type: "item"
+				item: "atum:date"
+			}]
+		}
+		{
+			icon: "minecraft:bedrock"
+			x: 2.0d
+			y: -0.5d
+			subtitle: "我镐废了！"
+			description: [
+				"y轴越低，石头就越难挖。"
+				"边砍怪，边挖矿（"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5DA60203F1A47B25"]
+			hide: true
+			id: "18FABD113F76CA51"
+			tasks: [{
+				id: "64D714757843286E"
+				type: "checkmark"
+				title: "地下探险"
+			}]
+			rewards: [{
+				id: "05609908478042E9"
+				type: "item"
+				item: "atum:date"
+			}]
+		}
+		{
+			icon: "minecraft:prismarine_slab"
+			x: -4.0d
+			y: -0.5d
+			subtitle: "附魔台被ban了？"
+			description: ["别整天疑惑这疑惑那这个物品不能用那个物品不能用好像全被ban了似的，到了时间自然能给你用。"]
+			hide_dependency_lines: true
+			dependencies: ["5DA60203F1A47B25"]
+			hide: true
+			id: "050BFE1322D77784"
+			tasks: [{
+				id: "2C36C9D1F10DB0ED"
+				type: "checkmark"
+				title: "游戏阶段"
+			}]
+			rewards: [{
+				id: "55C628D92F3C4872"
+				type: "item"
+				item: "atum:date"
+			}]
+		}
+	]
+}
