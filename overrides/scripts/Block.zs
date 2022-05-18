@@ -1,1 +1,0 @@
-<block:blue_skies:spider_webbing>.setCanCollide(false);
