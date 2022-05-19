@@ -78,9 +78,9 @@ var artifacts as IItemStack[] = [<item:artifacts:cross_necklace>,<item:artifacts
 var artifactsnumber as string[] = ["first","second","third","forth","fifth"];
 for i in 0 .. artifacts.length {loot.modifiers.register(artifactsnumber[i], artifact, CommonLootModifiers.add(artifacts[i]));}var beers as IItemStack[] = [<item:drinkbeer:beer_mug>,<item:drinkbeer:beer_mug_blaze_stout>,<item:drinkbeer:beer_mug_blaze_milk_stout>,<item:drinkbeer:beer_mug_apple_lambic>,<item:drinkbeer:beer_mug_sweet_berry_kriek>,<item:drinkbeer:beer_mug_haars_icey_pale_lager>,<item:drinkbeer:beer_mug_pumpkin_kvass>,<item:drinkbeer:beer_mug_night_howl_kvass>,<item:drinkbeer:empty_beer_mug>];
 
-var beers as IItemStack[] = [<item:drinkbeer:beer_mug>,<item:drinkbeer:beer_mug_blaze_stout>,<item:drinkbeer:beer_mug_blaze_milk_stout>,<item:drinkbeer:beer_mug_apple_lambic>,<item:drinkbeer:beer_mug_sweet_berry_kriek>,<item:drinkbeer:beer_mug_haars_icey_pale_lager>,<item:drinkbeer:beer_mug_pumpkin_kvass>,<item:drinkbeer:beer_mug_night_howl_kvass>,<item:drinkbeer:empty_beer_mug>];
+var drinkbeers as IItemStack[] = [<item:drinkbeer:beer_mug>,<item:drinkbeer:beer_mug_blaze_stout>,<item:drinkbeer:beer_mug_blaze_milk_stout>,<item:drinkbeer:beer_mug_apple_lambic>,<item:drinkbeer:beer_mug_sweet_berry_kriek>,<item:drinkbeer:beer_mug_haars_icey_pale_lager>,<item:drinkbeer:beer_mug_pumpkin_kvass>,<item:drinkbeer:beer_mug_night_howl_kvass>,<item:drinkbeer:empty_beer_mug>];
 var beersnumber as string[] = ["beerone", "beertwo", "beerthree", "beerffour", "beerfive", "beersix", "beerseven", "beereight", "beernine"];
-for i in 0 .. beers.length {loot.modifiers.register(beersnumber[i], beer, CommonLootModifiers.add(beers[i]));}
+for i in 0 .. beers.length {loot.modifiers.register(beersnumber[i], beer, CommonLootModifiers.add(drinkbeers[i]));}
 
 var snack as IItemStack[] = [<item:vanillacookbook:carrot_soup>,<item:vanillacookbook:apple_pie>,<item:vanillacookbook:meatball>,<item:vanillacookbook:ice_cream_cake_slice>,<item:vanillacookbook:melon_soda>];
 var snacknumber as string[] = ["tasted","delicious","pudding","vanilla","milkshake","soup","applepie","meatball","cakeslice","soda"];
