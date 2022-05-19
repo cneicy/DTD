@@ -142,7 +142,7 @@
 #Mobs may spawn with different textures.
 "VariantMobTextures enabled" = true
 #Villagers are attracted when the player holds a block of emeralds.
-"VillagersFollowEmeraldBlocks enabled" = true
+"VillagersFollowEmeraldBlocks enabled" = false
 #Wandering traders only appear near signal campfires and sell maps to biomes and structures.
 "WanderingTraderImprovements enabled" = true
 #A witch has a chance to drop a Potion of Luck when killed by a player.
