@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "DTD",
-  "version": "1.5.5",
+  "version": "beta",
   "author": "",
   "files": [
     {
@@ -182,6 +182,11 @@
     {
       "projectID": 270457,
       "fileID": 3709355,
+      "required": true
+    },
+    {
+      "projectID": 559764,
+      "fileID": 3578580,
       "required": true
     },
     {
@@ -455,6 +460,11 @@
       "required": true
     },
     {
+      "projectID": 525447,
+      "fileID": 3696645,
+      "required": true
+    },
+    {
       "projectID": 299815,
       "fileID": 3584011,
       "required": true
@@ -497,6 +507,11 @@
     {
       "projectID": 237307,
       "fileID": 3738137,
+      "required": true
+    },
+    {
+      "projectID": 435029,
+      "fileID": 3539160,
       "required": true
     },
     {
@@ -895,6 +910,11 @@
       "required": true
     },
     {
+      "projectID": 32274,
+      "fileID": 3779275,
+      "required": true
+    },
+    {
       "projectID": 394185,
       "fileID": 3276056,
       "required": true
@@ -1000,13 +1020,13 @@
       "required": true
     },
     {
-      "projectID": 307152,
-      "fileID": 3742182,
+      "projectID": 492574,
+      "fileID": 3449703,
       "required": true
     },
     {
-      "projectID": 492574,
-      "fileID": 3449703,
+      "projectID": 307152,
+      "fileID": 3742182,
       "required": true
     }
   ],
