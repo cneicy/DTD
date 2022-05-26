@@ -1,0 +1,20 @@
+{
+    "mob_id": "dungeonsmod:king",
+    "potion_effects": [
+        {
+            "id": "minecraft:strength",
+            "chance": 1.0,
+            "amplifier": 4,
+            "ambient": true
+        }
+    ],
+    "attributes": [
+        {
+            "id": "minecraft:generic.max_health",
+            "modifier_name": "sfqweqeaf",
+            "amount": 1200,
+            "chance": 1.0,
+            "operation": "addition"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "group": "entities",
+    "potion_effects": [
+        {
+            "id": "minecraft:strength",
+            "chance": 0.01,
+            "amplifier": {
+                "min": 0,
+                "max": 4
+            },
+            "ambient": true
+        }
+    ]
+}
