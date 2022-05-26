@@ -1,9 +1,0 @@
-
-#General configuration settings
-[General]
-	#Use F3+H to show tooltips and get the name of the item, place it here. It get delete. Example: ["minecraft:stone"]
-	#or if you need to ban multiple ["minecraft:stone", "minecraft:dirt"]
-	"Items To Delete" = ["relics:ghost_skin_talisman", "outvoted:kraken_tooth", "relics:delay_ring", "majruszs_difficulty:end_shard_locator", "minecraft:chainmail_helmet", "minecraft:chainmail_chestplate", "minecraft:chainmail_leggings", "minecraft:chainmail_boots", "atum:wanderer_helmet", "atum:wanderer_chest", "atum:wanderer_legs", "atum:wanderer_boots", "inventorypets:solstice_helmet", "inventorypets:solstice_chestplate", "inventorypets:solstice_leggings", "inventorypets:solstice_boots", "inventorypets:solstice_sword"]
-	#Enables/Disables the constant removal of items.
-	"Is it on?" = true
-
