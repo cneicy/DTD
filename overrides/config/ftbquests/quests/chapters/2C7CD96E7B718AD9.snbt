@@ -1,0 +1,677 @@
+{
+	id: "2C7CD96E7B718AD9"
+	group: "57B469943938490D"
+	order_index: 2
+	filename: "2C7CD96E7B718AD9"
+	title: "金沙之旅"
+	icon: "minecraft:smooth_sandstone_stairs"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -12.5d
+			y: 2.0d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "atum:textures/entity_icon/stoneguard_derp.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 2.0d
+			y: -2.5d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "atum:textures/mob_effect/marked_for_death.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "38627C6F9EE5E7CE"
+		}
+	]
+	quests: [
+		{
+			title: "进入阿图姆"
+			x: -6.0d
+			y: -0.5d
+			subtitle: "永远不会把你沙漠"
+			description: [
+				"阿图姆传送门建造："
+				"（需要49个砂岩）"
+				"1.摆一个5*5的底"
+				"2.第二层外围一圈5*5，内部空3*3"
+				"3.第三层四个脚各向上放2块砂岩"
+				"4.空出来的3*3区域倒满水"
+				"5.向水中丢入圣金甲虫"
+				"须知：阿图姆村民已被禁止生成，你无法与它们交易。"
+			]
+			dependencies: ["2439902F2D6F6BB2"]
+			id: "1394E8B5F06BD3BC"
+			tasks: [{
+				id: "0913AA14A7B17463"
+				type: "advancement"
+				advancement: "atum:core/journeyintothesands"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3DE4C2C73D2A00B3"
+				type: "item"
+				title: "欢迎来到 椰枣国度"
+				item: "atum:golden_date"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -0.5d
+			subtitle: "璀璨光芒！"
+			description: [
+				"彩虹锭可通过美梦的彩虹矿石烧炼获得"
+				"暗晶石可通过杀死Herobrine（掉落物）获得"
+			]
+			id: "2439902F2D6F6BB2"
+			tasks: [{
+				id: "6F2E7066D53AE398"
+				type: "item"
+				item: "atum:scarab"
+			}]
+			rewards: [{
+				id: "56B48315272EE581"
+				type: "item"
+				auto: "enabled"
+				item: "minecraft:sandstone"
+				count: 49
+			}]
+		}
+		{
+			title: "找到法老的陵墓"
+			icon: "atum:limestone_door"
+			x: -3.5d
+			y: -0.5d
+			subtitle: "Pyramid - Atum"
+			description: ["它很可能是半截入土的，所以你需要清理一下（火把是清理沙子的好帮手）"]
+			dependencies: ["1394E8B5F06BD3BC"]
+			id: "38627C6F9EE5E7CE"
+			tasks: [{
+				id: "37411BECCEDFA12E"
+				type: "structure"
+				structure: "atum:pyramid"
+			}]
+			rewards: [{
+				id: "1E29E715643E3674"
+				type: "item"
+				item: "minecraft:torch"
+				count: 8
+			}]
+		}
+		{
+			title: "廉洁奉公"
+			x: -6.0d
+			y: 2.0d
+			subtitle: "你可以通过杀死阿图姆的怪物获取奈布粒"
+			description: ["奈布矿石？难挖的很。"]
+			dependencies: ["1394E8B5F06BD3BC"]
+			dependency_requirement: "one_completed"
+			id: "1BA9A54852C59A1C"
+			tasks: [
+				{
+					id: "192242DA04853688"
+					type: "kill"
+					entity: "atum:brigand"
+					value: 5L
+				}
+				{
+					id: "1E057B1E9C55CAB9"
+					type: "kill"
+					entity: "atum:nomad"
+					value: 5L
+				}
+				{
+					id: "6E3BEEAB63FB1097"
+					type: "kill"
+					entity: "atum:barbarian"
+					value: 3L
+				}
+				{
+					id: "1A44D5192A49B54F"
+					type: "kill"
+					entity: "atum:sergeant"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "6CF0729E5739B3F3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "66A2A15DC7414458"
+					type: "item"
+					item: "atum:bandit_warlord_spawn_egg"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 2.0d
+			subtitle: "烧法老装备……"
+			description: ["神铸熔炉 下面放熔岩桶，上面放法老神器，烧出神屑。"]
+			dependencies: [
+				"1BA9A54852C59A1C"
+				"61B078A76B3E67F5"
+			]
+			id: "12324718DAC8D60E"
+			tasks: [{
+				id: "3F6C7031BD70CFA4"
+				type: "item"
+				item: "atum:godforge"
+			}]
+			rewards: [{
+				id: "344A0CD28F8F2F70"
+				type: "item"
+				item: "atum:nebu_lantern"
+				count: 5
+			}]
+		}
+		{
+			title: "发现陵墓大门边的结界方块"
+			x: -1.0d
+			y: -0.5d
+			subtitle: "将奈布火把插到结界方块上，开启陵墓大门~"
+			dependencies: ["38627C6F9EE5E7CE"]
+			id: "3B78D94F8D2F3B31"
+			tasks: [{
+				id: "64DB438336474807"
+				type: "observation"
+				icon: "atum:quandary_block"
+				timer: 0L
+				observe_type: 0
+				to_observe: "atum:quandary_block"
+			}]
+			rewards: [{
+				id: "16C5D6B04DCF5E23"
+				type: "item"
+				item: "minecraft:oak_boat"
+			}]
+		}
+		{
+			title: "观察陵墓中的所有陷阱方块"
+			x: -1.0d
+			y: -3.0d
+			subtitle: "使用镐子右击陷阱可以关闭它们~"
+			dependencies: ["3B78D94F8D2F3B31"]
+			id: "2EA516D3529887CC"
+			tasks: [
+				{
+					id: "4419E201F4913CB4"
+					type: "observation"
+					title: "燃烧陷阱"
+					icon: "atum:burning_trap"
+					timer: 0L
+					observe_type: 0
+					to_observe: "atum:burning_trap"
+				}
+				{
+					id: "0FC349A69868C748"
+					type: "observation"
+					title: "剧毒陷阱"
+					icon: "atum:poison_trap"
+					timer: 0L
+					observe_type: 0
+					to_observe: "atum:poison_trap"
+				}
+				{
+					id: "1B3DACF77BA93247"
+					type: "observation"
+					title: "焦油陷阱"
+					icon: "atum:tar_trap"
+					timer: 0L
+					observe_type: 0
+					to_observe: "atum:tar_trap"
+				}
+				{
+					id: "6D6FA3CAF4A7D6C3"
+					type: "observation"
+					title: "烟雾陷阱"
+					icon: "atum:smoke_trap"
+					timer: 0L
+					observe_type: 0
+					to_observe: "atum:smoke_trap"
+				}
+				{
+					id: "57C9A8792711575D"
+					type: "observation"
+					title: "箭矢陷阱"
+					icon: "atum:arrow_trap"
+					timer: 0L
+					observe_type: 0
+					to_observe: "atum:arrow_trap"
+				}
+			]
+			rewards: [{
+				id: "53E5E110009AE925"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "陵墓守护者"
+			x: 2.0d
+			y: -0.5d
+			subtitle: "The forgetten Forgetten"
+			dependencies: ["3B78D94F8D2F3B31"]
+			id: "26934471A6092B79"
+			tasks: [
+				{
+					id: "3903C8883C9F70F2"
+					type: "kill"
+					entity: "atum:forsaken"
+					value: 4L
+				}
+				{
+					id: "13564632A8F1678A"
+					type: "kill"
+					entity: "atum:mummy"
+					value: 4L
+				}
+				{
+					id: "25F262631E1BFD86"
+					type: "kill"
+					entity: "atum:wraith"
+					value: 4L
+				}
+				{
+					id: "63210AB113D5BBC5"
+					type: "kill"
+					entity: "atum:bonestorm"
+					value: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "1CE919EAA3334DED"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0722CEE7BCA213DE"
+					type: "item"
+					item: "paraglider:heart_container"
+				}
+			]
+		}
+		{
+			title: "提交椰枣"
+			x: -6.0d
+			y: -3.0d
+			subtitle: "Date♂To♂Date"
+			dependencies: ["1394E8B5F06BD3BC"]
+			hide: true
+			id: "60463927EADC0F6F"
+			tasks: [{
+				id: "588D4499AE343648"
+				type: "item"
+				item: "atum:date"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "50512A886E4C4C7F"
+				type: "item"
+				item: "atum:golden_date_enchanted"
+				count: 8
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			subtitle: "弑君"
+			description: [
+				"你可以在石棺周围发现四个结界方块"
+				"在结界方块上插上奈布火把，再右击石棺，即可召唤法老"
+				"杀死法老后，回到石棺再次右击，即可收获战利品"
+				""
+				"将法老的战利品放入背包中即可获得进入下界的资格。"
+				"打不过？放船啊！"
+			]
+			dependencies: ["3B78D94F8D2F3B31"]
+			id: "61B078A76B3E67F5"
+			tasks: [{
+				id: "5E45BFD4DAE76425"
+				type: "kill"
+				entity: "atum:pharaoh"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "77320BF9A34CDDC8"
+					type: "item"
+					item: "paraglider:spirit_orb"
+				}
+				{
+					id: "206A11CE268A90DF"
+					type: "item"
+					item: "paraglider:heart_container"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			subtitle: "它是滑盖的！"
+			description: ["选择一把你喜欢的权杖吧"]
+			dependencies: ["61B078A76B3E67F5"]
+			id: "4C2313F4ABEE4BD2"
+			tasks: [{
+				id: "4F46CE04E071B660"
+				type: "item"
+				item: "atum:sarcophagus"
+			}]
+			rewards: [
+				{
+					id: "2D6D8D8EBAA733F5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5FDB1C361589DECA"
+					type: "choice"
+					title: "法老权杖（正常无法获得）"
+					icon: {
+						id: "atum:scepter_atem"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					table_id: 5703182939629657944L
+				}
+			]
+		}
+		{
+			title: "秉公执法"
+			x: -6.0d
+			y: 4.5d
+			subtitle: "把各路强盗的头目们绳之以法"
+			description: ["然后你就可以搭建你的石头守卫了。（方法类似于搭建铁傀儡和搭建雪傀儡）"]
+			dependencies: ["1BA9A54852C59A1C"]
+			id: "5657A8DF5388FB3F"
+			tasks: [{
+				id: "59BCB376E4AF2D2A"
+				type: "kill"
+				entity: "atum:bandit_warlord"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "2804B5030930111D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2F1A5BFEFDBD06DF"
+					type: "item"
+					item: "atum:golden_date_enchanted"
+				}
+				{
+					id: "5C691078C556BC87"
+					type: "item"
+					item: "atum:khnumite_block"
+					count: 6
+				}
+				{
+					id: "6BAEA5D7810F5057"
+					type: "item"
+					item: "atum:khnumite_face"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 4.5d
+			dependencies: ["1BA9A54852C59A1C"]
+			id: "0F2F19705E39F963"
+			tasks: [{
+				id: "462D84E0ADEA5AEE"
+				type: "item"
+				item: "atum:nebu_ingot"
+				count: 10L
+			}]
+			rewards: [{
+				id: "57C9DF6745745A61"
+				type: "item"
+				item: "atum:nebu_block"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -3.5d
+			subtitle: "挖掘刷怪笼掉落~"
+			description: [
+				"123"
+				"456"
+				"789"
+				"上为工作台的九格，relics的饰品放在5号位，试炼通过证放在2、4、6、8位，即可修复饰品耐久~"
+				"阿图姆的刷怪笼可是超多的！"
+			]
+			dependencies: ["1394E8B5F06BD3BC"]
+			id: "5CA8940C8CE5FF31"
+			tasks: [{
+				id: "604ECD44AAF2F72A"
+				type: "item"
+				item: "paraglider:spirit_orb"
+			}]
+			rewards: [{
+				id: "535431EAF71F5F35"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -12.5d
+			y: -6.0d
+			subtitle: "9个试炼通过证可用于合成游戏中心~"
+			description: [
+				"别在家里玩游戏！"
+				"去野外找个空旷的地，把这个方块放下来"
+				"放下之后，右击它，位移向下两格的地方（对，没错，不是消失，它会往下跑两格）会产生一个游戏方块（随机，扫雷或者灯光记忆游戏）。"
+				"既然有这个位移，你不妨在空中放置游戏中心。"
+			]
+			dependencies: ["5CA8940C8CE5FF31"]
+			id: "638674D5F26E0FCB"
+			tasks: [{
+				id: "4A0408F1C4CC963F"
+				type: "item"
+				item: "lootgames:puzzle_master"
+			}]
+			rewards: [{
+				id: "63CAC942D53ECDE6"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "触发并观察扫雷方块"
+			x: -9.5d
+			y: -6.0d
+			subtitle: "老游戏了"
+			description: ["扫雷游戏开始后，你可以左击智能面板激活它，或右击插旗标记雷区。"]
+			dependencies: ["638674D5F26E0FCB"]
+			id: "6CE0F53AD6F032C2"
+			tasks: [{
+				id: "3A6585A561EDA100"
+				type: "observation"
+				icon: "lootgames:ms_activator"
+				timer: 0L
+				observe_type: 0
+				to_observe: "lootgames:ms_activator"
+			}]
+			rewards: [{
+				id: "1FBEE32FE4801B99"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "触发并观察灯光游戏方块"
+			x: -12.5d
+			y: -3.5d
+			subtitle: "考验记忆力"
+			description: ["灯光游戏开始后，游戏区域内方块会闪出灯光，待其闪烁完成后，你只需要再按它闪动的顺序依次点击对应方块。"]
+			dependencies: ["638674D5F26E0FCB"]
+			id: "4BAA13005306C831"
+			tasks: [{
+				id: "7ED757858BD704A0"
+				type: "observation"
+				icon: "lootgames:gol_activator"
+				timer: 0L
+				observe_type: 0
+				to_observe: "lootgames:gol_activator"
+			}]
+			rewards: [{
+				id: "4E4A3295AAB41F6A"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "获得神铸方块"
+			x: -3.5d
+			y: 4.5d
+			subtitle: "然后你就可以做附魔台了"
+			dependencies: ["12324718DAC8D60E"]
+			id: "497A0A4B55C4F817"
+			tasks: [{
+				id: "3A3DC593DA0AE6AD"
+				type: "item"
+				item: "atum:godforged_block"
+			}]
+			rewards: [{
+				id: "66D3D392097309FA"
+				type: "item"
+				item: "minecraft:bookshelf"
+				count: 6
+			}]
+		}
+		{
+			title: "你是我的四戒"
+			x: -3.5d
+			y: -3.0d
+			subtitle: "宝，你是我的四戒（什么缝合怪）"
+			description: [
+				"把污浊的指环丢入水中有概率获得。"
+				"多去挖法老的坟吧孩子。"
+			]
+			dependencies: ["38627C6F9EE5E7CE"]
+			hide: true
+			id: "3F50BD2C51C04E9D"
+			tasks: [
+				{
+					id: "527D69DB70E0571A"
+					type: "item"
+					item: "atum:relic_diamond_ring"
+				}
+				{
+					id: "7166128709E637B1"
+					type: "item"
+					item: "atum:relic_emerald_ring"
+				}
+				{
+					id: "2C30D4685B20BA0C"
+					type: "item"
+					item: "atum:relic_ruby_ring"
+				}
+				{
+					id: "2AC6426C414FED34"
+					type: "item"
+					item: "atum:relic_sapphire_ring"
+				}
+			]
+			rewards: [
+				{
+					id: "126EB7AD2769E346"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "066408AA75D292C3"
+					type: "item"
+					item: "atum:crunchy_golden_scarab"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 4.5d
+			subtitle: "神圣锤"
+			description: ["现在去敲祭坛？"]
+			dependencies: ["61B078A76B3E67F5"]
+			id: "454584A39C3D6ED6"
+			tasks: [{
+				id: "0B99391DA3C31F70"
+				type: "item"
+				item: "atum:nebu_hammer"
+			}]
+			rewards: [{
+				id: "60801BF158B82BEF"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -12.5d
+			y: -0.5d
+			subtitle: "滑稽玩意"
+			dependencies: ["2439902F2D6F6BB2"]
+			hide: true
+			id: "569D464AADBF18C8"
+			tasks: [{
+				id: "2F39F73B2B13CF60"
+				type: "item"
+				item: "atum:idol_of_labor"
+			}]
+			rewards: [
+				{
+					id: "67AEDDD3D12839CD"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "7720743A3218257D"
+					type: "item"
+					item: "atum:nebu_curio_display"
+				}
+				{
+					id: "06AF4DFB72992E4D"
+					type: "item"
+					item: "atum:golden_date_enchanted"
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 2.0d
+			subtitle: "他会吃掉你的装备附魔！"
+			dependencies: ["1394E8B5F06BD3BC"]
+			id: "09E83E810E0D14A8"
+			tasks: [{
+				id: "043999CFDB6BA329"
+				type: "kill"
+				entity: "outvoted:hunger"
+				value: 1L
+			}]
+			rewards: [{
+				id: "0F6B499CA5EE46F0"
+				type: "xp"
+				xp: 100
+			}]
+		}
+	]
+}
