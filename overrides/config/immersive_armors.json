@@ -1,0 +1,16 @@
+{
+  "hideSecondLayerUnderArmor": true,
+  "enabledArmors": {
+    "prismarine": false,
+    "steampunk": false,
+    "warrior": true,
+    "robe": true,
+    "wooden": true,
+    "bone": true,
+    "divine": true,
+    "wither": true,
+    "heavy": true,
+    "slime": false
+  },
+  "version": 1
+}
