@@ -17,19 +17,59 @@ var names as string[] = ["onerelics","tworelics","threerelics","fourrelics","adz
 for i in 0 .. relics.length {
     craftingTable.addShapedMirrored(names[i],relics[i], [[spirit_orb,spirit_orb,spirit_orb], [spirit_orb,poorrelics[i],spirit_orb],[spirit_orb,spirit_orb,spirit_orb]]);
 }
-
-smithing.addRecipe("lightningdragonhead",<item:iceandfire:dragonarmor_dragonsteel_lightning_head>,<item:iceandfire:dragonarmor_diamond_head>,lightning);
-smithing.addRecipe("lightningdragonneck",<item:iceandfire:dragonarmor_dragonsteel_lightning_neck>,<item:iceandfire:dragonarmor_diamond_neck>,lightning);
-smithing.addRecipe("lightningdragonbody",<item:iceandfire:dragonarmor_dragonsteel_lightning_body>,<item:iceandfire:dragonarmor_diamond_body>,lightning);
-smithing.addRecipe("lightningdragontail",<item:iceandfire:dragonarmor_dragonsteel_lightning_tail>,<item:iceandfire:dragonarmor_diamond_tail>,lightning);
-smithing.addRecipe("icedragonhead",<item:iceandfire:dragonarmor_dragonsteel_ice_head>,<item:iceandfire:dragonarmor_diamond_head>,ice);
-smithing.addRecipe("icedragonneck",<item:iceandfire:dragonarmor_dragonsteel_ice_neck>,<item:iceandfire:dragonarmor_diamond_neck>,ice);
-smithing.addRecipe("icedragonbody",<item:iceandfire:dragonarmor_dragonsteel_ice_body>,<item:iceandfire:dragonarmor_diamond_body>,ice);
-smithing.addRecipe("icedragontail",<item:iceandfire:dragonarmor_dragonsteel_ice_tail>,<item:iceandfire:dragonarmor_diamond_tail>,ice);
-smithing.addRecipe("firedragonhead",<item:iceandfire:dragonarmor_dragonsteel_fire_head>,<item:iceandfire:dragonarmor_diamond_head>,fire);
-smithing.addRecipe("firedragonneck",<item:iceandfire:dragonarmor_dragonsteel_fire_neck>,<item:iceandfire:dragonarmor_diamond_neck>,fire);
-smithing.addRecipe("firedragonbody",<item:iceandfire:dragonarmor_dragonsteel_fire_body>,<item:iceandfire:dragonarmor_diamond_body>,fire);
-smithing.addRecipe("firedragontail",<item:iceandfire:dragonarmor_dragonsteel_fire_tail>,<item:iceandfire:dragonarmor_diamond_tail>,fire);
+var firstItem as IItemStack[] = [
+    <item:iceandfire:dragonarmor_dragonsteel_lightning_head>,
+    <item:iceandfire:dragonarmor_dragonsteel_lightning_neck>,
+    <item:iceandfire:dragonarmor_dragonsteel_lightning_body>,
+    <item:iceandfire:dragonarmor_dragonsteel_lightning_tail>,
+    <item:iceandfire:dragonarmor_dragonsteel_ice_head>,
+    <item:iceandfire:dragonarmor_dragonsteel_ice_neck>,
+    <item:iceandfire:dragonarmor_dragonsteel_ice_body>,
+    <item:iceandfire:dragonarmor_dragonsteel_ice_tail>,
+    <item:iceandfire:dragonarmor_dragonsteel_fire_head>,
+    <item:iceandfire:dragonarmor_dragonsteel_fire_neck>,
+    <item:iceandfire:dragonarmor_dragonsteel_fire_body>,
+    <item:iceandfire:dragonarmor_dragonsteel_fire_tail>
+];
+var secondItem as IItemStack[] = [
+    <item:iceandfire:dragonarmor_diamond_head>,
+    <item:iceandfire:dragonarmor_diamond_neck>,
+    <item:iceandfire:dragonarmor_diamond_body>,
+    <item:iceandfire:dragonarmor_diamond_tail>,
+    <item:iceandfire:dragonarmor_diamond_head>,
+    <item:iceandfire:dragonarmor_diamond_neck>,
+    <item:iceandfire:dragonarmor_diamond_body>,
+    <item:iceandfire:dragonarmor_diamond_tail>,
+    <item:iceandfire:dragonarmor_diamond_head>,
+    <item:iceandfire:dragonarmor_diamond_neck>,
+    <item:iceandfire:dragonarmor_diamond_body>,
+    <item:iceandfire:dragonarmor_diamond_tail>
+];
+var thirdItem as IItemStack[] = [
+    <item:iceandfire:dragonsteel_lightning_block>,
+    <item:iceandfire:dragonsteel_lightning_block>,
+    <item:iceandfire:dragonsteel_lightning_block>,
+    <item:iceandfire:dragonsteel_lightning_block>,
+    <item:iceandfire:dragonsteel_ice_block>,
+    <item:iceandfire:dragonsteel_ice_block>,
+    <item:iceandfire:dragonsteel_ice_block>,
+    <item:iceandfire:dragonsteel_ice_block>,
+    <item:iceandfire:dragonsteel_fire_block>,
+    <item:iceandfire:dragonsteel_fire_block>,
+    <item:iceandfire:dragonsteel_fire_block>,
+    <item:iceandfire:dragonsteel_fire_block>
+];
+var wnames as string[] = [
+    "lightningdragonhead","lightningdragonneck",
+    "lightningdragonbody","lightningdragontail",
+    "icedragonhead","icedragonneck",
+    "icedragonbody","icedragontail",
+    "firedragonhead","firedragonneck",
+    "firedragonbody","firedragontail",
+];
+for i in 0 .. firstItem.length {
+    smithing.addRecipe(wnames[i],firstItem[i],secondItem[i],thirdItem[i]);
+}
 craftingTable.addShaped("expensive_xp_block",<item:globalxp:xp_block>, [[<item:minecraft:iron_bars>,<item:minecraft:iron_bars>,<item:minecraft:iron_bars>], [<item:minecraft:iron_bars>,<item:minecraft:emerald_block>,<item:minecraft:iron_bars>],[<item:minecraft:iron_bars>,<item:minecraft:iron_bars>,<item:minecraft:iron_bars>]]);
 craftingTable.addShaped("nohopperstorage",<item:toms_storage:ts.inventory_hopper_basic>,[[<item:minecraft:iron_ingot>,<tag:items:forge:chests/wooden>,<item:minecraft:iron_ingot>],[<tag:items:minecraft:planks>,<item:toms_storage:ts.inventory_cable>,<tag:items:minecraft:planks>],[<item:minecraft:iron_ingot>,<item:minecraft:iron_ingot>,<item:minecraft:iron_ingot>]]);
 craftingTable.addShaped("atum_enchant",<item:minecraft:enchanting_table>, [[air,<item:minecraft:book>,air], [<item:minecraft:diamond>,<item:atum:godforged_block>,<item:minecraft:diamond>],[<item:minecraft:obsidian>,<item:minecraft:obsidian>,<item:minecraft:obsidian>]]);
