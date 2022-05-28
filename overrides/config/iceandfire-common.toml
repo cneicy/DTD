@@ -82,12 +82,12 @@
 		#True if dragons can break blocks if they get stuck. Turn this off if your dragons randomly explode.
 		"Dragons Dig When Stuck" = true
 		#True if tamed dragons go to sleep at night.
-		"Tamed Dragons Sleep" = true
+		"Tamed Dragons Sleep" = false
 		#True if dragons can despawn. Note that if this is false there may be SERIOUS lag issues.
 		"Dragons Despawn" = true
 		#How many blocks away can dragons spot potential prey. Note that increasing this could cause lag.
 		#Range: 1 ~ 10000
-		"Dragon Target Search Length" = 128
+		"Dragon Target Search Length" = 100
 		#True if dragons can drop their skull on death.
 		"Dragons Drop Skull" = true
 		#True if villagers should run away and hide from dragons and other hostile Ice and Fire mobs.
@@ -97,7 +97,7 @@
 		#True if dragons fire/ice charges create secondary explosions that launch blocks everywhere. Turn this to true if you like unfair explosions. Or lag.
 		"Explosive Dragon Breath" = false
 		#A more intelligent dragon pathfinding system, but is also laggier. Turn this on if you think dragons are too stupid.
-		"Intelligent Dragon Pathfinding" = false
+		"Intelligent Dragon Pathfinding" = true
 		#How many blocks away can dragons wander from their defined "home" position.
 		#Range: 1 ~ 10000
 		"Dragon Wander From Home Distance" = 40
@@ -132,33 +132,33 @@
 	[Dragons.Attributes]
 		#Damage dealt from a successful lightning breath attack. Attack Damage is scaled to by age, so a stage 5 dragon will deal 5x as much as this number
 		#Range: 0.0 ~ 10000.0
-		"Dragon Attack Damage(Lightning breath)" = 14.25
+		"Dragon Attack Damage(Lightning breath)" = 25.0
 		#Dragon Flute Distance - how many chunks away is the dragon flute effective?
 		#Range: 0 ~ 10000
 		"Dragon Flute Distance" = 4
 		#Max dragon health. Health is scaled to this
 		#Range: 1.0 ~ 100000.0
-		"Dragon Health" = 2400
+		"Dragon Health" = 4800.0
 		#Change this to slow down or speed up dragon or amphithere flight.
 		#Range: 0.0 ~ 2.0
-		"Dragon Flight Speed Modifier" = 1.0
+		"Dragon Flight Speed Modifier" = 2.0
 		#Enable this if your server is being bombarded with moved wrongly or moved too fast console messages. REQUIRES RESTART!
 		"Dragon Moved Wrongly Error Fix" = true
 		#Damage dealt from a successful fire breath attack. Attack Damage is scaled to by age, so a stage 5 dragon will deal 5x as much as this number
 		#Range: 0.0 ~ 10000.0
-		"Dragon Attack Damage(Fire breath)" = 14.25
+		"Dragon Attack Damage(Fire breath)" = 25.0
 		#Max dragon attack damage. Attack Damage is scaled to this
 		#Range: 1 ~ 10000
-		"Dragon Attack Damage" = 40
+		"Dragon Attack Damage" = 50
 		#How long it takes(in ticks) for a dragon egg to hatch
 		#Range: > 1
-		"Dragon Egg Hatch Time" = 7200
+		"Dragon Egg Hatch Time" = 7200.0
 		#Dragon Flap Noise Distance - Larger number, further away you can hear it
 		#Range: 0 ~ 10000
-		"Dragon Flap Noise Distance" = 4
+		"Dragon Flap Noise Distance" = 16
 		#Damage dealt from a successful ice breath attack. Attack Damage is scaled to by age, so a stage 5 dragon will deal 5x as much as this number
 		#Range: 0.0 ~ 10000.0
-		"Dragon Attack Damage(Ice breath)" = 14.25
+		"Dragon Attack Damage(Ice breath)" = 25.0
 
 [Mobs]
 
