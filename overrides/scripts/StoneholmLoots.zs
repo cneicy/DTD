@@ -76,21 +76,106 @@ var stoneholmleather = loot_build
     .add<LootTableId>(condition => {condition.withTableId(<resource:stoneholm:llama_stable>);})
     .add<RandomChance>(condition => {condition.withChance(0.35);});
 
-var artifacts as IItemStack[] = [<item:artifacts:cross_necklace>,<item:artifacts:panic_necklace>,<item:artifacts:shock_pendant>,<item:artifacts:flame_pendant>,<item:artifacts:thorn_pendant>];
-var artifactsnumber as string[] = ["first","second","third","forth","fifth"];
-for i in 0 .. artifacts.length {reg.register(artifactsnumber[i], artifact, CommonLootModifiers.add(artifacts[i]));}var beers as IItemStack[] = [<item:drinkbeer:beer_mug>,<item:drinkbeer:beer_mug_blaze_stout>,<item:drinkbeer:beer_mug_blaze_milk_stout>,<item:drinkbeer:beer_mug_apple_lambic>,<item:drinkbeer:beer_mug_sweet_berry_kriek>,<item:drinkbeer:beer_mug_haars_icey_pale_lager>,<item:drinkbeer:beer_mug_pumpkin_kvass>,<item:drinkbeer:beer_mug_night_howl_kvass>,<item:drinkbeer:empty_beer_mug>];
+var artifacts as IItemStack[] = [
+    <item:artifacts:cross_necklace>,
+    <item:artifacts:panic_necklace>,
+    <item:artifacts:shock_pendant>,
+    <item:artifacts:flame_pendant>,
+    <item:artifacts:thorn_pendant>
+];
 
-var drinkbeers as IItemStack[] = [<item:drinkbeer:beer_mug>,<item:drinkbeer:beer_mug_blaze_stout>,<item:drinkbeer:beer_mug_blaze_milk_stout>,<item:drinkbeer:beer_mug_apple_lambic>,<item:drinkbeer:beer_mug_sweet_berry_kriek>,<item:drinkbeer:beer_mug_haars_icey_pale_lager>,<item:drinkbeer:beer_mug_pumpkin_kvass>,<item:drinkbeer:beer_mug_night_howl_kvass>,<item:drinkbeer:empty_beer_mug>];
-var beersnumber as string[] = ["beerone", "beertwo", "beerthree", "beerffour", "beerfive", "beersix", "beerseven", "beereight", "beernine"];
-for i in 0 .. beers.length {reg.register(beersnumber[i], beer, CommonLootModifiers.add(drinkbeers[i]));}
+var artifactsnumber as string[] = [
+    "first",
+    "second",
+    "third",
+    "forth",
+    "fifth"
+];
 
-var snack as IItemStack[] = [<item:vanillacookbook:carrot_soup>,<item:vanillacookbook:apple_pie>,<item:vanillacookbook:meatball>,<item:vanillacookbook:ice_cream_cake_slice>,<item:vanillacookbook:melon_soda>];
-var snacknumber as string[] = ["tasted","delicious","pudding","vanilla","milkshake","soup","applepie","meatball","cakeslice","soda"];
-for i in 0 .. snack.length {reg.register(snacknumber[i], snacks, CommonLootModifiers.add(snack[i]));}
+for i in 0 .. artifacts.length {
+    reg.register(artifactsnumber[i], artifact, CommonLootModifiers.add(artifacts[i]));
+}
 
-var shoes as IItemStack[] = [<item:artifacts:running_shoes>,<item:artifacts:bunny_hoppers>,<item:artifacts:kitty_slippers>];
-var shoesnumber as string[] = ["bunny","run","kitty"];
-for i in 0 .. shoes.length {reg.register(shoesnumber[i], artifactshoes, CommonLootModifiers.add(shoes[i]));}
+var beers as IItemStack[] = [
+    <item:drinkbeer:beer_mug>,
+    <item:drinkbeer:beer_mug_blaze_stout>,
+    <item:drinkbeer:beer_mug_blaze_milk_stout>,
+    <item:drinkbeer:beer_mug_apple_lambic>,
+    <item:drinkbeer:beer_mug_sweet_berry_kriek>,
+    <item:drinkbeer:beer_mug_haars_icey_pale_lager>,
+    <item:drinkbeer:beer_mug_pumpkin_kvass>,
+    <item:drinkbeer:beer_mug_night_howl_kvass>,
+    <item:drinkbeer:empty_beer_mug>
+];
+
+var drinkbeers as IItemStack[] = [
+    <item:drinkbeer:beer_mug>,
+    <item:drinkbeer:beer_mug_blaze_stout>,
+    <item:drinkbeer:beer_mug_blaze_milk_stout>,
+    <item:drinkbeer:beer_mug_apple_lambic>,
+    <item:drinkbeer:beer_mug_sweet_berry_kriek>,
+    <item:drinkbeer:beer_mug_haars_icey_pale_lager>,
+    <item:drinkbeer:beer_mug_pumpkin_kvass>,
+    <item:drinkbeer:beer_mug_night_howl_kvass>,
+    <item:drinkbeer:empty_beer_mug>
+];
+
+var beersnumber as string[] = [
+    "beerone", 
+    "beertwo", 
+    "beerthree", 
+    "beerffour", 
+    "beerfive", 
+    "beersix", 
+    "beerseven", 
+    "beereight", 
+    "beernine"
+];
+
+for i in 0 .. beers.length {
+    reg.register(beersnumber[i], beer, CommonLootModifiers.add(drinkbeers[i]));
+}
+
+var snack as IItemStack[] = [
+    <item:vanillacookbook:carrot_soup>,
+    <item:vanillacookbook:apple_pie>,
+    <item:vanillacookbook:meatball>,
+    <item:vanillacookbook:ice_cream_cake_slice>,
+    <item:vanillacookbook:melon_soda>
+];
+
+var snacknumber as string[] = [
+    "tasted",
+    "delicious",
+    "pudding",
+    "vanilla",
+    "milkshake",
+    "soup",
+    "applepie",
+    "meatball",
+    "cakeslice",
+    "soda"
+];
+
+for i in 0 .. snack.length {
+    reg.register(snacknumber[i], snacks, CommonLootModifiers.add(snack[i]));
+}
+
+var shoes as IItemStack[] = [
+    <item:artifacts:running_shoes>,
+    <item:artifacts:bunny_hoppers>,
+    <item:artifacts:kitty_slippers>
+];
+
+var shoesnumber as string[] = [
+    "bunny",
+    "run",
+    "kitty"
+];
+
+for i in 0 .. shoes.length {
+    reg.register(shoesnumber[i], artifactshoes, CommonLootModifiers.add(shoes[i]));
+}
 
 reg.register("add_book", libraryone, CommonLootModifiers.add(<item:minecraft:book>));
 reg.register("add_double_book", librarytwo, CommonLootModifiers.add(<item:minecraft:book> * 2));
