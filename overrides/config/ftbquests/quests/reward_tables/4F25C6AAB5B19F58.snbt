@@ -1,7 +1,7 @@
 {
 	id: "4F25C6AAB5B19F58"
 	order_index: 4
-	title: "法老权杖"
+	title: "{reward_table.dtd.34F25C6AAB5B19F58.title}"
 	loot_size: 1
 	rewards: [
 		{

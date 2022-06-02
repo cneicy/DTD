@@ -103,7 +103,7 @@
 		"Dragon Wander From Home Distance" = 40
 		#Every interval of this number in ticks, dragon allowed to break blocks.
 		#Range: 0 ~ 10000
-		"Dragon Block Break Cooldown" = 5
+		"Dragon Block Break Cooldown" = 3
 		#How far away dragons will detect gold blocks being destroyed or chests being opened
 		#Range: 0 ~ 10000
 		"Dragon Gold Search Length" = 30
@@ -132,7 +132,7 @@
 	[Dragons.Attributes]
 		#Damage dealt from a successful lightning breath attack. Attack Damage is scaled to by age, so a stage 5 dragon will deal 5x as much as this number
 		#Range: 0.0 ~ 10000.0
-		"Dragon Attack Damage(Lightning breath)" = 25.0
+		"Dragon Attack Damage(Lightning breath)" = 30.0
 		#Dragon Flute Distance - how many chunks away is the dragon flute effective?
 		#Range: 0 ~ 10000
 		"Dragon Flute Distance" = 4
@@ -141,12 +141,12 @@
 		"Dragon Health" = 4800.0
 		#Change this to slow down or speed up dragon or amphithere flight.
 		#Range: 0.0 ~ 2.0
-		"Dragon Flight Speed Modifier" = 2.0
+		"Dragon Flight Speed Modifier" = 1.0
 		#Enable this if your server is being bombarded with moved wrongly or moved too fast console messages. REQUIRES RESTART!
 		"Dragon Moved Wrongly Error Fix" = true
 		#Damage dealt from a successful fire breath attack. Attack Damage is scaled to by age, so a stage 5 dragon will deal 5x as much as this number
 		#Range: 0.0 ~ 10000.0
-		"Dragon Attack Damage(Fire breath)" = 25.0
+		"Dragon Attack Damage(Fire breath)" = 30.0
 		#Max dragon attack damage. Attack Damage is scaled to this
 		#Range: 1 ~ 10000
 		"Dragon Attack Damage" = 50
@@ -158,7 +158,7 @@
 		"Dragon Flap Noise Distance" = 16
 		#Damage dealt from a successful ice breath attack. Attack Damage is scaled to by age, so a stage 5 dragon will deal 5x as much as this number
 		#Range: 0.0 ~ 10000.0
-		"Dragon Attack Damage(Ice breath)" = 25.0
+		"Dragon Attack Damage(Ice breath)" = 30.0
 
 [Mobs]
 

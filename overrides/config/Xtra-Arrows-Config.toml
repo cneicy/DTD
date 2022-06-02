@@ -1,7 +1,7 @@
 
 ["Configurations for Xtra Arrows [Forge Edition]"]
 	#Should Fletcher Villagers be allowed to trade Xtra Arrows? This may fix compatibility issues if other mods modify fletcher trading. Note that any villagers that have already generated their trades will maintain them. [True = Yes, False = No]
-	fletchersTradeXtraArrows = true
+	fletchersTradeXtraArrows = false
 	#
 	#Should Padded Arrows fall off walls? [True = Yes, False = No]
 	paddedArrowsFall = true
@@ -9,17 +9,17 @@
 	#Should Explosive Arrows be functional? [True = Yes, False = No]
 	explosiveArrowsEnabled = true
 	#Should explosive arrows do damage to the world? [True = Yes, False = No]
-	explosiveArrowDoesBlockDamage = true
+	explosiveArrowDoesBlockDamage = false
 	#What Should the radius of the Explosive Arrow explosions be by default? [The higher the number, the bigger the explosion. Default: 2.5]
 	#Range: 0.0 ~ 1000.0
-	explosiveArrowRadius = 2.5
+	explosiveArrowRadius = 2.0
 	#
 	#Should Lightning Arrows be functional? [True = Yes, False = No]
 	lightningArrowsEnabled = true
 	#Should the lightning bolts of Lightning Arrows be visual-only? If true, lightning bolts from the arrows would not impact the world or damage entities. [True = Yes, False = No]
 	lightningArrowVisOnly = false
 	#Should the lightning bolts of Lightining Arrows cause fire?[True = Yes, False = No]
-	lightningArrowCausesFire = true
+	lightningArrowCausesFire = false
 	#How much damage should the lightning bolts of Lightning Arrows do? [The higher the number, the more the damage. Default: 3.5]
 	#Range: 0.0 ~ 1000.0
 	lightningArrowsDamage = 3.5

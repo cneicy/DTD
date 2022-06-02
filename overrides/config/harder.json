@@ -4,5 +4,5 @@
   {"damage": 1.65, "dimensions": ["atum:atum"], "message": "§g金沙逐浪遮天蔽日"},
   {"damage": 1.95, "dimensions": ["minecraft:the_nether"], "message": "§4熔岩翻滚炽锤重铸"},
   {"damage": 2.625, "dimensions": ["twilightforest:twilightforest"], "message": "§6失落花园曾经童话"},
-  {"damage": 4.0, "dimensions": ["minecraft:the_end"], "message": "§0虚空浩荡末路之启"}
+  {"damage": 5.0, "dimensions": ["minecraft:the_end"], "message": "§0虚空浩荡末路之启"}
 ]
