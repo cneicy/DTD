@@ -20,11 +20,11 @@ kineticOpalEnabled = true
 airMalachiteEnabled = true
 #Determines how many times common gems will attempt to spawn per chunk in their native biomes. REQUIRES RESTART.
 #Range: 0 ~ 100
-commonGemsPerChunk = 10
+commonGemsPerChunk = 8
 #Determines how many times rare gems will attempt to spawn per chunk in their native biomes. REQUIRES RESTART.
 #Range: 0 ~ 100
-rareGemsPerChunk = 5
+rareGemsPerChunk = 4
 #Determines how many times a random gem ore will attempt to spawn per chunk. REQUIRES RESTART.
 #Range: 0 ~ 100
-randomGemsPerChunk = 5
+randomGemsPerChunk = 4
 

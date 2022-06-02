@@ -20,7 +20,11 @@
   {
     "mob": "minecraft:wither",
     "dimension": [
-      "minecraft:overworld","atum:atum","twilightforest:twilightforest","good_nights_sleep:good_dream","good_nights_sleep:nightmare"
+      "minecraft:overworld",
+      "atum:atum",
+      "twilightforest:twilightforest",
+      "good_nights_sleep:good_dream",
+      "good_nights_sleep:nightmare"
     ],
     "onjoin": true,
     "result": "deny"

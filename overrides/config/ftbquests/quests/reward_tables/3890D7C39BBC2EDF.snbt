@@ -1,7 +1,7 @@
 {
 	id: "3890D7C39BBC2EDF"
 	order_index: 2
-	title: "生命饰品（不同稀有度）"
+	title: "{reward_table.dtd.3890D7C39BBC2EDF.title}"
 	icon: {
 		id: "blue_skies:life_arc"
 		Count: 1b

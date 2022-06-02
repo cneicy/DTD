@@ -1,7 +1,7 @@
 {
 	id: "5736541A0B537D81"
 	order_index: 3
-	title: "水之饰品（不同稀有度）"
+	title: "{reward_table.dtd.5736541A0B537D81.title}"
 	icon: {
 		id: "blue_skies:aquatic_arc"
 		Count: 1b

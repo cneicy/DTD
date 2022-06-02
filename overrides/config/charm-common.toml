@@ -5,7 +5,7 @@
 #Removes minimum and maximum XP costs on the anvil. Anvils are also less likely to break.
 "AnvilImprovements enabled" = true
 #Lightweight armor is invisible and does not increase mob awareness when drinking Potion of Invisibility.
-"ArmorInvisibility enabled" = true
+"ArmorInvisibility enabled" = false
 #Storage for maps that automatically updates the displayed map as you explore.
 "Atlas enabled" = true
 #Refills your hotbar from your inventory.
@@ -13,7 +13,7 @@
 #Unlocks all vanilla recipes.
 "AutomaticRecipeUnlock enabled" = true
 #Right-click a bat with a bucket to capture it. Right-click again to release it and locate entities around you.
-"BatBuckets enabled" = true
+"BatBuckets enabled" = false
 #Passive and friendly mobs will heal themselves within range of a beacon with the regeneration effect.
 "BeaconsHealMobs enabled" = true
 #Beekeepers are villagers that trade beekeeping items. Their job site is the beehive.
@@ -51,7 +51,7 @@
 #Adds custom recipes.
 "ExtraRecipes enabled" = false
 #Extract enchantments from any enchanted item into an empty book using the grindstone.
-"ExtractEnchantments enabled" = true
+"ExtractEnchantments enabled" = false
 #A player wearing feather falling enchanted boots will not trample crops.
 "FeatherFallingCrops enabled" = true
 #Glowballs can be thrown to produce a light source where they impact.
@@ -222,7 +222,7 @@
 	#If inventory crafting or inventory ender chest modules are enabled, pressing escape or inventory key returns you to the inventory rather than closing the window.
 	"Inventory button return" = false
 	#If true, replaces vanilla glint color rendering with Charm's, allowing for multiple enchantment glint colors.
-	"Enchantment glint override" = true
+	"Enchantment glint override" = false
 	#Set the default glint color for all enchanted items.
 	"Enchantment glint color" = "purple"
 

@@ -1,0 +1,1045 @@
+{
+	id: "11B5BF33F60FA941"
+	group: "57B469943938490D"
+	order_index: 4
+	filename: "blue_skies"
+	title: "蔚蓝浩空"
+	icon: "blue_skies:multi_portal_item"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -14.0d
+			y: -2.5d
+			width: 10.0d
+			height: 10.0d
+			rotation: 0.0d
+			image: "blue_skies:textures/gui/journal/logo_backdrop.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -14.0d
+			y: -2.5d
+			width: 10.0d
+			height: 10.0d
+			rotation: 0.0d
+			image: "blue_skies:textures/gui/journal/logo.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.0d
+			y: -4.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "blue_skies:textures/gui/journal/icons/alchemist.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "01669DE2B29AC3F3"
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "blue_skies:textures/gui/journal/icons/summoner.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "17D30E7C0EBE0760"
+		}
+		{
+			x: 13.0d
+			y: 3.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "blue_skies:textures/gui/journal/icons/starlit_crusher.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "18606201C528386D"
+		}
+		{
+			x: 13.0d
+			y: -4.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "blue_skies:textures/gui/journal/icons/arachnarch.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "18FFF871CD182608"
+		}
+		{
+			x: -14.5d
+			y: 6.5d
+			width: 6.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "dtd:textures/everbright_sea_sunshine.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "5AFC32C225E958F5"
+		}
+		{
+			x: 6.0d
+			y: -0.5d
+			width: 8.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "dtd:textures/day_gatekeeper.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "633C1845834BAEE6"
+		}
+		{
+			x: -22.5d
+			y: -2.5d
+			width: 8.0d
+			height: 4.0d
+			rotation: 0.0d
+			image: "dtd:textures/everbright_blinding.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "19B0920FEA05C06B"
+		}
+		{
+			x: -22.5d
+			y: 1.5d
+			width: 8.0d
+			height: 4.0d
+			rotation: 0.0d
+			image: "dtd:textures/everdawn_blinding.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "19B0920FEA05C06B"
+		}
+		{
+			x: 16.0d
+			y: -0.5d
+			width: 8.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "dtd:textures/naturedungeon.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "2F66F97A3142D9DD"
+		}
+	]
+	quests: [
+		{
+			x: -10.5d
+			y: -0.5d
+			subtitle: "找守门人换~"
+			description: ["传送门搭建完成后，使用御风火石激活即可"]
+			dependencies: ["633C1845834BAEE6"]
+			id: "28CE4AA6CE8D8DFB"
+			tasks: [{
+				id: "77E2EEDA8E53094A"
+				type: "item"
+				item: {
+					id: "blue_skies:zeal_lighter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4F2AA63576EEA553"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5BFE1F57EBB7C150"
+					type: "item"
+					item: "blue_skies:lunar_stonebrick"
+					count: 10
+				}
+				{
+					id: "72E9CC199733A895"
+					type: "item"
+					item: "blue_skies:turquoise_stonebrick"
+					count: 10
+				}
+			]
+		}
+		{
+			title: "杀死炼金师"
+			icon: {
+				id: "blue_skies:alchemy_scroll"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: -4.0d
+			dependencies: ["1DE62197DC3661DB"]
+			id: "01669DE2B29AC3F3"
+			tasks: [{
+				id: "73E8B0ABC4D02161"
+				type: "kill"
+				entity: "blue_skies:alchemist"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "2999EA85068BD3D5"
+					type: "item"
+					item: "blue_skies:crescent_fruit"
+					count: 8
+				}
+				{
+					id: "2A9EDDFEF82FA008"
+					type: "item"
+					item: {
+						id: "blue_skies:moonstone_shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			subtitle: "带上抗毒的东西会使你的体验更好"
+			dependencies: ["01669DE2B29AC3F3"]
+			id: "33326876AF73A534"
+			tasks: [{
+				id: "0B8226D57F0EC536"
+				type: "advancement"
+				title: "进入猛毒地牢"
+				advancement: "blue_skies:everdawn/enter_poison_dungeon"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "53FB33329F5BF31F"
+				type: "xp"
+				auto: "enabled"
+				xp: 10
+			}]
+		}
+		{
+			icon: {
+				id: "blue_skies:venom_sac"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 11.5d
+			y: -4.0d
+			description: ["小技巧：在幽咽蛛王冲撞时用尖刺盾牌防御可以眩晕幽咽蛛王。"]
+			dependencies: ["3FD0C6A28BA34121"]
+			id: "18FFF871CD182608"
+			tasks: [{
+				id: "73001E25C2441FFA"
+				type: "kill"
+				title: "杀死幽咽蛛王"
+				entity: "blue_skies:arachnarch"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "0FAC7CDCBAEFB4A9"
+					type: "item"
+					item: "blue_skies:bag_of_spoils"
+				}
+				{
+					id: "65CCE3BDE48BFE0A"
+					type: "item"
+					item: "blue_skies:venomous_encounter"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -0.5d
+			subtitle: "是惑乱，不是霍乱"
+			description: ["永昼和恒晓都有惑乱高塔，探险家指南针搜Blinding就可以了"]
+			dependencies: [
+				"269670A329F1E32E"
+				"65C06F80AEC5F4BE"
+			]
+			dependency_requirement: "one_completed"
+			id: "19B0920FEA05C06B"
+			tasks: [{
+				id: "27B904ECB34D31B7"
+				type: "advancement"
+				title: "进入惑乱高塔"
+				advancement: "blue_skies:enter_blinding_dungeon"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "48E835B928DD4A04"
+				type: "xp"
+				auto: "enabled"
+				xp: 10
+			}]
+		}
+		{
+			icon: {
+				id: "blue_skies:summoning_tome"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["1DE62197DC3661DB"]
+			id: "17D30E7C0EBE0760"
+			tasks: [{
+				id: "786540C432E81CFC"
+				type: "kill"
+				title: "杀死召唤师"
+				entity: "blue_skies:summoner"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "3932E68FF25E682D"
+					type: "item"
+					item: "blue_skies:pink_brewberry"
+				}
+				{
+					id: "3F20761708610DE4"
+					type: "item"
+					item: "blue_skies:blinding_rage"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "blue_skies:crushing_hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 11.5d
+			y: 3.0d
+			description: ["小技巧：向星荧粉碎者投矛击中后能眩晕星荧粉碎者。"]
+			dependencies: ["5ECC4A5A07B4F2C1"]
+			id: "18606201C528386D"
+			tasks: [{
+				id: "6D38704BB2875A5C"
+				type: "kill"
+				title: "杀死星荧粉碎者"
+				entity: "blue_skies:starlit_crusher"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "52ECA516BA307D86"
+					type: "item"
+					item: "blue_skies:cherry_pie"
+				}
+				{
+					id: "192B0DDAECD9A10D"
+					type: "item"
+					item: "blue_skies:defying_starlight"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			subtitle: "非常巨大的迷宫！"
+			dependencies: ["17D30E7C0EBE0760"]
+			id: "0448715A844D174C"
+			tasks: [{
+				id: "2683B20063BFE692"
+				type: "advancement"
+				title: "进入自然城堡"
+				advancement: "blue_skies:everbright/enter_nature_dungeon"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "74667DBAD86DDF6C"
+				type: "xp"
+				auto: "enabled"
+				xp: 10
+			}]
+		}
+		{
+			x: 0.0d
+			y: -8.0d
+			description: ["要不试试把下界合金锭扔进去转化一下？"]
+			dependencies: ["01669DE2B29AC3F3"]
+			id: "7D9F28D470BAE497"
+			tasks: [{
+				id: "28AC403333DEACF4"
+				type: "item"
+				item: "blue_skies:alchemy_table"
+			}]
+			rewards: [{
+				id: "7C7424D2F4AB5093"
+				type: "item"
+				item: "blue_skies:solnut"
+				count: 8
+			}]
+		}
+		{
+			x: 11.5d
+			y: -0.5d
+			description: ["将幽咽蛛王、星荧粉碎者奖杯同时放入背包里即可获得进入暮色森林的资格。"]
+			dependencies: [
+				"18FFF871CD182608"
+				"18606201C528386D"
+			]
+			hide: true
+			hide_text_until_complete: false
+			id: "2F66F97A3142D9DD"
+			tasks: [{
+				id: "4B19B12C310C52BA"
+				type: "checkmark"
+				title: "暮色森林资格证"
+			}]
+			rewards: [
+				{
+					id: "5C302985878CF0E3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "55E1176910BDAA9C"
+					type: "item"
+					item: "tantrum:heart_container"
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 3.0d
+			dependencies: ["28CE4AA6CE8D8DFB"]
+			id: "269670A329F1E32E"
+			tasks: [{
+				id: "2234C0C9709DD3E9"
+				type: "dimension"
+				icon: "blue_skies:everbright_portal"
+				dimension: "blue_skies:everbright"
+			}]
+			rewards: [{
+				id: "3D71856CF5E3068A"
+				type: "xp"
+				auto: "enabled"
+				xp: 5
+			}]
+		}
+		{
+			x: -7.5d
+			y: -4.0d
+			dependencies: ["28CE4AA6CE8D8DFB"]
+			id: "65C06F80AEC5F4BE"
+			tasks: [{
+				id: "2D1ABC2967852D9A"
+				type: "dimension"
+				icon: "blue_skies:everdawn_portal"
+				dimension: "blue_skies:everdawn"
+			}]
+			rewards: [{
+				id: "66109CE25B89BECA"
+				type: "xp"
+				auto: "enabled"
+				xp: 5
+			}]
+		}
+		{
+			x: 8.0d
+			y: -4.0d
+			subtitle: "比自然钥匙更难找……"
+			dependencies: ["33326876AF73A534"]
+			id: "3FD0C6A28BA34121"
+			tasks: [{
+				id: "285875E6A3F7FD12"
+				type: "item"
+				item: "blue_skies:poison_key"
+				count: 4L
+			}]
+			rewards: [{
+				id: "2E38DE7295A2D719"
+				type: "xp"
+				xp: 20
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			subtitle: "提示：把每个小房间都去一遍"
+			dependencies: ["19B0920FEA05C06B"]
+			id: "1DE62197DC3661DB"
+			tasks: [{
+				id: "04CA8C5682B56F28"
+				type: "item"
+				item: "blue_skies:blinding_key"
+				count: 4L
+			}]
+			rewards: [{
+				id: "42A421DFA6DC74B8"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			x: 8.0d
+			y: 3.0d
+			subtitle: "记得多翻翻每个房间里的箱子~"
+			dependencies: ["0448715A844D174C"]
+			id: "5ECC4A5A07B4F2C1"
+			tasks: [{
+				id: "5DA2678A4EA3CD25"
+				type: "item"
+				item: "blue_skies:nature_key"
+				count: 4L
+			}]
+			rewards: [{
+				id: "464FC3038BB18C11"
+				type: "xp"
+				xp: 20
+			}]
+		}
+		{
+			title: "Boss专属武器"
+			x: -4.5d
+			y: -4.0d
+			subtitle: "比较玩具"
+			description: ["蔚蓝浩空的每一个Boss都有自己的专属武器，开对应的捷囊有较低概率获得。"]
+			dependencies: ["19B0920FEA05C06B"]
+			id: "3E6059D897DA1B4E"
+			tasks: [
+				{
+					id: "5BACDC802F7A7CB9"
+					type: "item"
+					item: {
+						id: "blue_skies:summoning_tome"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5A527274999EE9B7"
+					type: "item"
+					item: {
+						id: "blue_skies:alchemy_scroll"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4F7231A5D8BFE16A"
+					type: "item"
+					item: {
+						id: "blue_skies:crushing_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5D4F06E10217524A"
+					type: "item"
+					item: {
+						id: "blue_skies:venom_sac"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "6D7AB4254BE0C02E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "浩空饰品"
+			x: -4.5d
+			y: 3.0d
+			subtitle: "都挺有用的"
+			description: [
+				"蔚蓝浩空的饰品栏仅有4个槽位，但是正常情况下能获得的饰品就只有4个，所以你可以直接把它们全部装备上。"
+				"提示：做其他的任务可以获得其他3个原本未使用的饰品。"
+			]
+			dependencies: ["19B0920FEA05C06B"]
+			id: "43DB0693C4E907B3"
+			tasks: [
+				{
+					id: "29DD0C3604BA72B7"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							items: [
+								{
+									id: "blue_skies:ethereal_arc"
+									Count: 1b
+									tag: {
+										ArcLevel: 0
+									}
+								}
+								{
+									id: "blue_skies:ethereal_arc"
+									Count: 1b
+									tag: {
+										ArcLevel: 1
+									}
+								}
+								{
+									id: "blue_skies:ethereal_arc"
+									Count: 1b
+									tag: {
+										ArcLevel: 2
+									}
+								}
+							]
+							display: {
+								Name: "{\"text\":\"飘渺饰品\"}"
+							}
+						}
+					}
+				}
+				{
+					id: "14B28F09378F25A7"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							items: [
+								{
+									id: "blue_skies:dusk_arc"
+									Count: 1b
+									tag: {
+										ArcLevel: 0
+									}
+								}
+								{
+									id: "blue_skies:dusk_arc"
+									Count: 1b
+									tag: {
+										ArcLevel: 1
+									}
+								}
+								{
+									id: "blue_skies:dusk_arc"
+									Count: 1b
+									tag: {
+										ArcLevel: 2
+									}
+								}
+							]
+							display: {
+								Name: "{\"text\":\"暮色饰品\"}"
+							}
+						}
+					}
+				}
+				{
+					id: "433D397B3BADF2E2"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							items: [
+								{
+									id: "blue_skies:nature_arc"
+									Count: 1b
+									tag: {
+										ArcLevel: 0
+									}
+								}
+								{
+									id: "blue_skies:nature_arc"
+									Count: 1b
+									tag: {
+										ArcLevel: 1
+									}
+								}
+								{
+									id: "blue_skies:nature_arc"
+									Count: 1b
+									tag: {
+										ArcLevel: 2
+									}
+								}
+							]
+							display: {
+								Name: "{\"text\":\"自然饰品\"}"
+							}
+						}
+					}
+				}
+				{
+					id: "266C6A660E88CD7B"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							items: [
+								{
+									id: "blue_skies:poison_arc"
+									Count: 1b
+									tag: {
+										ArcLevel: 0
+									}
+								}
+								{
+									id: "blue_skies:poison_arc"
+									Count: 1b
+									tag: {
+										ArcLevel: 1
+									}
+								}
+								{
+									id: "blue_skies:poison_arc"
+									Count: 1b
+									tag: {
+										ArcLevel: 2
+									}
+								}
+							]
+							display: {
+								Name: "{\"text\":\"毒之饰品\"}"
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1743BE050007C467"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			title: "&6满级炼金师！"
+			x: -4.0d
+			y: -8.0d
+			subtitle: "真·炼金术"
+			description: ["通过献祭你的下界合金锭来获得符文饰品"]
+			dependencies: ["7D9F28D470BAE497"]
+			hide: true
+			id: "206B8872246CF6A0"
+			tasks: [{
+				id: "7C9952606C9B7187"
+				type: "advancement"
+				advancement: "blue_skies:everdawn/alchemy_gold"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "237F38A1ECA0ECCD"
+					type: "item"
+					item: {
+						id: "blue_skies:runic_arc"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "32673129EFEA0CE1"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 6.5d
+			dependencies: ["17D30E7C0EBE0760"]
+			id: "1F012D487A474094"
+			tasks: [{
+				id: "7911155E67DEA44A"
+				type: "item"
+				item: "blue_skies:summoning_table"
+			}]
+			rewards: [{
+				id: "373201A12C642B7F"
+				type: "item"
+				item: "blue_skies:winter_leaves"
+				count: 8
+			}]
+		}
+		{
+			title: "&e他名之剑"
+			x: 4.0d
+			y: -8.0d
+			subtitle: "收藏价值大于实用价值"
+			description: ["在猛毒地牢的箱子里低概率出现。"]
+			dependencies: ["33326876AF73A534"]
+			hide: true
+			id: "2F94965380EF4306"
+			tasks: [{
+				id: "6E80E0C5A4D2511F"
+				type: "item"
+				item: {
+					id: "blue_skies:different_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "754929AA5DEC70A4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "48C050BE3CDB114B"
+					type: "random"
+					icon: {
+						id: "blue_skies:life_arc"
+						Count: 1b
+						tag: {
+							ArcLevel: 0
+						}
+					}
+					table_id: 4075994897901694687L
+				}
+			]
+		}
+		{
+			x: -18.5d
+			y: -0.5d
+			subtitle: "矛相当于浩空的三叉戟，虽然没那么强，但对某个Boss有奇效"
+			dependencies: ["633C1845834BAEE6"]
+			dependency_requirement: "one_completed"
+			id: "588CE544040BB0C7"
+			tasks: [{
+				id: "61CBEC18D22F1573"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						items: [
+							{
+								id: "blue_skies:bluebright_spear"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "blue_skies:starlit_spear"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "blue_skies:frostbright_spear"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "blue_skies:lunar_spear"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "blue_skies:dusk_spear"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "blue_skies:maple_spear"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "blue_skies:cherry_spear"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "blue_skies:soulbound_spear"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+						display: {
+							Name: "{\"text\":\"矛\"}"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2BDF69E8AE72FB94"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			x: -18.5d
+			y: 3.0d
+			subtitle: "工具盒可以更换武器/工具的木棍，或者用来为装备添加“缪铁耐久”"
+			description: ["处处修？"]
+			dependencies: ["588CE544040BB0C7"]
+			id: "28BB1163A511DF6F"
+			tasks: [{
+				id: "3C41A3B345FF9745"
+				type: "item"
+				item: "blue_skies:tool_box"
+			}]
+			rewards: [{
+				id: "0CD1AD3840788786"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -18.5d
+			y: -4.0d
+			subtitle: "小灶可以制作一些不错的食物"
+			description: ["开小灶？"]
+			dependencies: ["588CE544040BB0C7"]
+			id: "2010205E2DF8F612"
+			tasks: [{
+				id: "5780578600F79D23"
+				type: "item"
+				item: "blue_skies:food_prep_table"
+			}]
+			rewards: [{
+				id: "14E097650274F08A"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			x: -7.5d
+			y: 6.5d
+			subtitle: "海蟒现在不会生成在主世界，而是在everbright。"
+			dependencies: ["269670A329F1E32E"]
+			id: "5AFC32C225E958F5"
+			tasks: [{
+				id: "79B4BF8F119CD29D"
+				type: "kill"
+				entity: "iceandfire:sea_serpent"
+				value: 1L
+			}]
+			rewards: [{
+				id: "794DA19E833A921C"
+				type: "random"
+				table_id: 6284302800878009729L
+			}]
+		}
+		{
+			x: -11.0d
+			y: 6.5d
+			subtitle: "《凡人并不能使用这把武器进行近战》"
+			dependencies: ["5AFC32C225E958F5"]
+			dependency_requirement: "one_started"
+			id: "3655593FC3B878EC"
+			tasks: [{
+				id: "7D05E6693D4EAFC3"
+				type: "item"
+				item: {
+					id: "iceandfire:tide_trident"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2BCC3ACF141BBCD1"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			icon: "blue_skies:multi_portal_item"
+			x: -14.0d
+			y: -0.5d
+			subtitle: "Gatekeeper House"
+			id: "633C1845834BAEE6"
+			tasks: [{
+				id: "315F47D950794357"
+				type: "checkmark"
+				title: "找到守门人小屋"
+			}]
+			rewards: [{
+				id: "644D7C17080D5180"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -14.0d
+			y: 3.0d
+			subtitle: "指导书"
+			dependencies: ["633C1845834BAEE6"]
+			id: "3780EB3C99B82EEE"
+			tasks: [{
+				id: "025146AC53BB9BA8"
+				type: "item"
+				item: "blue_skies:blue_journal"
+			}]
+			rewards: [{
+				id: "1ABC454EF06842C5"
+				type: "xp"
+				xp: 10
+			}]
+		}
+	]
+}

@@ -205,9 +205,11 @@ var wnames as string[] = [
     "firedragonbody",
     "firedragontail",
 ];
+
 for i in 0 .. firstItem.length {
     smithing.addRecipe(wnames[i],firstItem[i],secondItem[i],thirdItem[i]);
 }
+
 craftingTable.addShaped("expensive_xp_block",<item:globalxp:xp_block>, [
     [<item:minecraft:iron_bars>,<item:minecraft:iron_bars>,<item:minecraft:iron_bars>],
     [<item:minecraft:iron_bars>,<item:minecraft:emerald_block>,<item:minecraft:iron_bars>],
@@ -238,6 +240,32 @@ craftingTable.addShaped("totheatum",<item:atum:scarab>,[
     [air,<item:good_nights_sleep:rainbow_ingot>,air]
     ]
 );
+
+var ba_bt_eyes as IItemStack[] = [
+    <item:ba_bt:guardian_eye_land>,
+    <item:ba_bt:guardian_eye_core>,
+    <item:ba_bt:guardian_eye_nether>,
+    <item:ba_bt:guardian_eye_end>,
+    <item:ba_bt:guardian_eye_sky>,
+    <item:ba_bt:guardian_eye_ocean>
+];
+var ba_bt_names as string[]= [
+    "land",
+    "core",
+    "neher",
+    "end",
+    "sky",
+    "ocean"
+];
+
+for p in 0 .. ba_bt_names.length {
+    craftingTable.addShaped(ba_bt_names[p],<item:lootgames:puzzle_master>,[
+        [heart_piece,heart_piece,heart_piece],
+        [heart_piece,ba_bt_eyes[p],heart_piece],
+        [heart_piece,heart_piece,heart_piece]
+        ]
+    );
+}
 craftingTable.addShapedMirrored("fireboots",<item:immersive_armors:robe_boots>, [
     [air,air,air], 
     [wool,<item:minecraft:blaze_powder>,wool],
@@ -293,4 +321,4 @@ craftingTable.addShapedMirrored("recall_potion",<item:majruszs_difficulty:recall
     ]
 );
 craftingTable.addShapeless("pergamine",<item:dungeonsmod:back_pergamine>,[<item:minecraft:map>,<item:minecraft:emerald>]);
-craftingTable.addShapeless("lootgamestime",<item:lootgames:puzzle_master>,[heart_piece,heart_piece,heart_piece,heart_piece,heart_piece,heart_piece,heart_piece,heart_piece,heart_piece]);
+

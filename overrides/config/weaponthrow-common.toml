@@ -33,7 +33,7 @@
 
 [interactions]
 	#Throwing can break blocks at landing?
-	"Break Blocks" = true
+	"Break Blocks" = false
 
 [multipliers]
 
@@ -80,7 +80,7 @@
 #Integration with Project MMO
 [pmmo]
 	#Disable this if running Minecraft 1.16.3 and below
-	"Enable PMMO Integration" = true
+	"Enable PMMO Integration" = false
 	#Minimum Level Required to use Loyalty, 0 is none
 	#Range: > 0
 	"Loyalty Requirement" = 10
@@ -88,7 +88,7 @@
 [time]
 	#Time in ticks when the throwed items should dissapear
 	#Range: > 0
-	"Despawn Time" = 1200
+	"Despawn Time" = 9600
 	#Attack Speed Multiplier to charging
 	#Range: 0.0 ~ 256.0
 	"Charging Multiplier" = 3.0

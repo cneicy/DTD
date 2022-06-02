@@ -612,7 +612,7 @@ for k in 0 .. entities.length {
         new ArmorGroup("air_twotwiliforest")
             .inSlot(<equipmentslottype:head>, <item:minecraft:air>)
             .addStages("twotwiliforest")
-            .setWeight(80.0) 
+            .setWeight(160.0) 
             .register(entities[k]);
         new ArmorGroup("air_five_one")
             .inSlot(<equipmentslottype:head>, <item:minecraft:air>)
