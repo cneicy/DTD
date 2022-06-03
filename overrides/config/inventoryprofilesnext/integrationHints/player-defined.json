@@ -1,9 +1,0 @@
-{
-    "net.minecraft.client.gui.screen.inventory.CreativeScreen": {
-        "buttonHints": {
-            "SHOW_EDITOR": {
-                "horizontalOffset": 1
-            }
-        }
-    }
-}
