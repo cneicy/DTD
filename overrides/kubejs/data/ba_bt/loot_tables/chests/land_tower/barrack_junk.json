@@ -12,7 +12,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "tantrum:heart_piece"
+          "name": "swiaf:katana_desert_venom"
         },
         {
           "type": "minecraft:item",
@@ -31,18 +31,18 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
-          "name": "tantrum:heart_piece"
+          "weight": 5,
+          "name": "minecraft:golden_sword"
         },
         {
           "type": "minecraft:item",
           "weight": 20,
-          "name": "minecraft:leather_helmet"
+          "name": "minecraft:iron_helmet"
         },
         {
           "type": "minecraft:item",
           "weight": 20,
-          "name": "minecraft:leather_chestplate"
+          "name": "minecraft:iron_chestplate"
         },
         {
           "type": "minecraft:item",
@@ -52,12 +52,12 @@
         {
           "type": "minecraft:item",
           "weight": 20,
-          "name": "minecraft:leather_leggings"
+          "name": "minecraft:iron_leggings"
         },
         {
           "type": "minecraft:item",
           "weight": 20,
-          "name": "minecraft:leather_boots"
+          "name": "minecraft:iron_boots"
         },
         {
           "type": "minecraft:item",
@@ -91,7 +91,7 @@
               }
             }
           ],
-          "name": "minecraft:iron_nugget"
+          "name": "tantrum:heart_piece"
         }
       ]
     },
@@ -130,18 +130,18 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 15,
+          "weight": 6,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
-                "max": 3.0,
+                "min": 6.0,
+                "max": 16.0,
                 "type": "minecraft:uniform"
               }
             }
           ],
-          "name": "minecraft:rotten_flesh"
+          "name": "xtraarrows:iron_explosive_arrow"
         },
         {
           "type": "minecraft:item",

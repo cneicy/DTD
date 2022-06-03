@@ -30,8 +30,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:diamond_chestplate",
+          "weight": 5,
+          "name": "minecraft:iron_chestplate",
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
@@ -111,7 +111,7 @@
         {
           "type": "minecraft:item",
           "weight": 8,
-          "name": "minecraft:emerald",
+          "name": "tantrum:heart_piece",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -125,7 +125,7 @@
         {
           "type": "minecraft:item",
           "weight": 4,
-          "name": "tantrum:heart_piece",
+          "name": "minecraft:diamond",
           "functions": [
             {
               "function": "minecraft:set_count",

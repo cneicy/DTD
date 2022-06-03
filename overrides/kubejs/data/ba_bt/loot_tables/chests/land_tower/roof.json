@@ -39,22 +39,22 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 5,
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 1.0,
-                "max": 2.0,
+                "max": 4.0,
                 "type": "minecraft:uniform"
               }
             }
           ],
-          "name": "tantrum:heart_piece"
+          "name": "xtraarrows:diamond_tracking_arrow"
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -100,7 +100,7 @@
               }
             }
           ],
-          "name": "tantrum:heart_piece"
+          "name": "minecraft:experience_bottle"
         },
         {
           "type": "minecraft:item",
@@ -115,7 +115,7 @@
               }
             }
           ],
-          "name": "minecraft:coal"
+          "name": "xtraarrows:iron_tracking_arrow"
         },
         {
           "type": "minecraft:item",
@@ -130,7 +130,7 @@
               }
             }
           ],
-          "name": "minecraft:emerald"
+          "name": "tantrum:heart_piece"
         },
         {
           "type": "minecraft:item",
