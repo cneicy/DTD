@@ -72,7 +72,7 @@
               "function": "minecraft:enchant_randomly"
             }
           ],
-          "name": "minecraft:leather_leggings"
+          "name": "minecraft:iron_leggings"
         },
         {
           "type": "minecraft:item",
@@ -82,7 +82,7 @@
               "function": "minecraft:enchant_randomly"
             }
           ],
-          "name": "minecraft:leather_boots"
+          "name": "minecraft:iron_boots"
         },
         {
           "type": "minecraft:item",
@@ -92,7 +92,7 @@
               "function": "minecraft:enchant_randomly"
             }
           ],
-          "name": "minecraft:leather_helmet"
+          "name": "minecraft:iron_helmet"
         },
         {
           "type": "minecraft:item",
@@ -102,7 +102,7 @@
               "function": "minecraft:enchant_randomly"
             }
           ],
-          "name": "minecraft:leather_chestplate"
+          "name": "minecraft:iron_chestplate"
         },
         {
           "type": "minecraft:item",

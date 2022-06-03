@@ -314,7 +314,7 @@ craftingTable.addShapedMirrored("divineleggings",<item:immersive_armors:divine_l
     [<item:iceandfire:silver_ingot>,air,<item:iceandfire:silver_ingot>]
     ]
 );
-craftingTable.addShapedMirrored("recall_potion",<item:majruszs_difficulty:recall_potion>, [
+craftingTable.addShapedMirrored("recall_potions",<item:majruszs_difficulty:recall_potion>, [
     [air,<item:minecraft:phantom_membrane>,air], 
     [<item:minecraft:phantom_membrane>,<item:dungeonsmod:soul_bottle>,<item:minecraft:phantom_membrane>],
     [air,<item:minecraft:phantom_membrane>,air]

@@ -1393,5 +1393,55 @@
 				}
 			]
 		}
+		{
+			x: 6.5d
+			y: -11.5d
+			subtitle: "心之容器碎片"
+			description: [
+				"可用于合成Heart Container（心之容器）增加生命"
+				"也可用于合成游戏中心、修复饰品。"
+			]
+			dependencies: ["680C0EB1AD2474E1"]
+			id: "2A0E96600CF5AA54"
+			tasks: [{
+				id: "194C2ABD91BDEC3B"
+				type: "item"
+				item: "tantrum:heart_piece"
+			}]
+			rewards: [{
+				id: "6E3A426365C477E1"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 8.5d
+			y: -14.0d
+			description: [
+				"*别*在*家*里*玩*游*戏*！*"
+				"去野外找个空旷的地，把这个方块放下来"
+				"放下之后，右击它，位移向下两格的地方（对，没错，不是消失，它会往下跑两格）会产生一个游戏方块（随机，扫雷或者灯光记忆游戏）。"
+				"既然有这个位移，你不妨在空中放置游戏中心。"
+				""
+				"扫雷游戏开始后，你可以左击智能面板激活它，或右击插旗标记雷区。"
+				""
+				"灯光游戏开始后，游戏区域内方块会闪出灯光，待其闪烁完成后，你只需要再按它闪动的顺序依次点击对应方块。"
+			]
+			dependencies: [
+				"2A0E96600CF5AA54"
+				"2B2440B6E6592A1C"
+			]
+			id: "1681A8163EDA7D8E"
+			tasks: [{
+				id: "34D59FE0B74DB8AE"
+				type: "item"
+				item: "lootgames:puzzle_master"
+			}]
+			rewards: [{
+				id: "4A124A1562C6C6DA"
+				type: "xp"
+				xp: 100
+			}]
+		}
 	]
 }
