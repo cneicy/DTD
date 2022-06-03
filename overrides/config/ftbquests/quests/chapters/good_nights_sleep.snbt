@@ -1,0 +1,434 @@
+{
+	id: "3A0BAE44F1F2628B"
+	group: "57B469943938490D"
+	order_index: 1
+	filename: "good_nights_sleep"
+	title: "人间如梦"
+	icon: "minecraft:grass_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -6.5d
+			y: -1.5d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "good_nights_sleep:textures/block/pot_of_gold.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			width: 20.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "good_nights_sleep:textures/block/rainbow_top.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -6.5d
+			y: 4.0d
+			width: 6.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "dtd:textures/badnight.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -6.5d
+			y: -6.5d
+			width: 6.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "dtd:textures/dream_forest2.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "蘑菇"
+			x: -6.5d
+			y: -1.5d
+			subtitle: "鬼怎么会掉蘑菇？！"
+			description: [
+				"使用希望蘑菇、绝望蘑菇、床合成怪异的床，右击怪异的床即可进入梦境（随机进入美梦/噩梦）。"
+				""
+				"离开梦境维度需要等待20分钟。或者你也可以直接使用破烂的床/豪华的床/怪异的床离开梦境（死亡也是可以的）。"
+			]
+			dependencies: [
+				"140F231E9E492747"
+				"4C07CD16598DB284"
+			]
+			dependency_requirement: "one_completed"
+			id: "1E1FE30C1977E0E8"
+			tasks: [
+				{
+					id: "453AFEC1DD56838C"
+					type: "item"
+					item: "good_nights_sleep:hope_mushroom"
+				}
+				{
+					id: "291B885CB30B042F"
+					type: "item"
+					item: "good_nights_sleep:despair_mushroom"
+				}
+			]
+			rewards: [{
+				id: "3A24A81F790807B3"
+				type: "item"
+				auto: "enabled"
+				item: "minecraft:white_bed"
+			}]
+		}
+		{
+			title: "进入美梦"
+			x: -3.0d
+			y: -5.0d
+			subtitle: "宝，晚安"
+			dependencies: ["1E1FE30C1977E0E8"]
+			id: "17302483DF49BD99"
+			tasks: [{
+				id: "6646D76DA55B79B6"
+				type: "dimension"
+				dimension: "good_nights_sleep:good_dream"
+			}]
+			rewards: [{
+				id: "0E0D2C55175E195B"
+				type: "item"
+				auto: "enabled"
+				item: "good_nights_sleep:luxurious_bed"
+				count: 2
+			}]
+		}
+		{
+			title: "进入噩梦"
+			x: -3.0d
+			y: 2.0d
+			subtitle: "获取大量岩浆的好地方"
+			dependencies: ["1E1FE30C1977E0E8"]
+			id: "1BF085CB72D8A3CC"
+			tasks: [{
+				id: "7F893D13500BF80D"
+				type: "dimension"
+				dimension: "good_nights_sleep:nightmare"
+			}]
+			rewards: [{
+				id: "3E27C65AB1926411"
+				type: "item"
+				auto: "enabled"
+				item: "good_nights_sleep:wretched_bed"
+				count: 2
+			}]
+		}
+		{
+			x: -3.0d
+			y: -8.5d
+			subtitle: "你要它干什么？"
+			dependencies: ["17302483DF49BD99"]
+			id: "7AF50BE4ED79DAF0"
+			tasks: [{
+				id: "16794E738097C732"
+				type: "item"
+				item: "minecraft:wet_sponge"
+			}]
+			rewards: [{
+				id: "2163DD3F02019AA8"
+				type: "item"
+				item: "minecraft:sponge"
+				count: 3
+			}]
+		}
+		{
+			x: 1.0d
+			y: -5.0d
+			subtitle: "你需要哥布林商人"
+			description: [
+				"你知道吗？哥布林商人交易——1个暗晶石换2个光晶石。"
+				"哥布林商人会在主世界生成（会自然生成，也会以结构的形式）。"
+				"你也可以在美梦地下挖矿获得光晶石。"
+			]
+			dependencies: ["17302483DF49BD99"]
+			id: "48AC149AA72E5B3D"
+			tasks: [{
+				id: "182F9DFCAD5BA152"
+				type: "item"
+				item: "good_nights_sleep:positite_gem"
+			}]
+			rewards: [{
+				id: "057BAFB9855B9217"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "真正的地狱"
+			x: 1.0d
+			y: 2.0d
+			subtitle: "刷经验好去处"
+			dependencies: ["1BF085CB72D8A3CC"]
+			id: "23434183BAA7EA95"
+			tasks: [
+				{
+					id: "76A2FE61B6EDE749"
+					type: "kill"
+					entity: "good_nights_sleep:tormenter"
+					value: 10L
+				}
+				{
+					id: "518D14F818AB7552"
+					type: "kill"
+					entity: "minecraft:zombie"
+					value: 10L
+				}
+				{
+					id: "682F80AC6012101D"
+					type: "kill"
+					entity: "minecraft:skeleton"
+					value: 10L
+				}
+				{
+					id: "52A1753FECEB5B09"
+					type: "kill"
+					entity: "minecraft:zombified_piglin"
+					value: 10L
+				}
+				{
+					id: "5335A2A1357C8627"
+					type: "kill"
+					entity: "minecraft:spider"
+					value: 10L
+				}
+				{
+					id: "1D404899ED1E8151"
+					type: "kill"
+					entity: "minecraft:creeper"
+					value: 10L
+				}
+				{
+					id: "2B0CF2E326A06ACA"
+					type: "kill"
+					entity: "minecraft:blaze"
+					value: 6L
+				}
+			]
+			rewards: [{
+				id: "60D862FA19687AD6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "找到沼泽"
+			x: -9.5d
+			y: -4.5d
+			subtitle: "鬼！"
+			description: [
+				"夜里，沼泽会生成DungeonsMod的鬼魂，杀死它可以获得蘑菇"
+				"注意：需要是原版的沼泽而不是模组的沼泽。"
+			]
+			id: "4C07CD16598DB284"
+			tasks: [{
+				id: "5D9BDEF67FF62904"
+				type: "biome"
+				icon: "good_nights_sleep:dream_grass"
+				biome: "minecraft:swamp"
+			}]
+			rewards: [{
+				id: "0AD80E2C72B96145"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "找到冰火传说的幽灵墓园"
+			x: -9.5d
+			y: 1.5d
+			subtitle: "Graveyard"
+			description: ["打开被诅咒的箱子会蹦出来一只鬼，它会概率掉落蘑菇"]
+			id: "140F231E9E492747"
+			tasks: [{
+				id: "2C5EC0793F43BFDC"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/kill_ghost"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7463172257AFC0E3"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			subtitle: "在美梦地下深处"
+			dependencies: ["17302483DF49BD99"]
+			id: "6F3A11B83719C9B5"
+			tasks: [{
+				id: "281C226A8472CA9A"
+				type: "item"
+				item: "good_nights_sleep:rainbow_ore"
+				count: 4L
+			}]
+			rewards: [{
+				id: "5C3CF8E9D5827440"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -3.0d
+			y: 6.0d
+			subtitle: "万恶之源"
+			description: [
+				"暗晶石——噩梦第8层，开挖！"
+				"或者 打Herobrine也会掉"
+			]
+			dependencies: ["1BF085CB72D8A3CC"]
+			id: "36388F6919F37457"
+			tasks: [{
+				id: "2E88DE4A7C971131"
+				type: "item"
+				item: "good_nights_sleep:negatite_gem"
+			}]
+			rewards: [{
+				id: "1E10B6CA56B7E19C"
+				type: "item"
+				item: "good_nights_sleep:negatite_gem"
+			}]
+		}
+		{
+			title: "欧皇の任务"
+			x: 1.0d
+			y: 6.0d
+			description: ["Herobrine会在噩梦随机刷新，概率很低~"]
+			dependencies: ["23434183BAA7EA95"]
+			id: "3FE3169996DABAA6"
+			tasks: [{
+				id: "595CCA441FC1300B"
+				type: "kill"
+				entity: "good_nights_sleep:herobrine"
+				value: 10L
+			}]
+			rewards: [
+				{
+					id: "6043E9FF282D0EB3"
+					type: "item"
+					item: "minecraft:gold_block"
+					count: 16
+				}
+				{
+					id: "276692C862F8C9D8"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			dependencies: ["23434183BAA7EA95"]
+			id: "7D23CDA2244F0A1B"
+			tasks: [{
+				id: "37A71E09E355D3B0"
+				type: "item"
+				item: "minecraft:blaze_rod"
+				count: 20L
+			}]
+			rewards: [{
+				id: "1908F7C4D95118E0"
+				type: "item"
+				item: "minecraft:blaze_rod"
+				count: 4
+			}]
+		}
+		{
+			title: "火焰法师套装"
+			x: 4.5d
+			y: -1.5d
+			dependencies: ["7D23CDA2244F0A1B"]
+			id: "4936BF847FC8EE5F"
+			tasks: [
+				{
+					id: "56A6EF4577D7E5FA"
+					type: "item"
+					item: {
+						id: "immersive_armors:robe_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "525E0B33845A5E5D"
+					type: "item"
+					item: {
+						id: "immersive_armors:robe_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0F9E01F1374FB8E7"
+					type: "item"
+					item: {
+						id: "immersive_armors:robe_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "284D685D63E06280"
+					type: "item"
+					item: {
+						id: "immersive_armors:robe_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "56FB68A13D3DE46F"
+				type: "item"
+				item: "minecraft:emerald_block"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -8.5d
+			subtitle: "认定彩虹，吃定彩虹"
+			dependencies: ["7AF50BE4ED79DAF0"]
+			id: "7622F1500AB1ECB3"
+			tasks: [{
+				id: "693D871BC8769A8E"
+				type: "item"
+				item: "good_nights_sleep:pot_of_gold"
+			}]
+			rewards: [{
+				id: "179FD95CA7020B8B"
+				type: "xp"
+				xp: 10
+			}]
+		}
+	]
+}
