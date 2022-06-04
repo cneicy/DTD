@@ -163,7 +163,7 @@
 			corner: false
 		}
 		{
-			x: -10.5d
+			x: -7.0d
 			y: -3.5d
 			width: 8.0d
 			height: 4.0d
@@ -272,11 +272,7 @@
 			x: -2.5d
 			y: -7.0d
 			subtitle: "注意：凋灵只能在下界召唤"
-			description: [
-				"先用灵魂沙或者灵魂土摆成T形，下面的灵魂沙两侧必须是空气，然后在3块灵魂沙上方各放置一个凋灵骷髅头颅即可召唤出凋灵。"
-				""
-				"将凋灵的掉落物邪恶精髓放入背包中即可获得进入永昼、恒晓的资格。"
-			]
+			description: ["先用灵魂沙或者灵魂土摆成T形，下面的灵魂沙两侧必须是空气，然后在3块灵魂沙上方各放置一个凋灵骷髅头颅即可召唤出凋灵。"]
 			dependencies: ["56ECEF9344770630"]
 			id: "1D2145F96E40A053"
 			tasks: [{
@@ -424,29 +420,6 @@
 					count: 4
 				}
 			]
-		}
-		{
-			x: 1.5d
-			y: -10.5d
-			subtitle: "非酋福音"
-			dependencies: ["56ECEF9344770630"]
-			id: "2E16BB164F41F6E6"
-			tasks: [{
-				id: "430E0AB41EAB9262"
-				type: "item"
-				item: {
-					id: "enigmaticlegacy:forbidden_axe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "6313A51C1FA43BF7"
-				type: "xp"
-				xp: 20
-			}]
 		}
 		{
 			title: "炽焰术师"
@@ -601,30 +574,6 @@
 		}
 		{
 			title: "献祭之刃"
-			x: -6.5d
-			y: -3.5d
-			subtitle: "熔岩"
-			dependencies: ["1D2145F96E40A053"]
-			id: "76B585DCB2BAB42F"
-			tasks: [{
-				id: "482A64267E1720A9"
-				type: "item"
-				item: {
-					id: "wstweaks:lava_blade"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "6A92E7244D9EDF79"
-				type: "xp"
-				xp: 10
-			}]
-		}
-		{
-			title: "献祭之刃"
 			x: -2.5d
 			y: -3.5d
 			subtitle: "烈焰棒"
@@ -636,11 +585,31 @@
 			tasks: [{
 				id: "2A41D535AC4E7396"
 				type: "item"
+				title: "献祭之刃"
 				item: {
-					id: "wstweaks:blaze_blade"
+					id: "itemfilters:or"
 					Count: 1b
 					tag: {
-						Damage: 0
+						items: [
+							{
+								id: "wstweaks:lava_blade"
+								Count: 1b
+								tag: {
+									EA_ENABLED: 1b
+									Damage: 0
+									RARITY: 3
+								}
+							}
+							{
+								id: "wstweaks:blaze_blade"
+								Count: 1b
+								tag: {
+									EA_ENABLED: 1b
+									Damage: 0
+									RARITY: 1
+								}
+							}
+						]
 					}
 				}
 			}]
@@ -655,6 +624,7 @@
 			x: -6.5d
 			y: 0.0d
 			subtitle: "全套自带防火、抗性提升2、失明免疫"
+			description: ["法老的棺里可以开出不死图腾~"]
 			dependencies: ["3CE9E07BA8AC53E8"]
 			id: "627C47B31ADF07E6"
 			tasks: [
@@ -856,7 +826,7 @@
 		}
 		{
 			x: -6.5d
-			y: 11.5d
+			y: 15.0d
 			subtitle: "并不仅用于疣猪兽"
 			description: ["这个陷阱会在接触生物时给予生物缓慢、失明和凋零效果。"]
 			dependencies: ["568E7A6716EC47DE"]
@@ -1122,7 +1092,7 @@
 		}
 		{
 			x: -6.5d
-			y: 15.0d
+			y: 18.5d
 			subtitle: "芜湖！"
 			dependencies: ["1E5F0A85C4F55D5F"]
 			id: "287ADB43EEF82B47"
@@ -1172,8 +1142,8 @@
 			]
 		}
 		{
-			x: 17.5d
-			y: 3.5d
+			x: 13.5d
+			y: 7.5d
 			subtitle: "我手里拿着小皮鞭~"
 			description: ["用于将目标拉近，也可用于吓走疣猪兽。"]
 			dependencies: ["791DAA9F45C4028A"]
@@ -1193,66 +1163,6 @@
 				id: "26DD676E27409789"
 				type: "xp"
 				xp: 10
-			}]
-		}
-		{
-			title: "掠夺者套装"
-			x: 13.5d
-			y: 7.5d
-			subtitle: "披着疣猪皮的人"
-			description: ["虽然不怎么样，但有概率偏转弹射物。"]
-			dependencies: ["791DAA9F45C4028A"]
-			id: "32489761F18EDCDC"
-			tasks: [
-				{
-					id: "668FC72B23464471"
-					type: "item"
-					item: {
-						id: "pyromancer:marauders_armor_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "465E8D5051F2C60A"
-					type: "item"
-					item: {
-						id: "pyromancer:marauders_armor_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "7B4BC840A90F3DEB"
-					type: "item"
-					item: {
-						id: "pyromancer:marauders_armor_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "3F5B6EFDFF5B0F52"
-					type: "item"
-					item: {
-						id: "pyromancer:marauders_armor_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-			rewards: [{
-				id: "2FDBE2749DA14310"
-				type: "xp"
-				xp: 20
 			}]
 		}
 		{
@@ -1365,7 +1275,10 @@
 		{
 			x: -6.5d
 			y: -7.0d
-			description: ["请看“各色事件”。"]
+			description: [
+				"请看“各色事件”。"
+				"需要先完成“开启主人军团”任务。"
+			]
 			dependencies: [
 				"41D1FAE3BD1D9919"
 				"1D2145F96E40A053"

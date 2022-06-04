@@ -3,7 +3,7 @@
 	group: "57B469943938490D"
 	order_index: 5
 	filename: "twilight_forest"
-	title: "暮色苍茫"
+	title: "{chapter.dtd.186D4ADC3A5A562B.title}"
 	icon: "twilightforest:thorn_rose"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -51,7 +51,7 @@
 			height: 3.0d
 			rotation: 0.0d
 			image: "dtd:textures/twilightforest.png"
-			hover: ["此图片来自MC百科资料页"]
+			hover: ["{images.dtd.186D4ADC3A5A562B.hover.1}"]
 			click: ""
 			dev: false
 			corner: false
@@ -59,14 +59,14 @@
 	]
 	quests: [
 		{
-			title: "送你小花花"
+			title: "{quest.dtd.5FB1B19A63ABCB45.title}"
 			icon: "twilightforest:twilight_portal_miniature_structure"
 			x: -12.5d
 			y: -5.5d
-			subtitle: "杀死幽咽蛛王、星荧破灭者并将它们的奖杯放入背包才能进暮色。"
+			subtitle: "{quest.dtd.5FB1B19A63ABCB45.subtitle}"
 			description: [
-				"顺便一说，拆解台已经ban了，因为它能刷物品~"
-				"同时，在暮色森林章节，你可以获得非常多的经验~"
+				"{quest.dtd.5FB1B19A63ABCB45.description.1}"
+				"{quest.dtd.5FB1B19A63ABCB45.description.2}"
 			]
 			id: "5FB1B19A63ABCB45"
 			tasks: [{
@@ -81,10 +81,10 @@
 			}]
 		}
 		{
-			title: "&a巨蛇猎人"
+			title: "{quest.dtd.38D685FC1443F4FE.title}"
 			x: -5.5d
 			y: -5.5d
-			subtitle: "记得拿上娜迦鳞片"
+			subtitle: "{quest.dtd.38D685FC1443F4FE.subtitle}"
 			dependencies: ["2748BC27239917A3"]
 			id: "38D685FC1443F4FE"
 			tasks: [{
@@ -118,10 +118,10 @@
 			]
 		}
 		{
-			title: "&7亡灵克星"
+			title: "{quest.dtd.06ACDE73B2EF7E2C.title}"
 			x: -1.5d
 			y: -5.5d
-			subtitle: "带上瞬间治疗，上啊！"
+			subtitle: "{quest.dtd.06ACDE73B2EF7E2C.subtitle}"
 			dependencies: ["38D685FC1443F4FE"]
 			id: "06ACDE73B2EF7E2C"
 			tasks: [{
@@ -143,11 +143,11 @@
 			]
 		}
 		{
-			title: "&4九头蛇？"
+			title: "{quest.dtd.079A87EC390049C0.title}"
 			x: 2.5d
 			y: 5.5d
-			subtitle: "其实是七头蛇"
-			description: ["当然，“九”只是个虚数"]
+			subtitle: "{quest.dtd.079A87EC390049C0.subtitle}"
+			description: ["{quest.079A87EC390049C0.description.1}"]
 			dependencies: ["5B56B5069CE814C3"]
 			id: "079A87EC390049C0"
 			tasks: [{
@@ -169,11 +169,11 @@
 			]
 		}
 		{
-			title: "&c蘑菇浸染牛头人"
+			title: "{quest.dtd.5B56B5069CE814C3.title}"
 			x: 2.5d
 			y: 0.0d
-			subtitle: "这货现在可以撞掉木栅栏了"
-			description: ["但还是很弱。"]
+			subtitle: "{quest.dtd.5B56B5069CE814C3.subtitle}"
+			description: ["{quest.5B56B5069CE814C3.description.1}"]
 			dependencies: ["21D814E8102194D7"]
 			id: "5B56B5069CE814C3"
 			tasks: [{
@@ -188,10 +188,10 @@
 			}]
 		}
 		{
-			title: "&8鬼魅般的古代英雄"
+			title: "{quest.dtd.4D247E7FC7613DAE.title}"
 			x: -1.5d
 			y: -2.0d
-			subtitle: "发现那只与众不同的骑士了吗？"
+			subtitle: "{quest.dtd.4D247E7FC7613DAE.subtitle}"
 			dependencies: ["06ACDE73B2EF7E2C"]
 			id: "4D247E7FC7613DAE"
 			tasks: [{
@@ -206,10 +206,10 @@
 			}]
 		}
 		{
-			title: "&4暮初恶魂"
+			title: "{quest.dtd.5E4466FABED5EDBA.title}"
 			x: -1.5d
 			y: 1.5d
-			subtitle: "现在改名了"
+			subtitle: "{quest.dtd.5E4466FABED5EDBA.subtitle}"
 			dependencies: ["4D247E7FC7613DAE"]
 			id: "5E4466FABED5EDBA"
 			tasks: [{
@@ -231,10 +231,10 @@
 			]
 		}
 		{
-			title: "&6炽铁锭"
+			title: "{quest.dtd.63373191DFA8742B.title}"
 			x: -1.5d
 			y: 9.0d
-			subtitle: "好烫啊……"
+			subtitle: "{quest.dtd.63373191DFA8742B.subtitle}"
 			dependencies: ["5FE21D9F7DC10C6B"]
 			dependency_requirement: "one_completed"
 			id: "63373191DFA8742B"
@@ -250,10 +250,10 @@
 			}]
 		}
 		{
-			title: "&f阿尔法"
+			title: "{quest.dtd.241DF601A436A6FF.title}"
 			x: -1.5d
 			y: -9.5d
-			subtitle: "它终于有奖杯了（泪目）"
+			subtitle: "{quest.dtd.241DF601A436A6FF.subtitle}"
 			dependencies: ["06ACDE73B2EF7E2C"]
 			id: "241DF601A436A6FF"
 			tasks: [{
@@ -268,13 +268,13 @@
 			}]
 		}
 		{
-			title: "&b并不是迪士尼的那位"
+			title: "{quest.dtd.376BA037308E7100.title}"
 			x: 2.5d
 			y: -9.5d
-			subtitle: "否则你可能就看不到暮色森林了"
+			subtitle: "{quest.dtd.376BA037308E7100.subtitle}"
 			description: [
-				"三发弓——无可置疑的 本整合包 弓之巅峰"
-				"推荐用它去打末影龙。"
+				"{quest.376BA037308E7100.description.1}"
+				"{quest.376BA037308E7100.description.2}"
 			]
 			dependencies: ["241DF601A436A6FF"]
 			id: "376BA037308E7100"
@@ -308,10 +308,10 @@
 			]
 		}
 		{
-			title: "&6炽铁套装"
+			title: "{quest.dtd.32B63F61D7B4694D.title}"
 			x: 2.5d
 			y: 9.0d
-			subtitle: "超帅的！"
+			subtitle: "{quest.dtd.32B63F61D7B4694D.subtitle}"
 			dependencies: ["63373191DFA8742B"]
 			id: "32B63F61D7B4694D"
 			tasks: [
@@ -375,10 +375,10 @@
 			]
 		}
 		{
-			title: "获得&c炽热之泪/炽热的血液"
+			title: "{quest.dtd.5FE21D9F7DC10C6B.title}"
 			x: -1.5d
 			y: 5.5d
-			subtitle: "可惜不能喝（你在想什么？！）"
+			subtitle: "{quest.dtd.5FE21D9F7DC10C6B.subtitle}"
 			dependencies: [
 				"079A87EC390049C0"
 				"5E4466FABED5EDBA"
@@ -407,7 +407,7 @@
 		{
 			x: 7.0d
 			y: -9.5d
-			subtitle: "好看！"
+			subtitle: "{quest.dtd.73ECEC4C2859FF80.subtitle}"
 			dependencies: ["376BA037308E7100"]
 			id: "73ECEC4C2859FF80"
 			tasks: [{
@@ -424,17 +424,17 @@
 			}]
 		}
 		{
-			title: "&c世界羊毛计划"
+			title: "{quest.dtd.333C2870F31894C3.title}"
 			icon: "minecraft:pink_wool"
 			x: -12.5d
 			y: -2.0d
-			subtitle: "非酋快乐奖励"
+			subtitle: "{quest.dtd.333C2870F31894C3.subtitle}"
 			dependencies: ["5FB1B19A63ABCB45"]
 			id: "333C2870F31894C3"
 			tasks: [{
 				id: "4855CD5C84171034"
 				type: "checkmark"
-				title: "我的战利品墙！"
+				title: "{task.dtd.4855CD5C84171034.title}"
 			}]
 			rewards: [{
 				id: "0422AAD584446C4A"
@@ -443,7 +443,7 @@
 			}]
 		}
 		{
-			title: "&f博学的羊……"
+			title: "{quest.dtd.01BA2EBB1355E6A1.title}"
 			x: -12.5d
 			y: 1.5d
 			dependencies: ["333C2870F31894C3"]
@@ -455,11 +455,11 @@
 			}]
 		}
 		{
-			title: "&6击杀国王"
+			title: "{quest.dtd.282DD0D5721DE79B.title}"
 			x: 11.5d
 			y: 5.5d
-			subtitle: "弑君"
-			description: ["另外8个末地传送门框架需要你做出龙钢套~"]
+			subtitle: "{quest.dtd.282DD0D5721DE79B.subtitle}"
+			description: ["{quest.282DD0D5721DE79B.description.1}"]
 			dependencies: ["111D35A31CECABD2"]
 			id: "282DD0D5721DE79B"
 			tasks: [{
@@ -488,10 +488,10 @@
 			]
 		}
 		{
-			title: "&e余烬之灯"
+			title: "{quest.dtd.111D35A31CECABD2.title}"
 			x: 11.5d
 			y: 0.0d
-			subtitle: "灼烧荆棘"
+			subtitle: "{quest.dtd.111D35A31CECABD2.subtitle}"
 			dependencies: ["127BE66D2C95D647"]
 			id: "111D35A31CECABD2"
 			tasks: [{
@@ -509,7 +509,7 @@
 		{
 			x: 2.5d
 			y: -5.5d
-			subtitle: "知道你懒得做（"
+			subtitle: "{quest.dtd.21D814E8102194D7.subtitle}"
 			dependencies: ["06ACDE73B2EF7E2C"]
 			id: "21D814E8102194D7"
 			tasks: [{
@@ -524,11 +524,11 @@
 			}]
 		}
 		{
-			title: "&f巨人镐"
+			title: "{quest.dtd.127BE66D2C95D647.title}"
 			x: 11.5d
 			y: -9.5d
-			subtitle: "杀死巨人"
-			description: ["魔豆？当然可以。又或者你可以用简单飞机。"]
+			subtitle: "{quest.dtd.127BE66D2C95D647.subtitle}"
+			description: ["{quest.127BE66D2C95D647.description.1}"]
 			hide_dependency_lines: true
 			dependencies: [
 				"376BA037308E7100"
@@ -567,8 +567,8 @@
 		{
 			x: -9.0d
 			y: -9.5d
-			subtitle: "非常厉害，可惜一击就碎"
-			description: ["你可以在冰雪女王的极光宫殿里找到它。"]
+			subtitle: "{quest.dtd.149FF89AF4EF319F.subtitle}"
+			description: ["{quest.149FF89AF4EF319F.description.1}"]
 			dependencies: ["7363A22339C94FAB"]
 			hide: true
 			id: "149FF89AF4EF319F"
@@ -590,10 +590,10 @@
 			}]
 		}
 		{
-			title: "&d迷宫破坏者"
+			title: "{quest.dtd.16C2D1CE7E5C58C6.title}"
 			x: 7.0d
 			y: 0.0d
-			subtitle: "老传统了"
+			subtitle: "{quest.dtd.16C2D1CE7E5C58C6.subtitle}"
 			dependencies: ["5B56B5069CE814C3"]
 			hide: true
 			id: "16C2D1CE7E5C58C6"
@@ -629,16 +629,16 @@
 			}]
 		}
 		{
-			title: "&5Spooky Spooky..."
+			title: "{quest.dtd.58F61F35012318D0.title}"
 			x: -9.0d
 			y: -2.0d
-			subtitle: "找到幽魂森林——Spooky Forest"
+			subtitle: "{quest.dtd.58F61F35012318D0.subtitle}"
 			dependencies: ["23650474342369F1"]
 			id: "58F61F35012318D0"
 			tasks: [{
 				id: "20E99A089D7BE8C1"
 				type: "checkmark"
-				title: "找到幽魂森林"
+				title: "{task.dtd.20E99A089D7BE8C1.title}"
 				icon: "twilightforest:moon_dial"
 			}]
 			rewards: [{
@@ -648,18 +648,18 @@
 			}]
 		}
 		{
-			title: "&2树篱迷宫"
+			title: "{quest.dtd.23650474342369F1.title}"
 			icon: "twilightforest:hedge"
 			x: -5.5d
 			y: -2.0d
-			subtitle: "小心被扎伤！"
+			subtitle: "{quest.dtd.23650474342369F1.subtitle}"
 			dependencies: ["38D685FC1443F4FE"]
 			id: "23650474342369F1"
 			tasks: [
 				{
 					id: "08DAFF0B2D31F803"
 					type: "checkmark"
-					title: "找到树篱迷宫"
+					title: "{task.dtd.08DAFF0B2D31F803.title}"
 				}
 				{
 					id: "2A3F9792CE459609"
@@ -675,11 +675,11 @@
 			}]
 		}
 		{
-			title: "&d永恒黄昏之宴"
+			title: "{quest.dtd.599EB965724108FC.title}"
 			x: -9.0d
 			y: 1.5d
-			subtitle: "并不难完成"
-			description: ["品尝能在暮色森林中找到的所有食物。"]
+			subtitle: "{quest.dtd.599EB965724108FC.subtitle}"
+			description: ["{quest.599EB965724108FC.description.1}"]
 			dependencies: [
 				"58F61F35012318D0"
 				"01BA2EBB1355E6A1"
@@ -698,7 +698,7 @@
 			}]
 		}
 		{
-			title: "&e骑士链锤"
+			title: ""
 			x: 7.0d
 			y: -5.5d
 			subtitle: "Duang！"
@@ -749,11 +749,11 @@
 			}]
 		}
 		{
-			title: "&e做个记录：大胜利！"
+			title: "{quest.dtd.069DF0521B1A5CDF.title}"
 			x: -5.5d
 			y: 1.5d
-			subtitle: "大蛋糕！"
-			description: ["把8块试验物品115放在地上摆成蛋糕状，然后手持红石右击使其变得可再生。"]
+			subtitle: "{quest.dtd.069DF0521B1A5CDF.subtitle}"
+			description: ["{quest.069DF0521B1A5CDF.description.1}"]
 			dependencies: ["5E4466FABED5EDBA"]
 			id: "069DF0521B1A5CDF"
 			tasks: [{
@@ -777,10 +777,10 @@
 			]
 		}
 		{
-			title: "&e冰霜炸弹"
+			title: "{quest.dtd.7363A22339C94FAB.title}"
 			x: -5.5d
 			y: -9.5d
-			subtitle: "丢到雪怪身上去！"
+			subtitle: "{quest.dtd.7363A22339C94FAB.subtitle}"
 			dependencies: ["241DF601A436A6FF"]
 			id: "7363A22339C94FAB"
 			tasks: [{
@@ -796,12 +796,12 @@
 			}]
 		}
 		{
-			title: "&d魔法地图"
+			title: "{quest.dtd.2748BC27239917A3.title}"
 			icon: "twilightforest:magic_map_focus"
 			x: -9.0d
 			y: -5.5d
-			subtitle: "神秘之境"
-			description: ["手持右击打开魔法地图！"]
+			subtitle: "{quest.dtd.2748BC27239917A3.subtitle}"
+			description: ["{quest.2748BC27239917A3.description.1}"]
 			dependencies: ["5FB1B19A63ABCB45"]
 			id: "2748BC27239917A3"
 			tasks: [
