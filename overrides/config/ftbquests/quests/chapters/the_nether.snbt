@@ -1275,7 +1275,10 @@
 		{
 			x: -6.5d
 			y: -7.0d
-			description: ["请看“各色事件”。"]
+			description: [
+				"请看“各色事件”。"
+				"需要先完成“开启主人军团”任务。"
+			]
 			dependencies: [
 				"41D1FAE3BD1D9919"
 				"1D2145F96E40A053"
