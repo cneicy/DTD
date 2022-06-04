@@ -57,5 +57,15 @@
     "quest.3F50BD2C51C04E9D.title": "你是我的四戒",
     "quest.3F50BD2C51C04E9D.subtitle": "宝，你是我的四戒（什么缝合怪）",
     "quest.3F50BD2C51C04E9D.description.1": "把污浊的指环丢入水中有概率获得。",
-    "quest.3F50BD2C51C04E9D.description.2": "多去挖法老的坟吧孩子。"
+    "quest.3F50BD2C51C04E9D.description.2": "多去挖法老的坟吧孩子。",
+
+    "tooltip.dtd.enchanting_table": "你需要击败法老并将它的神器放入背包才能使用附魔台。",
+    "dimstage.dtd.twilightforest": "你需要杀死幽咽蛛王和星荧破灭者并将它们的奖杯放入背包才能进入暮色森林。",
+    "dimstage.dtd.the_nether": "你需要杀死法老并将它的神器放入背包才能进入下界。",
+    "dimstage.dtd.everbright": "你需要杀死下界合金巨兽并将它的掉落物炼狱锻锤放入背包才能进入永昼之地。",
+    "dimstage.dtd.everdawn": "你需要杀死下界合金巨兽并将它的掉落物炼狱锻锤放入背包才能进入恒晓之地。",
+    "gamestage.dtd.description.three": "你已经获得了进入下界的资格",
+    "gamestage.dtd.description.five": "你已经获得了进入永昼、恒晓的资格",
+    "gamestage.dtd.description.twotwiliforest": "你已经获得了进入暮色森林的资格",
+    "gamestage.dtd.description.cheat": "世界突变……"
 }

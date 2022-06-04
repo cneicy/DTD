@@ -69,5 +69,15 @@
     "quest.3F50BD2C51C04E9D.title": "Atum Relics",
     "quest.3F50BD2C51C04E9D.subtitle": "Get some water!",
     "quest.3F50BD2C51C04E9D.description.1": "There is a chance to obtain it by throwing a dirty ring into the water.",
-    "quest.3F50BD2C51C04E9D.description.2": "Go to dig the pyramids of the pharaohs more!"
+    "quest.3F50BD2C51C04E9D.description.2": "Go to dig the pyramids of the pharaohs more!",
+
+    "tooltip.dtd.enchanting_table": "You need to defeat the pharaoh and put the artifact loot into your inventory to use the enchanting table.",
+    "dimstage.dtd.twilightforest": "To enter Twilight Forest, you will need to kill the Arachnarch and the Starlit Crusher and put their trophies into your inventory.",
+    "dimstage.dtd.the_nether": "You need to kill the pharaoh and put his artifact into your inventory to enter the Nether.",
+    "dimstage.dtd.everbright": "You'll need to kill the Netherite Monstrosity and put its drop Infernal Forge into your inventory to enter the Everbright.",
+    "dimstage.dtd.everdawn": "You'll need to kill the Netherite Monstrosity and put its drop Infernal Forge into your inventory to enter the Everdawn.",
+    "gamestage.dtd.description.three": "You have gained access to the Nether.",
+    "gamestage.dtd.description.five": "You have gained access to the Everbright and the Everdawn.",
+    "gamestage.dtd.description.twotwiliforest": "You have gained access to the Twilight Forest.",
+    "gamestage.dtd.description.cheat": "The world suddenly change..."
 }
