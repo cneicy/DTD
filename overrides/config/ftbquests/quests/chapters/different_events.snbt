@@ -367,8 +367,8 @@
 		}
 		{
 			title: "&6遗物收藏家"
-			x: 12.5d
-			y: 4.5d
+			x: 8.5d
+			y: 8.5d
 			subtitle: "灾厄遗物"
 			description: ["收集灾厄村民的魔法遗物：不死图腾、魔术海螺、枭首劈剑、虚伪面具和冰冻法杖。"]
 			dependencies: ["0BB2B00926933EC1"]
@@ -442,8 +442,8 @@
 		}
 		{
 			title: "&6真·村庄英雄"
-			x: 16.0d
-			y: 0.5d
+			x: 12.5d
+			y: 4.5d
 			subtitle: "村民热爱您！"
 			dependencies: ["369A7101F79B6567"]
 			hide: true
@@ -532,8 +532,8 @@
 		}
 		{
 			title: "&e亡灵收割者"
-			x: -11.5d
-			y: 0.5d
+			x: -7.5d
+			y: 4.5d
 			subtitle: "击倒第四波亡灵军团"
 			description: ["需要处于专家模式下（需进入阿图姆）。"]
 			dependencies: ["4D63F44B59C184A6"]
@@ -562,8 +562,8 @@
 		{
 			title: "&e双重死亡"
 			icon: "spartanweaponry:husk_head"
-			x: -16.0d
-			y: 0.5d
+			x: -7.5d
+			y: 8.5d
 			subtitle: "击溃第五波亡灵军团"
 			description: ["需要处在大师模式下（需进入暮色森林）。"]
 			dependencies: ["7A1F9FEE964F9B4B"]
@@ -641,7 +641,8 @@
 				{
 					id: "4772283A4864C84D"
 					type: "item"
-					item: "minecraft:netherite_block"
+					item: "minecraft:netherite_ingot"
+					count: 2
 				}
 				{
 					id: "1DCB1311D624BDF3"

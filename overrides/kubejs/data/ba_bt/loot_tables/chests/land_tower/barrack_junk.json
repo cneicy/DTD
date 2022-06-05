@@ -91,7 +91,7 @@
               }
             }
           ],
-          "name": "tantrum:heart_piece"
+          "name": "paraglider:spirit_orb"
         }
       ]
     },
@@ -141,7 +141,7 @@
               }
             }
           ],
-          "name": "xtraarrows:iron_explosive_arrow"
+          "name": "xtraarrows:diamond_explosive_arrow"
         },
         {
           "type": "minecraft:item",

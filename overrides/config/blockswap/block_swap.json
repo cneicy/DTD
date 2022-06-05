@@ -29,6 +29,10 @@
     "subwild:terracotta_gold_ore": "minecraft:gold_ore",
     "subwild:white_terracotta_gold_ore": "minecraft:gold_ore",
     "subwild:yellow_terracotta_gold_ore": "minecraft:gold_ore",
-    "blue_skies:spider_webbing": "minecraft:air"
+    "blue_skies:spider_webbing": "minecraft:air",
+    "iceandfire:gold_pile": "minecraft:air",
+    "iceandfire:silver_pile": "minecraft:air",
+    "iceandfire:copper_pile": "minecraft:air",
+    "cinderscapes:ash": "minecraft:air"
   }
 }

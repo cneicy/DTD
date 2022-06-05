@@ -4,7 +4,7 @@
         {
             "id": "minecraft:generic.max_health",
             "modifier_name": "fidawd",
-            "amount": 5,
+            "amount": 10,
             "chance": 1.0,
             "operation": "addition"
         }

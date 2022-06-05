@@ -108,9 +108,6 @@ CTEventManager.register<MCPlayerTickEvent>((event) => {
                 if(player.hasGameStage("three")) break; 
             }
         }
-        if (player.hasGameStage("cheat")) {
-            world.asServerWorld().server.executeCommand("kill @e[type=!player]", true);
-        }
         if (!player.hasGameStage("five")) {
             if (inventory.hasIItemStack(<item:cataclysm:infernal_forge>)) {
                 player.addGameStage("five");
@@ -142,19 +139,13 @@ CTEventManager.register<MCPlayerLoggedInEvent>((event) => {
         val world = player.world;
         if (world.remote) return;
         if (player.hasGameStage("afterlight")) return;
-        for p in 0 .. ban.length {
-            if (loadedMods.isModLoaded(ban[p])) {
-                player.addGameStage("cheat");
-                player.sendMessage(MCTextComponent.createTranslationTextComponent("gamestage.dtd.description.cheat"));
-            }
-        }
         val inventory = player.inventory;
         inventory.remove(<item:alexsmobs:animal_dictionary>);
         player.addGameStage("afterlight");
         world.asServerWorld().server.executeCommand("kill @e[type=minecraft:item]", true);
         world.asServerWorld().server.executeCommand("ftbquests editing_mode false @p", true);
         inventory.add(2,<item:ftbquests:book>);
-        inventory.add(1,<item:improvedbackpacks:white_backpack>.withTag({backpack_data: {metadata: {used_capacity: 0 as int, used_slots: 0 as int, capacity: 1152 as int}, inventory: {Size: 18 as int, Items: []}, uuid: [414567563, 112738316, -2063657645, 1089046532], upgrades: {tiny_pockets: 0 as int, large_pockets: 0 as int, medium_pockets: 0 as int}}, itemModifier: "modifiers:rash" as string}));
-        inventory.add(0,<item:akashictome:tome>.withTag({"akashictome:data": {enigmaticlegacy: {id: "enigmaticlegacy:the_acknowledgment" as string, Count: 1 as byte}, alexsmobs: {id: "alexsmobs:animal_dictionary" as string, Count: 1 as byte}, patchouli: {id: "patchouli:guide_book" as string, Count: 1 as byte, tag: {"patchouli:book": "patchouli:dtd_story" as string}}, twilightforest: {id: "patchouli:guide_book" as string, Count: 1 as byte, tag: {"patchouli:book": "twilightforest:guide" as string}}, simpleplanes: {id: "patchouli:guide_book" as string, Count: 1 as byte, tag: {"patchouli:book": "simpleplanes:planes_book" as string}}}}));
+        inventory.add(1,<item:sophisticatedbackpacks:backpack>);
+        inventory.add(0,<item:akashictome:tome>.withTag({"akashictome:data": {twilightforest: {id: "patchouli:guide_book" as string, Count: 1 as byte, tag: {"patchouli:book": "twilightforest:guide" as string}}, simpleplanes: {id: "patchouli:guide_book" as string, Count: 1 as byte, tag: {"patchouli:book": "simpleplanes:planes_book" as string}}, apotheosis: {id: "patchouli:guide_book" as string, Count: 1 as byte, tag: {"patchouli:book": "apotheosis:apoth_chronicle" as string}}, enigmaticlegacy: {id: "enigmaticlegacy:the_acknowledgment" as string, Count: 1 as byte}, alexsmobs: {id: "alexsmobs:animal_dictionary" as string, Count: 1 as byte}}}));
     }
 );

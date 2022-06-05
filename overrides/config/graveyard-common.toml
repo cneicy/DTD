@@ -3,97 +3,97 @@
 	#Enable Large Birch Tree Structure:
 	large_birch_tree = true
 	#Large Birch Tree Separation:
-	large_birch_tree_separation = 60
+	large_birch_tree_separation = 50
 	#Large Birch Tree Spacing:
-	large_birch_tree_spacing = 70
+	large_birch_tree_spacing = 60
 	#Large Birch Tree Salt:
 	large_birch_tree_salt = 304812394
 	#Enable Medium Graveyard Structure:
 	medium_walled_graveyard = true
 	#Medium Graveyard Separation:
-	medium_walled_graveyard_separation = 70
+	medium_walled_graveyard_separation = 60
 	#Medium Graveyard Spacing:
-	medium_walled_graveyard_spacing = 80
+	medium_walled_graveyard_spacing = 70
 	#Medium Graveyard Salt:
 	medium_walled_graveyard_salt = 379123039
 	#Enable Large Graveyard Structure:
 	large_walled_graveyard = true
 	#Large Graveyard Separation:
-	large_walled_graveyard_separation = 45
+	large_walled_graveyard_separation = 35
 	#Large Graveyard Spacing:
-	large_walled_graveyard_spacing = 55
+	large_walled_graveyard_spacing = 45
 	#Large Graveyard Salt:
 	large_walled_graveyard_salt = 739017628
 	#Enable Small Graveyard Structure:
 	small_walled_graveyard = true
 	#Small Graveyard Separation:
-	small_walled_graveyard_separation = 90
+	small_walled_graveyard_separation = 80
 	#Small Graveyard Spacing:
-	small_walled_graveyard_spacing = 100
+	small_walled_graveyard_spacing = 90
 	#Small Graveyard Salt:
 	small_walled_graveyard_salt = 1690192399
 	#Enable Small Graveyard Desert Structure:
 	small_walled_graveyard_desert = true
 	#Small Graveyard Desert Separation:
-	small_walled_graveyard_desert_separation = 140
+	small_walled_graveyard_desert_separation = 130
 	#Small Graveyard Desert Spacing:
-	small_walled_graveyard_desert_spacing = 160
+	small_walled_graveyard_desert_spacing = 150
 	#Small Graveyard Desert Salt:
 	small_walled_graveyard_desert_salt = 661903018
 	#Enable Small Graveyard Savanna Structure:
 	small_walled_graveyard_savanna = true
 	#Small Graveyard Savanna Separation:
-	small_walled_graveyard_savanna_separation = 60
+	small_walled_graveyard_savanna_separation = 50
 	#Small Graveyard Savanna Spacing:
-	small_walled_graveyard_savanna_spacing = 70
+	small_walled_graveyard_savanna_spacing = 60
 	#Small Graveyard Savanna Salt:
 	small_walled_graveyard_savanna_salt = 451235912
 	#Enable Small Grave Structure:
 	small_grave = true
 	#Small Grave Separation:
-	small_grave_separation = 40
+	small_grave_separation = 30
 	#Small Grave Spacing:
-	small_grave_spacing = 60
+	small_grave_spacing = 50
 	#Small Grave Salt:
 	small_grave_salt = 240451934
 	#Enable Small Desert Grave Structure:
 	small_desert_grave = true
 	#Small Desert Grave Separation:
-	small_desert_grave_separation = 100
+	small_desert_grave_separation = 90
 	#Small Desert Grave Spacing:
-	small_desert_grave_spacing = 110
+	small_desert_grave_spacing = 100
 	#Small Desert Grave Salt:
 	small_desert_grave_salt = 240451934
 	#Enable Small Savanna Grave Structure:
 	small_savanna_grave = true
 	#Small Savanna Grave Separation:
-	small_savanna_grave_separation = 100
+	small_savanna_grave_separation = 90
 	#Small Savanna Grave Spacing:
-	small_savanna_grave_spacing = 110
+	small_savanna_grave_spacing = 100
 	#Small Savanna Grave Salt:
 	small_savanna_grave_salt = 240451934
 	#Enable Small Mountain Grave Structure:
 	small_mountain_grave = true
 	#Small Mountain Grave Separation:
-	small_mountain_grave_separation = 40
+	small_mountain_grave_separation = 30
 	#Small Mountain Grave Spacing:
-	small_mountain_grave_spacing = 60
+	small_mountain_grave_spacing = 50
 	#Small Mountain Grave Salt:
 	small_mountain_grave_salt = 240451934
 	#Enable Mushroom Grave Structure:
 	mushroom_grave = true
 	#Mushroom Grave Separation:
-	mushroom_grave_separation = 90
+	mushroom_grave_separation = 80
 	#Mushroom Grave Spacing:
-	mushroom_grave_spacing = 120
+	mushroom_grave_spacing = 110
 	#Mushroom Grave Salt:
 	mushroom_grave_salt = 598017285
 	#Enable Haunted House Structure:
 	haunted_house = true
 	#Haunted House Separation:
-	haunted_house_separation = 100
+	haunted_house_separation = 90
 	#Haunted House Spacing:
-	haunted_house_spacing = 125
+	haunted_house_spacing = 115
 	#Haunted House Salt:
 	haunted_house_salt = 529239621
 

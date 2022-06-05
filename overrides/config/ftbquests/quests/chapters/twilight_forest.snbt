@@ -164,7 +164,7 @@
 				{
 					id: "498E09748FC11D3A"
 					type: "item"
-					item: "tantrum:heart_container"
+					item: "paraglider:heart_container"
 				}
 			]
 		}
@@ -226,7 +226,7 @@
 				{
 					id: "410FE4D000317E19"
 					type: "item"
-					item: "tantrum:heart_container"
+					item: "paraglider:heart_container"
 				}
 			]
 		}
@@ -303,7 +303,7 @@
 				{
 					id: "39DDDBF7FC0CAAD1"
 					type: "item"
-					item: "tantrum:heart_container"
+					item: "paraglider:heart_container"
 				}
 			]
 		}
@@ -477,7 +477,7 @@
 				{
 					id: "0D9018E5A81FC83D"
 					type: "item"
-					item: "tantrum:heart_container"
+					item: "paraglider:heart_container"
 				}
 				{
 					id: "059412D9583067F9"
@@ -698,7 +698,6 @@
 			}]
 		}
 		{
-			title: ""
 			x: 7.0d
 			y: -5.5d
 			subtitle: "Duang！"

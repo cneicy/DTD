@@ -1406,7 +1406,7 @@
 			tasks: [{
 				id: "194C2ABD91BDEC3B"
 				type: "item"
-				item: "tantrum:heart_piece"
+				item: "paraglider:spirit_orb"
 			}]
 			rewards: [{
 				id: "6E3A426365C477E1"

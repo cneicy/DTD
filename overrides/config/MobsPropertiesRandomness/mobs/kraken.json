@@ -4,7 +4,7 @@
         {
             "id": "minecraft:regeneration",
             "chance": 1.0,
-            "amplifier": 1,
+            "amplifier": 4,
             "ambient": true
         }
     ]

@@ -6,190 +6,190 @@ import crafttweaker.api.data.IData;
 var data as IData = {RepairCost: 3,Enchantments: [{lvl: 1, id: "apotheosis:life_mending"}]};
 
 var helmet as IItemStack[] = [
-    <item:atum:wanderer_helmet>.withTag(data),
-    <item:good_nights_sleep:candy_helmet>.withTag(data),
-    <item:good_nights_sleep:negatite_helmet>.withTag(data),
-    <item:good_nights_sleep:positite_helmet>.withTag(data),
-    <item:good_nights_sleep:rainbow_helmet>.withTag(data),
-    <item:good_nights_sleep:zitrite_helmet>.withTag(data),
-    <item:iceandfire:armor_amythest_helmet>.withTag(data),
-    <item:iceandfire:armor_black_helmet>.withTag(data),
-    <item:iceandfire:armor_blue_helmet>.withTag(data),
-    <item:iceandfire:armor_bronze_helmet>.withTag(data),
-    <item:iceandfire:armor_copper_helmet>.withTag(data),
-    <item:iceandfire:armor_copper_metal_helmet>.withTag(data),
-    <item:iceandfire:armor_electric_helmet>.withTag(data),
-    <item:iceandfire:armor_gray_helmet>.withTag(data),
-    <item:iceandfire:armor_green_helmet>.withTag(data),
-    <item:iceandfire:armor_red_helmet>.withTag(data),
-    <item:iceandfire:armor_sapphire_helmet>.withTag(data),
-    <item:iceandfire:armor_silver_helmet>.withTag(data),
-    <item:iceandfire:armor_silver_metal_helmet>.withTag(data),
-    <item:iceandfire:armor_white_helmet>.withTag(data),
-    <item:iceandfire:deathworm_red_helmet>.withTag(data),
-    <item:iceandfire:deathworm_white_helmet>.withTag(data),
-    <item:iceandfire:deathworm_yellow_helmet>.withTag(data),
-    <item:iceandfire:forest_troll_leather_helmet>.withTag(data),
-    <item:iceandfire:frost_troll_leather_helmet>.withTag(data),
-    <item:iceandfire:mountain_troll_leather_helmet>.withTag(data),
-    <item:iceandfire:myrmex_desert_helmet>.withTag(data),
-    <item:iceandfire:myrmex_jungle_helmet>.withTag(data),
-    <item:iceandfire:sheep_helmet>.withTag(data),
-    <item:iceandfire:tide_blue_helmet>.withTag(data),
-    <item:iceandfire:tide_bronze_helmet>.withTag(data),
-    <item:iceandfire:tide_deepblue_helmet>.withTag(data),
-    <item:iceandfire:tide_green_helmet>.withTag(data),
-    <item:iceandfire:tide_purple_helmet>.withTag(data),
-    <item:iceandfire:tide_red_helmet>.withTag(data),
-    <item:iceandfire:tide_teal_helmet>.withTag(data),
-    <item:minecraft:chainmail_helmet>.withTag(data),
-    <item:minecraft:diamond_helmet>.withTag(data),
-    <item:minecraft:golden_helmet>.withTag(data),
-    <item:minecraft:iron_helmet>.withTag(data),
-    <item:minecraft:leather_helmet>.withTag(data),
-    <item:minecraft:netherite_helmet>.withTag(data),
-    <item:savageandravage:griefer_helmet>.withTag(data),
-    <item:twilightforest:fiery_helmet>.withTag(data)
+    <item:atum:wanderer_helmet>,
+    <item:good_nights_sleep:candy_helmet>,
+    <item:good_nights_sleep:negatite_helmet>,
+    <item:good_nights_sleep:positite_helmet>,
+    <item:good_nights_sleep:rainbow_helmet>,
+    <item:good_nights_sleep:zitrite_helmet>,
+    <item:iceandfire:armor_amythest_helmet>,
+    <item:iceandfire:armor_black_helmet>,
+    <item:iceandfire:armor_blue_helmet>,
+    <item:iceandfire:armor_bronze_helmet>,
+    <item:iceandfire:armor_copper_helmet>,
+    <item:iceandfire:armor_copper_metal_helmet>,
+    <item:iceandfire:armor_electric_helmet>,
+    <item:iceandfire:armor_gray_helmet>,
+    <item:iceandfire:armor_green_helmet>,
+    <item:iceandfire:armor_red_helmet>,
+    <item:iceandfire:armor_sapphire_helmet>,
+    <item:iceandfire:armor_silver_helmet>,
+    <item:iceandfire:armor_silver_metal_helmet>,
+    <item:iceandfire:armor_white_helmet>,
+    <item:iceandfire:deathworm_red_helmet>,
+    <item:iceandfire:deathworm_white_helmet>,
+    <item:iceandfire:deathworm_yellow_helmet>,
+    <item:iceandfire:forest_troll_leather_helmet>,
+    <item:iceandfire:frost_troll_leather_helmet>,
+    <item:iceandfire:mountain_troll_leather_helmet>,
+    <item:iceandfire:myrmex_desert_helmet>,
+    <item:iceandfire:myrmex_jungle_helmet>,
+    <item:iceandfire:sheep_helmet>,
+    <item:iceandfire:tide_blue_helmet>,
+    <item:iceandfire:tide_bronze_helmet>,
+    <item:iceandfire:tide_deepblue_helmet>,
+    <item:iceandfire:tide_green_helmet>,
+    <item:iceandfire:tide_purple_helmet>,
+    <item:iceandfire:tide_red_helmet>,
+    <item:iceandfire:tide_teal_helmet>,
+    <item:minecraft:chainmail_helmet>,
+    <item:minecraft:diamond_helmet>,
+    <item:minecraft:golden_helmet>,
+    <item:minecraft:iron_helmet>,
+    <item:minecraft:leather_helmet>,
+    <item:minecraft:netherite_helmet>,
+    <item:savageandravage:griefer_helmet>,
+    <item:twilightforest:fiery_helmet>
 ];
 var chestplate as IItemStack[] = [
-    <item:atum:desert_chest_iron>.withTag(data),
-    <item:good_nights_sleep:candy_chestplate>.withTag(data),
-    <item:good_nights_sleep:negatite_chestplate>.withTag(data),
-    <item:good_nights_sleep:positite_chestplate>.withTag(data),
-    <item:good_nights_sleep:rainbow_chestplate>.withTag(data),
-    <item:good_nights_sleep:zitrite_chestplate>.withTag(data),
-    <item:iceandfire:armor_amythest_chestplate>.withTag(data),
-    <item:iceandfire:armor_black_chestplate>.withTag(data),
-    <item:iceandfire:armor_blue_chestplate>.withTag(data),
-    <item:iceandfire:armor_bronze_chestplate>.withTag(data),
-    <item:iceandfire:armor_copper_chestplate>.withTag(data),
-    <item:iceandfire:armor_copper_metal_chestplate>.withTag(data),
-    <item:iceandfire:armor_electric_chestplate>.withTag(data),
-    <item:iceandfire:armor_gray_chestplate>.withTag(data),
-    <item:iceandfire:armor_green_chestplate>.withTag(data),
-    <item:iceandfire:armor_red_chestplate>.withTag(data),
-    <item:iceandfire:armor_sapphire_chestplate>.withTag(data),
-    <item:iceandfire:armor_silver_chestplate>.withTag(data),
-    <item:iceandfire:armor_silver_metal_chestplate>.withTag(data),
-    <item:iceandfire:armor_white_chestplate>.withTag(data),
-    <item:iceandfire:deathworm_red_chestplate>.withTag(data),
-    <item:iceandfire:deathworm_white_chestplate>.withTag(data),
-    <item:iceandfire:deathworm_yellow_chestplate>.withTag(data),
-    <item:iceandfire:forest_troll_leather_chestplate>.withTag(data),
-    <item:iceandfire:frost_troll_leather_chestplate>.withTag(data),
-    <item:iceandfire:mountain_troll_leather_chestplate>.withTag(data),
-    <item:iceandfire:myrmex_desert_chestplate>.withTag(data),
-    <item:iceandfire:myrmex_jungle_chestplate>.withTag(data),
-    <item:iceandfire:sheep_chestplate>.withTag(data),
-    <item:iceandfire:tide_blue_chestplate>.withTag(data),
-    <item:iceandfire:tide_bronze_chestplate>.withTag(data),
-    <item:iceandfire:tide_deepblue_chestplate>.withTag(data),
-    <item:iceandfire:tide_green_chestplate>.withTag(data),
-    <item:iceandfire:tide_purple_chestplate>.withTag(data),
-    <item:iceandfire:tide_red_chestplate>.withTag(data),
-    <item:iceandfire:tide_teal_chestplate>.withTag(data),
-    <item:minecraft:chainmail_chestplate>.withTag(data),
-    <item:minecraft:diamond_chestplate>.withTag(data),
-    <item:minecraft:golden_chestplate>.withTag(data),
-    <item:minecraft:iron_chestplate>.withTag(data),
-    <item:minecraft:leather_chestplate>.withTag(data),
-    <item:minecraft:netherite_chestplate>.withTag(data),
-    <item:savageandravage:griefer_chestplate>.withTag(data),
-    <item:twilightforest:fiery_chestplate>.withTag(data)
+    <item:atum:desert_chest_iron>,
+    <item:good_nights_sleep:candy_chestplate>,
+    <item:good_nights_sleep:negatite_chestplate>,
+    <item:good_nights_sleep:positite_chestplate>,
+    <item:good_nights_sleep:rainbow_chestplate>,
+    <item:good_nights_sleep:zitrite_chestplate>,
+    <item:iceandfire:armor_amythest_chestplate>,
+    <item:iceandfire:armor_black_chestplate>,
+    <item:iceandfire:armor_blue_chestplate>,
+    <item:iceandfire:armor_bronze_chestplate>,
+    <item:iceandfire:armor_copper_chestplate>,
+    <item:iceandfire:armor_copper_metal_chestplate>,
+    <item:iceandfire:armor_electric_chestplate>,
+    <item:iceandfire:armor_gray_chestplate>,
+    <item:iceandfire:armor_green_chestplate>,
+    <item:iceandfire:armor_red_chestplate>,
+    <item:iceandfire:armor_sapphire_chestplate>,
+    <item:iceandfire:armor_silver_chestplate>,
+    <item:iceandfire:armor_silver_metal_chestplate>,
+    <item:iceandfire:armor_white_chestplate>,
+    <item:iceandfire:deathworm_red_chestplate>,
+    <item:iceandfire:deathworm_white_chestplate>,
+    <item:iceandfire:deathworm_yellow_chestplate>,
+    <item:iceandfire:forest_troll_leather_chestplate>,
+    <item:iceandfire:frost_troll_leather_chestplate>,
+    <item:iceandfire:mountain_troll_leather_chestplate>,
+    <item:iceandfire:myrmex_desert_chestplate>,
+    <item:iceandfire:myrmex_jungle_chestplate>,
+    <item:iceandfire:sheep_chestplate>,
+    <item:iceandfire:tide_blue_chestplate>,
+    <item:iceandfire:tide_bronze_chestplate>,
+    <item:iceandfire:tide_deepblue_chestplate>,
+    <item:iceandfire:tide_green_chestplate>,
+    <item:iceandfire:tide_purple_chestplate>,
+    <item:iceandfire:tide_red_chestplate>,
+    <item:iceandfire:tide_teal_chestplate>,
+    <item:minecraft:chainmail_chestplate>,
+    <item:minecraft:diamond_chestplate>,
+    <item:minecraft:golden_chestplate>,
+    <item:minecraft:iron_chestplate>,
+    <item:minecraft:leather_chestplate>,
+    <item:minecraft:netherite_chestplate>,
+    <item:savageandravage:griefer_chestplate>,
+    <item:twilightforest:fiery_chestplate>
 ];
 var leggings as IItemStack[] = [
-    <item:atum:desert_legs_iron>.withTag(data),
-    <item:good_nights_sleep:candy_leggings>.withTag(data),
-    <item:good_nights_sleep:negatite_leggings>.withTag(data),
-    <item:good_nights_sleep:positite_leggings>.withTag(data),
-    <item:good_nights_sleep:rainbow_leggings>.withTag(data),
-    <item:good_nights_sleep:zitrite_leggings>.withTag(data),
-    <item:iceandfire:armor_amythest_leggings>.withTag(data),
-    <item:iceandfire:armor_black_leggings>.withTag(data),
-    <item:iceandfire:armor_blue_leggings>.withTag(data),
-    <item:iceandfire:armor_bronze_leggings>.withTag(data),
-    <item:iceandfire:armor_copper_leggings>.withTag(data),
-    <item:iceandfire:armor_copper_metal_leggings>.withTag(data),
-    <item:iceandfire:armor_electric_leggings>.withTag(data),
-    <item:iceandfire:armor_gray_leggings>.withTag(data),
-    <item:iceandfire:armor_green_leggings>.withTag(data),
-    <item:iceandfire:armor_red_leggings>.withTag(data),
-    <item:iceandfire:armor_sapphire_leggings>.withTag(data),
-    <item:iceandfire:armor_silver_leggings>.withTag(data),
-    <item:iceandfire:armor_silver_metal_leggings>.withTag(data),
-    <item:iceandfire:armor_white_leggings>.withTag(data),
-    <item:iceandfire:deathworm_red_leggings>.withTag(data),
-    <item:iceandfire:deathworm_white_leggings>.withTag(data),
-    <item:iceandfire:deathworm_yellow_leggings>.withTag(data),
-    <item:iceandfire:forest_troll_leather_leggings>.withTag(data),
-    <item:iceandfire:frost_troll_leather_leggings>.withTag(data),
-    <item:iceandfire:mountain_troll_leather_leggings>.withTag(data),
-    <item:iceandfire:myrmex_desert_leggings>.withTag(data),
-    <item:iceandfire:myrmex_jungle_leggings>.withTag(data),
-    <item:iceandfire:sheep_leggings>.withTag(data),
-    <item:iceandfire:tide_blue_leggings>.withTag(data),
-    <item:iceandfire:tide_bronze_leggings>.withTag(data),
-    <item:iceandfire:tide_deepblue_leggings>.withTag(data),
-    <item:iceandfire:tide_green_leggings>.withTag(data),
-    <item:iceandfire:tide_purple_leggings>.withTag(data),
-    <item:iceandfire:tide_red_leggings>.withTag(data),
-    <item:iceandfire:tide_teal_leggings>.withTag(data),
-    <item:minecraft:chainmail_leggings>.withTag(data),
-    <item:minecraft:diamond_leggings>.withTag(data),
-    <item:minecraft:golden_leggings>.withTag(data),
-    <item:minecraft:iron_leggings>.withTag(data),
-    <item:minecraft:leather_leggings>.withTag(data),
-    <item:minecraft:netherite_leggings>.withTag(data),
-    <item:savageandravage:griefer_leggings>.withTag(data),
-    <item:twilightforest:fiery_leggings>.withTag(data)
+    <item:atum:desert_legs_iron>,
+    <item:good_nights_sleep:candy_leggings>,
+    <item:good_nights_sleep:negatite_leggings>,
+    <item:good_nights_sleep:positite_leggings>,
+    <item:good_nights_sleep:rainbow_leggings>,
+    <item:good_nights_sleep:zitrite_leggings>,
+    <item:iceandfire:armor_amythest_leggings>,
+    <item:iceandfire:armor_black_leggings>,
+    <item:iceandfire:armor_blue_leggings>,
+    <item:iceandfire:armor_bronze_leggings>,
+    <item:iceandfire:armor_copper_leggings>,
+    <item:iceandfire:armor_copper_metal_leggings>,
+    <item:iceandfire:armor_electric_leggings>,
+    <item:iceandfire:armor_gray_leggings>,
+    <item:iceandfire:armor_green_leggings>,
+    <item:iceandfire:armor_red_leggings>,
+    <item:iceandfire:armor_sapphire_leggings>,
+    <item:iceandfire:armor_silver_leggings>,
+    <item:iceandfire:armor_silver_metal_leggings>,
+    <item:iceandfire:armor_white_leggings>,
+    <item:iceandfire:deathworm_red_leggings>,
+    <item:iceandfire:deathworm_white_leggings>,
+    <item:iceandfire:deathworm_yellow_leggings>,
+    <item:iceandfire:forest_troll_leather_leggings>,
+    <item:iceandfire:frost_troll_leather_leggings>,
+    <item:iceandfire:mountain_troll_leather_leggings>,
+    <item:iceandfire:myrmex_desert_leggings>,
+    <item:iceandfire:myrmex_jungle_leggings>,
+    <item:iceandfire:sheep_leggings>,
+    <item:iceandfire:tide_blue_leggings>,
+    <item:iceandfire:tide_bronze_leggings>,
+    <item:iceandfire:tide_deepblue_leggings>,
+    <item:iceandfire:tide_green_leggings>,
+    <item:iceandfire:tide_purple_leggings>,
+    <item:iceandfire:tide_red_leggings>,
+    <item:iceandfire:tide_teal_leggings>,
+    <item:minecraft:chainmail_leggings>,
+    <item:minecraft:diamond_leggings>,
+    <item:minecraft:golden_leggings>,
+    <item:minecraft:iron_leggings>,
+    <item:minecraft:leather_leggings>,
+    <item:minecraft:netherite_leggings>,
+    <item:savageandravage:griefer_leggings>,
+    <item:twilightforest:fiery_leggings>
     ];
 var boots as IItemStack[] = [
-    <item:atum:desert_boots_iron>.withTag(data),
-    <item:atum:mummy_boots>.withTag(data),
-    <item:atum:wanderer_boots>.withTag(data),
-    <item:good_nights_sleep:candy_boots>.withTag(data),
-    <item:good_nights_sleep:negatite_boots>.withTag(data),
-    <item:good_nights_sleep:positite_boots>.withTag(data),
-    <item:good_nights_sleep:rainbow_boots>.withTag(data),
-    <item:good_nights_sleep:zitrite_boots>.withTag(data),
-    <item:iceandfire:armor_amythest_boots>.withTag(data),
-    <item:iceandfire:armor_black_boots>.withTag(data),
-    <item:iceandfire:armor_blue_boots>.withTag(data),
-    <item:iceandfire:armor_bronze_boots>.withTag(data),
-    <item:iceandfire:armor_copper_boots>.withTag(data),
-    <item:iceandfire:armor_copper_metal_boots>.withTag(data),
-    <item:iceandfire:armor_electric_boots>.withTag(data),
-    <item:iceandfire:armor_gray_boots>.withTag(data),
-    <item:iceandfire:armor_green_boots>.withTag(data),
-    <item:iceandfire:armor_red_boots>.withTag(data),
-    <item:iceandfire:armor_sapphire_boots>.withTag(data),
-    <item:iceandfire:armor_silver_boots>.withTag(data),
-    <item:iceandfire:armor_silver_metal_boots>.withTag(data),
-    <item:iceandfire:armor_white_boots>.withTag(data),
-    <item:iceandfire:deathworm_red_boots>.withTag(data),
-    <item:iceandfire:deathworm_white_boots>.withTag(data),
-    <item:iceandfire:deathworm_yellow_boots>.withTag(data),
-    <item:iceandfire:forest_troll_leather_boots>.withTag(data),
-    <item:iceandfire:frost_troll_leather_boots>.withTag(data),
-    <item:iceandfire:mountain_troll_leather_boots>.withTag(data),
-    <item:iceandfire:myrmex_desert_boots>.withTag(data),
-    <item:iceandfire:myrmex_jungle_boots>.withTag(data),
-    <item:iceandfire:sheep_boots>.withTag(data),
-    <item:iceandfire:tide_blue_boots>.withTag(data),
-    <item:iceandfire:tide_bronze_boots>.withTag(data),
-    <item:iceandfire:tide_deepblue_boots>.withTag(data),
-    <item:iceandfire:tide_green_boots>.withTag(data),
-    <item:iceandfire:tide_purple_boots>.withTag(data),
-    <item:iceandfire:tide_red_boots>.withTag(data),
-    <item:iceandfire:tide_teal_boots>.withTag(data),
-    <item:minecraft:chainmail_boots>.withTag(data),
-    <item:minecraft:diamond_boots>.withTag(data),
-    <item:minecraft:golden_boots>.withTag(data),
-    <item:minecraft:iron_boots>.withTag(data),
-    <item:minecraft:leather_boots>.withTag(data),
-    <item:minecraft:netherite_boots>.withTag(data),
-    <item:savageandravage:griefer_boots>.withTag(data),
-    <item:twilightforest:fiery_boots>.withTag(data)
+    <item:atum:desert_boots_iron>,
+    <item:atum:mummy_boots>,
+    <item:atum:wanderer_boots>,
+    <item:good_nights_sleep:candy_boots>,
+    <item:good_nights_sleep:negatite_boots>,
+    <item:good_nights_sleep:positite_boots>,
+    <item:good_nights_sleep:rainbow_boots>,
+    <item:good_nights_sleep:zitrite_boots>,
+    <item:iceandfire:armor_amythest_boots>,
+    <item:iceandfire:armor_black_boots>,
+    <item:iceandfire:armor_blue_boots>,
+    <item:iceandfire:armor_bronze_boots>,
+    <item:iceandfire:armor_copper_boots>,
+    <item:iceandfire:armor_copper_metal_boots>,
+    <item:iceandfire:armor_electric_boots>,
+    <item:iceandfire:armor_gray_boots>,
+    <item:iceandfire:armor_green_boots>,
+    <item:iceandfire:armor_red_boots>,
+    <item:iceandfire:armor_sapphire_boots>,
+    <item:iceandfire:armor_silver_boots>,
+    <item:iceandfire:armor_silver_metal_boots>,
+    <item:iceandfire:armor_white_boots>,
+    <item:iceandfire:deathworm_red_boots>,
+    <item:iceandfire:deathworm_white_boots>,
+    <item:iceandfire:deathworm_yellow_boots>,
+    <item:iceandfire:forest_troll_leather_boots>,
+    <item:iceandfire:frost_troll_leather_boots>,
+    <item:iceandfire:mountain_troll_leather_boots>,
+    <item:iceandfire:myrmex_desert_boots>,
+    <item:iceandfire:myrmex_jungle_boots>,
+    <item:iceandfire:sheep_boots>,
+    <item:iceandfire:tide_blue_boots>,
+    <item:iceandfire:tide_bronze_boots>,
+    <item:iceandfire:tide_deepblue_boots>,
+    <item:iceandfire:tide_green_boots>,
+    <item:iceandfire:tide_purple_boots>,
+    <item:iceandfire:tide_red_boots>,
+    <item:iceandfire:tide_teal_boots>,
+    <item:minecraft:chainmail_boots>,
+    <item:minecraft:diamond_boots>,
+    <item:minecraft:golden_boots>,
+    <item:minecraft:iron_boots>,
+    <item:minecraft:leather_boots>,
+    <item:minecraft:netherite_boots>,
+    <item:savageandravage:griefer_boots>,
+    <item:twilightforest:fiery_boots>
 ];
 var entities as MCEntityType[] = [
     <entitytype:atum:assassin>,
@@ -280,7 +280,6 @@ var entities as MCEntityType[] = [
     <entitytype:dungeonsmod:sunplanet>,
     <entitytype:dungeonsmod:traveler>,
     <entitytype:dungeonsmod:whirlwind>,
-    <entitytype:dungeonsmod:winterhunter>,
     <entitytype:good_nights_sleep:baby_creeper>,
     <entitytype:good_nights_sleep:gns_spawner>,
     <entitytype:good_nights_sleep:gummy_bear>,
@@ -453,7 +452,6 @@ var entities as MCEntityType[] = [
     <entitytype:twilightforest:blockchain_goblin>,
     <entitytype:twilightforest:bunny>,
     <entitytype:twilightforest:chain_block>,
-    <entitytype:twilightforest:charm_effect>,
     <entitytype:twilightforest:cicada_shot>,
     <entitytype:twilightforest:cube_of_annihilation>,
     <entitytype:twilightforest:death_tome>,
@@ -509,100 +507,112 @@ var entities as MCEntityType[] = [
     <entitytype:twilightforest:wild_boar>,
     <entitytype:twilightforest:winter_wolf>,
     <entitytype:twilightforest:wraith>,
-    <entitytype:valhelsia_structures:mossy_skeleton>
+    <entitytype:valhelsia_structures:mossy_skeleton>,
+    <entitytype:enderlinginvaders:snareling>,
+    <entitytype:enderlinginvaders:watchling>,
+    <entitytype:enderlinginvaders:blastling>,
+    <entitytype:enderlinginvaders:lureling>,
+    <entitytype:enderlinginvaders:thumpling>,
+    <entitytype:enderlinginvaders:endersent>,
+    <entitytype:enderlinginvaders:stronghold_endersent>,
+    <entitytype:enderlinginvaders:necrosent>,
+    <entitytype:enderlinginvaders:snareling_glob>,
+    <entitytype:enderlinginvaders:blastling_bullet>,
+    <entitytype:enderlinginvaders:hypno_bulb>,
+    <entitytype:enderlinginvaders:soul_bullet>
 ];
 
 for k in 0 .. entities.length {
     for i in 0 .. helmet.length {
         new ArmorGroup("one")
-            .inSlot(<equipmentslottype:head>, helmet[i])
+            .inSlot(<equipmentslottype:head>, helmet[i].withTag(data))
             .addStages("twotwiliforest")
             .setWeight(10.0) 
             .register(entities[k]);
         new ArmorGroup("two")
-            .inSlot(<equipmentslottype:chest>, chestplate[i])
+            .inSlot(<equipmentslottype:chest>, chestplate[i].withTag(data))
             .addStages("twotwiliforest")
             .setWeight(10.0)
             .register(entities[k]);
         new ArmorGroup("three")
-            .inSlot(<equipmentslottype:legs>, leggings[i])
+            .inSlot(<equipmentslottype:legs>, leggings[i].withTag(data))
             .addStages("twotwiliforest")
             .setWeight(10.0)
             .register(entities[k]);
         new ArmorGroup("four")
-            .inSlot(<equipmentslottype:feet>, boots[i])
+            .inSlot(<equipmentslottype:feet>, boots[i].withTag(data))
             .addStages("twotwiliforest")
             .setWeight(10.0)
             .register(entities[k]);
         new ArmorGroup("five")
-            .inSlot(<equipmentslottype:head>, helmet[i])
-            .inSlot(<equipmentslottype:chest>, chestplate[i])
+            .inSlot(<equipmentslottype:head>, helmet[i].withTag(data))
+            .inSlot(<equipmentslottype:chest>, chestplate[i].withTag(data))
             .addStages("five")
             .setWeight(7.5)
             .register(entities[k]);
         new ArmorGroup("six")
-            .inSlot(<equipmentslottype:head>, helmet[i])
-            .inSlot(<equipmentslottype:legs>, leggings[i])
+            .inSlot(<equipmentslottype:head>, helmet[i].withTag(data))
+            .inSlot(<equipmentslottype:legs>, leggings[i].withTag(data))
             .addStages("five")
             .setWeight(7.5)
             .register(entities[k]);
         new ArmorGroup("seven")
-            .inSlot(<equipmentslottype:head>, helmet[i])
-            .inSlot(<equipmentslottype:feet>, boots[i])
+            .inSlot(<equipmentslottype:head>, helmet[i].withTag(data))
+            .inSlot(<equipmentslottype:feet>, boots[i].withTag(data))
             .addStages("twotwiliforest")
             .setWeight(7.5)
             .register(entities[k]);
         new ArmorGroup("eight")
-            .inSlot(<equipmentslottype:chest>, chestplate[i])
-            .inSlot(<equipmentslottype:legs>, leggings[i])
+            .inSlot(<equipmentslottype:chest>, chestplate[i].withTag(data))
+            .inSlot(<equipmentslottype:legs>, leggings[i].withTag(data))
             .addStages("five")
             .setWeight(3.75)
             .register(entities[k]);
         new ArmorGroup("nine")
-            .inSlot(<equipmentslottype:chest>, chestplate[i])
-            .inSlot(<equipmentslottype:feet>, boots[i])
+            .inSlot(<equipmentslottype:chest>, chestplate[i].withTag(data))
+            .inSlot(<equipmentslottype:feet>, boots[i].withTag(data))
             .addStages("five")
             .setWeight(3.75)
             .register(entities[k]);
         new ArmorGroup("ten")
-            .inSlot(<equipmentslottype:legs>, leggings[i])
-            .inSlot(<equipmentslottype:feet>, boots[i])
+            .inSlot(<equipmentslottype:legs>, leggings[i].withTag(data))
+            .inSlot(<equipmentslottype:feet>, boots[i].withTag(data))
             .addStages("five")
             .setWeight(3.75)
             .register(entities[k]);
         new ArmorGroup("eleven")
-            .inSlot(<equipmentslottype:head>, helmet[i])
-            .inSlot(<equipmentslottype:chest>, chestplate[i])
-            .inSlot(<equipmentslottype:legs>, leggings[i])
+            .inSlot(<equipmentslottype:head>, helmet[i].withTag(data))
+            .inSlot(<equipmentslottype:chest>, chestplate[i].withTag(data))
+            .inSlot(<equipmentslottype:legs>, leggings[i].withTag(data))
             .addStages("five")
             .setWeight(2.5)
             .register(entities[k]);
         new ArmorGroup("twelve")
-            .inSlot(<equipmentslottype:head>, helmet[i])
-            .inSlot(<equipmentslottype:chest>, chestplate[i])
-            .inSlot(<equipmentslottype:feet>, boots[i])
+            .inSlot(<equipmentslottype:head>, helmet[i].withTag(data))
+            .inSlot(<equipmentslottype:chest>, chestplate[i].withTag(data))
+            .inSlot(<equipmentslottype:feet>, boots[i].withTag(data))
             .addStages("five")
             .setWeight(2.5)
             .register(entities[k]);
         new ArmorGroup("thirteen")
-            .inSlot(<equipmentslottype:head>, helmet[i])
-            .inSlot(<equipmentslottype:legs>, leggings[i])
-            .inSlot(<equipmentslottype:feet>, boots[i])
+            .inSlot(<equipmentslottype:head>, helmet[i].withTag(data))
+            .inSlot(<equipmentslottype:legs>, leggings[i].withTag(data))
+            .inSlot(<equipmentslottype:feet>, boots[i].withTag(data))
             .addStages("five")
             .setWeight(2.5)
             .register(entities[k]);
         new ArmorGroup("fourteen")
-            .inSlot(<equipmentslottype:chest>, chestplate[i])
-            .inSlot(<equipmentslottype:legs>, leggings[i])
-            .inSlot(<equipmentslottype:feet>, boots[i])
+            .inSlot(<equipmentslottype:chest>, chestplate[i].withTag(data))
+            .inSlot(<equipmentslottype:legs>, leggings[i].withTag(data))
+            .inSlot(<equipmentslottype:feet>, boots[i].withTag(data))
             .addStages("five")
             .setWeight(2.5)
             .register(entities[k]);
         new ArmorGroup("fifteen")
-            .inSlot(<equipmentslottype:head>, helmet[i])
-            .inSlot(<equipmentslottype:chest>, chestplate[i])
-            .inSlot(<equipmentslottype:legs>, leggings[i])
-            .inSlot(<equipmentslottype:feet>, boots[i])
+            .inSlot(<equipmentslottype:head>, helmet[i].withTag(data))
+            .inSlot(<equipmentslottype:chest>, chestplate[i].withTag(data))
+            .inSlot(<equipmentslottype:legs>, leggings[i].withTag(data))
+            .inSlot(<equipmentslottype:feet>, boots[i].withTag(data))
             .addStages("five")
             .setWeight(1.25)
             .register(entities[k]);

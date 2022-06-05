@@ -3,7 +3,7 @@
 
 	[Enchantments."Magic Protection"]
 		#If TRUE, the Magic Protection Enchantment is available for Armor and Horse Armor.
-		Enable = true
+		Enable = false
 		#This sets whether or not the Enchantment is considered a 'treasure' enchantment.
 		Treasure = false
 		#This option adjusts the maximum allowable level for the Enchantment.
@@ -26,7 +26,7 @@
 
 	[Enchantments."Flaming Rebuke"]
 		#If TRUE, the Flaming Rebuke Enchantment is available for Armor, Shields, and Horse Armor.
-		Enable = false
+		Enable = true
 		#This sets whether or not the Enchantment is considered a 'treasure' enchantment.
 		Treasure = true
 		#This option adjusts the maximum allowable level for the Enchantment.
@@ -40,7 +40,7 @@
 
 	[Enchantments."Chilling Rebuke"]
 		#If TRUE, the Chilling Rebuke Enchantment is available for Armor, Shields, and Horse Armor.
-		Enable = false
+		Enable = true
 		#This sets whether or not the Enchantment is considered a 'treasure' enchantment.
 		Treasure = true
 		#This option adjusts the maximum allowable level for the Enchantment.
@@ -54,7 +54,7 @@
 
 	[Enchantments."Air Affinity"]
 		#If TRUE, the Air Affinity Enchantment is available for Helmets.
-		Enable = true
+		Enable = false
 		#This sets whether or not the Enchantment is considered a 'treasure' enchantment.
 		Treasure = false
 
@@ -98,11 +98,11 @@
 		"Max Level" = 3
 		#Adjust this value to set the health granted per level of the Enchantment. (There are 2 health per heart icon.)
 		#Range: 1 ~ 10
-		"Health / Level" = 4
+		"Health / Level" = 3
 
 	[Enchantments."Ender Disruption"]
 		#If TRUE, the Ender Disruption Enchantment is available for various Weapons.
-		Enable = false
+		Enable = true
 		#This sets whether or not the Enchantment is considered a 'treasure' enchantment.
 		Treasure = true
 		#This option adjusts the maximum allowable level for the Enchantment.
@@ -120,7 +120,7 @@
 
 	[Enchantments.Outlaw]
 		#If TRUE, the Outlaw Enchantment is available for various Weapons.
-		Enable = false
+		Enable = true
 		#This sets whether or not the Enchantment is considered a 'treasure' enchantment.
 		Treasure = false
 		#This option adjusts the maximum allowable level for the Enchantment.
@@ -173,7 +173,7 @@
 
 	[Enchantments.Vorpal]
 		#If TRUE, the Vorpal Enchantment is available for various Weapons.
-		Enable = true
+		Enable = false
 		#This sets whether or not the Enchantment is considered a 'treasure' enchantment.
 		Treasure = true
 		#This option adjusts the maximum allowable level for the Enchantment.
@@ -224,7 +224,7 @@
 
 	[Enchantments.Trueshot]
 		#If TRUE, the Trueshot Enchantment is available for various Bows.
-		Enable = true
+		Enable = false
 		#This sets whether or not the Enchantment is considered a 'treasure' enchantment.
 		Treasure = false
 		#This option adjusts the maximum allowable level for the Enchantment.
