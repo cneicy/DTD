@@ -106,8 +106,8 @@
 			corner: false
 		}
 		{
-			x: -6.5d
-			y: -9.5d
+			x: -5.0d
+			y: -9.0d
 			width: 3.0d
 			height: 3.0d
 			rotation: 0.0d
@@ -118,8 +118,8 @@
 			corner: false
 		}
 		{
-			x: -10.5d
-			y: -7.5d
+			x: -8.0d
+			y: -9.0d
 			width: 3.0d
 			height: 3.0d
 			rotation: 0.0d
@@ -203,7 +203,7 @@
 		}
 		{
 			x: -2.0d
-			y: -5.0d
+			y: -2.0d
 			width: 3.0d
 			height: 3.0d
 			rotation: 0.0d
@@ -414,6 +414,12 @@
 					entity: "iceandfire:gorgon"
 					value: 1L
 				}
+				{
+					id: "3CF5A9553A37331F"
+					type: "kill"
+					entity: "iceandfire:hydra"
+					value: 1L
+				}
 			]
 			rewards: [
 				{
@@ -488,7 +494,7 @@
 				{
 					id: "0CE2EE212FAC6A1B"
 					type: "item"
-					item: "tantrum:heart_container"
+					item: "paraglider:heart_container"
 				}
 			]
 		}
@@ -518,7 +524,7 @@
 			}]
 		}
 		{
-			x: -6.5d
+			x: -5.0d
 			y: -7.5d
 			subtitle: "它盯着你，一动不动"
 			dependencies: ["7761349C6A7CF303"]
@@ -599,7 +605,7 @@
 		}
 		{
 			x: -3.5d
-			y: -6.5d
+			y: -6.0d
 			subtitle: "上面散发着幽灵的气息"
 			description: [
 				"灵锭可通过杀死幽灵获得，掉落概率为2.5%。"
@@ -623,26 +629,6 @@
 				id: "23113EDAF8BCCC8C"
 				type: "xp"
 				xp: 50
-			}]
-		}
-		{
-			title: "杀死冰火传说的九头蛇"
-			x: 14.0d
-			y: 11.0d
-			subtitle: "让你的火龙去把它淦烂"
-			description: ["九头蛇位于主世界沼泽，随缘生成，结构无法定位"]
-			dependencies: ["14B72D667572DF63"]
-			id: "7FD7B01B549FDC37"
-			tasks: [{
-				id: "74D90784D5A4DE04"
-				type: "kill"
-				entity: "iceandfire:hydra"
-				value: 1L
-			}]
-			rewards: [{
-				id: "0B609A686ED28736"
-				type: "item"
-				item: "tantrum:heart_container"
 			}]
 		}
 		{
@@ -777,23 +763,6 @@
 				id: "53D49D6069190460"
 				type: "xp"
 				xp: 100
-			}]
-		}
-		{
-			x: 14.0d
-			y: 16.5d
-			subtitle: "10%"
-			dependencies: ["7FD7B01B549FDC37"]
-			id: "4A80A497F00677C3"
-			tasks: [{
-				id: "597B326BD1B6333B"
-				type: "item"
-				item: "iceandfire:hydra_heart"
-			}]
-			rewards: [{
-				id: "2DE555579187CD51"
-				type: "xp"
-				xp: 50
 			}]
 		}
 		{
@@ -1176,8 +1145,8 @@
 		}
 		{
 			title: "食人妖的重型武器"
-			x: -9.5d
-			y: -6.5d
+			x: -8.0d
+			y: -7.5d
 			subtitle: "不能承受之重"
 			description: ["食人妖的可怕武器，但是攻击速度太慢了。"]
 			dependencies: ["7761349C6A7CF303"]
@@ -1929,6 +1898,22 @@
 				id: "459F532ADABDA4D7"
 				type: "xp"
 				xp: 10
+			}]
+		}
+		{
+			x: -9.5d
+			y: -6.0d
+			dependencies: ["7761349C6A7CF303"]
+			id: "297C9076C6E3243C"
+			tasks: [{
+				id: "6F1F3B4A9E232BDE"
+				type: "item"
+				item: "iceandfire:hydra_heart"
+			}]
+			rewards: [{
+				id: "39A21C7EE1877E53"
+				type: "xp"
+				xp: 100
 			}]
 		}
 	]

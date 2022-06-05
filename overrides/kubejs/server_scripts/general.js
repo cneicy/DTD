@@ -8,6 +8,14 @@ onEvent('block.right_click', event => {
 	}
 })
 
+onEvent('block.place', event => {
+    event.server.runCommandSilent(`execute if block ${event.block.x} ${event.block.y + 1} ${event.block.z} ba_bt:land_golem_chest run fill ${event.block.x} ${event.block.y} ${event.block.z} ${event.block.x} ${event.block.y} ${event.block.z} air`)
+})
+
+onEvent('block.place', event => {
+    event.server.runCommandSilent(`execute if block ${event.block.x} ${event.block.y + 1} ${event.block.z} ba_bt:land_chest run fill ${event.block.x} ${event.block.y} ${event.block.z} ${event.block.x} ${event.block.y} ${event.block.z} air`)
+})
+
 onEvent('item.entity_interact', event => {
     if (event.target.type == 'minecraft:ender_dragon' 
     && event.player.getHeldItem(event.hand) == 'minecraft:bucket' 

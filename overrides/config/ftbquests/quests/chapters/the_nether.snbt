@@ -193,6 +193,7 @@
 			x: 5.5d
 			y: 0.0d
 			subtitle: "杀死法老获得进入下界的资格"
+			description: ["不要试图上基岩顶，否则你会后悔。"]
 			id: "16A5F9B662408D37"
 			tasks: [{
 				id: "7AE44E9301C3CF13"

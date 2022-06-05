@@ -5,10 +5,6 @@
       "rolls": 2,
       "entries": [
         {
-          "type": "minecraft:empty",
-          "weight": 60
-        },
-        {
           "type": "minecraft:item",
           "weight": 5,
           "name": "minecraft:iron_helmet",
@@ -20,7 +16,23 @@
                 "minecraft:projectile_protection",
                 "minecraft:protection",
                 "minecraft:fire_protection",
-                "minecraft:unbreaking"
+                "minecraft:unbreaking",
+                "apotheosis:berserk",
+                "apotheosis:life_mending",
+                "apotheosis:magic_protection",
+                "apotheosis:rebounding",
+                "betterendforge:end_veil",
+                "charm:tinted",
+                "minecraft:mending",
+                "enderlinginvaders:soul_protection",
+                "ensorcellation:air_affinity",
+                "ensorcellation:curse_fool",
+                "ensorcellation:exp_boost",
+                "ensorcellation:soulbound",
+                "minecraft:aqua_affinity",
+                "minecraft:binding_curse",
+                "minecraft:vanishing_curse",
+                "minecraft:respiration"
               ]
             },
             {
@@ -40,7 +52,20 @@
                 "minecraft:projectile_protection",
                 "minecraft:protection",
                 "minecraft:fire_protection",
-                "minecraft:unbreaking"
+                "minecraft:unbreaking",
+                "apotheosis:berserk",
+                "minecraft:mending",
+                "apotheosis:icy_thorns",
+                "apotheosis:life_mending",
+                "apotheosis:magic_protection",
+                "apotheosis:rebounding",
+                "charm:tinted",
+                "enderlinginvaders:soul_protection",
+                "ensorcellation:reach",
+                "ensorcellation:soulbound",
+                "ensorcellation:vitality",
+                "minecraft:binding_curse",
+                "minecraft:vanishing_curse"
               ]
             },
             {
@@ -60,7 +85,17 @@
                 "minecraft:projectile_protection",
                 "minecraft:protection",
                 "minecraft:fire_protection",
-                "minecraft:unbreaking"
+                "minecraft:mending",
+                "minecraft:unbreaking",
+                "apotheosis:berserk",
+                "apotheosis:life_mending",
+                "apotheosis:magic_protection",
+                "apotheosis:rebounding",
+                "charm:tinted",
+                "enderlinginvaders:soul_protection",
+                "ensorcellation:soulbound",
+                "minecraft:binding_curse",
+                "minecraft:vanishing_curse"
               ]
             },
             {
@@ -80,8 +115,23 @@
                 "minecraft:projectile_protection",
                 "minecraft:protection",
                 "minecraft:fire_protection",
+                "minecraft:mending",
                 "minecraft:unbreaking",
-                "minecraft:feather_falling"
+                "minecraft:feather_falling",
+                "apotheosis:berserk",
+                "apotheosis:life_mending",
+                "apotheosis:magic_protection",
+                "apotheosis:rebounding",
+                "apotheosis:stable_footing",
+                "charm:aerial_affinity",
+                "charm:tinted",
+                "enderlinginvaders:soul_protection",
+                "ensorcellation:soulbound",
+                "minecraft:binding_curse",
+                "minecraft:depth_strider",
+                "minecraft:feather_falling",
+                "ensorcellation:frost_walker",
+                "minecraft:vanishing_curse"
               ]
             },
             {
@@ -111,7 +161,7 @@
         {
           "type": "minecraft:item",
           "weight": 8,
-          "name": "tantrum:heart_piece",
+          "name": "paraglider:spirit_orb",
           "functions": [
             {
               "function": "minecraft:set_count",

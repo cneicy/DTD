@@ -431,7 +431,7 @@
 	Weezer = true
 	#Default durability value of dragonsteel equipment.
 	#Range: > 1
-	"Dragonsteel Base Durability Equipment" = 10000
+	"Dragonsteel Base Durability Equipment" = 12000
 	#True if the summon crystal can load chunks to find dragons.
 	"Chunk Load Summon Crystal" = true
 	#Default attack strength of a dragonsteel sword.

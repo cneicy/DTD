@@ -80,7 +80,7 @@
               }
             }
           ],
-          "name": "tantrum:heart_piece"
+          "name": "paraglider:spirit_orb"
         },
         {
           "type": "minecraft:item",
@@ -95,7 +95,7 @@
               }
             }
           ],
-          "name": "xtraarrows:iron_tracking_arrow"
+          "name": "xtraarrows:diamond_tracking_arrow"
         }
       ]
     },

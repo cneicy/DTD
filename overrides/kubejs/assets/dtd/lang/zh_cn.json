@@ -71,7 +71,7 @@
     "quest.3A3D58717C582F98.description.1": "血月刷怪量很猛，如果你担心配置不够，经历血月时卡顿难受或者甚至因为怪物实在太多游戏崩溃，可以执行此指令跳过血月。",
     "quest.3A3D58717C582F98.description.2": "此指令也会使本章节“实用知识”重置。",
     "task.dtd.077A8E8A66780D71.title": "血月",
-    "task.dtd.1A5E79383F2987AD.title": "多人游玩",
+    "task.dtd.1A5E79383F2987AD.title": "多人游玩", 
     "quest.6D5E7FBE8230C0D7.subtitle": "地图模组",
     "quest.6D5E7FBE8230C0D7.description.1": "FTB区块是本整合包选用的地图模组，按M查看大地图，大地图界面中按T可以直接传送，对着实体按T则可以传送到实体所在位置。",
     "quest.6D5E7FBE8230C0D7.description.2": "小地图的设置则需要在大地图界面右下角的齿轮处查看，点进去找到“小地图”选项即可进行修改。",
@@ -150,6 +150,8 @@
     "quest.dtd.2748BC27239917A3.title": "&d魔法地图",
     "quest.dtd.2748BC27239917A3.subtitle": "神秘之境",
     "quest.2748BC27239917A3.description.1": "手持右击打开魔法地图！",
+    "quest.3A3D58717C582F98.description.6": "血月刷怪很猛，如果你担心配置不够，经历血月时卡顿难受或者甚至因为怪物实在太多游戏崩溃，可以执行此指令跳过血月。",
+    "quest.3A3D58717C582F98.description.7": "此指令也会使本章节“实用知识”重置。",
 
     "chapter.dtd.27C57016C1BA0A13.title": "这个世界怎么了？",
     "quest.dtd.5DA60203F1A47B25.title": "感谢游玩DTD",

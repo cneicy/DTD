@@ -6,7 +6,7 @@ var fire = <item:iceandfire:dragonsteel_fire_block>;
 var ice = <item:iceandfire:dragonsteel_ice_block>;
 var lightning = <item:iceandfire:dragonsteel_lightning_block>;
 var astral_dust = <item:enigmaticlegacy:astral_dust>;
-var heart_piece = <item:tantrum:heart_piece>;
+var spirit_orb = <item:paraglider:spirit_orb>;
 var nebu = <item:atum:nebu_ingot>;
 var wool = <tag:items:minecraft:wool>;
 
@@ -17,7 +17,6 @@ var poorrelics as IItemStack[] = [
     <item:relics:blazing_flask>.onlyDamaged(),
     <item:relics:camouflage_ring>.onlyDamaged(),
     <item:relics:chorus_inhibitor>.onlyDamaged(),
-    <item:relics:coal_parchment>.onlyDamaged(),
     <item:relics:delay_ring>.onlyDamaged(),
     <item:relics:drowned_belt>.onlyDamaged(),
     <item:relics:elytra_booster>.onlyDamaged(),
@@ -59,7 +58,6 @@ var relics as IItemStack[] = [
     <item:relics:blazing_flask>.withDamage(0),
     <item:relics:camouflage_ring>.withDamage(0),
     <item:relics:chorus_inhibitor>.withDamage(0),
-    <item:relics:coal_parchment>.withDamage(0),
     <item:relics:delay_ring>.withDamage(0),
     <item:relics:drowned_belt>.withDamage(0),
     <item:relics:elytra_booster>.withDamage(0),
@@ -142,9 +140,9 @@ var names as string[] = [
 
 for i in 0 .. relics.length {
     craftingTable.addShapedMirrored(names[i],relics[i], [
-        [heart_piece,heart_piece,heart_piece], 
-        [heart_piece,poorrelics[i],heart_piece],
-        [heart_piece,heart_piece,heart_piece]
+        [spirit_orb,spirit_orb,spirit_orb], 
+        [spirit_orb,poorrelics[i],spirit_orb],
+        [spirit_orb,spirit_orb,spirit_orb]
         ]
     );
 }
@@ -260,9 +258,9 @@ var ba_bt_names as string[]= [
 
 for p in 0 .. ba_bt_names.length {
     craftingTable.addShaped(ba_bt_names[p],<item:lootgames:puzzle_master>,[
-        [heart_piece,heart_piece,heart_piece],
-        [heart_piece,ba_bt_eyes[p],heart_piece],
-        [heart_piece,heart_piece,heart_piece]
+        [spirit_orb,spirit_orb,spirit_orb],
+        [spirit_orb,ba_bt_eyes[p],spirit_orb],
+        [spirit_orb,spirit_orb,spirit_orb]
         ]
     );
 }
@@ -318,6 +316,12 @@ craftingTable.addShapedMirrored("recall_potions",<item:majruszs_difficulty:recal
     [air,<item:minecraft:phantom_membrane>,air], 
     [<item:minecraft:phantom_membrane>,<item:dungeonsmod:soul_bottle>,<item:minecraft:phantom_membrane>],
     [air,<item:minecraft:phantom_membrane>,air]
+    ]
+);
+craftingTable.addShapedMirrored("seashelf",<item:apotheosis:seashelf>, [
+    [<item:minecraft:prismarine_bricks>,<item:minecraft:prismarine_shard>,<item:minecraft:prismarine_bricks>], 
+    [<item:minecraft:potion>.withTag({Potion: "minecraft:water" as string}),<tag:items:forge:bookshelves>,<item:minecraft:pufferfish>],
+    [<item:minecraft:prismarine_bricks>,<item:minecraft:prismarine_shard>,<item:minecraft:prismarine_bricks>]
     ]
 );
 craftingTable.addShapeless("pergamine",<item:dungeonsmod:back_pergamine>,[<item:minecraft:map>,<item:minecraft:emerald>]);

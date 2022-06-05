@@ -4,11 +4,11 @@
 	#Default: true
 	Enabled = true
 	#Any lines containing the following text will be removed from the logs.
-	"Strings To Remove" = ["[net.minecraft.util.Util]: No data fixer registered for", "[net.minecraft.command.Commands]: Ambiguity between arguments"]
+	"Strings To Remove" = []
 	#Any lines matching the following regular expressions will be removed from the logs.
 	#Default: [\[net\.minecraftforge\.common\.ForgeConfigSpec\/CORE\]: Configuration file .* is not correct. Correcting, \[net\.minecraftforge\.common\.ForgeConfigSpec\/CORE\]: Incorrect key .* was corrected from .* to .*]
-	"Patterns To Remove" = ["\\[net\\.minecraftforge\\.common\\.ForgeConfigSpec\\/CORE\\]: Configuration file .* is not correct. Correcting", "\\[net\\.minecraftforge\\.common\\.ForgeConfigSpec\\/CORE\\]: Incorrect key .* was corrected from .* to .*"]
+	"Patterns To Remove" = []
 	#Stack traces from the following exceptions will be truncated, leaving only the message.
 	#Default: [com.google.gson.JsonSyntaxException]
-	"Exceptions To Truncate" = ["com.google.gson.JsonSyntaxException"]
+	"Exceptions To Truncate" = []
 

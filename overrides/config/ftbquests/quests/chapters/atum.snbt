@@ -331,7 +331,7 @@
 				{
 					id: "0722CEE7BCA213DE"
 					type: "item"
-					item: "tantrum:heart_container"
+					item: "paraglider:heart_container"
 				}
 			]
 		}
@@ -379,7 +379,7 @@
 			rewards: [{
 				id: "206A11CE268A90DF"
 				type: "item"
-				item: "tantrum:heart_container"
+				item: "paraglider:heart_container"
 			}]
 		}
 		{

@@ -86,7 +86,7 @@
     "task.dtd.077A8E8A66780D71.title": "Blood Moon",
     "task.dtd.1A5E79383F2987AD.title": "Multiplayer",
     "quest.6D5E7FBE8230C0D7.subtitle": "Map Mod",
-    "quest.6D5E7FBE8230C0D7.description.1": "FTBChunks is the map mod selected by this modpack. Press M to view the full screen map. Press T to directly transfer, and press T to the entity to transfer to the location of the entity",
+    "quest.6D5E7FBE8230C0D7.description.1": "FTBChunks is the map mod selected by this modpack. Press M to view the full screen map. Press T to directly teleport, and press T to the entity to teleport to the location of the entity",
     "quest.6D5E7FBE8230C0D7.description.2": "The settings of the minimap are located at the gear icon in the lower right corner of the full screen map, click in and find the “minimap” option and you can modify it.",
     "quest.6D5E7FBE8230C0D7.description.3": "Claim chunks botton is located at upper left corner, you can claim chunks by left click, and right click to cancel it. Press shift and left click chunks to load chunks forcibly.",
     "quest.6D5E7FBE8230C0D7.description.4": "The location point button in the upper left corner is used to create a new location point at the current location. In addition, right-clicking on the full screen map can also create a location point.",
@@ -220,6 +220,8 @@
     "quest.dtd.4E7340A47410D178.subtitle": "Where did it go?",
     "quest.4E7340A47410D178.description.1": "The (vanilla) mobspawner can spawn up to 8 mobs.",
     "task.dtd.700692ABEC699F16.title": "The maximum limit for spawning monsters",
+    "quest.3A3D58717C582F98.description.6": "The blood moon spawns a lot of monsters. If you are worried that the computer configuration is not enough, you experience a blood moon, or even the game crashes because there are too many monsters, you can execute this command to skip the blood moon.",
+    "quest.3A3D58717C582F98.description.7": "This command also resets this chapter.",
 
     "tooltip.dtd.enchanting_table": "You need to defeat the pharaoh and put the artifact loot into your inventory to use the enchanting table.",
     "dimstage.dtd.twilightforest": "To enter Twilight Forest, you will need to kill the Arachnarch and the Starlit Crusher and put their trophies into your inventory.",

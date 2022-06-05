@@ -223,7 +223,7 @@
 			rewards: [{
 				id: "63689840FA75662A"
 				type: "item"
-				item: "tantrum:heart_container"
+				item: "paraglider:heart_container"
 			}]
 		}
 		{
