@@ -1,7 +1,7 @@
 {
     "template": {
         "type": "single", 
-        "id": "dtdstructures:bar", 
+        "id": "dtdstructures:thx", 
         "maxDepth": 10, 
         
                                
@@ -10,7 +10,7 @@
 
     "placement": {
         "type": "surface",           
-        "minY": 0,
+        "minY": 60,
         "maxY": 256,
         "offset": 0,
         "fluidSurface": false,
@@ -18,15 +18,12 @@
         "terraform": -1
     },
    
-    "averageSpacing": 70,  
-    "minimumSpacing": 40,          
-    "seed": 8646464861,
+    "averageSpacing": 240,  
+    "minimumSpacing": 200,          
+    "seed": 3289719810,
     "avoidOthers": true,       
     
     "biomes": [
-        "#taiga",
-        "#extreme_hills",
-        "#plains",
         "#forest"
     ],
     "dimensions": [
