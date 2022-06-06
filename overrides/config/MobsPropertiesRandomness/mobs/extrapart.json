@@ -1,0 +1,20 @@
+{
+    "mob_id": "dungeonsmod:extrapart",
+    "potion_effects": [
+        {
+            "id": "minecraft:regeneration",
+            "chance": 1.0,
+            "amplifier": 1,
+            "ambient": true
+        }
+    ],
+    "attributes": [
+        {
+            "id": "minecraft:generic.max_health",
+            "modifier_name": "fouradw",
+            "amount": 280,
+            "chance": 1.0,
+            "operation": "addition"
+        }
+    ]
+}

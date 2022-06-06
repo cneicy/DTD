@@ -1,0 +1,19 @@
+{
+    "group": "entities",
+    "potion_effects": [
+        {
+            "id": "minecraft:strength",
+            "chance": 1.0,
+            "amplifier": 10,
+            "ambient": true
+        }
+    ],
+    "conditions": {
+        "advancements_done": [
+            {
+                "advancements": [ "minecraft:end/kill_dragon"],
+                "player_mode": "any"
+            }
+        ]
+    }
+}
