@@ -9,6 +9,15 @@ import crafttweaker.api.data.IData;
 import crafttweaker.api.server.MCServer;
 import crafttweaker.api.util.text.MCTextComponent;
 
+CTEventManager.register<MCEntityTravelToDimensionEvent>((event) => {
+        val entity = event.getEntity();
+        val world = entity.world;
+        if (world.remote) return;
+        world.asServerWorld().server.executeCommand("xp add @a 1", true); 
+        world.asServerWorld().server.executeCommand("xp add @a -1", true);
+    }
+);
+
 var bronze as IData = {BlockStateTag: {tier: "bronze" as string}};
 var silver as IData = {BlockStateTag: {tier: "silver" as string}};
 var gold as IData = {BlockStateTag: {tier: "gold" as string}};
@@ -79,15 +88,6 @@ var ban as string[] = [
     "corail_recycler",
     "torcherino"
 ];
-
-CTEventManager.register<MCEntityTravelToDimensionEvent>((event) => {
-        val entity = event.getEntity();
-        val world = entity.world;
-        if (world.remote) return;
-        world.asServerWorld().server.executeCommand("xp add @a 1", true); 
-        world.asServerWorld().server.executeCommand("xp add @a -1", true);
-        }
-);
 
 CTEventManager.register<MCPlayerTickEvent>((event) => {
         val player = event.player;
