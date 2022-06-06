@@ -1,0 +1,1993 @@
+{
+	id: "6ABB96105B988143"
+	group: "57B469943938490D"
+	order_index: 9
+	filename: "collection"
+	title: "收藏馆"
+	icon: "enigmaticlegacy:enchanter_pearl"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -10.5d
+			y: -12.5d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "enigmaticlegacy:textures/unused/crying_helmet.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -10.5d
+			y: -11.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "enigmaticlegacy:textures/unused/crying_chestplate.png"
+			hover: ["神秘遗物未使用装备"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -10.5d
+			y: -9.5d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "enigmaticlegacy:textures/unused/crying_leggings.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -10.5d
+			y: -8.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "enigmaticlegacy:textures/unused/crying_boots.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -12.5d
+			y: -11.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "enigmaticlegacy:textures/unused/crying_ingot.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -8.5d
+			y: -11.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "enigmaticlegacy:textures/unused/crying_sword.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 9.5d
+			y: -10.5d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "jei:textures/gui/icons/config_button_cheat.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			width: 8.0d
+			height: 4.0d
+			rotation: 0.0d
+			image: "dtd:textures/bell_tower.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: -14.0d
+			width: 12.0d
+			height: 6.0d
+			rotation: 0.0d
+			image: "dtd:textures/flylight.png"
+			hover: ["Terraforged的效果，不过现在已经没这模组了"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			width: 8.0d
+			height: 4.0d
+			rotation: 0.0d
+			image: "dtd:textures/grass.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			width: 8.0d
+			height: 4.0d
+			rotation: 0.0d
+			image: "dtd:textures/islandlife.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			icon: "apotheosis:draconic_endshelf"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "珍贵物品"
+			description: ["收藏馆一章主要是获取珍贵物品的任务，可以通过搜集这些珍贵物品来获得许多有价值的奖励。"]
+			id: "3BF065C40897855C"
+			tasks: [{
+				id: "327D405DF34B1CC1"
+				type: "checkmark"
+				title: "收藏馆"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			subtitle: "天籁之音"
+			description: ["去世界各地搜集唱片吧！"]
+			hide_dependency_lines: true
+			dependencies: ["3BF065C40897855C"]
+			hide: true
+			id: "72EF5C8E24CB0A87"
+			tasks: [{
+				id: "29BC64F4221E1865"
+				type: "checkmark"
+				title: "音乐唱片"
+			}]
+		}
+		{
+			title: "11"
+			x: -8.5d
+			y: 0.0d
+			subtitle: "11号唱片"
+			hide_dependency_lines: true
+			dependencies: ["72EF5C8E24CB0A87"]
+			hide: true
+			id: "25EF7D2A7E75B393"
+			tasks: [{
+				id: "06F5E90649564740"
+				type: "item"
+				item: "minecraft:music_disc_11"
+			}]
+			rewards: [
+				{
+					id: "2666F6F8FAA21F14"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1DCD16404A189048"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:mending"
+							}]
+						}
+					}
+				}
+				{
+					id: "2BEF9322FC682AE5"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "13"
+			x: -8.5d
+			y: -2.0d
+			subtitle: "13号唱片"
+			hide_dependency_lines: true
+			dependencies: ["72EF5C8E24CB0A87"]
+			hide: true
+			id: "3A3678C68D5DC84F"
+			tasks: [{
+				id: "3BEEC11C833B1A28"
+				type: "item"
+				item: "minecraft:music_disc_13"
+			}]
+			rewards: [
+				{
+					id: "65336A634953244C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "79860F75B8E61866"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 4
+				}
+				{
+					id: "71C1EE6E3B94A24E"
+					type: "item"
+					item: "artifacts:whoopee_cushion"
+				}
+			]
+		}
+		{
+			title: "wait"
+			x: -12.5d
+			y: 0.0d
+			subtitle: "where are we now"
+			hide_dependency_lines: true
+			dependencies: ["72EF5C8E24CB0A87"]
+			hide: true
+			id: "76FC1E7E163E6BD0"
+			tasks: [{
+				id: "7235CCAF026CE850"
+				type: "item"
+				item: "minecraft:music_disc_wait"
+			}]
+			rewards: [
+				{
+					id: "2B6E79168482CB05"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1BF696146EF2FDA9"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+				}
+				{
+					id: "2DB8B590C4C2546D"
+					type: "item"
+					item: {
+						id: "ba_bt:platinum_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3DA6845FE7DD6379"
+					type: "item"
+					item: {
+						id: "ba_bt:platinum_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "538EF6AA2BA5E6AB"
+					type: "item"
+					item: {
+						id: "ba_bt:platinum_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0F7A618ABFC0DE5A"
+					type: "item"
+					item: {
+						id: "ba_bt:platinum_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5A623472CCB7F015"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:mending"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "cat"
+			x: -8.5d
+			y: 2.0d
+			subtitle: "猫猫！（C418还有一首dog）"
+			hide_dependency_lines: true
+			dependencies: ["72EF5C8E24CB0A87"]
+			hide: true
+			id: "4E75C2D2040B6A7F"
+			tasks: [{
+				id: "0DB245E3864C9FB9"
+				type: "item"
+				item: "minecraft:music_disc_cat"
+			}]
+			rewards: [
+				{
+					id: "791E4CE9F44F0D0E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0FB57743FD49417F"
+					type: "item"
+					item: "artifacts:kitty_slippers"
+				}
+				{
+					id: "3AD5FA72889A213A"
+					type: "item"
+					item: "minecraft:cat_spawn_egg"
+				}
+				{
+					id: "1E310F841CA1A47A"
+					type: "item"
+					item: "minecraft:cod"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "blocks"
+			x: -8.5d
+			y: 4.0d
+			subtitle: "方块"
+			hide_dependency_lines: true
+			dependencies: ["72EF5C8E24CB0A87"]
+			hide: true
+			id: "1FAC60038BE5BBEF"
+			tasks: [{
+				id: "2D9ACDDDA419D180"
+				type: "item"
+				item: "minecraft:music_disc_blocks"
+			}]
+			rewards: [
+				{
+					id: "699A4BFE7033D190"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "13DC2E4DFD31D683"
+					type: "item"
+					item: "minecraft:grass_block"
+					count: 8
+				}
+				{
+					id: "695AFF23B2FDD30E"
+					type: "item"
+					item: "minecraft:petrified_oak_slab"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "chirp"
+			x: -8.5d
+			y: -6.0d
+			subtitle: "虫鸣"
+			hide_dependency_lines: true
+			dependencies: ["72EF5C8E24CB0A87"]
+			hide: true
+			id: "2CE8F6E1114A3E41"
+			tasks: [{
+				id: "514F8BEF4549AAC4"
+				type: "item"
+				item: "minecraft:music_disc_chirp"
+			}]
+			rewards: [
+				{
+					id: "099D34CA417C0B7A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2C6ADCF4DDB55C8B"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "alexsmobs:long_bug_pheromones"
+						}
+					}
+				}
+				{
+					id: "07AA9FCFD89CBC70"
+					type: "item"
+					item: "apotheosis:prismatic_web"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "far"
+			x: -8.5d
+			y: 6.0d
+			subtitle: "远方"
+			hide_dependency_lines: true
+			dependencies: ["72EF5C8E24CB0A87"]
+			hide: true
+			id: "10B685F7DAE268D7"
+			tasks: [{
+				id: "5CC18F1AB77E6606"
+				type: "item"
+				item: "minecraft:music_disc_far"
+			}]
+			rewards: [
+				{
+					id: "248DD3DC8F2AB86F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "216514D236309B75"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "alexsmobs:speed_iii"
+						}
+					}
+				}
+				{
+					id: "1E43F464028BCCF5"
+					type: "item"
+					item: "minecraft:feather"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "mall"
+			x: -10.5d
+			y: -4.0d
+			subtitle: "购物中心？林荫路？"
+			hide_dependency_lines: true
+			dependencies: ["72EF5C8E24CB0A87"]
+			hide: true
+			id: "3A27706579A2AC7B"
+			tasks: [{
+				id: "154F471EDF7E6AC8"
+				type: "item"
+				item: "minecraft:music_disc_mall"
+			}]
+			rewards: [
+				{
+					id: "65D82927A51F5491"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "472F834AB6BD3C5D"
+					type: "item"
+					item: "betterendforge:tenanea_sapling"
+				}
+				{
+					id: "5CD9B19AD2807F7A"
+					type: "item"
+					item: "betterendforge:pink_moss"
+				}
+			]
+		}
+		{
+			title: "mellohi"
+			x: -8.5d
+			y: -4.0d
+			subtitle: "配色不一样"
+			hide_dependency_lines: true
+			dependencies: ["72EF5C8E24CB0A87"]
+			hide: true
+			id: "0CAF4EAA933C965A"
+			tasks: [{
+				id: "07AF1A0743839FBE"
+				type: "item"
+				item: "minecraft:music_disc_mellohi"
+			}]
+			rewards: [
+				{
+					id: "7486326F08A5EED3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7A71941C7F06BB5D"
+					type: "item"
+					item: "artifacts:mimic_spawn_egg"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Soul Spunk"
+			x: -10.5d
+			y: 2.0d
+			subtitle: "灵魂之勇"
+			hide_dependency_lines: true
+			dependencies: ["72EF5C8E24CB0A87"]
+			hide: true
+			id: "11F2189F57B4C46E"
+			tasks: [{
+				id: "728B1666FE1F30B0"
+				type: "item"
+				item: "infernalexp:music_disc_soul_spunk"
+			}]
+			rewards: [
+				{
+					id: "69F8AA3BD220D289"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1F1B2A7BE91BF0A9"
+					type: "item"
+					item: "alexsmobs:soul_heart"
+				}
+				{
+					id: "0D7D756177384A77"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+				}
+				{
+					id: "508B202B01E4F4E6"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+				}
+			]
+		}
+		{
+			title: "flush"
+			x: -10.5d
+			y: -2.0d
+			subtitle: "这可不是蜂蜜唱片！"
+			hide_dependency_lines: true
+			dependencies: ["72EF5C8E24CB0A87"]
+			hide: true
+			id: "3908DE0EABBD1588"
+			tasks: [{
+				id: "6744AC8B5DE421A4"
+				type: "item"
+				item: "infernalexp:music_disc_flush"
+			}]
+			rewards: [
+				{
+					id: "11C3C4C6D75F53C5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1CC2A05A6D8DD2EE"
+					type: "item"
+					item: "infernalexp:glow_torch"
+					count: 64
+				}
+				{
+					id: "49BE9CC39FD4A9E6"
+					type: "item"
+					item: "minecraft:glowstone_dust"
+					count: 16
+				}
+				{
+					id: "0D949B753D37702A"
+					type: "item"
+					item: "minecraft:spectral_arrow"
+					count: 32
+				}
+			]
+		}
+		{
+			title: "Pigstep"
+			x: -10.5d
+			y: 0.0d
+			subtitle: "猪灵之舞"
+			hide_dependency_lines: true
+			dependencies: ["72EF5C8E24CB0A87"]
+			hide: true
+			id: "0E2D603DB3D153EF"
+			tasks: [{
+				id: "6661B90F2D7A8FC5"
+				type: "item"
+				item: "minecraft:music_disc_pigstep"
+			}]
+			rewards: [
+				{
+					id: "093EA17E274E03DE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6472C0B630E3B1A8"
+					type: "item"
+					item: "minecraft:gold_block"
+					count: 4
+				}
+				{
+					id: "6569C9D17CE08B8B"
+					type: "item"
+					item: "artifacts:golden_hook"
+				}
+			]
+		}
+		{
+			title: "stal"
+			x: -12.5d
+			y: -2.0d
+			subtitle: "黑色黎明"
+			hide_dependency_lines: true
+			dependencies: ["72EF5C8E24CB0A87"]
+			hide: true
+			id: "33D171B2D291678B"
+			tasks: [{
+				id: "398175FB136A675B"
+				type: "item"
+				item: "minecraft:music_disc_stal"
+			}]
+			rewards: [
+				{
+					id: "7AEDBE03D99861A1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2D9AA2AE5D84542D"
+					type: "item"
+					item: "minecraft:black_wool"
+					count: 64
+				}
+				{
+					id: "2CEB3DA5BFD7A59C"
+					type: "item"
+					item: {
+						id: "ba_bt:platinum_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "strad"
+			x: -12.5d
+			y: 2.0d
+			subtitle: "白色黄昏"
+			hide_dependency_lines: true
+			dependencies: ["72EF5C8E24CB0A87"]
+			hide: true
+			id: "6848D294DA3D6E25"
+			tasks: [{
+				id: "224FA2E056C2090E"
+				type: "item"
+				item: "minecraft:music_disc_strad"
+			}]
+			rewards: [
+				{
+					id: "21DAC00493A4CEB6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3F9E43830720736D"
+					type: "item"
+					item: "minecraft:white_wool"
+					count: 64
+				}
+				{
+					id: "61890AD88B45528C"
+					type: "item"
+					item: "ba_bt:platinum_block"
+					count: 64
+				}
+				{
+					id: "515D142EE9F6369B"
+					type: "item"
+					item: "ba_bt:platinum_tiles"
+					count: 64
+				}
+			]
+		}
+		{
+			title: "ward"
+			x: -10.5d
+			y: -6.0d
+			subtitle: "渐变色"
+			hide_dependency_lines: true
+			dependencies: ["72EF5C8E24CB0A87"]
+			hide: true
+			id: "5B2B661DA10B7CC2"
+			tasks: [{
+				id: "1F967DE35D48B2A9"
+				type: "item"
+				item: "minecraft:music_disc_ward"
+			}]
+			rewards: [
+				{
+					id: "6C45578348A0F00B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "576BA0618C605455"
+					type: "item"
+					item: "betterendforge:terminite_bars"
+					count: 32
+				}
+				{
+					id: "53CA3926A88A072A"
+					type: "item"
+					item: "artifacts:pocket_piston"
+				}
+			]
+		}
+		{
+			title: "Thime"
+			x: -10.5d
+			y: 4.0d
+			subtitle: "同一个作者！"
+			description: ["喂Alex的生物的海豹鱼会让它潜水挖东西给你，这张唱片就有概率被挖出来。"]
+			hide_dependency_lines: true
+			dependencies: ["72EF5C8E24CB0A87"]
+			hide: true
+			id: "606A452E51F03EC8"
+			tasks: [{
+				id: "7B12097DDEA9D408"
+				type: "item"
+				item: "alexsmobs:music_disc_thime"
+			}]
+			rewards: [
+				{
+					id: "77D14B2ED287482D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0F462A4DE3BAB88B"
+					type: "item"
+					item: "minecraft:sponge"
+					count: 8
+				}
+				{
+					id: "0CE6322C18264B56"
+					type: "item"
+					item: "alexsmobs:kangaroo_burger"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "Daze"
+			x: -10.5d
+			y: 6.0d
+			subtitle: "感染！"
+			description: ["把Thime唱片放进衣壳体中等待片刻即可。"]
+			hide_dependency_lines: true
+			dependencies: ["72EF5C8E24CB0A87"]
+			hide: true
+			id: "2921CF8CA52960ED"
+			tasks: [{
+				id: "092745301E2A038E"
+				type: "item"
+				item: "alexsmobs:music_disc_daze"
+			}]
+			rewards: [
+				{
+					id: "1AF8D2A0FA73B406"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5B6EC3D6D9D8F990"
+					type: "item"
+					item: "minecraft:end_rod"
+				}
+				{
+					id: "2762A03A6B620C63"
+					type: "item"
+					item: "alexsmobs:capsid"
+				}
+				{
+					id: "1CF0719945EF2C69"
+					type: "item"
+					item: "minecraft:ender_eye"
+				}
+				{
+					id: "1230E0FAD3D5A1E7"
+					type: "item"
+					item: "alexsmobs:enderiophage_rocket"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "Blinding Rage"
+			x: -14.5d
+			y: 0.0d
+			subtitle: "惑乱之界"
+			hide_dependency_lines: true
+			dependencies: ["72EF5C8E24CB0A87"]
+			hide: true
+			id: "0D622DCBDCA9CB91"
+			tasks: [{
+				id: "5FDA5F4A639F92D7"
+				type: "item"
+				item: "blue_skies:blinding_rage"
+			}]
+			rewards: [
+				{
+					id: "7153BC4BD207C42B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "14C3AA895F51113E"
+					type: "item"
+					item: {
+						id: "blue_skies:loot_bag_summoner"
+						Count: 1b
+						tag: {
+							LootTable: "blue_skies:loot_bags/summoner/rare"
+							Rarity: 2
+						}
+					}
+				}
+				{
+					id: "2197599545ED24DE"
+					type: "item"
+					item: {
+						id: "blue_skies:loot_bag_alchemist"
+						Count: 1b
+						tag: {
+							LootTable: "blue_skies:loot_bags/alchemist/rare"
+							Rarity: 2
+						}
+					}
+				}
+				{
+					id: "15270CE417C49806"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:mending"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Defying Starlight"
+			x: -14.5d
+			y: -2.0d
+			subtitle: "藐视星光"
+			hide_dependency_lines: true
+			dependencies: ["72EF5C8E24CB0A87"]
+			hide: true
+			id: "2C5267E641A868F3"
+			tasks: [{
+				id: "6602E0E97F081388"
+				type: "item"
+				item: "blue_skies:defying_starlight"
+			}]
+			rewards: [
+				{
+					id: "26B6B16813D117B7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "43AEA8E67ABCF78F"
+					type: "item"
+					item: {
+						id: "blue_skies:loot_bag_starlit_crusher"
+						Count: 1b
+						tag: {
+							LootTable: "blue_skies:loot_bags/starlit_crusher/rare"
+							Rarity: 2
+						}
+					}
+				}
+				{
+					id: "2FB700A1DC4EE809"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:mending"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Venomous Encounter"
+			x: -14.5d
+			y: 2.0d
+			subtitle: "猛毒奇遇"
+			hide_dependency_lines: true
+			dependencies: ["72EF5C8E24CB0A87"]
+			hide: true
+			id: "5254B050CB7A3599"
+			tasks: [{
+				id: "4B1777618A2D7E77"
+				type: "item"
+				item: "blue_skies:venomous_encounter"
+			}]
+			rewards: [
+				{
+					id: "2C848B38C9467F7E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "39EEFE2BE12E471B"
+					type: "item"
+					item: {
+						id: "blue_skies:loot_bag_arachnarch"
+						Count: 1b
+						tag: {
+							LootTable: "blue_skies:loot_bags/arachnarch/rare"
+							Rarity: 2
+						}
+					}
+				}
+				{
+					id: "638F1066E16B6D48"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:mending"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Galactic Wave"
+			x: -12.5d
+			y: -4.0d
+			subtitle: "银河之波"
+			hide_dependency_lines: true
+			dependencies: ["72EF5C8E24CB0A87"]
+			hide: true
+			id: "763EE5551D12D30F"
+			tasks: [{
+				id: "1D334F93B2E9C1DE"
+				type: "item"
+				item: "outer_end:music_disc_galactic_wave"
+			}]
+			rewards: [
+				{
+					id: "3FCFAA157BBA1CFD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "223086E62599C189"
+					type: "item"
+					item: "betterendforge:eternal_crystal"
+					count: 6
+				}
+			]
+		}
+		{
+			title: "Unknown Frontier"
+			x: -12.5d
+			y: -6.0d
+			subtitle: "未知边陲"
+			hide_dependency_lines: true
+			dependencies: ["72EF5C8E24CB0A87"]
+			hide: true
+			id: "56DC2093AF345FA5"
+			tasks: [{
+				id: "728700240E222E2F"
+				type: "item"
+				item: "outer_end:music_disc_unknown_frontier"
+			}]
+			rewards: [
+				{
+					id: "7C1FF67DBB8B22CE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1349445B93DA8658"
+					type: "item"
+					item: {
+						id: "betterendforge:crystalite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "49316738A8A6120D"
+					type: "item"
+					item: {
+						id: "betterendforge:crystalite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3DEDFEAD7F65A798"
+					type: "item"
+					item: {
+						id: "betterendforge:crystalite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6E6A9166433A4AA4"
+					type: "item"
+					item: {
+						id: "betterendforge:crystalite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Luminous Plantation"
+			x: -12.5d
+			y: 4.0d
+			subtitle: "微光种植园"
+			hide_dependency_lines: true
+			dependencies: ["72EF5C8E24CB0A87"]
+			hide: true
+			id: "128920458BB9F6D2"
+			tasks: [{
+				id: "2FB80E6B71065CDC"
+				type: "item"
+				item: "cinderscapes:music_disc_luminous_plantation"
+			}]
+			rewards: [
+				{
+					id: "53BEB80A876EF414"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "130FAA056DDD9B51"
+					type: "item"
+					item: {
+						id: "relics:shadow_glaive"
+						Count: 1b
+						tag: {
+							Damage: 0
+							charges: 8
+						}
+					}
+				}
+				{
+					id: "533B0E9DA389DAA8"
+					type: "item"
+					item: "cinderscapes:umbral_nylium"
+				}
+				{
+					id: "1E495FCB49FAC1B5"
+					type: "item"
+					item: "cinderscapes:umbral_fungus"
+				}
+			]
+		}
+		{
+			title: "Chilling In Hell"
+			x: -12.5d
+			y: 6.0d
+			subtitle: "地狱之寒"
+			hide_dependency_lines: true
+			dependencies: ["72EF5C8E24CB0A87"]
+			hide: true
+			id: "114553783474C8EF"
+			tasks: [{
+				id: "0F2CB060886F1607"
+				type: "item"
+				item: "cinderscapes:music_disc_chilling_in_hell"
+			}]
+			rewards: [
+				{
+					id: "3FE63816A33A4D6A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3B451C07A9A1EA80"
+					type: "item"
+					item: "minecraft:blue_ice"
+					count: 16
+				}
+				{
+					id: "0136B933F4A823A1"
+					type: "item"
+					item: {
+						id: "twilightforest:ice_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			subtitle: "四方生灵"
+			hide_dependency_lines: true
+			dependencies: ["3BF065C40897855C"]
+			hide: true
+			id: "279787C16D1E7B47"
+			tasks: [{
+				id: "1CE5405D92AB276A"
+				type: "checkmark"
+				title: "Alex的生物"
+			}]
+		}
+		{
+			title: "&d维度撕裂者"
+			x: 8.5d
+			y: 0.0d
+			subtitle: "撕裂时空之物"
+			hide_dependency_lines: true
+			dependencies: ["279787C16D1E7B47"]
+			hide: true
+			id: "482CCEE94DEA2A9D"
+			tasks: [{
+				id: "5BCD7A7065CF0FFF"
+				type: "item"
+				item: {
+					id: "alexsmobs:dimensional_carver"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3A8042A4210DA680"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "192675FBC825DB07"
+					type: "item"
+					item: "minecraft:ender_pearl"
+					count: 16
+				}
+				{
+					id: "45F58BDEA2A28AB8"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "minecraft:unbreaking"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "&d蜂之翼"
+			x: 8.5d
+			y: -2.0d
+			subtitle: "芜湖~起飞~"
+			description: ["不要先附魔鞘翅！！！"]
+			hide_dependency_lines: true
+			dependencies: ["279787C16D1E7B47"]
+			hide: true
+			id: "0447C7AD405408E0"
+			tasks: [{
+				id: "47685F86F4093259"
+				type: "item"
+				item: {
+					id: "alexsmobs:tarantula_hawk_elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "55E1FAF410ABC1CC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5DA4519B4E5ACBB2"
+					type: "item"
+					item: "minecraft:phantom_membrane"
+					count: 8
+				}
+				{
+					id: "32E644070E15493E"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "minecraft:unbreaking"
+							}]
+						}
+					}
+				}
+				{
+					id: "69157D7A89285AB4"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:mending"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "&d跨板"
+			x: 8.5d
+			y: 4.0d
+			subtitle: "很贵，但是很好玩！"
+			hide_dependency_lines: true
+			dependencies: ["279787C16D1E7B47"]
+			hide: true
+			id: "51DCE49D7782764B"
+			tasks: [{
+				id: "1A4D02BE79C85091"
+				type: "item"
+				item: {
+					id: "alexsmobs:straddleboard"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0539F0A2F8DB2F58"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "682AD84F836028EC"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "alexsmobs:straddle_jump"
+							}]
+						}
+					}
+				}
+				{
+					id: "3F176D93BB891D5C"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "alexsmobs:lavawax"
+							}]
+						}
+					}
+				}
+				{
+					id: "37F5A8EC23792F32"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "alexsmobs:serpentfriend"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "&e拓荒者"
+			x: 10.5d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["279787C16D1E7B47"]
+			hide: true
+			id: "53E570D380E3B9BF"
+			tasks: [{
+				id: "12AE9143E358C867"
+				type: "item"
+				item: {
+					id: "alexsmobs:frontier_cap"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "69165559A6A40913"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			title: "&e走鹃靴子"
+			x: 10.5d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["279787C16D1E7B47"]
+			hide: true
+			id: "79BE22D6A2D0B2A7"
+			tasks: [{
+				id: "217C58699071EF9C"
+				type: "item"
+				item: {
+					id: "alexsmobs:roadrunner_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7E89C44439F97723"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			title: "&e洞穴蜈蚣护腿"
+			x: 10.5d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["279787C16D1E7B47"]
+			hide: true
+			id: "36CB5C10F1236A17"
+			tasks: [{
+				id: "5C1E01B04DA92915"
+				type: "item"
+				item: {
+					id: "alexsmobs:centipede_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4EA40E46C3A6321F"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			title: "&e内陆护腿"
+			x: 10.5d
+			y: 4.0d
+			hide_dependency_lines: true
+			dependencies: ["279787C16D1E7B47"]
+			hide: true
+			id: "5A0305BC590BD3B6"
+			tasks: [{
+				id: "5389A1C390944218"
+				type: "item"
+				item: {
+					id: "alexsmobs:emu_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "38F0AFBF831D6521"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			title: "&d鳄鱼胸甲"
+			x: 8.5d
+			y: -4.0d
+			subtitle: "逮虾户"
+			description: ["配上海豚的恩惠效果更佳。"]
+			hide_dependency_lines: true
+			dependencies: ["279787C16D1E7B47"]
+			hide: true
+			id: "724D276D83FF117F"
+			tasks: [{
+				id: "2BE28E4E8057EF01"
+				type: "item"
+				item: {
+					id: "alexsmobs:crocodile_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "21F98583C4471852"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "177B0AF7165B5B81"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "goblintraders:dolphins_grace"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			title: "&e血液喷射器"
+			x: 10.5d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["279787C16D1E7B47"]
+			hide: true
+			id: "513833C86F92FAAF"
+			tasks: [{
+				id: "5E4BE9F746806AE2"
+				type: "item"
+				item: {
+					id: "alexsmobs:blood_sprayer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "01C177EB45452780"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			title: "&d血淋巴喷射器"
+			x: 8.5d
+			y: 2.0d
+			subtitle: "未来的轰鸣声……"
+			hide_dependency_lines: true
+			dependencies: ["279787C16D1E7B47"]
+			hide: true
+			id: "517C3074BFA1F359"
+			tasks: [{
+				id: "212FCFA6C0F76619"
+				type: "item"
+				item: {
+					id: "alexsmobs:hemolymph_blaster"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "795105C984337CFD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6323BDBB42DFF524"
+					type: "item"
+					item: "alexsmobs:hemolymph_sac"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			subtitle: "永恒黄昏"
+			hide_dependency_lines: true
+			dependencies: ["3BF065C40897855C"]
+			hide: true
+			id: "3D8517BB2BA9EBFA"
+			tasks: [{
+				id: "26D54C8908EBAD81"
+				type: "checkmark"
+				title: "暮色森林"
+			}]
+		}
+		{
+			title: "&e彩红橡树"
+			x: 0.0d
+			y: -8.5d
+			subtitle: "好看！"
+			hide_dependency_lines: true
+			dependencies: ["3D8517BB2BA9EBFA"]
+			hide: true
+			id: "71F70D62E9AD90DD"
+			tasks: [{
+				id: "030623D52B75EB0A"
+				type: "item"
+				item: "twilightforest:rainboak_sapling"
+			}]
+			rewards: [{
+				id: "66A8049F15731688"
+				type: "xp"
+				xp: 25
+			}]
+		}
+		{
+			title: "&e暮色特殊树树苗"
+			x: 2.0d
+			y: -8.5d
+			subtitle: "努力探索高大暮色橡树的小房间"
+			hide_dependency_lines: true
+			dependencies: ["3D8517BB2BA9EBFA"]
+			hide: true
+			id: "656381A855087A36"
+			tasks: [{
+				id: "12D159341C48B3FE"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						items: [
+							{
+								id: "twilightforest:time_sapling"
+								Count: 1b
+							}
+							{
+								id: "twilightforest:transformation_sapling"
+								Count: 1b
+							}
+							{
+								id: "twilightforest:mining_sapling"
+								Count: 1b
+							}
+							{
+								id: "twilightforest:sorting_sapling"
+								Count: 1b
+							}
+						]
+						display: {
+							Name: "{\"text\":\"暮色特殊树树苗\"}"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "30E14EC939CB7BBD"
+				type: "xp"
+				xp: 25
+			}]
+		}
+		{
+			title: "&e荆棘与玫瑰"
+			x: -2.0d
+			y: -8.5d
+			subtitle: "你需要&m丝绸之触&r精准采集"
+			hide_dependency_lines: true
+			dependencies: ["3D8517BB2BA9EBFA"]
+			hide: true
+			id: "7FA9122A54674EDE"
+			tasks: [{
+				id: "349248E37870FF3C"
+				type: "item"
+				item: "twilightforest:thorn_rose"
+			}]
+			rewards: [{
+				id: "767FF850BE33BCF0"
+				type: "xp"
+				xp: 25
+			}]
+		}
+		{
+			title: "&e生命符咒"
+			x: 2.0d
+			y: -10.5d
+			subtitle: "黄金之心"
+			hide_dependency_lines: true
+			dependencies: ["3D8517BB2BA9EBFA"]
+			hide: true
+			id: "029CF1D82E528E2F"
+			tasks: [{
+				id: "5C572B20DB511DA6"
+				type: "item"
+				item: "twilightforest:charm_of_life_2"
+			}]
+			rewards: [{
+				id: "7F303C6C4F26BB08"
+				type: "xp"
+				xp: 25
+			}]
+		}
+		{
+			title: "&e保管符咒"
+			x: -2.0d
+			y: -10.5d
+			subtitle: "努力收集保管符咒吧"
+			hide_dependency_lines: true
+			dependencies: ["3D8517BB2BA9EBFA"]
+			hide: true
+			id: "7F647B4A92B1EC78"
+			tasks: [{
+				id: "3E86B48544769CF4"
+				type: "item"
+				item: "twilightforest:charm_of_keeping_3"
+			}]
+			rewards: [{
+				id: "2FD9A6D7766C10DA"
+				type: "xp"
+				xp: 25
+			}]
+		}
+		{
+			title: "&e试验物品115"
+			x: 4.0d
+			y: -8.5d
+			subtitle: "传闻说这是恶魂的肉……"
+			hide_dependency_lines: true
+			dependencies: ["3D8517BB2BA9EBFA"]
+			hide: true
+			id: "42F1128825EE2E2F"
+			tasks: [{
+				id: "23C32D37B456B123"
+				type: "item"
+				item: "twilightforest:experiment_115"
+			}]
+			rewards: [{
+				id: "266E9091E5338E53"
+				type: "xp"
+				xp: 25
+			}]
+		}
+		{
+			title: "&e大变样"
+			x: -4.0d
+			y: -8.5d
+			subtitle: "魔法粉末"
+			hide_dependency_lines: true
+			dependencies: ["3D8517BB2BA9EBFA"]
+			hide: true
+			id: "032BF3AD12356D43"
+			tasks: [{
+				id: "7E25FA5B47EDF59A"
+				type: "item"
+				item: "twilightforest:transformation_powder"
+			}]
+			rewards: [{
+				id: "67CE6F2C0B4163B1"
+				type: "xp"
+				xp: 25
+			}]
+		}
+		{
+			title: "&e飞天利器"
+			x: 4.0d
+			y: -10.5d
+			subtitle: "获得孔雀翎羽扇。"
+			hide_dependency_lines: true
+			dependencies: ["3D8517BB2BA9EBFA"]
+			hide: true
+			id: "3E6FC8543367978F"
+			tasks: [{
+				id: "0BB979F5459332CA"
+				type: "item"
+				item: {
+					id: "twilightforest:peacock_fan"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "77F9A502EC4E5A2D"
+				type: "xp"
+				xp: 25
+			}]
+		}
+		{
+			title: "&e无限火把！"
+			x: -4.0d
+			y: -10.5d
+			subtitle: "在暮色的大型矿山里找到月光蠕虫女王"
+			hide_dependency_lines: true
+			dependencies: ["3D8517BB2BA9EBFA"]
+			hide: true
+			id: "4079A581232F871C"
+			tasks: [{
+				id: "42CF042D09E4AD3A"
+				type: "item"
+				item: {
+					id: "twilightforest:moonworm_queen"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7761CFEC5A631BD8"
+				type: "xp"
+				xp: 25
+			}]
+		}
+		{
+			title: "&e暮色之弓"
+			x: 0.0d
+			y: -10.5d
+			subtitle: "射手狂喜"
+			hide_dependency_lines: true
+			dependencies: ["3D8517BB2BA9EBFA"]
+			hide: true
+			id: "733DF2B84410011A"
+			tasks: [
+				{
+					id: "41082F31AA2BD316"
+					type: "item"
+					item: {
+						id: "twilightforest:triple_bow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "729C83D328E45A68"
+					type: "item"
+					item: {
+						id: "twilightforest:seeker_bow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "34CBBD7B5BB50E13"
+					type: "item"
+					item: {
+						id: "twilightforest:ice_bow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4863D813940CA7B4"
+					type: "item"
+					item: {
+						id: "twilightforest:ender_bow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2C106949A4B0C935"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7781BEA4D3B60C50"
+					type: "item"
+					item: "alexsmobs:shark_tooth_arrow"
+					count: 32
+				}
+				{
+					id: "562F3E7B0F992A5A"
+					type: "item"
+					item: "iceandfire:hydra_arrow"
+					count: 32
+				}
+			]
+		}
+		{
+			title: "Cinematic Danger Background Music | No Copyright"
+			x: -14.5d
+			y: -4.0d
+			subtitle: "骇人之恶"
+			hide_dependency_lines: true
+			dependencies: ["72EF5C8E24CB0A87"]
+			hide: true
+			id: "5E90560F749B7CA1"
+			tasks: [{
+				id: "59E499F39DD18A50"
+				type: "item"
+				item: "cataclysm:music_disc_netherite_monstrosity"
+			}]
+			rewards: [
+				{
+					id: "5FDB1B207874FC14"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2BC11570CA2515A0"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+					count: 2
+				}
+				{
+					id: "1F904EECEE0C14D8"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "2BCA2FB25818396B"
+					type: "item"
+					item: {
+						id: "majruszs_difficulty:wither_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Ean Grimm - Eternal"
+			x: -14.5d
+			y: 4.0d
+			subtitle: "永恒"
+			hide_dependency_lines: true
+			dependencies: ["72EF5C8E24CB0A87"]
+			hide: true
+			id: "793B9B42BA6D5DE9"
+			tasks: [{
+				id: "68A0652AF7A30134"
+				type: "item"
+				item: "cataclysm:music_disc_ender_guardian"
+			}]
+			rewards: [
+				{
+					id: "1C2208B7E23BC928"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5EAE3ACE817FD5EA"
+					type: "item"
+					item: "outvoted:void_heart"
+					count: 4
+				}
+				{
+					id: "5240C674D374949F"
+					type: "item"
+					item: "alexsmobs:void_worm_eye"
+				}
+			]
+		}
+		{
+			title: "&l&d袋鼠肉汉堡"
+			x: 12.5d
+			y: 0.0d
+			subtitle: "&d非常厉害的食物"
+			hide_dependency_lines: true
+			dependencies: ["279787C16D1E7B47"]
+			hide: true
+			id: "740209F10848FBDA"
+			tasks: [{
+				id: "25B01D2A8F8DEAAA"
+				type: "item"
+				item: "alexsmobs:kangaroo_burger"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "6C9971F8EF71B9CE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "097D9881B807F76F"
+					type: "item"
+					item: "alexsmobs:kangaroo_burger"
+					count: 32
+				}
+				{
+					id: "3B44A4ACA3045FF0"
+					type: "item"
+					item: "minecraft:enchanted_golden_apple"
+				}
+			]
+		}
+	]
+}

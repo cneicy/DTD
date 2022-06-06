@@ -1,0 +1,228 @@
+{
+	id: "74FD5616D8C16415"
+	group: "4CAE9E17079D3151"
+	order_index: 3
+	filename: "tower"
+	title: "战斗高塔"
+	icon: "minecraft:crimson_planks"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: 0.0d
+			id: "6829F5F1C0EEC537"
+			tasks: [{
+				id: "672D6964E2404B24"
+				type: "checkmark"
+				title: "关于高塔怎么打"
+			}]
+			rewards: [{
+				id: "6E4317924093CA84"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "进入第一层"
+			x: 2.5d
+			y: 0.0d
+			description: ["在第一层有个绿宝石块，挖掉它！"]
+			dependencies: [
+				"672D6964E2404B24"
+				"6829F5F1C0EEC537"
+			]
+			dependency_requirement: "one_completed"
+			id: "3D83E2014B338910"
+			tasks: [{
+				id: "638EA6B766F28AAA"
+				type: "item"
+				item: "minecraft:emerald_block"
+			}]
+			rewards: [
+				{
+					id: "2EBA3A9176EAC18B"
+					type: "item"
+					item: "ba_bt:land_chest_shard"
+				}
+				{
+					id: "2DC06F39F15862E8"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			description: ["哇！肯定打不开的，你得先挖2个刷怪笼才可以打开"]
+			dependencies: ["3D83E2014B338910"]
+			dependency_requirement: "one_started"
+			id: "66092CA0DCFFAC01"
+			tasks: [{
+				id: "31B32FD49A7570A3"
+				type: "observation"
+				title: "看到箱子了吗?"
+				icon: "ba_bt:land_chest"
+				timer: 0L
+				observe_type: 0
+				to_observe: "ba_bt:land_chest"
+			}]
+			rewards: [{
+				id: "75A21EA211AFCDC9"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 9.5d
+			y: 0.0d
+			description: ["每一层都有2~4个,有些隐藏在方块内"]
+			dependencies: ["66092CA0DCFFAC01"]
+			dependency_requirement: "one_started"
+			id: "6255C27C8CDF0879"
+			tasks: [{
+				id: "75001FFC047811D0"
+				type: "observation"
+				title: "现在挖掘刷怪笼以解锁箱子！"
+				icon: "ba_bt:bt_land_spawner"
+				timer: 0L
+				observe_type: 0
+				to_observe: "ba_bt:bt_land_spawner"
+			}]
+			rewards: [{
+				id: "6372F933DF40B734"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "获得3把钥匙以准备杀死BOSS"
+			x: 9.5d
+			y: 4.5d
+			description: ["高塔内大地宝箱内有概率出现钥匙，一个高塔内一定有3把钥匙"]
+			dependencies: ["6255C27C8CDF0879"]
+			id: "44949AD61A71E94A"
+			tasks: [{
+				id: "48ABCEFEC24307D2"
+				type: "item"
+				item: "ba_bt:monolith_key_land"
+				count: 3L
+				consume_items: false
+			}]
+			rewards: [{
+				id: "5E325F671DA27850"
+				type: "item"
+				item: "ba_bt:land_chest_shard"
+				count: 4
+			}]
+		}
+		{
+			title: "看到这个石碑了吗？"
+			icon: "ba_bt:monolith_land"
+			x: 5.5d
+			y: 4.5d
+			dependencies: ["44949AD61A71E94A"]
+			id: "2CA937D126A916BA"
+			tasks: [{
+				id: "7642B1351AAEA73D"
+				type: "checkmark"
+				title: "看到这个石碑了吗"
+			}]
+			rewards: [
+				{
+					id: "12CD7D9E168C8283"
+					type: "item"
+					item: "ba_bt:land_chest_shard"
+					count: 2
+				}
+				{
+					id: "3149EAA8C1ED77EF"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 4.5d
+			dependencies: ["2CA937D126A916BA"]
+			id: "344F0AEBE0D4E990"
+			tasks: [{
+				id: "76B6CB003FEE52CF"
+				type: "kill"
+				icon: "ba_bt:guardian_eye_land"
+				entity: "ba_bt:land_golem"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "48305102FAB28158"
+					type: "item"
+					item: "ba_bt:land_chest_shard"
+				}
+				{
+					id: "32C717D3460660F6"
+					type: "item"
+					item: "minecraft:diamond_block"
+				}
+				{
+					id: "58F1960C0F89EFBA"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+				{
+					id: "3C459E796A932945"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 8.0d
+			dependencies: ["2CA937D126A916BA"]
+			id: "65C26E5ECB322AE4"
+			tasks: [{
+				id: "28EF3D49EDD675FF"
+				type: "checkmark"
+				title: "到达世界最高层，高塔顶端!"
+			}]
+			rewards: [
+				{
+					id: "3BA58406C4A52593"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "365557FF628E1AFE"
+					type: "item"
+					item: "minecraft:netherite_scrap"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 4.5d
+			dependencies: ["344F0AEBE0D4E990"]
+			id: "205B2B7CE38E0DB5"
+			tasks: [{
+				id: "1E82AF2A0579E2B3"
+				type: "kill"
+				entity: "ba_bt:land_golem"
+				value: 16L
+			}]
+			rewards: [{
+				id: "07CDF1DF14F7B446"
+				type: "item"
+				item: {
+					id: "cataclysm:zweiender"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+}

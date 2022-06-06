@@ -1,0 +1,1396 @@
+{
+	id: "110FDD6F33370DE6"
+	group: "57B469943938490D"
+	order_index: 3
+	filename: "the_nether"
+	title: "炽热下界"
+	icon: "infernalexp:moth_dust"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 3.5d
+			y: 7.5d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "pyromancer:textures/volcanicmark.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "45D5ABEB8AE811AC"
+		}
+		{
+			x: -8.5d
+			y: 1.5d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "infernalexp:textures/painting/soul_by_soul.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "3CE9E07BA8AC53E8"
+		}
+		{
+			x: 11.5d
+			y: 5.5d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "infernalexp:textures/painting/da_salt.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "6B0F75390BB6F9DF"
+		}
+		{
+			x: -0.5d
+			y: 2.0d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "infernalexp:textures/painting/soul_hole.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "4FEC30B7217C902D"
+		}
+		{
+			x: -0.5d
+			y: -9.0d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "minecraft:textures/painting/wither.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 15.5d
+			y: 1.5d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "infernalexp:textures/painting/shroom_duality.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "0B8F85089943DAA6"
+		}
+		{
+			x: -6.5d
+			y: 9.5d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "infernalexp:textures/painting/chilling_isles.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "6451425B435D9793"
+		}
+		{
+			x: -0.5d
+			y: -3.5d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "infernalexp:textures/painting/pineapple_under_the_lava_sea.png"
+			hover: ["是谁住在熔岩中的大菠萝里？"]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "43B66B28655F9808"
+		}
+		{
+			x: -0.5d
+			y: 13.5d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "infernalexp:textures/painting/glow_like_helly.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "710D00FE4336DAFD"
+		}
+		{
+			x: 13.5d
+			y: -3.5d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "infernalexp:textures/painting/glowstone_canyon_painting.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "666015478D83F069"
+		}
+		{
+			x: 5.5d
+			y: -9.5d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "infernalexp:textures/painting/the_fallen_ones.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "74AF6FFA6AD78C40"
+		}
+		{
+			x: 5.5d
+			y: -2.5d
+			width: 8.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "dtd:textures/lavasea1.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -7.0d
+			y: -3.5d
+			width: 8.0d
+			height: 4.0d
+			rotation: 0.0d
+			image: "dtd:textures/soulsand_valley.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -10.5d
+			y: 13.0d
+			width: 8.0d
+			height: 4.0d
+			rotation: 0.0d
+			image: "dtd:textures/basalt.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "进入下界"
+			x: 5.5d
+			y: 0.0d
+			subtitle: "杀死法老获得进入下界的资格"
+			description: ["不要试图上基岩顶，否则你会后悔。"]
+			id: "16A5F9B662408D37"
+			tasks: [{
+				id: "7AE44E9301C3CF13"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [{
+				id: "79207A3A5E73B936"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -6.5d
+			y: 3.5d
+			subtitle: "杀死下界合金巨兽获取进入永昼、恒晓的资格"
+			description: [
+				"将下界合金巨兽的掉落物炼狱锻锤放入背包中即可获得进入永昼、恒晓的资格。"
+				"下界合金巨兽所在的结构：Soul Black Smith"
+			]
+			dependencies: ["627C47B31ADF07E6"]
+			id: "1512B12C2DE0354A"
+			tasks: [{
+				id: "578B60A01C11FA88"
+				type: "kill"
+				entity: "cataclysm:netherite_monstrosity"
+				value: 1L
+			}]
+			rewards: [{
+				id: "404BCBE05EB34237"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:earth_heart"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -7.0d
+			subtitle: "准备杀凋"
+			dependencies: ["4FEC30B7217C902D"]
+			id: "56ECEF9344770630"
+			tasks: [{
+				id: "3FAB6CA8F29BF1A9"
+				type: "kill"
+				entity: "minecraft:wither_skeleton"
+				value: 10L
+			}]
+			rewards: [{
+				id: "12529A77CE6C2BC4"
+				type: "item"
+				item: "minecraft:wither_skeleton_skull"
+			}]
+		}
+		{
+			title: "找到下界堡垒"
+			x: 1.5d
+			y: 0.0d
+			subtitle: "Fortress"
+			dependencies: ["16A5F9B662408D37"]
+			id: "4FEC30B7217C902D"
+			tasks: [{
+				id: "3E41F75BC13F2C5A"
+				type: "structure"
+				icon: "minecraft:nether_bricks"
+				structure: "minecraft:fortress"
+			}]
+			rewards: [{
+				id: "495413086D117215"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -2.5d
+			y: -7.0d
+			subtitle: "注意：凋灵只能在下界召唤"
+			description: ["先用灵魂沙或者灵魂土摆成T形，下面的灵魂沙两侧必须是空气，然后在3块灵魂沙上方各放置一个凋灵骷髅头颅即可召唤出凋灵。"]
+			dependencies: ["56ECEF9344770630"]
+			id: "1D2145F96E40A053"
+			tasks: [{
+				id: "2786481E8BDA35C9"
+				type: "kill"
+				entity: "minecraft:wither"
+				value: 1L
+			}]
+			rewards: [{
+				id: "456B020C76B11DE3"
+				type: "item"
+				item: "enigmaticlegacy:golem_heart"
+			}]
+		}
+		{
+			x: -10.5d
+			y: 3.5d
+			subtitle: "灵魂锻造厂里是有的哦~"
+			dependencies: ["1512B12C2DE0354A"]
+			id: "6859E305DE4ABC3D"
+			tasks: [{
+				id: "6F0AC8EF5055F134"
+				type: "item"
+				item: "minecraft:ancient_debris"
+			}]
+			rewards: [{
+				id: "0B0C8ADD896552D1"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -2.5d
+			y: -10.5d
+			subtitle: "摘掉七咒之戒"
+			description: ["在下界找到熔岩海（得足够大，大，大，不要侥幸，找个最大的！），带着邪恶之石和灵魂水晶跳入其中，如*果*一*切*顺*利，七咒之戒就将不复存在。"]
+			dependencies: ["1D2145F96E40A053"]
+			id: "2B77C58C51B50430"
+			tasks: [{
+				id: "0488CBE304174B47"
+				type: "item"
+				item: "enigmaticlegacy:cursed_stone"
+			}]
+			rewards: [{
+				id: "59E7AD372C8A6B4A"
+				type: "item"
+				item: "enigmaticlegacy:soul_crystal"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			subtitle: "大脑袋 大聪明"
+			dependencies: ["4FEC30B7217C902D"]
+			id: "3CE9E07BA8AC53E8"
+			tasks: [{
+				id: "7160F415BC977E65"
+				type: "kill"
+				entity: "minecraft:ghast"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "48B4711EE98B206F"
+					type: "item"
+					item: "outvoted:wildfire_piece"
+					count: 2
+				}
+				{
+					id: "33A940D03661E4D3"
+					type: "item"
+					item: "minecraft:ghast_tear"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: 0.0d
+			subtitle: "搜刮完灵魂锻造厂，相信你已经能制作2块下界合金锭了"
+			dependencies: ["6859E305DE4ABC3D"]
+			id: "4E739B31D9999BA0"
+			tasks: [{
+				id: "47CF14F20BE8EDD1"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+			}]
+			rewards: [{
+				id: "660C2E2164795C0E"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "找到堡垒遗迹"
+			x: 9.5d
+			y: 3.5d
+			subtitle: "Bastion Remnant"
+			dependencies: ["1AB7661F1D242507"]
+			id: "6B0F75390BB6F9DF"
+			tasks: [{
+				id: "191FE23624164AF8"
+				type: "structure"
+				icon: "minecraft:chiseled_polished_blackstone"
+				structure: "minecraft:bastion_remnant"
+			}]
+			rewards: [{
+				id: "5E91ABD003E2776C"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 8
+			}]
+		}
+		{
+			title: "猪灵之友"
+			x: 9.5d
+			y: 7.5d
+			subtitle: "其实不是很难获得，多探索就好了"
+			dependencies: ["6B0F75390BB6F9DF"]
+			hide: true
+			id: "05F9581A882749B4"
+			tasks: [{
+				id: "1B520D90F1AD6E8F"
+				type: "item"
+				item: "minecraft:gold_block"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "11580BE3C4C088B7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "43A3EA60B208E653"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+					count: 5
+				}
+				{
+					id: "4773228A84A90455"
+					type: "item"
+					item: "minecraft:enchanted_golden_apple"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "炽焰术师"
+			x: -2.5d
+			y: 7.5d
+			subtitle: "全新的道路"
+			description: ["烈焰日志是炽焰术师模组的核心物品，你可以通过给它附魔或更换翎笔并将其持在副手上来使用它。"]
+			dependencies: ["755A5D3F0B256907"]
+			id: "45D5ABEB8AE811AC"
+			tasks: [{
+				id: "7EE2ADCC423CBEEA"
+				type: "item"
+				item: {
+					id: "pyromancer:blazing_journal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6699A5BAC056FAC1"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -6.5d
+			y: 7.5d
+			subtitle: "蕴含着烈焰能量"
+			description: ["主世界的沙漠、恶地和下界荒地的天花板有概率生成一颗巨大的炽木，你需要先找到它才能继续你的炽焰术师之路。"]
+			dependencies: ["45D5ABEB8AE811AC"]
+			id: "6D39FD029F33C987"
+			tasks: [{
+				id: "5198A972D98FCCAA"
+				type: "item"
+				item: "pyromancer:pyrowood_log"
+			}]
+			rewards: [{
+				id: "14E47F93DD81362E"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			x: -10.5d
+			y: 7.5d
+			subtitle: "书写烈焰的传奇"
+			description: [
+				"炽焰术师的重要“工作台”。"
+				"右上角的格子放烈焰日志，右下角的放烈焰粉，下方写有“in”的格子放想换上的翎笔，然后原来的翎笔会被放在右边下方写有“out”的格子中。"
+			]
+			dependencies: ["6D39FD029F33C987"]
+			id: "6852EC809BD31FD0"
+			tasks: [{
+				id: "1A2430A52996A2BE"
+				type: "item"
+				item: "pyromancer:pyromancer_table"
+			}]
+			rewards: [{
+				id: "5109B14320396095"
+				type: "item"
+				item: "minecraft:blaze_powder"
+				count: 4
+			}]
+		}
+		{
+			x: 5.5d
+			y: 11.5d
+			subtitle: "周树人？"
+			description: [
+				"不燃者是炽焰术师模组的Boss，可以通过在沙漠中用分形黄瓜右击沙子来召唤。"
+				"击败后会掉落重要材料熔融炽木×16。"
+			]
+			dependencies: [
+				"710D00FE4336DAFD"
+				"527E4D6689781D8E"
+			]
+			dependency_requirement: "one_completed"
+			id: "6CE38C234A19CFA3"
+			tasks: [{
+				id: "55332485241785FF"
+				type: "kill"
+				entity: "pyromancer:unburned"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "4A9321A56C84CA86"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "478F225D0B2F2312"
+					type: "item"
+					item: "pyromancer:nitropowder"
+					count: 8
+				}
+				{
+					id: "0C9FAC2D1AEFE968"
+					type: "item"
+					item: "pyromancer:brimstone"
+					count: 16
+				}
+				{
+					id: "118F02B51539D566"
+					type: "item"
+					item: "minecraft:blaze_powder"
+					count: 16
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 11.5d
+			subtitle: "小心轻放"
+			description: ["&m头皮屑三角洲&r玄武岩三角洲可以找到硫磺矿石，挖掘后即可获得硫磺石。"]
+			dependencies: ["45D5ABEB8AE811AC"]
+			id: "6451425B435D9793"
+			tasks: [{
+				id: "5780F427E26968B2"
+				type: "item"
+				item: "pyromancer:brimstone"
+			}]
+			rewards: [{
+				id: "748F5AD8548ACCA0"
+				type: "item"
+				item: "pyromancer:brimstone"
+				count: 8
+			}]
+		}
+		{
+			x: 1.5d
+			y: 11.5d
+			subtitle: "好热……"
+			description: ["炽焰术师喜爱的材料。"]
+			dependencies: [
+				"6451425B435D9793"
+				"755A5D3F0B256907"
+			]
+			id: "710D00FE4336DAFD"
+			tasks: [{
+				id: "53FCC18CF489C03B"
+				type: "item"
+				item: "pyromancer:nitropowder"
+			}]
+			rewards: [{
+				id: "0FD83104FA124510"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "献祭之刃"
+			x: -2.5d
+			y: -3.5d
+			subtitle: "烈焰棒"
+			dependencies: [
+				"1D2145F96E40A053"
+				"3CE9E07BA8AC53E8"
+			]
+			id: "43B66B28655F9808"
+			tasks: [{
+				id: "2A41D535AC4E7396"
+				type: "item"
+				title: "献祭之刃"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "wstweaks:lava_blade"
+								Count: 1b
+								tag: {
+									EA_ENABLED: 1b
+									Damage: 0
+									RARITY: 3
+								}
+							}
+							{
+								id: "wstweaks:blaze_blade"
+								Count: 1b
+								tag: {
+									EA_ENABLED: 1b
+									Damage: 0
+									RARITY: 1
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "5C4C4079C3794134"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "神圣套装"
+			x: -6.5d
+			y: 0.0d
+			subtitle: "全套自带防火、抗性提升2、失明免疫"
+			description: ["法老的棺里可以开出不死图腾~"]
+			dependencies: ["3CE9E07BA8AC53E8"]
+			id: "627C47B31ADF07E6"
+			tasks: [
+				{
+					id: "1A20BBFA792E4EE3"
+					type: "item"
+					item: {
+						id: "immersive_armors:divine_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "398BE240AFA39D4D"
+					type: "item"
+					item: {
+						id: "immersive_armors:divine_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1EA7AC6F18D4E071"
+					type: "item"
+					item: {
+						id: "immersive_armors:divine_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2C38D8AC460E4559"
+					type: "item"
+					item: {
+						id: "immersive_armors:divine_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3B5DA9A67AD5ED28"
+				type: "item"
+				item: "iceandfire:fire_lily"
+				count: 5
+			}]
+		}
+		{
+			title: "凋零套装"
+			x: 5.5d
+			y: -7.0d
+			dependencies: ["56ECEF9344770630"]
+			id: "74AF6FFA6AD78C40"
+			tasks: [
+				{
+					id: "0B3F96DFC8DCDB36"
+					type: "item"
+					item: {
+						id: "immersive_armors:wither_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "265389A27698652B"
+					type: "item"
+					item: {
+						id: "immersive_armors:wither_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7E44069ADC04BEC0"
+					type: "item"
+					item: {
+						id: "immersive_armors:wither_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "58C0D70A8B9F63C7"
+					type: "item"
+					item: {
+						id: "immersive_armors:wither_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1E0F89134D0CB7CA"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "宝石"
+			x: 9.5d
+			y: 0.0d
+			subtitle: "另类附魔"
+			description: ["下界也有哦~"]
+			dependencies: ["16A5F9B662408D37"]
+			id: "606AB90A1EE76CB0"
+			tasks: [{
+				id: "77E2BD78D5BACAD1"
+				type: "item"
+				title: "宝石"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "miningmaster:heart_rhodonite"
+								Count: 1b
+							}
+							{
+								id: "miningmaster:power_pyrite"
+								Count: 1b
+							}
+							{
+								id: "miningmaster:kinetic_opal"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "3D5D7EFE9C85D3A3"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.5d
+			dependencies: ["4FEC30B7217C902D"]
+			id: "755A5D3F0B256907"
+			tasks: [{
+				id: "49ABD6F59EAC2242"
+				type: "item"
+				item: "minecraft:blaze_powder"
+			}]
+			rewards: [{
+				id: "44529CA93D2DAD7D"
+				type: "item"
+				item: "minecraft:blaze_powder"
+				count: 4
+			}]
+		}
+		{
+			title: "危险的炼金术"
+			icon: "pyromancer:cinnabar_chunk"
+			x: -2.5d
+			y: 15.0d
+			subtitle: "小心中毒！"
+			description: [
+				"朱砂矿石可以在下界荒地距离地表有3~4格的地方找到，挖掘可获得朱砂碎块。"
+				"烧制朱砂碎块可获得汞液滴。"
+			]
+			dependencies: ["6451425B435D9793"]
+			id: "568E7A6716EC47DE"
+			tasks: [
+				{
+					id: "61F981BD19E1CC9C"
+					type: "item"
+					item: "pyromancer:cinnabar_chunk"
+				}
+				{
+					id: "74613B03B0714990"
+					type: "item"
+					item: "pyromancer:drops_of_mercury"
+				}
+			]
+			rewards: [{
+				id: "567D6F7AC427348F"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -6.5d
+			y: 15.0d
+			subtitle: "并不仅用于疣猪兽"
+			description: ["这个陷阱会在接触生物时给予生物缓慢、失明和凋零效果。"]
+			dependencies: ["568E7A6716EC47DE"]
+			id: "3AEB902475766A48"
+			tasks: [{
+				id: "2F7A7F7774F23CFA"
+				type: "item"
+				item: "pyromancer:hog_trap"
+			}]
+			rewards: [{
+				id: "376DF77EC3B34EAC"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 5.5d
+			y: 7.5d
+			subtitle: "Fractal Cucumber"
+			description: ["这是一种可以在诡异森林中发现的奇妙植物。"]
+			dependencies: [
+				"6B0F75390BB6F9DF"
+				"1AB7661F1D242507"
+			]
+			id: "527E4D6689781D8E"
+			tasks: [{
+				id: "03FB133498177009"
+				type: "item"
+				item: "pyromancer:fractal_cucumber"
+			}]
+			rewards: [
+				{
+					id: "3DA5D7BFDFD9E8D1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "11F15FE5D104376D"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "alexsmobs:soulsteal"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -15.0d
+			y: 8.5d
+			subtitle: "可惜消耗很大"
+			dependencies: ["6852EC809BD31FD0"]
+			hide: true
+			id: "176B6A424D978D69"
+			tasks: [{
+				id: "0D2EC7B9A349A452"
+				type: "item"
+				item: "pyromancer:membrane_quill"
+			}]
+			rewards: [{
+				id: "3347C0A0AE2B9164"
+				type: "xp"
+				xp: 20
+			}]
+		}
+		{
+			x: -15.0d
+			y: 4.0d
+			subtitle: "游子的羽毛笔"
+			description: ["击杀&m流浪拴绳&r流浪商人有概率掉落此物品。"]
+			dependencies: ["6852EC809BD31FD0"]
+			hide: true
+			id: "3DD5C77BABBA3A1D"
+			tasks: [{
+				id: "6D9E863C703F6F2E"
+				type: "item"
+				item: "pyromancer:nomad_quill"
+			}]
+			rewards: [{
+				id: "445B141AEF38157D"
+				type: "xp"
+				xp: 30
+			}]
+		}
+		{
+			x: -15.0d
+			y: 6.5d
+			subtitle: "噫——"
+			dependencies: ["6852EC809BD31FD0"]
+			hide: true
+			id: "12860444230FC1BD"
+			tasks: [{
+				id: "4895A5D10F68F501"
+				type: "item"
+				item: "pyromancer:fungus_quill"
+			}]
+			rewards: [{
+				id: "58FC68942175F865"
+				type: "xp"
+				xp: 20
+			}]
+		}
+		{
+			x: -15.0d
+			y: 10.5d
+			subtitle: "炽热的枝条"
+			description: ["通过击杀不燃者获得。"]
+			dependencies: ["6852EC809BD31FD0"]
+			hide: true
+			id: "1980BAE774878B5B"
+			tasks: [{
+				id: "691FA1A91FA561E0"
+				type: "item"
+				item: "pyromancer:smoldering_twig"
+			}]
+			rewards: [{
+				id: "2208AD97ABC67EF5"
+				type: "xp"
+				xp: 30
+			}]
+		}
+		{
+			title: "炽焰术师套装"
+			x: 9.5d
+			y: 11.5d
+			subtitle: "树 人 的 化 身"
+			description: [
+				"炽焰术师的最终法术盔甲。"
+				"套装效果：33%几率不消耗炸弹袋，带有火焰附加的武器会对目标造成硫火减益，所有法器的烈焰粉消耗减少1，一击超过5点的伤害将召唤友好的烈焰浮灵。"
+			]
+			dependencies: ["6CE38C234A19CFA3"]
+			id: "225159F8101A0320"
+			tasks: [
+				{
+					id: "37127BC786E5883D"
+					type: "item"
+					item: {
+						id: "pyromancer:pyromancer_armor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "563462C057DCA705"
+					type: "item"
+					item: {
+						id: "pyromancer:pyromancer_armor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "065534521DA6B7FF"
+					type: "item"
+					item: {
+						id: "pyromancer:pyromancer_armor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "46307E366D8204BC"
+					type: "item"
+					item: {
+						id: "pyromancer:pyromancer_armor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "11186B94518DB0A4"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			x: 5.5d
+			y: 15.0d
+			subtitle: "传火吗孩子"
+			dependencies: [
+				"6CE38C234A19CFA3"
+				"2EAF57D22C506A39"
+			]
+			id: "6466765546C785C8"
+			tasks: [{
+				id: "57E5D075DF87BA09"
+				type: "item"
+				item: {
+					id: "pyromancer:firelink"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6E58163492A5B806"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			x: 1.5d
+			y: 15.0d
+			subtitle: "嘣！"
+			description: [
+				"一种不讲道理的炽焰术师武器，可以投掷出去并造成不破坏方块的爆炸。"
+				"固油炸弹袋：不爆炸，但会点燃中等范围内的生物和方块。"
+				"裂爆炸弹袋：造成伤害更高且会破坏方块的爆炸。"
+			]
+			dependencies: ["710D00FE4336DAFD"]
+			id: "2EAF57D22C506A39"
+			tasks: [
+				{
+					id: "72DC74554DA1923F"
+					type: "item"
+					item: "pyromancer:bombsack"
+				}
+				{
+					id: "41E8C360EE485DCE"
+					type: "item"
+					item: "pyromancer:scatter_bombsack"
+				}
+				{
+					id: "6CF9CCAEE8C213BE"
+					type: "item"
+					item: "pyromancer:napalm_bombsack"
+				}
+			]
+			rewards: [{
+				id: "0A0B31E1C328203E"
+				type: "xp"
+				xp: 25
+			}]
+		}
+		{
+			x: -2.5d
+			y: 18.5d
+			subtitle: "你要这个有什么用？"
+			dependencies: ["568E7A6716EC47DE"]
+			id: "1E5F0A85C4F55D5F"
+			tasks: [{
+				id: "0CE9EF7BF1C50FF3"
+				type: "item"
+				item: "pyromancer:thermometer"
+			}]
+			rewards: [{
+				id: "2369EA8871862545"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			x: -6.5d
+			y: 18.5d
+			subtitle: "芜湖！"
+			dependencies: ["1E5F0A85C4F55D5F"]
+			id: "287ADB43EEF82B47"
+			tasks: [{
+				id: "312B256C3E84CAC3"
+				type: "item"
+				item: "pyromancer:frozen_mercury"
+			}]
+			rewards: [
+				{
+					id: "1CC874CAFDC35C05"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1DE33877398EFE01"
+					type: "item"
+					item: "pyromancer:cooling_element"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 3.5d
+			subtitle: "摸起来像猪皮一样"
+			description: ["通过击杀疣猪兽获得。"]
+			dependencies: ["16A5F9B662408D37"]
+			id: "1AB7661F1D242507"
+			tasks: [{
+				id: "2F1AC2EE8398BAC5"
+				type: "item"
+				item: "pyromancer:hoglins_hide"
+			}]
+			rewards: [
+				{
+					id: "1E5EB0C749B2DB2D"
+					type: "item"
+					item: "pyromancer:hoglins_hide"
+					count: 4
+				}
+				{
+					id: "3CEB01BF51391F73"
+					type: "item"
+					item: "minecraft:cooked_porkchop"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 13.5d
+			y: 7.5d
+			subtitle: "我手里拿着小皮鞭~"
+			description: ["用于将目标拉近，也可用于吓走疣猪兽。"]
+			dependencies: ["791DAA9F45C4028A"]
+			id: "0EF3AAC4D0FDA34B"
+			tasks: [{
+				id: "22ACE4DB184C0947"
+				type: "item"
+				item: {
+					id: "pyromancer:hogwhip"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "26DD676E27409789"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 13.5d
+			y: 3.5d
+			subtitle: "小玩意"
+			description: ["一条树枝上有8只鸟，用弹弓打死1只后，树枝上还剩几只？"]
+			dependencies: ["6B0F75390BB6F9DF"]
+			id: "791DAA9F45C4028A"
+			tasks: [{
+				id: "6CE691E11F46C5C9"
+				type: "item"
+				item: {
+					id: "pyromancer:slingshot"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "51583996CD43AC86"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "45550EFB5ACC19DD"
+					type: "item"
+					item: "pyromancer:pebble"
+					count: 16
+				}
+				{
+					id: "3EAB7B39B73E21D7"
+					type: "item"
+					item: "pyromancer:fractal_cucumber"
+				}
+			]
+		}
+		{
+			title: "五火器"
+			x: 13.5d
+			y: 11.5d
+			subtitle: "炽焰术师的最终法器"
+			description: ["！"]
+			dependencies: ["225159F8101A0320"]
+			hide: true
+			id: "71D9B5A1D39A00BF"
+			tasks: [
+				{
+					id: "5FFC1583A3EA4DB2"
+					type: "item"
+					item: "pyromancer:call_of_flames"
+				}
+				{
+					id: "7BD2FF32AB8CD6E9"
+					type: "item"
+					item: "pyromancer:sizzling_hand"
+				}
+				{
+					id: "0F4D16D52139BAE9"
+					type: "item"
+					item: "pyromancer:court_of_embers"
+				}
+				{
+					id: "1B6AF6C5CCF038D2"
+					type: "item"
+					item: "pyromancer:lantern_of_blazing_souls"
+				}
+				{
+					id: "1A45BA25F65832AC"
+					type: "item"
+					item: "pyromancer:schizoid_helm"
+				}
+			]
+			rewards: [{
+				id: "38DA262B265B6F4D"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.5d
+			y: 3.5d
+			description: [
+				"通过让绯红蚊子吸身上插满诡异菌的蘑菇君的血来使其变异为诡异蚊鬼。"
+				"注意：低血量的诡异蚊鬼机动性非常强！"
+			]
+			dependencies: ["3CE9E07BA8AC53E8"]
+			id: "6D234EE63C18631B"
+			tasks: [{
+				id: "5EF7556E55AF0F72"
+				type: "kill"
+				entity: "alexsmobs:warped_mosco"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "1F722B2C019D18B8"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5A0524A0C6378939"
+					type: "item"
+					item: "alexsmobs:soul_heart"
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -7.0d
+			description: [
+				"请看“各色事件”。"
+				"需要先完成“开启主人军团”任务。"
+			]
+			dependencies: [
+				"41D1FAE3BD1D9919"
+				"1D2145F96E40A053"
+			]
+			id: "5D593396B61408AE"
+			tasks: [{
+				id: "6BBD1F553016558D"
+				type: "item"
+				item: "pyromancer:netherite_shard"
+				count: 16L
+			}]
+			rewards: [{
+				id: "25D7E4C51EC10E56"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -10.5d
+			y: -7.0d
+			subtitle: "牛战士从不摘下他的面具"
+			description: ["虽然有点不实用，但是搭配上其他下界合金盔甲可以帮助你抵御燃烧和部分熔岩伤害。"]
+			dependencies: ["5D593396B61408AE"]
+			id: "4012A6B0CCAA4C9E"
+			tasks: [{
+				id: "75B1A889A267413D"
+				type: "item"
+				item: {
+					id: "pyromancer:netherite_mask_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5B5CBE317719AFB7"
+				type: "xp"
+				xp: 25
+			}]
+		}
+		{
+			title: "&d信标工程师"
+			x: -6.5d
+			y: -10.5d
+			subtitle: "神圣之物"
+			dependencies: ["1D2145F96E40A053"]
+			id: "471F9D146CF8A3BE"
+			tasks: [{
+				id: "5D47792B785ED91A"
+				type: "advancement"
+				advancement: "minecraft:nether/create_full_beacon"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "234695C6C896801C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "228A2B464D896387"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+					count: 2
+				}
+				{
+					id: "2ED4EC559B1B247C"
+					type: "item"
+					item: "enigmaticlegacy:heaven_scroll"
+				}
+			]
+		}
+		{
+			title: "热门景点"
+			x: 13.5d
+			y: 0.0d
+			subtitle: "这个景点好热啊！"
+			dependencies: ["6B0F75390BB6F9DF"]
+			id: "0B8F85089943DAA6"
+			tasks: [{
+				id: "6B7631AE22EE5E21"
+				type: "advancement"
+				advancement: "minecraft:nether/explore_nether"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7EE6302883AE9946"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 16
+			}]
+		}
+		{
+			x: 9.5d
+			y: -3.5d
+			subtitle: "Glowstone Canyon"
+			description: ["主要是用来解锁画。"]
+			dependencies: ["606AB90A1EE76CB0"]
+			id: "666015478D83F069"
+			tasks: [{
+				id: "4E88DDBD2377F28B"
+				type: "checkmark"
+				title: "找到荧石峡谷"
+				icon: "minecraft:glowstone"
+			}]
+			rewards: [{
+				id: "165E91713BEE4895"
+				type: "xp"
+				xp: 10
+			}]
+		}
+	]
+}

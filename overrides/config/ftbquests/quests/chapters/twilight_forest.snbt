@@ -1,0 +1,832 @@
+{
+	id: "186D4ADC3A5A562B"
+	group: "57B469943938490D"
+	order_index: 5
+	filename: "twilight_forest"
+	title: "{chapter.dtd.186D4ADC3A5A562B.title}"
+	icon: "twilightforest:thorn_rose"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 0.5d
+			y: 0.0d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "twilightforest:textures/gui/page_filler.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -10.5d
+			y: -3.5d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "twilightforest:textures/items/magic_map.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -16.5d
+			y: -4.5d
+			width: 8.0d
+			height: 4.0d
+			rotation: 0.0d
+			image: "dtd:textures/tf.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -11.0d
+			y: -7.5d
+			width: 21.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "dtd:textures/twilightforest.png"
+			hover: ["{images.dtd.186D4ADC3A5A562B.hover.1}"]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "{quest.dtd.5FB1B19A63ABCB45.title}"
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			x: -12.5d
+			y: -5.5d
+			subtitle: "{quest.dtd.5FB1B19A63ABCB45.subtitle}"
+			description: [
+				"{quest.dtd.5FB1B19A63ABCB45.description.1}"
+				"{quest.dtd.5FB1B19A63ABCB45.description.2}"
+			]
+			id: "5FB1B19A63ABCB45"
+			tasks: [{
+				id: "69E5EEDE45E9A27E"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "49C7DD5105050A8E"
+				type: "item"
+				item: "minecraft:azure_bluet"
+				count: 12
+			}]
+		}
+		{
+			title: "{quest.dtd.38D685FC1443F4FE.title}"
+			x: -5.5d
+			y: -5.5d
+			subtitle: "{quest.dtd.38D685FC1443F4FE.subtitle}"
+			dependencies: ["2748BC27239917A3"]
+			id: "38D685FC1443F4FE"
+			tasks: [{
+				id: "39ABD4C41E55A025"
+				type: "item"
+				item: "twilightforest:naga_trophy"
+			}]
+			rewards: [
+				{
+					id: "48ED4815D97F7D44"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					id: "2F86CFD43152B986"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:healing"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "6AC90EF79517D733"
+					type: "item"
+					item: "twilightforest:naga_courtyard_miniature_structure"
+				}
+			]
+		}
+		{
+			title: "{quest.dtd.06ACDE73B2EF7E2C.title}"
+			x: -1.5d
+			y: -5.5d
+			subtitle: "{quest.dtd.06ACDE73B2EF7E2C.subtitle}"
+			dependencies: ["38D685FC1443F4FE"]
+			id: "06ACDE73B2EF7E2C"
+			tasks: [{
+				id: "0A9D9878F5F0D815"
+				type: "item"
+				item: "twilightforest:lich_trophy"
+			}]
+			rewards: [
+				{
+					id: "0628E78CC3B862DB"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "6A7DDED5917B48A5"
+					type: "item"
+					item: "twilightforest:lich_tower_miniature_structure"
+				}
+			]
+		}
+		{
+			title: "{quest.dtd.079A87EC390049C0.title}"
+			x: 2.5d
+			y: 5.5d
+			subtitle: "{quest.dtd.079A87EC390049C0.subtitle}"
+			description: ["{quest.079A87EC390049C0.description.1}"]
+			dependencies: ["5B56B5069CE814C3"]
+			id: "079A87EC390049C0"
+			tasks: [{
+				id: "1DD251909E7416FE"
+				type: "item"
+				item: "twilightforest:hydra_trophy"
+			}]
+			rewards: [
+				{
+					id: "416786745D3B2C29"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "498E09748FC11D3A"
+					type: "item"
+					item: "paraglider:heart_container"
+				}
+			]
+		}
+		{
+			title: "{quest.dtd.5B56B5069CE814C3.title}"
+			x: 2.5d
+			y: 0.0d
+			subtitle: "{quest.dtd.5B56B5069CE814C3.subtitle}"
+			description: ["{quest.5B56B5069CE814C3.description.1}"]
+			dependencies: ["21D814E8102194D7"]
+			id: "5B56B5069CE814C3"
+			tasks: [{
+				id: "1CB12740EEE3A057"
+				type: "item"
+				item: "twilightforest:minoshroom_trophy"
+			}]
+			rewards: [{
+				id: "12BC731BE713ED8E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "{quest.dtd.4D247E7FC7613DAE.title}"
+			x: -1.5d
+			y: -2.0d
+			subtitle: "{quest.dtd.4D247E7FC7613DAE.subtitle}"
+			dependencies: ["06ACDE73B2EF7E2C"]
+			id: "4D247E7FC7613DAE"
+			tasks: [{
+				id: "290C378BFB10E9FA"
+				type: "item"
+				item: "twilightforest:knight_phantom_trophy"
+			}]
+			rewards: [{
+				id: "7FB128F54BAB58BB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "{quest.dtd.5E4466FABED5EDBA.title}"
+			x: -1.5d
+			y: 1.5d
+			subtitle: "{quest.dtd.5E4466FABED5EDBA.subtitle}"
+			dependencies: ["4D247E7FC7613DAE"]
+			id: "5E4466FABED5EDBA"
+			tasks: [{
+				id: "3F1EED00331ACD1D"
+				type: "item"
+				item: "twilightforest:ur_ghast_trophy"
+			}]
+			rewards: [
+				{
+					id: "54431BFBE71D0BA7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "410FE4D000317E19"
+					type: "item"
+					item: "paraglider:heart_container"
+				}
+			]
+		}
+		{
+			title: "{quest.dtd.63373191DFA8742B.title}"
+			x: -1.5d
+			y: 9.0d
+			subtitle: "{quest.dtd.63373191DFA8742B.subtitle}"
+			dependencies: ["5FE21D9F7DC10C6B"]
+			dependency_requirement: "one_completed"
+			id: "63373191DFA8742B"
+			tasks: [{
+				id: "49AF4B29C1A28551"
+				type: "item"
+				item: "twilightforest:fiery_ingot"
+			}]
+			rewards: [{
+				id: "58199B5C3277A2F6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "{quest.dtd.241DF601A436A6FF.title}"
+			x: -1.5d
+			y: -9.5d
+			subtitle: "{quest.dtd.241DF601A436A6FF.subtitle}"
+			dependencies: ["06ACDE73B2EF7E2C"]
+			id: "241DF601A436A6FF"
+			tasks: [{
+				id: "52D14FEE714B299A"
+				type: "item"
+				item: "twilightforest:yeti_trophy"
+			}]
+			rewards: [{
+				id: "0615CF45CC87D42D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "{quest.dtd.376BA037308E7100.title}"
+			x: 2.5d
+			y: -9.5d
+			subtitle: "{quest.dtd.376BA037308E7100.subtitle}"
+			description: [
+				"{quest.376BA037308E7100.description.1}"
+				"{quest.376BA037308E7100.description.2}"
+			]
+			dependencies: ["241DF601A436A6FF"]
+			id: "376BA037308E7100"
+			tasks: [{
+				id: "7040FE1C1B529331"
+				type: "item"
+				item: "twilightforest:snow_queen_trophy"
+			}]
+			rewards: [
+				{
+					id: "09C99B4939107051"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "02E3146A9FD6E737"
+					type: "item"
+					item: {
+						id: "twilightforest:triple_bow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "39DDDBF7FC0CAAD1"
+					type: "item"
+					item: "paraglider:heart_container"
+				}
+			]
+		}
+		{
+			title: "{quest.dtd.32B63F61D7B4694D.title}"
+			x: 2.5d
+			y: 9.0d
+			subtitle: "{quest.dtd.32B63F61D7B4694D.subtitle}"
+			dependencies: ["63373191DFA8742B"]
+			id: "32B63F61D7B4694D"
+			tasks: [
+				{
+					id: "778B1A8D270BD34E"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6B7739E463545944"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "41D5942CA97787E4"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1245F97F63570697"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0EA290B25134F69D"
+					type: "item"
+					item: "twilightforest:fiery_ingot"
+					count: 2
+				}
+				{
+					id: "3BDE12D86FFF40B4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			title: "{quest.dtd.5FE21D9F7DC10C6B.title}"
+			x: -1.5d
+			y: 5.5d
+			subtitle: "{quest.dtd.5FE21D9F7DC10C6B.subtitle}"
+			dependencies: [
+				"079A87EC390049C0"
+				"5E4466FABED5EDBA"
+			]
+			dependency_requirement: "one_completed"
+			id: "5FE21D9F7DC10C6B"
+			tasks: [{
+				id: "17BB458A68729EB3"
+				type: "item"
+				title: "Any #twilightforest:fiery_vial"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "twilightforest:fiery_vial"
+					}
+				}
+			}]
+			rewards: [{
+				id: "36DAC2FD58716E91"
+				type: "item"
+				item: "twilightforest:fiery_ingot"
+				count: 3
+			}]
+		}
+		{
+			x: 7.0d
+			y: -9.5d
+			subtitle: "{quest.dtd.73ECEC4C2859FF80.subtitle}"
+			dependencies: ["376BA037308E7100"]
+			id: "73ECEC4C2859FF80"
+			tasks: [{
+				id: "4132C753F1FED2FA"
+				type: "item"
+				item: "twilightforest:aurora_block"
+				count: 64L
+			}]
+			rewards: [{
+				id: "4B820C011ED8CBF0"
+				type: "item"
+				item: "twilightforest:aurora_block"
+				count: 64
+			}]
+		}
+		{
+			title: "{quest.dtd.333C2870F31894C3.title}"
+			icon: "minecraft:pink_wool"
+			x: -12.5d
+			y: -2.0d
+			subtitle: "{quest.dtd.333C2870F31894C3.subtitle}"
+			dependencies: ["5FB1B19A63ABCB45"]
+			id: "333C2870F31894C3"
+			tasks: [{
+				id: "4855CD5C84171034"
+				type: "checkmark"
+				title: "{task.dtd.4855CD5C84171034.title}"
+			}]
+			rewards: [{
+				id: "0422AAD584446C4A"
+				type: "item"
+				item: "minecraft:pink_wool"
+			}]
+		}
+		{
+			title: "{quest.dtd.01BA2EBB1355E6A1.title}"
+			x: -12.5d
+			y: 1.5d
+			dependencies: ["333C2870F31894C3"]
+			id: "01BA2EBB1355E6A1"
+			tasks: [{
+				id: "37539782806AE91C"
+				type: "item"
+				item: "twilightforest:quest_ram_trophy"
+			}]
+		}
+		{
+			title: "{quest.dtd.282DD0D5721DE79B.title}"
+			x: 11.5d
+			y: 5.5d
+			subtitle: "{quest.dtd.282DD0D5721DE79B.subtitle}"
+			description: ["{quest.282DD0D5721DE79B.description.1}"]
+			dependencies: ["111D35A31CECABD2"]
+			id: "282DD0D5721DE79B"
+			tasks: [{
+				id: "3BE7439C34FFBEFA"
+				type: "kill"
+				entity: "dungeonsmod:king"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "2CF62C8D4C3A48C0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0D9018E5A81FC83D"
+					type: "item"
+					item: "paraglider:heart_container"
+				}
+				{
+					id: "059412D9583067F9"
+					type: "item"
+					item: "minecraft:end_portal_frame"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "{quest.dtd.111D35A31CECABD2.title}"
+			x: 11.5d
+			y: 0.0d
+			subtitle: "{quest.dtd.111D35A31CECABD2.subtitle}"
+			dependencies: ["127BE66D2C95D647"]
+			id: "111D35A31CECABD2"
+			tasks: [{
+				id: "5F6DDABA2099886F"
+				type: "item"
+				item: {
+					id: "twilightforest:lamp_of_cinders"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -5.5d
+			subtitle: "{quest.dtd.21D814E8102194D7.subtitle}"
+			dependencies: ["06ACDE73B2EF7E2C"]
+			id: "21D814E8102194D7"
+			tasks: [{
+				id: "526827F4E635F670"
+				type: "item"
+				item: "twilightforest:maze_map_focus"
+			}]
+			rewards: [{
+				id: "0FD3B69FE34FC7F1"
+				type: "item"
+				item: "twilightforest:maze_map_empty"
+			}]
+		}
+		{
+			title: "{quest.dtd.127BE66D2C95D647.title}"
+			x: 11.5d
+			y: -9.5d
+			subtitle: "{quest.dtd.127BE66D2C95D647.subtitle}"
+			description: ["{quest.127BE66D2C95D647.description.1}"]
+			hide_dependency_lines: true
+			dependencies: [
+				"376BA037308E7100"
+				"5E4466FABED5EDBA"
+				"079A87EC390049C0"
+			]
+			id: "127BE66D2C95D647"
+			tasks: [{
+				id: "3B88E1C1902E4573"
+				type: "item"
+				item: {
+					id: "twilightforest:giant_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "48D15921AC664A4A"
+					type: "item"
+					auto: "enabled"
+					item: "twilightforest:magic_beans"
+				}
+				{
+					id: "23886A272A11A9B3"
+					type: "advancement"
+					team_reward: true
+					auto: "invisible"
+					advancement: "twilightforest:troll"
+					criterion: ""
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -9.5d
+			subtitle: "{quest.dtd.149FF89AF4EF319F.subtitle}"
+			description: ["{quest.149FF89AF4EF319F.description.1}"]
+			dependencies: ["7363A22339C94FAB"]
+			hide: true
+			id: "149FF89AF4EF319F"
+			tasks: [{
+				id: "2F9B353D7BE6B414"
+				type: "item"
+				item: {
+					id: "twilightforest:glass_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "69206731A3F0609A"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			title: "{quest.dtd.16C2D1CE7E5C58C6.title}"
+			x: 7.0d
+			y: 0.0d
+			subtitle: "{quest.dtd.16C2D1CE7E5C58C6.subtitle}"
+			dependencies: ["5B56B5069CE814C3"]
+			hide: true
+			id: "16C2D1CE7E5C58C6"
+			tasks: [{
+				id: "6A2AC77D05FB73C6"
+				type: "item"
+				item: {
+					id: "twilightforest:mazebreaker_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 4s
+								id: "minecraft:efficiency"
+							}
+							{
+								lvl: 3s
+								id: "minecraft:unbreaking"
+							}
+							{
+								lvl: 2s
+								id: "minecraft:fortune"
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "74F7F5487A736212"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			title: "{quest.dtd.58F61F35012318D0.title}"
+			x: -9.0d
+			y: -2.0d
+			subtitle: "{quest.dtd.58F61F35012318D0.subtitle}"
+			dependencies: ["23650474342369F1"]
+			id: "58F61F35012318D0"
+			tasks: [{
+				id: "20E99A089D7BE8C1"
+				type: "checkmark"
+				title: "{task.dtd.20E99A089D7BE8C1.title}"
+				icon: "twilightforest:moon_dial"
+			}]
+			rewards: [{
+				id: "106C3B9578692001"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "{quest.dtd.23650474342369F1.title}"
+			icon: "twilightforest:hedge"
+			x: -5.5d
+			y: -2.0d
+			subtitle: "{quest.dtd.23650474342369F1.subtitle}"
+			dependencies: ["38D685FC1443F4FE"]
+			id: "23650474342369F1"
+			tasks: [
+				{
+					id: "08DAFF0B2D31F803"
+					type: "checkmark"
+					title: "{task.dtd.08DAFF0B2D31F803.title}"
+				}
+				{
+					id: "2A3F9792CE459609"
+					type: "kill"
+					entity: "twilightforest:hedge_spider"
+					value: 1L
+				}
+			]
+			rewards: [{
+				id: "178290E8F79A225D"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "{quest.dtd.599EB965724108FC.title}"
+			x: -9.0d
+			y: 1.5d
+			subtitle: "{quest.dtd.599EB965724108FC.subtitle}"
+			description: ["{quest.599EB965724108FC.description.1}"]
+			dependencies: [
+				"58F61F35012318D0"
+				"01BA2EBB1355E6A1"
+			]
+			id: "599EB965724108FC"
+			tasks: [{
+				id: "34F49DB541C19251"
+				type: "advancement"
+				advancement: "twilightforest:twilight_dinner"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "31577A59B02A5275"
+				type: "item"
+				item: "minecraft:enchanted_golden_apple"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -5.5d
+			subtitle: "Duang！"
+			dependencies: ["21D814E8102194D7"]
+			id: "5DA493ABD119FA06"
+			tasks: [{
+				id: "4621EED93AC39221"
+				type: "item"
+				item: {
+					id: "twilightforest:block_and_chain"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3F871F3DFF19C3D2"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "5169D7D227CB413D"
+					type: "item"
+					item: "twilightforest:knightmetal_ingot"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "每天都吃115，坚持115年，直到永远"
+			x: -5.5d
+			y: 5.5d
+			subtitle: "www.experiment115.com"
+			dependencies: ["069DF0521B1A5CDF"]
+			id: "4A51AFF919A8DD8C"
+			tasks: [{
+				id: "48C0B52D64D49E44"
+				type: "advancement"
+				advancement: "twilightforest:experiment_115_115"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "24960A88BDD0EC5F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "{quest.dtd.069DF0521B1A5CDF.title}"
+			x: -5.5d
+			y: 1.5d
+			subtitle: "{quest.dtd.069DF0521B1A5CDF.subtitle}"
+			description: ["{quest.069DF0521B1A5CDF.description.1}"]
+			dependencies: ["5E4466FABED5EDBA"]
+			id: "069DF0521B1A5CDF"
+			tasks: [{
+				id: "7D4DB128BC1850FA"
+				type: "advancement"
+				advancement: "twilightforest:experiment_115_self_replenishing"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "47C5D8C540904240"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "67310AED8480BB59"
+					type: "item"
+					item: "twilightforest:experiment_115"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "{quest.dtd.7363A22339C94FAB.title}"
+			x: -5.5d
+			y: -9.5d
+			subtitle: "{quest.dtd.7363A22339C94FAB.subtitle}"
+			dependencies: ["241DF601A436A6FF"]
+			id: "7363A22339C94FAB"
+			tasks: [{
+				id: "3156E8B74799B1BE"
+				type: "item"
+				item: "twilightforest:ice_bomb"
+			}]
+			rewards: [{
+				id: "08E53416ADB4BAB3"
+				type: "item"
+				item: "minecraft:blue_ice"
+				count: 4
+			}]
+		}
+		{
+			title: "{quest.dtd.2748BC27239917A3.title}"
+			icon: "twilightforest:magic_map_focus"
+			x: -9.0d
+			y: -5.5d
+			subtitle: "{quest.dtd.2748BC27239917A3.subtitle}"
+			description: ["{quest.2748BC27239917A3.description.1}"]
+			dependencies: ["5FB1B19A63ABCB45"]
+			id: "2748BC27239917A3"
+			tasks: [
+				{
+					id: "5A13B8E04DFCA8AD"
+					type: "item"
+					item: "twilightforest:magic_map_focus"
+				}
+				{
+					id: "77040578EEFE7EB6"
+					type: "item"
+					item: "twilightforest:magic_map_empty"
+				}
+			]
+			rewards: [
+				{
+					id: "3F7CE03EC04CFDF9"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "2A79C303E9D3161D"
+					type: "item"
+					item: "twilightforest:twilight_portal_miniature_structure"
+				}
+			]
+		}
+	]
+}
