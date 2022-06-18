@@ -1,0 +1,44 @@
+
+[world]
+
+	[world.biomes]
+
+		[world.biomes.marsh]
+			"Marsh weight" = 6
+			"Mushroom Marsh weight" = 1
+
+		[world.biomes.blossom]
+			"Blossom Woods weight" = 3
+			"Blossom Hills weight" = 1
+			"Blossom Highlands weight" = 1
+			"Blossom Valleys weight" = 1
+
+	[world.generation]
+		"Giant Mushroom generation in Swamps" = true
+		"Giant Tall Grass generation" = true
+		"Wisteria Tree generation in Flower Forests" = true
+		"Delphinium generation in Flower Forests" = true
+		"Hibiscus generation in Jungles" = true
+
+[items]
+
+	[items.healers_pouch]
+		#Structures that can spawn mobs wearing a Healer's Pouch
+		"Healer's Pouch structures" = ["atum:gatehouse", "atum:pyramid", "atum:girafi_tomb", "atum:mineshaft", "atum:ruin", "atum:tomb", "betterendforge:eternal_portal_structure", "betterendforge:giant_ice_star_structure", "betterendforge:giant_mossy_glowshroom_structure", "betterendforge:megalake_small_structure", "betterendforge:megalake_structure", "betterendforge:mountain_structure", "betterendforge:painted_mountain_structure", "bettermineshafts:mineshaft", "betterstrongholds:stronghold", "blue_skies:gatekeeper_house", "blue_skies:village", "dungeons_enhanced:castle", "dungeonsmod:the_camp", "dungeonsmod:the_castle", "dungeonsmod:the_catacombs", "dungeonsmod:the_chapel", "dungeonsmod:the_house", "dungeonsmod:the_mines", "dungeonsmod:the_nest", "dungeonsmod:the_origin", "dungeonsmod:the_pitcher", "graveyard:haunted_house", "graveyard:large_birch_tree", "graveyard:large_walled_graveyard", "graveyard:medium_walled_graveyard", "graveyard:mushroom_grave", "graveyard:small_desert_grave", "graveyard:small_grave", "graveyard:small_mountain_grave", "graveyard:small_savanna_grave", "graveyard:small_walled_graveyard", "graveyard:small_walled_graveyard_desert", "graveyard:small_walled_graveyard_savanna", "iceandfire:gorgon_temple", "infernalexp:bastion_outpost", "infernalexp:glowstone_canyon_ruin", "infernalexp:soul_sand_valley_ruin", "infernalexp:strider_altar", "lootgames:game_dungeon", "majruszs_difficulty:flying_end_island", "majruszs_difficulty:flying_end_ship", "majruszs_difficulty:flying_phantom_structure", "minecraft:bastion_remnant", "minecraft:buried_treasure", "minecraft:desert_pyramid", "minecraft:endcity", "minecraft:igloo", "minecraft:jungle_pyramid", "minecraft:mansion", "minecraft:mineshaft", "minecraft:monument", "minecraft:nether_fossil", "minecraft:ocean_ruin", "minecraft:pillager_outpost", "minecraft:ruined_portal", "minecraft:shipwreck", "minecraft:stronghold", "minecraft:swamp_hut", "minecraft:village", "outer_end:catacombs", "outer_end:end_tower", "shrines:abandoned_witch_house", "shrines:balloon", "shrines:bees", "shrines:bees", "shrines:end_temple", "shrines:flooded_temple", "shrines:guardian_meeting", "shrines:harbour", "shrines:high_temple", "shrines:infested_prison", "shrines:jungle_tower", "shrines:mineral_temple", "shrines:nether_pyramid", "shrines:nether_shrine", "shrines:oriental_sanctuary", "shrines:player_house", "shrines:shrine_of_savanna", "shrines:small_temple", "shrines:trader_house", "shrines:watchtower", "shrines:water_shrine", "skyvillages:skyvillage", "stoneholm:underground_village", "twilightforest:aurorapalace", "twilightforest:courtyard", "twilightforest:darktower", "twilightforest:finalcastle", "twilightforest:hedgemaze", "twilightforest:hollowhilllarge", "twilightforest:hollowhillmedium", "twilightforest:hollowhillsmall", "twilightforest:hydralair", "twilightforest:knightstronghold", "twilightforest:labyrinth", "twilightforest:lichtower", "twilightforest:mushroomtower", "twilightforest:questgrove", "twilightforest:trollcave", "twilightforest:yeticave", "valhelsia_structures:big_tree", "valhelsia_structures:castle", "valhelsia_structures:castle_ruin", "valhelsia_structures:desert_house", "valhelsia_structures:forge", "valhelsia_structures:player_house", "valhelsia_structures:spawner_dungeon", "valhelsia_structures:tower_ruin", "valhelsia_structures:witch_hut", "worldshape:dtdstructures/bar", "worldshape:dtdstructures/goblin", "worldshape:dtdstructures/range", "dungeons_plus:warped_garden", "dungeons_plus:tower", "dungeons_plus:soul_prison", "dungeons_plus:snowy_temple", "dungeons_plus:leviathan", "dungeons_plus:end_ruins", "dungeons_plus:bigger_dungeon", "thatched:village_thatched"]
+
+[entities]
+	#Make farm animals spawn in less biomes to allow new mobs to take their place and diversify biome spawns
+	"Limit farm animal spawns" = true
+	#Make biome variants of mobs like Husks always spawn in place of their original in their biomes
+	"Biome variants always spawn" = true
+
+	[entities.koi]
+		#Make Koi only block natural spawns
+		"Block only natural spawns" = true
+		#Horizontal radius of Serenity effect in blocks
+		"Horizontal serenity range (radius)" = 32
+		#Vertical radius of Serenity effect in blocks
+		"Vertical serenity range (radius)" = 8
+		#If Koi exude Serenity as a potion effect
+		"Serenity potion effect" = true
+
