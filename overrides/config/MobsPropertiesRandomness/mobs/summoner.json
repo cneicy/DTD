@@ -1,0 +1,26 @@
+{
+    "mob_id": "blue_skies:summoner",
+    "potion_effects": [
+        {
+            "id": "minecraft:strength",
+            "chance": 1.0,
+            "amplifier": 1,
+            "ambient": true
+        },
+        {
+            "id": "minecraft:speed",
+            "chance": 1.0,
+            "amplifier": 0,
+            "ambient": true
+        }
+    ],
+    "attributes": [
+        {
+            "id": "minecraft:generic.max_health",
+            "modifier_name": "tsfgtjyytwo",
+            "amount": 400,
+            "chance": 1.0,
+            "operation": "addition"
+        }
+    ]
+}

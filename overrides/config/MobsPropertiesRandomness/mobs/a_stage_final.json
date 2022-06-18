@@ -1,0 +1,34 @@
+{
+    "group": "entities",
+    "potion_effects": [
+        {
+            "id": "minecraft:strength",
+            "chance": 0.2,
+            "amplifier": {
+                "min": 11,
+                "max": 24
+            },
+            "ambient": true
+        }
+    ],
+    "attributes": [
+        {
+            "id": "minecraft:generic.max_health",
+            "modifier_name": "tsfgwaaaaao",
+            "amount": {
+                "min": 200.0,
+                "max": 300.0
+            },
+            "chance": 0.2,
+            "operation": "addition"
+        }
+    ],
+    "conditions": {
+        "advancements_done": [
+            {
+                "advancements": [ "minecraft:end/kill_dragon"],
+                "player_mode": "any"
+            }
+        ]
+    }
+}

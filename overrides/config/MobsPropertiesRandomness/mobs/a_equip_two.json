@@ -1,0 +1,749 @@
+{
+    "group": "entities",
+    "equipment": {
+        "feets": {
+            "chance": 0.16,
+            "drop_chance": 0.0,
+            "items": [
+                {
+                    "id": "atum:desert_boots_iron",
+                    "weight": 5
+                },
+                {
+                    "id": "atum:mummy_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "atum:wanderer_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "good_nights_sleep:candy_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "good_nights_sleep:negatite_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "good_nights_sleep:positite_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "good_nights_sleep:rainbow_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "good_nights_sleep:zitrite_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_amythest_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_black_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_blue_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_bronze_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_copper_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_copper_metal_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_electric_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_gray_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_green_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_red_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_sapphire_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_silver_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_silver_metal_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_white_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:deathworm_red_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:deathworm_white_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:deathworm_yellow_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:forest_troll_leather_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:frost_troll_leather_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:mountain_troll_leather_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:myrmex_desert_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:myrmex_jungle_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:sheep_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:tide_blue_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:tide_bronze_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:tide_deepblue_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:tide_green_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:tide_purple_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:tide_red_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:tide_teal_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "minecraft:chainmail_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "minecraft:diamond_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "minecraft:golden_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "minecraft:iron_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "minecraft:leather_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "minecraft:netherite_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "savageandravage:griefer_boots",
+                    "weight": 5
+                },
+                {
+                    "id": "twilightforest:fiery_boots",
+                    "weight": 5
+                }
+            ]
+        },
+        "legs": {
+            "chance": 0.27,
+            "drop_chance": 0.0,
+            "items": [
+                {   
+                    "id": "atum:desert_legs_iron",
+                    "weight": 5
+                },
+                {
+                    "id": "good_nights_sleep:candy_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "good_nights_sleep:negatite_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "good_nights_sleep:positite_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "good_nights_sleep:rainbow_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "good_nights_sleep:zitrite_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_amythest_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_black_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_blue_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_bronze_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_copper_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_copper_metal_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_electric_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_gray_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_green_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_red_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_sapphire_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_silver_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_silver_metal_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_white_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:deathworm_red_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:deathworm_white_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:deathworm_yellow_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:forest_troll_leather_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:frost_troll_leather_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:mountain_troll_leather_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:myrmex_desert_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:myrmex_jungle_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:sheep_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:tide_blue_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:tide_bronze_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:tide_deepblue_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:tide_green_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:tide_purple_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:tide_red_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:tide_teal_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "minecraft:chainmail_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "minecraft:diamond_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "minecraft:golden_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "minecraft:iron_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "minecraft:leather_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "minecraft:netherite_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "savageandravage:griefer_leggings",
+                    "weight": 5
+                },
+                {
+                    "id": "twilightforest:fiery_leggings",
+                    "weight": 5
+                }
+            ]
+        },
+        "chest": {
+            "chance": 0.16,
+            "drop_chance": 0.0,
+            "items": [
+                {
+                    "id": "atum:desert_chest_iron",
+                    "weight": 5
+                },
+                {
+                    "id": "good_nights_sleep:candy_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "good_nights_sleep:negatite_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "good_nights_sleep:positite_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "good_nights_sleep:rainbow_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "good_nights_sleep:zitrite_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_amythest_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_black_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_blue_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_bronze_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_copper_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_copper_metal_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_electric_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_gray_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_green_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_red_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_sapphire_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_silver_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_silver_metal_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_white_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:deathworm_red_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:deathworm_white_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:deathworm_yellow_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:forest_troll_leather_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:frost_troll_leather_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:mountain_troll_leather_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:myrmex_desert_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:myrmex_jungle_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:sheep_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:tide_blue_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:tide_bronze_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:tide_deepblue_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:tide_green_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:tide_purple_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:tide_red_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:tide_teal_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "minecraft:chainmail_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "minecraft:diamond_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "minecraft:golden_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "minecraft:iron_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "minecraft:leather_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "minecraft:netherite_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "savageandravage:griefer_chestplate",
+                    "weight": 5
+                },
+                {
+                    "id": "twilightforest:fiery_chestplate",
+                    "weight": 5
+                }
+            ]
+        },
+        "head": {
+            "chance": 0.27,
+            "drop_chance": 0.0,
+            "items": [
+                {
+                    "id": "atum:wanderer_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "good_nights_sleep:candy_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "good_nights_sleep:negatite_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "good_nights_sleep:positite_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "good_nights_sleep:rainbow_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "good_nights_sleep:zitrite_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_amythest_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_black_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_blue_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_bronze_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_copper_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_copper_metal_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_electric_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_gray_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_green_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_red_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_sapphire_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_silver_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_silver_metal_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:armor_white_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:deathworm_red_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:deathworm_white_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:deathworm_yellow_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:forest_troll_leather_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:frost_troll_leather_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:mountain_troll_leather_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:myrmex_desert_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:myrmex_jungle_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:sheep_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:tide_blue_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:tide_bronze_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:tide_deepblue_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:tide_green_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:tide_purple_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:tide_red_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "iceandfire:tide_teal_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "minecraft:chainmail_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "minecraft:diamond_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "minecraft:golden_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "minecraft:iron_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "minecraft:leather_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "minecraft:netherite_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "savageandravage:griefer_helmet",
+                    "weight": 5
+                },
+                {
+                    "id": "twilightforest:fiery_helmet",
+                    "weight": 5
+                }
+            ]
+        }
+    },
+    "conditions": {
+        "advancements_done": [
+            {
+                "advancements": [ "twilightforest:magic_map"],
+                "player_mode": "any"
+            }
+        ]
+    }
+}

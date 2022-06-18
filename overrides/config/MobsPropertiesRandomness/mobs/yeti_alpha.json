@@ -1,0 +1,20 @@
+{
+    "mob_id": "twilightforest:yeti_alpha",
+    "potion_effects": [
+        {
+            "id": "minecraft:strength",
+            "chance": 1.0,
+            "amplifier": 1,
+            "ambient": true
+        }
+    ],
+    "attributes": [
+        {
+            "id": "minecraft:generic.max_health",
+            "modifier_name": "abalob",
+            "amount": 640,
+            "chance": 1.0,
+            "operation": "addition"
+        }
+    ]
+}

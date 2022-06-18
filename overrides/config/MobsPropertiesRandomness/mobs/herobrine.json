@@ -1,0 +1,20 @@
+{
+    "mob_id": "good_nights_sleep:herobrine",
+    "potion_effects": [
+        {
+            "id": "cataclysm:monstrous",
+            "chance": 1.0,
+            "amplifier": 0,
+            "ambient": true
+        }
+    ],
+    "attributes": [
+        {
+            "id": "minecraft:generic.max_health",
+            "modifier_name": "swdad",
+            "amount": 760,
+            "chance": 1.0,
+            "operation": "addition"
+        }
+    ]
+}
