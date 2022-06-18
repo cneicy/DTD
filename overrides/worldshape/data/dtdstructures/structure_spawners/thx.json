@@ -1,0 +1,32 @@
+{
+    "template": {
+        "type": "single", 
+        "id": "dtdstructures:thx", 
+        "maxDepth": 10, 
+        
+                               
+        "followTerrain": false 
+    },
+
+    "placement": {
+        "type": "surface",           
+        "minY": 60,
+        "maxY": 256,
+        "offset": 0,
+        "fluidSurface": false,
+
+        "terraform": -1
+    },
+   
+    "averageSpacing": 240,  
+    "minimumSpacing": 230,          
+    "seed": 3289719810,
+    "avoidOthers": true,       
+    
+    "biomes": [
+        "#forest"
+    ],
+    "dimensions": [
+        "minecraft:overworld"
+    ]
+}
