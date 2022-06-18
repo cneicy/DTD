@@ -1,0 +1,36 @@
+
+#General Settings
+[general]
+	#If true, broken blocks will be logged.
+	"broken blocks enabled" = true
+	#If true, placed blocks will be logged.
+	"placed blocks enabled" = true
+	#If true, crafted items in the craftedItems list will be logged.
+	"crafted items enabled" = true
+	#If true, right clicked blocks in the rightClickedBlocks list will be logged.
+	"right-clicked blocks enabled" = true
+	#If true, opened chests in the openedChests list will be logged.
+	"opened chests enabled" = true
+
+#Ignored Blocks
+[ignoredBlocks]
+	#Put the blocks you don't want to get logged when broken here.
+	"ignored broken blocks" = ["minecraft:stone", "minecraft:dirt", "minecraft:grass_block"]
+	#Put the blocks you don't want to get logged when placed here.
+	"ignored placed blocks" = ["minecraft:stone", "minecraft:dirt", "minecraft:grass_block"]
+
+#Crafted Items
+[craftedItems]
+	#Put the items you want to be logged when crafted here.
+	"crafted items" = ["minecraft:end_crystal", "minecraft:flint_and_steel", "minecraft:tnt"]
+
+#Right Clicked Blocks
+[rightClickedBlocks]
+	#Put the blocks you want to be logged when right clicked here. Also logs the item its right clicked with.
+	"logged right clicked blocks" = ["minecraft:tnt", "minecraft:oak_door", "minecraft:spruce_door", "minecraft:birch_door", "minecraft:jungle_door", "minecraft:acacia_door", "minecraft:dark_oak_door"]
+
+#Opened Chests
+[openedChests]
+	#Put all the types of chests in your modpack here. (dont forget the 'modpackname:' (example: ironchest:iron_chest))
+	"opened chests" = ["minecraft:chest", "minecraft:ender_chest", "minecraft:trapped_chest"]
+
